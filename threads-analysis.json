@@ -1,28 +1,48 @@
 {
   "status": "ok",
   "source": "threads-auto-analysis",
-  "updatedAt": "2026-09-29T18:04:44+09:00",
-  "count": 107,
+  "updatedAt": "2026-09-29T20:32:18+09:00",
+  "count": 108,
   "posts": [
     {
-      "postId": "18115694459087297",
-      "timestamp": "2026-09-29T17:30:03+09:00",
-      "postingTime": "17:30",
-      "text": "「ちょっと休憩しよ〜☕」って座った瞬間に、\n\n「あ、洗濯物たたまなきゃ」\n「あ、食器まだだった」\n「あ、明日の準備もしなきゃ」\n\nって、次から次へと思い出すのなんなん😂\n\n休憩するために座ったのに、\n座ったことでやること思い出す現象🤣\n\nこれ私だけじゃないよね？😂",
-      "views": 4,
+      "postId": "17971761387157602",
+      "timestamp": "2026-09-29T20:00:45+09:00",
+      "postingTime": "20:00",
+      "text": "レンジの上って、\n地味に「もったいないスペース」じゃない？😂\n\n家電置いてるだけで、\nその上は何も置けないままになりがち🥹\n\nこういう伸縮できるレンジ上ラックなら、\n置くものに合わせて幅を変えられるの便利そう✨\n\nレンジまわりって、\nコーヒーメーカーとか小物とか\nちょっと置きたいもの多いんだよね☕️\n\n「ここ使えたらいいのに」って思ってた人に\nちょうどよさそう👀\n\n↓ROOMに載せてます👇",
+      "views": 0,
       "previousViews": null,
       "viewsIncrease": null,
-      "likes": 1,
+      "likes": 0,
       "likesIncrease": null,
-      "likeRate": 0.25,
-      "replies": 0,
+      "likeRate": 0,
+      "replies": 1,
       "repliesIncrease": null,
       "replyRate": 0,
       "reposts": 0,
       "repostsIncrease": null,
       "repostRate": 0,
-      "totalReactionRate": 0.25,
+      "totalReactionRate": 0,
       "captureCount": 1
+    },
+    {
+      "postId": "18115694459087297",
+      "timestamp": "2026-09-29T17:30:03+09:00",
+      "postingTime": "17:30",
+      "text": "「ちょっと休憩しよ〜☕」って座った瞬間に、\n\n「あ、洗濯物たたまなきゃ」\n「あ、食器まだだった」\n「あ、明日の準備もしなきゃ」\n\nって、次から次へと思い出すのなんなん😂\n\n休憩するために座ったのに、\n座ったことでやること思い出す現象🤣\n\nこれ私だけじゃないよね？😂",
+      "views": 16,
+      "previousViews": 4,
+      "viewsIncrease": 12,
+      "likes": 2,
+      "likesIncrease": 1,
+      "likeRate": 0.125,
+      "replies": 0,
+      "repliesIncrease": 0,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": 0,
+      "repostRate": 0,
+      "totalReactionRate": 0.125,
+      "captureCount": 2
     },
     {
       "postId": "18216427057358717",
@@ -30,67 +50,67 @@
       "postingTime": "14:30",
       "text": "今日の楽天スーパーDEAL、\n家事まわりで気になったものまとめ🛒\n\nポイント還元が大きいと\n「今のうちに買っとこかな」ってなる😂\n\n気になるものは返信にまとめます👇",
       "views": 6,
-      "previousViews": null,
-      "viewsIncrease": null,
+      "previousViews": 6,
+      "viewsIncrease": 0,
       "likes": 0,
-      "likesIncrease": null,
+      "likesIncrease": 0,
       "likeRate": 0,
       "replies": 3,
-      "repliesIncrease": null,
+      "repliesIncrease": 0,
       "replyRate": 0.5,
       "reposts": 0,
-      "repostsIncrease": null,
+      "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.5,
-      "captureCount": 1
+      "captureCount": 2
     },
     {
       "postId": "17948769786335691",
       "timestamp": "2026-09-29T11:30:46+09:00",
       "postingTime": "11:30",
       "text": "クローゼットって、\n\n「まだ入るはずなのに、もう入らない😂」\n\nってならない？🥹\n\n服を減らすのも大事なんだけど、\nそもそもハンガーに掛けられる量が\nもうちょっと増えたらラクなのに…って思う😂\n\nこれなら今あるクローゼットの\n収納力をアップできそうで気になる👀✨\n\n衣替え前に、\n「服をしまう場所がない問題」\nちょっと解決したい🙌\n\n↓ROOMに載せてます👇",
-      "views": 5,
-      "previousViews": null,
-      "viewsIncrease": null,
+      "views": 9,
+      "previousViews": 5,
+      "viewsIncrease": 4,
       "likes": 1,
-      "likesIncrease": null,
-      "likeRate": 0.2,
+      "likesIncrease": 0,
+      "likeRate": 0.1111111111111111,
       "replies": 1,
-      "repliesIncrease": null,
-      "replyRate": 0.2,
+      "repliesIncrease": 0,
+      "replyRate": 0.1111111111111111,
       "reposts": 0,
-      "repostsIncrease": null,
+      "repostsIncrease": 0,
       "repostRate": 0,
-      "totalReactionRate": 0.4,
-      "captureCount": 1
+      "totalReactionRate": 0.2222222222222222,
+      "captureCount": 2
     },
     {
       "postId": "18073989194475732",
       "timestamp": "2026-09-28T19:59:58+09:00",
       "postingTime": "19:59",
       "text": "掃除機って、\n「かけなきゃ」って思った瞬間に\nちょっと面倒になる😂\n\nコード出して、\n本体出して、\nコンセント探して……\n\nだから結局、\n「明日でいっか🤣」\nってなる。\n\n軽くてサッと使えるコードレスなら、\nこのハードルを下げられそう👀\n\n家の掃除、\nもっと気軽にできるようにしたい🥹",
-      "views": 20,
-      "previousViews": 2,
-      "viewsIncrease": 18,
+      "views": 21,
+      "previousViews": 20,
+      "viewsIncrease": 1,
       "likes": 1,
       "likesIncrease": 0,
-      "likeRate": 0.05,
+      "likeRate": 0.047619047619047616,
       "replies": 1,
       "repliesIncrease": 0,
-      "replyRate": 0.05,
+      "replyRate": 0.047619047619047616,
       "reposts": 0,
       "repostsIncrease": 0,
       "repostRate": 0,
-      "totalReactionRate": 0.1,
-      "captureCount": 2
+      "totalReactionRate": 0.09523809523809523,
+      "captureCount": 3
     },
     {
       "postId": "18114547622278144",
       "timestamp": "2026-09-28T17:30:14+09:00",
       "postingTime": "17:30",
       "text": "「あとでやろう」って思って\n一旦置いたもの、\n\nそのまま翌日まで残ってない？😂\n\nしかも翌日になると\n「なんでここに置いたんだっけ？」\nってなる🤣\n\n一時置きのつもりが\nいつの間にか定位置になってるの\n私だけじゃないよね？😂",
-      "views": 11,
-      "previousViews": 10,
+      "views": 12,
+      "previousViews": 11,
       "viewsIncrease": 1,
       "likes": 0,
       "likesIncrease": 0,
@@ -102,7 +122,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 2
+      "captureCount": 3
     },
     {
       "postId": "18101185127575804",
@@ -122,7 +142,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.07692307692307693,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "17987976756107317",
@@ -130,8 +150,8 @@
       "postingTime": "11:30",
       "text": "そろそろ家のスリッパも\n秋仕様にしたくなってきた🍂\n\n夏は裸足で過ごしてたけど、\n朝晩ちょっと涼しくなってくると\n足元が冷える😂\n\nこのスリッパ、\n見た目もシンプルだし\n家の中で毎日使うものだから気になる👀\n\nこういう「毎日使うもの」を\nちょっとお気に入りにするの好き☺️",
       "views": 12,
-      "previousViews": 11,
-      "viewsIncrease": 1,
+      "previousViews": 12,
+      "viewsIncrease": 0,
       "likes": 1,
       "likesIncrease": 0,
       "likeRate": 0.08333333333333333,
@@ -142,27 +162,27 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.16666666666666666,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18114829381820497",
       "timestamp": "2026-09-27T20:00:22+09:00",
       "postingTime": "20:00",
       "text": "アイロンかけなきゃって思ってるのに、\n\n「アイロン台出すの面倒…」\n「あとでやろ…」\n\nってなって、\n結局シワシワのまま着てることある😂\n\nこういうハンディタイプなら\nサッと出して使えそうで気になる👀\n\n毎回ちゃんとアイロンするほどじゃないけど、\nちょっとしたシワは取りたいんよね🥹\n\nこういう「家事のハードルを下げてくれるもの」\n地味に助かる✨",
-      "views": 71,
+      "views": 72,
       "previousViews": 71,
-      "viewsIncrease": 0,
+      "viewsIncrease": 1,
       "likes": 2,
       "likesIncrease": 0,
-      "likeRate": 0.028169014084507043,
+      "likeRate": 0.027777777777777776,
       "replies": 1,
       "repliesIncrease": 0,
-      "replyRate": 0.014084507042253521,
+      "replyRate": 0.013888888888888888,
       "reposts": 0,
       "repostsIncrease": 0,
       "repostRate": 0,
-      "totalReactionRate": 0.04225352112676056,
-      "captureCount": 6
+      "totalReactionRate": 0.041666666666666664,
+      "captureCount": 7
     },
     {
       "postId": "18106972213903740",
@@ -170,8 +190,8 @@
       "postingTime": "17:30",
       "text": "日曜日って、\n「今日はゆっくりするぞ〜😌」\nって思ってるのに、\n\n朝ごはん作って\n洗濯して\n子どもの相手して\n昼ごはん作って……\n\n気づいたらもう夕方😂\n\nあれ？私、今日休んだっけ？🤣\n\n日曜日なのに、\nなぜか平日より疲れてることない？😂",
       "views": 110,
-      "previousViews": 107,
-      "viewsIncrease": 3,
+      "previousViews": 110,
+      "viewsIncrease": 0,
       "likes": 7,
       "likesIncrease": 0,
       "likeRate": 0.06363636363636363,
@@ -182,27 +202,27 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.1,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18372912487242165",
       "timestamp": "2026-09-27T16:35:15+09:00",
       "postingTime": "16:35",
       "text": "楽天ROOMやってます🛒✨\n\nThreadsとROOMを行ったり来たりしながら\n「これいいな〜」って思ったものを\nゆるく紹介してます🤣\n\n子育て・家事・暮らしの中で\nちょっと便利そうなものを集めてます🏠💕\n\n楽天ROOMやってるママさん・パパさん、\n暮らし系好きな方も仲良くしてください🙌\n\nまだまだ手探りですが\n一緒に頑張れたら嬉しいです🤣🔥\n\nよろしくお願いしまぁぁぁす‼️‼️",
-      "views": 2325,
-      "previousViews": 2312,
-      "viewsIncrease": 13,
+      "views": 2328,
+      "previousViews": 2325,
+      "viewsIncrease": 3,
       "likes": 91,
       "likesIncrease": 0,
-      "likeRate": 0.03913978494623656,
+      "likeRate": 0.0390893470790378,
       "replies": 64,
       "repliesIncrease": 0,
-      "replyRate": 0.027526881720430108,
+      "replyRate": 0.027491408934707903,
       "reposts": 0,
       "repostsIncrease": 0,
       "repostRate": 0,
-      "totalReactionRate": 0.06666666666666667,
-      "captureCount": 6
+      "totalReactionRate": 0.0665807560137457,
+      "captureCount": 7
     },
     {
       "postId": "18093759773556318",
@@ -222,7 +242,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.05333333333333334,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18011687576975796",
@@ -242,7 +262,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.022222222222222223,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18115388893790370",
@@ -262,7 +282,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.15789473684210525,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18078408539716280",
@@ -282,7 +302,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.05263157894736842,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17959570257000780",
@@ -302,7 +322,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.10526315789473684,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17948973261057028",
@@ -322,7 +342,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.06896551724137931,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17986594104114537",
@@ -342,7 +362,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18093667301146439",
@@ -362,7 +382,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18165104410471370",
@@ -382,7 +402,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18111129895963949",
@@ -402,7 +422,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.058823529411764705,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18209730241362414",
@@ -422,7 +442,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.1,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18341597029251998",
@@ -442,7 +462,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.02857142857142857,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17911424637497961",
@@ -462,7 +482,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105337964080570",
@@ -482,7 +502,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18073442525467572",
@@ -502,7 +522,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.11764705882352941,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18622078309014809",
@@ -522,7 +542,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.09550561797752809,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18083908130319049",
@@ -542,7 +562,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.14705882352941177,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18109436717231271",
@@ -562,7 +582,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17918106078444125",
@@ -582,7 +602,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18029120705888324",
@@ -602,7 +622,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18127645198833909",
@@ -622,7 +642,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.05263157894736842,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18095233031394843",
@@ -642,7 +662,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17907396252541879",
@@ -662,7 +682,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.08333333333333333,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18419192146152622",
@@ -682,7 +702,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18110016329176525",
@@ -702,7 +722,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.047619047619047616,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105100010581064",
@@ -722,7 +742,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18124546789865780",
@@ -742,7 +762,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17898204384388829",
@@ -762,7 +782,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.023255813953488372,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18155771710509683",
@@ -782,7 +802,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.0625,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18097279031387083",
@@ -802,7 +822,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.09701492537313433,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18187346935416651",
@@ -822,7 +842,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18071023385559398",
@@ -842,7 +862,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18130243729666866",
@@ -862,7 +882,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.06666666666666667,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18125429824882705",
@@ -882,7 +902,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.1,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18352374967223414",
@@ -902,7 +922,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.09090909090909091,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17975787321124615",
@@ -922,7 +942,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18032284817669753",
@@ -942,7 +962,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.06666666666666667,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18186732982406050",
@@ -962,7 +982,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.038461538461538464,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18128082181837028",
@@ -982,7 +1002,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.0625,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17909858556538128",
@@ -1002,7 +1022,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.05555555555555555,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17861209686693949",
@@ -1022,7 +1042,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.02564102564102564,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17915561418446135",
@@ -1042,7 +1062,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.058394160583941604,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18074503034425363",
@@ -1062,7 +1082,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.008695652173913044,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18427137169146148",
@@ -1082,7 +1102,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.016042780748663103,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18412136947082591",
@@ -1090,8 +1110,8 @@
       "postingTime": "08:42",
       "text": "え、待って😭\n\nずっと0だった楽天アフィリエイト、\n初めて売れたーーー！！！\n\n報酬は38円😂\n\n金額だけ見たらめっちゃ小さいけど、\nこれは普通に嬉しい😭\n\n「ほんまに誰か買ってくれるんかな…」\nって半分諦めながら続けてたから、\n初めて成果が出てちょっと感動してる🥹\n\nまだまだこれからだけど、\nとりあえず今日は喜ばせてください😂🙌",
       "views": 5827,
-      "previousViews": 5825,
-      "viewsIncrease": 2,
+      "previousViews": 5827,
+      "viewsIncrease": 0,
       "likes": 304,
       "likesIncrease": 0,
       "likeRate": 0.0521709284365883,
@@ -1102,7 +1122,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.07430925004290373,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17888439993458739",
@@ -1122,7 +1142,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.005917159763313609,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18078040700411099",
@@ -1142,7 +1162,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.006289308176100629,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18116044522803828",
@@ -1162,7 +1182,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.007751937984496124,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17980582953087943",
@@ -1182,7 +1202,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105923096263270",
@@ -1202,7 +1222,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18625154281021402",
@@ -1222,7 +1242,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105939460925837",
@@ -1242,7 +1262,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18153567346519674",
@@ -1262,7 +1282,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.01694915254237288,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18048298451803172",
@@ -1282,7 +1302,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18094817774551486",
@@ -1302,7 +1322,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18471834985114061",
@@ -1322,7 +1342,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18109499912149385",
@@ -1342,7 +1362,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18097388339170926",
@@ -1362,7 +1382,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17998559816801472",
@@ -1382,7 +1402,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.03636363636363636,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18327809221302851",
@@ -1402,7 +1422,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.013513513513513514,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18096820022564860",
@@ -1422,7 +1442,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18083232953703938",
@@ -1442,7 +1462,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18110858072043079",
@@ -1462,7 +1482,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.13513513513513514,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18121639957852261",
@@ -1482,7 +1502,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18014382701945514",
@@ -1502,7 +1522,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18111613793120260",
@@ -1522,7 +1542,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18112029386276770",
@@ -1542,7 +1562,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18007651175972505",
@@ -1562,7 +1582,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17989312371047946",
@@ -1582,7 +1602,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18124168085483530",
@@ -1602,7 +1622,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17930857062146341",
@@ -1622,7 +1642,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.041666666666666664,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105279026206989",
@@ -1642,7 +1662,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18099349757638008",
@@ -1662,7 +1682,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.08333333333333333,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17989482924018831",
@@ -1682,7 +1702,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18124756048834231",
@@ -1702,7 +1722,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17988829148851721",
@@ -1722,7 +1742,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18129357142672500",
@@ -1742,7 +1762,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18129542584818524",
@@ -1762,7 +1782,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18085433780432036",
@@ -1782,7 +1802,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18106191128233189",
@@ -1802,7 +1822,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18141769039579117",
@@ -1822,7 +1842,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105061322221530",
@@ -1842,7 +1862,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18105521795237765",
@@ -1862,7 +1882,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18087411557660390",
@@ -1882,7 +1902,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18106998074601187",
@@ -1902,7 +1922,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.041666666666666664,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18177228019428642",
@@ -1922,7 +1942,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18131289691732011",
@@ -1942,7 +1962,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18103944941228868",
@@ -1962,7 +1982,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18123963733886490",
@@ -1982,7 +2002,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18106513427142264",
