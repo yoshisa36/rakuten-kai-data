@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T15:13:00+09:00",
+  "updatedAt": "2026-10-01T15:58:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -34,6 +34,18 @@
       "memo": "自動承認動作確認用。確認後に削除または承認待ちへ戻す",
       "linkType": "ROOM誘導",
       "productUrl": ""
+    },
+    {
+      "reservationId": "KAI-20261002-1130",
+      "scheduledAt": "2026-10-02T11:30:00+09:00",
+      "text": "洗面所のこの「ちょっとした隙間」、\nずっともったいないと思ってた😂\n\n収納を置きたいけど、\n普通の棚だと入らないし\nだからって何も置かないのも惜しい…。\n\nこれ、幅18cmのスリム収納だから\nこういう微妙な隙間にちょうど良さそう👀\n\n洗剤とか日用品のストックって\n気づくと置き場所なくなるんよね🤣\n\n隙間を収納に変えられるの、\nちょっと気になる🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "隙間収納 リセ スリムストッカー",
+      "memo": "10/2 11:30実運用。具体的な場所＋明確な悩み仮説の再検証。リンク方式C。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q21x8.8dcsq24e.g00q21x8.8dcsrc07/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faandi%2F10002206%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faandi%2Fi%2F10002206%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
     }
   ]
 }
