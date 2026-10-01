@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "",
-  "posts": []
+  "updatedAt": "2026-10-01T14:49:00+09:00",
+  "posts": [
+    {
+      "reservationId": "KAI-TEST-001",
+      "scheduledAt": "2026-10-02T11:30:00+09:00",
+      "text": "カイ→GitHub→GAS 予約連携テストです🧪",
+      "status": "承認待ち",
+      "postType": "テスト",
+      "productName": "",
+      "memo": "自動連携テスト。予約済みに変更しないこと",
+      "linkType": "ROOM誘導",
+      "productUrl": ""
+    }
+  ]
 }
