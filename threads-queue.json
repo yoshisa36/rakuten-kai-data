@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T16:15:00+09:00",
+  "updatedAt": "2026-10-01T16:18:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -69,6 +69,18 @@
       "memo": "10/2 20:00実運用。省スペース靴収納。9/30同カテゴリ投稿との再検証。リンク方式B。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q7288.8dcsqe27.g00q7288.8dcsr694/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F4979625204840%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivingut%2Fi%2F10027074%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261002-1730",
+      "scheduledAt": "2026-10-02T17:30:00+09:00",
+      "text": "家の中で、\n「ここだけは片付けてもすぐ散らかる」って場所ない？😂\n\nうちは一回キレイにしても、\n気づいたら誰かが何か置いてる🤣\n\nしかも最初は1個だけなのに、\nなぜかそこからどんどん増えていく。笑\n\nみんなの家で\n一番リバウンドが早い場所どこ？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/2 17:30交流投稿。商品導線なし。",
+      "linkType": "ROOM誘導",
+      "productUrl": "",
       "approvalStatus": "approved"
     }
   ]
