@@ -78,8 +78,8 @@
       "status": "承認待ち",
       "postType": "交流",
       "productName": "",
-      "memo": "10/2 17:30交流投稿。商品導線なし。",
-      "linkType": "ROOM誘導",
+      "memo": "10/2 17:30交流投稿。商品導線なし・リンクなし。",
+      "linkType": "リンクなし",
       "productUrl": "",
       "approvalStatus": "approved"
     }
