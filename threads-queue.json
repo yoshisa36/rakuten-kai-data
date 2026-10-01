@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T14:49:00+09:00",
+  "updatedAt": "2026-10-01T15:07:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -10,6 +10,17 @@
       "postType": "テスト",
       "productName": "",
       "memo": "自動連携テスト。予約済みに変更しないこと",
+      "linkType": "ROOM誘導",
+      "productUrl": ""
+    },
+    {
+      "reservationId": "KAI-TEST-002",
+      "scheduledAt": "2026-10-02T14:30:00+09:00",
+      "text": "カイ→GitHub→GAS 自動取り込みテスト②です🧪",
+      "status": "承認待ち",
+      "postType": "テスト",
+      "productName": "",
+      "memo": "5分トリガー自動取り込みテスト。予約済みに変更しないこと",
       "linkType": "ROOM誘導",
       "productUrl": ""
     }
