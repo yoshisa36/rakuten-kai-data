@@ -33,8 +33,7 @@
       "productName": "",
       "memo": "自動承認動作確認用。確認後に削除または承認待ちへ戻す",
       "linkType": "ROOM誘導",
-      "productUrl": "",
-      "approvalStatus": "approved"
+      "productUrl": ""
     }
   ]
 }
