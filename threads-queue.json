@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T15:58:00+09:00",
+  "updatedAt": "2026-10-01T16:15:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -45,6 +45,30 @@
       "memo": "10/2 11:30実運用。具体的な場所＋明確な悩み仮説の再検証。リンク方式C。",
       "linkType": "返信リンク",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q21x8.8dcsq24e.g00q21x8.8dcsrc07/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faandi%2F10002206%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faandi%2Fi%2F10002206%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261002-1430",
+      "scheduledAt": "2026-10-02T14:30:00+09:00",
+      "text": "洗濯機まわりって、\n洗剤とかタオルとか\n「ここに置けたらラクなのに」って物が多くない？😂\n\nでも収納棚を置くスペースはないし、\n防水パンがあると置ける場所も限られる…🥹\n\nこれ、突っ張り式で\n洗濯機の上の空間を使えるランドリーラック👀\n\n床のスペースを増やさずに\n収納を3段増やせるの、かなり気になる🙌\n\n洗面所って狭いから、\n空いてる上のスペースを使えるのいいよね😂",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "突っ張りランドリーラック Echo",
+      "memo": "10/2 14:30実運用。ランドリー収納×デッドスペース訴求。高単価11800円テスト。リンク方式A。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pum98.8dcsqa3d.g00pum98.8dcsr954/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falamode%2F78-3690%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falamode%2Fi%2F10021350%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261002-2000",
+      "scheduledAt": "2026-10-02T20:00:00+09:00",
+      "text": "玄関って、\n靴をしまう場所はあるはずなのに\n気づくと床に並んでない？😂\n\n家族分になると\n数足出てるだけで一気にごちゃっと見える🤣\n\nこれ、奥行17.5cmのスリムなシューズラック👀\n\n大きい靴箱を増やさなくても\nちょっとしたスペースに置けるのが良さそう🙌\n\n玄関は毎日見る場所だから、\nできればスッキリさせたい😂",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "3段スリムシューズラック",
+      "memo": "10/2 20:00実運用。省スペース靴収納。9/30同カテゴリ投稿との再検証。リンク方式B。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q7288.8dcsqe27.g00q7288.8dcsr694/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F4979625204840%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivingut%2Fi%2F10027074%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
