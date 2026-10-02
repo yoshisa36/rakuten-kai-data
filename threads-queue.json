@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T16:18:00+09:00",
+  "updatedAt": "2026-10-02T20:45:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -79,6 +79,54 @@
       "postType": "交流",
       "productName": "",
       "memo": "10/2 17:30交流投稿。商品導線なし・リンクなし。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261003-1130",
+      "scheduledAt": "2026-10-03T11:30:00+09:00",
+      "text": "洗面所って、タオルや着替えを置きたいのに\n収納を増やすと一気に狭くならない？😂\n\n特に脱衣所は\n「しまいたい。でも場所は取りたくない」\nってなりがち🤣\n\nこれ、奥行35.5cmの薄型ランドリーチェスト👀\n\nタオルや日用品をまとめつつ、\n出っ張りを抑えられるのは良さそう🙌\n\n洗面所の収納って、\n容量より奥行きが大事だったりするよね😂",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "薄型ランドリーチェスト",
+      "memo": "10/3 11:30。候補2商品のため商品2枠で検証。薄型・洗面所の狭さ訴求。リンク方式C。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sx9k8.8dcsq2db.g00sx9k8.8dcsr0b0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurnbonheur%2Fkrns60cst%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffurnbonheur%2Fi%2F10010894%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261003-1430",
+      "scheduledAt": "2026-10-03T14:30:00+09:00",
+      "text": "玄関って、家族の靴が増えると\n「しまう場所はあるのに入りきらない」ってならない？😂\n\n床に数足出てるだけで\n一気にごちゃっと見えるんよね🤣\n\nこれ、サイズを選べる国産のシューズボックス👀\n\n玄関の広さや靴の量に合わせて選べるなら、\n無理に大きすぎる収納を置かなくて済みそう🙌\n\n毎日目に入る場所だから、\n玄関はできればスッキリさせたい😂",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "国産シューズボックス コースト",
+      "memo": "10/3 14:30。候補2商品のため商品2枠で検証。玄関収納。高単価23800円テスト。リンク方式A。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rxvf8.8dcsq9c9.g00rxvf8.8dcsrdaf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffurniture-village%2Fsj_2050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffurniture-village%2Fi%2F10002416%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261003-1730",
+      "scheduledAt": "2026-10-03T17:30:00+09:00",
+      "text": "家事って、終わった瞬間に\n「よし終わった！」ってなるものと\n永遠に終わった感がないものない？😂\n\n洗濯してもまた洗濯物出るし、\n片付けてもまた散らかる🤣\n\n個人的には\n家事ってセーブポイント欲しい。笑\n\nみんなが一番\n「終わった感ないな〜」って思う家事どれ？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/3 17:30交流。商品導線なし。10/2交流枠の反応継続検証。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261003-2000",
+      "scheduledAt": "2026-10-03T20:00:00+09:00",
+      "text": "収納ってさ、\n「収納を増やせば片付く派」と\n「まず物を減らす派」に分かれない？😂\n\n私は片付け始めると\n収納グッズ欲しくなるんだけど、\n途中で「いや物多すぎん？🤣」ってなる。笑\n\n収納を増やすのが先か、\n物を減らすのが先か…🤔\n\nみんなはどっち派？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/3 20:00交流。商品候補が2件のみのため無理な重複商品を避け、交流枠としてデータ取得。",
       "linkType": "リンクなし",
       "productUrl": "",
       "approvalStatus": "approved"
