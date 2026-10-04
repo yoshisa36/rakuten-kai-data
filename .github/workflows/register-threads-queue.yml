@@ -1,0 +1,37 @@
+name: Register approved Threads queue
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Approved JSON batch under batches/ (for example batches/2026-10-05.json)
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: threads-queue-registration
+  cancel-in-progress: false
+jobs:
+  register:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check registration rules
+        run: python -m unittest discover -s tests -v
+      - name: Validate batch path and register
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BATCH_PATH: ${{ inputs.batch }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, subprocess, sys
+          root = pathlib.Path('batches').resolve()
+          batch = pathlib.Path(os.environ['BATCH_PATH']).resolve()
+          if batch.parent != root or batch.suffix != '.json' or not batch.is_file():
+              raise SystemExit('Select a JSON file directly under batches/')
+          subprocess.run([sys.executable, 'scripts/register_threads_queue.py', str(batch)], check=True)
+          PY
