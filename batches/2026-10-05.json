@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "reservationId": "KAI-20261005-1130",
+      "scheduledAt": "2026-10-05T11:30:00+09:00",
+      "text": "季節の服をしまいたいのに、収納ケースが場所を取る😂\n\n使わない時は折りたためて、前からも開けられる収納ボックス見つけた👀\n\n上に物を置いても取り出せるの、衣替えの時に助かりそう。\nサイズがいろいろあるから、置き場所を測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "折りたたみ収納ボックス",
+      "memo": "10/5承認済み予約。最新候補を使用。スキージーは10/4水切りワイパーとの近接カテゴリ検証。GitHub登録とGAS取り込みを区別。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rgpg8.8dcsq78c.g00rgpg8.8dcsr959/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-kaei-trading%2Fzk-snb02-all%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-kaei-trading%2Fi%2F10000740%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261005-1430",
+      "scheduledAt": "2026-10-05T14:30:00+09:00",
+      "text": "お風呂の水滴、角のところだけ残りがち😂\n\n小回りのきくコンパクトなスキージーなら、気づいた時にサッと使えそう👀\n\n大きい道具を出すほどじゃない、ちょっとした水切りに気になる🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "マーナ 小回りのきくスキージー",
+      "memo": "10/5承認済み予約。最新候補を使用。スキージーは10/4水切りワイパーとの近接カテゴリ検証。GitHub登録とGAS取り込みを区別。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw607%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10005651%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261005-1730",
+      "scheduledAt": "2026-10-05T17:30:00+09:00",
+      "text": "子どもが寝たあとの最初の10分、何してる？😂\n\n洗い物を片付けたい気持ちはあるけど、まず座りたい。笑\n\nお茶飲む、スマホ見る、そのまま一緒に寝ちゃう…\nみんなの「やっとひと息」の過ごし方知りたい☕️",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/5承認済み予約。最新候補を使用。スキージーは10/4水切りワイパーとの近接カテゴリ検証。GitHub登録とGAS取り込みを区別。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261005-2000",
+      "scheduledAt": "2026-10-05T20:00:00+09:00",
+      "text": "お風呂のおもちゃ、気づいたら床に集まってない？😂\n\nボトルや掃除道具まで置くと、掃除のたびにどかすのが地味に手間🤣\n\nマグネットで浮かせられるバスケットなら、まとめて置き場所を作れそう👀\n\n取り付けられる壁か確認は必要だけど、床を空けられるの気になる🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower マグネットバスルームバスケット",
+      "memo": "10/5承認済み予約。最新候補を使用。スキージーは10/4水切りワイパーとの近接カテゴリ検証。GitHub登録とGAS取り込みを区別。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-5542%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10004621%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    }
+  ]
+}
