@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T20:45:00+09:00",
+  "updatedAt": "2026-10-04T13:25:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -127,6 +127,42 @@
       "postType": "交流",
       "productName": "",
       "memo": "10/3 20:00交流。商品候補が2件のみのため無理な重複商品を避け、交流枠としてデータ取得。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261004-1430",
+      "scheduledAt": "2026-10-04T14:30:00+09:00",
+      "text": "シーツ干すだけで、物干しスペースほぼ埋まらない？😂\n\n普通のハンガーだと幅を取るし、\n他の洗濯物まで干しにくくなる🤣\n\nこれ、シーツをぐるぐる掛けて干せる\nスパイラル型のハンガー👀\n\n省スペースで干せるなら、\n部屋干しの日にも助かりそう🙌\n\n大物洗った日の\n「干す場所ない問題」減らせそう😂",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "シーツハンガー スパイラルハンガー",
+      "memo": "10/4救済14:30。v1.1候補1位83点。洗濯×省スペース訴求。リンク方式C。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rt7q8.8dcsqb41.g00rt7q8.8dcsrb8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakara-jiang%2Fsp-hanger03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakara-jiang%2Fi%2F10033956%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261004-1730",
+      "scheduledAt": "2026-10-04T17:30:00+09:00",
+      "text": "お風呂掃除で地味にイヤなの、\n最後の水滴じゃない？😂\n\nせっかく掃除しても\n壁や鏡がびしょびしょだと、\nまた水垢になりそうで気になる🤣\n\nマグネットで浴室に置ける\n水切りワイパーなら、\n気づいた時にサッと使えそう👀\n\n毎日ちゃんと掃除は無理でも、\nこれくらいなら続けられそう🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower マグネット水切りワイパー",
+      "memo": "10/4救済17:30。v1.1候補2位75点。お風呂の水垢予防訴求。リンク方式A。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-5451%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10004347%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261004-2000",
+      "scheduledAt": "2026-10-04T20:00:00+09:00",
+      "text": "家の掃除って、\n「毎日ちょっとずつ派」と\n「休みの日にまとめて派」に分かれない？😂\n\n私は気づいた時にやろうと思って、\nそのまま見なかったことにする日もある🤣\n\n毎日完璧にできる人ほんとすごい。笑\n\nみんなは\nちょこちょこ掃除派？まとめて掃除派？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/4救済20:00。交流枠。商品導線なし。",
       "linkType": "リンクなし",
       "productUrl": "",
       "approvalStatus": "approved"
