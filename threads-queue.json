@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T21:42:53+09:00",
+  "updatedAt": "2026-10-05T21:47:25+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -213,6 +213,54 @@
       "memo": "10/5承認済み予約。最新候補を使用。スキージーは10/4水切りワイパーとの近接カテゴリ検証。GitHub登録とGAS取り込みを区別。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-5542%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10004621%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261006-1130",
+      "scheduledAt": "2026-10-06T11:30:00+09:00",
+      "text": "トイレの予備ペーパー、床に置くと掃除のたびに動かすのが地味に手間😂\n\n大きな棚を置く場所はなくても、壁なら使えるかも。\n\n奥行20cmの壁掛け棚を見つけた👀\nタオルやストックの置き場所づくりに気になる。\n\n取り付けられる壁か、耐荷重は先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "ウォールシェルフ",
+      "memo": "10/6。最新products.jsonの実在候補を使用。購入・使用体験、価格・期限付きクーポンは記載しない。直近同一商品の重複なし。具体的な生活場面による訴求を検証。Viewsは翌日・翌々日に再評価し、返信リンクの自分の返信を反応から分離する。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tnma8.8dcsq807.g00tnma8.8dcsr033/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fisuke-shop%2Fwallshelf09%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fisuke-shop%2Fi%2F10000163%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261006-1430",
+      "scheduledAt": "2026-10-06T14:30:00+09:00",
+      "text": "たたんだズボン、下の1枚を取るだけで山が崩れない？😂\n\n掛けて並べるパンツラックなら、探す時に全部ひっくり返さずに済みそう👀\n\nキャスター付きの低めタイプだから、クローゼットの下の空間を使いたい時にも気になる。\n\n入る幅と高さを測ってから選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "キャスター付きパンツラック",
+      "memo": "10/6。最新products.jsonの実在候補を使用。購入・使用体験、価格・期限付きクーポンは記載しない。直近同一商品の重複なし。具体的な生活場面による訴求を検証。Viewsは翌日・翌々日に再評価し、返信リンクの自分の返信を反応から分離する。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2F3s-320043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000724%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261006-1730",
+      "scheduledAt": "2026-10-06T17:30:00+09:00",
+      "text": "子どもの「自分でやる！」、朝の支度中に来ると時計を見ちゃう😂\n\n見守りたい気持ちと、そろそろ出たい気持ちが同時に来る。笑\n\n靴を履く、服を選ぶ、バッグを持つ…\nみんなはどの場面で時間がかかる？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/6 17:30。朝の自分でやる場面の交流実験。10/2交流54 Views、10/3交流48 Viewsを参考。時刻・題材の交絡があり確度は低〜中。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261006-2000",
+      "scheduledAt": "2026-10-06T20:00:00+09:00",
+      "text": "子どもの泥汚れの服、ほかの洗濯物と一緒に入れる前にちょっと分けて洗いたい😂\n\nでも数枚だけだと、洗い場所にも迷う。\n\n手洗いや予洗いに使える洗濯バッグを見つけた👀\n旅行用だけじゃなく、分別洗いの選択肢にもなりそう。\n\n洗える衣類か、洗濯表示は先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "洗濯バッグ ザブル",
+      "memo": "10/6。最新products.jsonの実在候補を使用。購入・使用体験、価格・期限付きクーポンは記載しない。直近同一商品の重複なし。具体的な生活場面による訴求を検証。Viewsは翌日・翌々日に再評価し、返信リンクの自分の返信を反応から分離する。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
