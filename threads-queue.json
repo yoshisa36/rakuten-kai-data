@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T21:47:25+09:00",
+  "updatedAt": "2026-10-06T21:35:55+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -261,6 +261,54 @@
       "memo": "10/6。最新products.jsonの実在候補を使用。購入・使用体験、価格・期限付きクーポンは記載しない。直近同一商品の重複なし。具体的な生活場面による訴求を検証。Viewsは翌日・翌々日に再評価し、返信リンクの自分の返信を反応から分離する。",
       "linkType": "返信リンク",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261007-1130",
+      "scheduledAt": "2026-10-07T11:30:00+09:00",
+      "text": "お風呂掃除のスプレー、床に置くとボトルの底のぬめりが気にならない？😂\n\nマグネットで壁に付けて、スプレーボトルを引っ掛けられるハンガーを見つけた👀\n\n床から浮かせられると、掃除のたびに動かす物も減らせそう。\n取り付けたい壁に磁石が付くかは先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower マグネットスプレーボトルハンガー",
+      "memo": "10/7 11:30。products.json 1位・78点。浴室収納だが、10/5のおもちゃバスケットとは対象物を変え、ボトル底のぬめり・床掃除の手間を検証。初回Viewsで断定せず次回以降も確認。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-9916%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10002807%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261007-1430",
+      "scheduledAt": "2026-10-07T14:30:00+09:00",
+      "text": "収納ケースを置いたら、数センチだけ入らない時の悔しさ😂\n\n幅や高さを選べる引き出しケースなら、クローゼットだけじゃなく洗面所やパントリーにも合わせやすそう👀\n\nしまう物と置き場所を先に決めて、内寸も確認してから選びたい。\n収納は「とりあえず買う」をすると増えがち🤣",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "フィッツケース マルチ",
+      "memo": "10/7 14:30。products.json 2位・72点。前日のパンツラックとは異なる、設置場所に合わせるサイズ選択を検証。使用体験は記載しない。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qg648.8dcsq880.g00qg648.8dcsr7b3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2Ffitscase_multi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10006046%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261007-1730",
+      "scheduledAt": "2026-10-07T17:30:00+09:00",
+      "text": "夜、子どもが寝たあとに残ってる家事。\nその日のうちに片付ける？朝の自分に任せる？😂\n\n私は「これだけやろう」と思って始めたのに、別の散らかりまで見つけて終わらなくなる日がある🤣\n\nみんなは夜にリセットする派？朝にまとめる派？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/7 17:30交流。10/6の朝支度題材は初回5 Views。10/3の広い家事共感49 Views、10/5の夜のひと息26 Viewsを踏まえ、夜家事の二択で再検証。時刻・題材・経過時間の別要因があり確度は中未満。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261007-2000",
+      "scheduledAt": "2026-10-07T20:00:00+09:00",
+      "text": "上履きや汚れた小物をつけ置きしたい時、丸いバケツだと置き場所に困らない？😂\n\nふた付きの四角いバケツなら、つけ置き中も中を隠せて、使わない時の収納もしやすそう👀\n\n5Lと10Lがあるから、洗いたい物と置き場所に合う大きさを選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "マーナ ふた付き角型バケツ",
+      "memo": "10/7 20:00。products.json 4位・69点（様子見）。掃除・つけ置き用途の低〜中価格帯を検証。10/6 20:00初回0 Viewsは集計途中として判定保留。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw627%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006157%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
