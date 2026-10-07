@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T21:35:55+09:00",
+  "updatedAt": "2026-10-07T21:33:39+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -309,6 +309,54 @@
       "memo": "10/7 20:00。products.json 4位・69点（様子見）。掃除・つけ置き用途の低〜中価格帯を検証。10/6 20:00初回0 Viewsは集計途中として判定保留。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw627%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006157%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261008-1130",
+      "scheduledAt": "2026-10-08T11:30:00+09:00",
+      "text": "玄関に家族の靴が数足出てるだけで、一気に散らかって見えない？😂\n\n大きな靴箱を増やす場所はないけど、床置きは減らしたい。\n\nスリムな簡易シューズラックなら、ちょっとした空間に靴の定位置を作れそう👀\n\n置ける幅と靴の数を確認してから選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "省スペース簡易シューズラック",
+      "memo": "10/8 11:30。products.json 1位・84点・1800円。10/2〜3の靴収納は14〜19 Viewsだったが、今回は別商品かつ低価格・簡易型で再検証。初回値では判定しない。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tpvl8.8dcsq8a9.g00tpvl8.8dcsr655/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fownlife%2Ftw000218-ss%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fownlife%2Fi%2F10000680%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261008-1430",
+      "scheduledAt": "2026-10-08T14:30:00+09:00",
+      "text": "ゴミ箱って、分別を増やすほど横に場所を取らない？😂\n\nキッチンの通路は狭くしたくないけど、袋だけ並べると見た目も気になる🤣\n\n前から開けられる縦型の分別ボックスなら、床の広さを抑えながら分けられそう👀\n\n捨てたい物の量と置き場所に合う段数を選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "KEYUCA rectie 分別ボックス",
+      "memo": "10/8 14:30。products.json 2位・73点。直近にないゴミ分別カテゴリで、高さ方向の省スペース訴求を検証。購入・使用体験は記載しない。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3300305%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10021051%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261008-1730",
+      "scheduledAt": "2026-10-08T17:30:00+09:00",
+      "text": "子どものお絵描きや作品、どこまで残してる？😂\n\n全部とっておきたい気持ちはあるけど、気づくとどんどん増えていく🤣\n\n写真に残す、お気に入りだけ保管、全部残す…\nみんなの家ではルール決めてる？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/8 17:30交流。10/5の夜のひと息は34 Views、10/6の朝支度は9 Views。子育て×増える物の具体的な悩みで交流を検証。時刻・経過時間・題材の交絡があるため確度は中未満。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261008-2000",
+      "scheduledAt": "2026-10-08T20:00:00+09:00",
+      "text": "洗濯機横のこの細い隙間、使えそうなのに入る収納がなかなか見つからない😂\n\n幅18cmの引き出しなら、洗剤や日用品のストック置き場にできそう👀\n\n中が透けにくいのも、生活感を隠したい場所には気になる。\n\n防水パンや配管があるから、設置できる幅と高さは先に測りたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "幅18cm 隙間ストッカー",
+      "memo": "10/8 20:00。products.json 3位・72点。10/2の別商品・幅18cm隙間収納は10 Views、反応3件。明確な悩みの再現性を別商品・別時刻で再検証。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqs102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10016213%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
