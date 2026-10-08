@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T21:33:39+09:00",
+  "updatedAt": "2026-10-08T21:34:42+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -357,6 +357,54 @@
       "memo": "10/8 20:00。products.json 3位・72点。10/2の別商品・幅18cm隙間収納は10 Views、反応3件。明確な悩みの再現性を別商品・別時刻で再検証。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqs102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10016213%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261009-1130",
+      "scheduledAt": "2026-10-09T11:30:00+09:00",
+      "text": "洗面所のタオルや着替え、置きたい物は多いのに収納の幅が合わない😂\n\nスリムとワイド、段数も選べるチェストなら、置き場所としまう量に合わせやすそう👀\n\n引き出しなら中身を隠せるのも気になる。\n\n幅だけじゃなく、引き出すための手前のスペースも測っておきたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "選べる天板チェスト ルームス",
+      "memo": "10/9 11:30。products.json 2位・71点。10/7のフィッツケースとは別商品・洗面所用途で、幅と段数を選べる訴求を検証。初回Viewsだけで判定しない。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fq5363%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10007962%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261009-1430",
+      "scheduledAt": "2026-10-09T14:30:00+09:00",
+      "text": "洗面ボウルの黒ずみって、気づくと普通のスポンジでは落ちにくくなってない？😂\n\n陶器の汚れを洗剤なしで磨ける研磨パッドを見つけた👀\n\n大きな掃除道具を出さずに使えるなら、気になった時の掃除に良さそう。\n\n傷を付けないよう、使える素材と使い方は先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "陶器用研磨パッド エコピカ",
+      "memo": "10/9 14:30。products.json 5位・66点・680円。本文リンクの追加観測。10/6=4、10/7=13、10/8初回=4 Viewsで一貫せず、リンク原因の確度は低い。低価格掃除用品で商品差を切り分ける。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qvh98.8dcsqe55.g00qvh98.8dcsr9b8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwatasinoseikatu%2F10000891%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwatasinoseikatu%2Fi%2F10000891%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261009-1730",
+      "scheduledAt": "2026-10-09T17:30:00+09:00",
+      "text": "買い物から帰ったあとの荷物、すぐ全部片付ける？😂\n\n冷蔵庫の物だけ急いで入れて、常温の物は袋のまましばらく置いちゃう日がある🤣\n\n買い物って家に着いてからも地味に続くよね。\nみんなは即片付ける派？あとでやる派？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/9 17:30交流。直近交流は10/5=34、10/6=10、10/7=13、10/8初回=11 Views。家事の二択型を別題材で再検証。経過時間と題材差があるため確度は中未満。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261009-2000",
+      "scheduledAt": "2026-10-09T20:00:00+09:00",
+      "text": "お風呂のおもちゃ、子どもが遊んだあとの置き場所に困らない？😂\n\n床に置くと掃除のたびに動かすことになるし、まとめる場所も欲しい。\n\n引っ掛けて浮かせられるステンレスのバスケットなら、おもちゃやボトルの定位置を作れそう👀\n\n掛けたい場所の幅と耐荷重は確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "燕三条 ステンレス引っ掛けおもちゃバスケット",
+      "memo": "10/9 20:00。products.json 3位・70点。10/5のマグネット式バスケットは2 Views。今回は引っ掛け式・ステンレスの別商品で収納方式を再検証。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fbws23apr19h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015521%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
