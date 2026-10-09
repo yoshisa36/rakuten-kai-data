@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-08T23:57:12.074Z",
-  "count": 49,
+  "updatedAt": "2026-10-09T23:57:07.340Z",
+  "count": 51,
   "products": [
     {
       "selectedAt": "2026-10-06T23:57:16.395Z",
@@ -109,12 +109,12 @@
       "selectionReason": "68点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-09-29T07:19:15.509Z",
-      "selectedDate": "2026-09-28T15:00:00.000Z",
-      "rank": 5,
+      "selectedAt": "2026-10-09T23:57:06.565Z",
+      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "洗面所収納",
       "productType": "ランドリー用品",
-      "totalScore": 61,
+      "totalScore": 66,
       "judgment": "様子見",
       "productName": "薄型 ランドリー 収納 ラック [ 幅45・幅60・幅75 ]完成品 日本製 洗面所収納 洗面所 脱衣場 脱衣所 ランドリーラック ランドリー収納 サニタリーラック ランドリーチェスト スリム 薄い 収納 省スペース 壁面収納 サニタリー タオル収納 木製",
       "price": 28000,
@@ -124,7 +124,7 @@
       "priceScore": 7,
       "reviewScore": 15,
       "reviewCountScore": 8,
-      "problemScore": 15,
+      "problemScore": 20,
       "keywordScore": 10,
       "featureScore": 6,
       "seasonScore": 0,
@@ -132,7 +132,7 @@
       "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sczq8.8dcsq6d0.g00sczq8.8dcsr42b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcraftpark-k5-shop%2Fsir-712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcraftpark-k5-shop%2Fi%2F10001004%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sczq8.8dcsq6d0.g00sczq8.8dcsr42b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcraftpark-k5-shop%2Fsir-712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcraftpark-k5-shop%2Fi%2F10001004%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "洗面所収納 × ランドリー用品",
-      "selectionReason": "61点 / 様子見 / 洗面所収納 × ランドリー用品"
+      "selectionReason": "66点 / 様子見 / 洗面所収納 × ランドリー用品"
     },
     {
       "selectedAt": "2026-10-08T23:57:10.713Z",
@@ -317,8 +317,8 @@
       "selectionReason": "56点 / 様子見 / 子供 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-09-29T23:56:44.501Z",
-      "selectedDate": "2026-09-29T15:00:00.000Z",
+      "selectedAt": "2026-10-09T23:57:06.565Z",
+      "selectedDate": "2026-10-09T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
@@ -327,7 +327,7 @@
       "productName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
       "price": 2640,
       "shop": "プラスチックの店キララ",
-      "reviewCount": 2838,
+      "reviewCount": 2839,
       "reviewAverage": 4.68,
       "priceScore": 16,
       "reviewScore": 13,
@@ -525,22 +525,22 @@
       "selectionReason": "57点 / 様子見 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-02T23:56:41.793Z",
-      "selectedDate": "2026-10-02T15:00:00.000Z",
-      "rank": 1,
+      "selectedAt": "2026-10-09T23:57:06.565Z",
+      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "玄関収納",
       "productType": "その他",
-      "totalScore": 64,
+      "totalScore": 69,
       "judgment": "様子見",
-      "productName": "【クーポン配布中】傘立て アンブレラスタンド おしゃれ かわいい 北欧 コンパクト スリム 省スペース 水受けトレー お手入れ簡単 収納 玄関収納 天然木 子供 アンティーク ヴィンテージ シンプル ミッドセンチュリー ナチュラル 一人暮らし 家族 パディ",
+      "productName": "傘立て アンブレラスタンド おしゃれ かわいい 北欧 コンパクト スリム 省スペース 水受けトレー お手入れ簡単 収納 玄関収納 天然木 子供 アンティーク ヴィンテージ シンプル ミッドセンチュリー ナチュラル 一人暮らし 家族 パディ",
       "price": 4980,
       "shop": "ライフスタイルショップ FUNFUN",
-      "reviewCount": 200,
+      "reviewCount": 201,
       "reviewAverage": 4.66,
       "priceScore": 12,
       "reviewScore": 13,
       "reviewCountScore": 8,
-      "problemScore": 15,
+      "problemScore": 20,
       "keywordScore": 10,
       "featureScore": 6,
       "seasonScore": 0,
@@ -548,7 +548,7 @@
       "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "玄関収納 × その他",
-      "selectionReason": "64点 / 様子見 / 玄関収納 × その他"
+      "selectionReason": "69点 / 様子見 / 玄関収納 × その他"
     },
     {
       "selectedAt": "2026-10-02T23:56:41.793Z",
@@ -1277,6 +1277,58 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-3769%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10005535%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "お風呂 収納 × ラック・棚",
       "selectionReason": "65点 / 様子見 / お風呂 収納 × ラック・棚"
+    },
+    {
+      "selectedAt": "2026-10-09T23:57:06.565Z",
+      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "rank": 2,
+      "searchTheme": "クローゼット 収納",
+      "productType": "チェスト・引き出し",
+      "totalScore": 70,
+      "judgment": "採用候補",
+      "productName": "ライクイット【選べる豪華特典】 クローゼットシステム 引出し 単品/セット 選べるサイズ S M L ワイド横型M 収納ケース 収納ボックス 衣類 スリム おしゃれ 子供 コンテナボックス 組み合わせ 積み重ね 取っ手付き ほこりが入らない like-it",
+      "price": 3520,
+      "shop": "セレクトショップ・AQUA(アクア)",
+      "reviewCount": 1053,
+      "reviewAverage": 4.74,
+      "priceScore": 12,
+      "reviewScore": 15,
+      "reviewCountScore": 10,
+      "problemScore": 20,
+      "keywordScore": 10,
+      "featureScore": 3,
+      "seasonScore": 0,
+      "itemCode": "importshopaqua:10011616",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pz5q8.8dcsqd8e.g00pz5q8.8dcsr0cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fimportshopaqua%2Fclsetdm-set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fimportshopaqua%2Fi%2F10011616%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pz5q8.8dcsqd8e.g00pz5q8.8dcsr0cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fimportshopaqua%2Fclsetdm-set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fimportshopaqua%2Fi%2F10011616%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "クローゼット 収納 × チェスト・引き出し",
+      "selectionReason": "70点 / 採用候補 / クローゼット 収納 × チェスト・引き出し"
+    },
+    {
+      "selectedAt": "2026-10-09T23:57:06.565Z",
+      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "rank": 5,
+      "searchTheme": "お風呂 収納",
+      "productType": "子供専用収納",
+      "totalScore": 66,
+      "judgment": "様子見",
+      "productName": "［ マグネットバスルームコーナーおもちゃラック タワー ］山崎実業 tower マグネット収納 お風呂 収納 三角 コーナー ラック 棚 かご マグネット おもちゃバスケット オモチャ入れ おもちゃ収納 おもちゃ入れ 浮かせる 浴室収納 おしゃれ yamazaki 4264 4265",
+      "price": 2530,
+      "shop": "インテリアショップ roomy",
+      "reviewCount": 2358,
+      "reviewAverage": 4.8,
+      "priceScore": 16,
+      "reviewScore": 15,
+      "reviewCountScore": 10,
+      "problemScore": 15,
+      "keywordScore": 10,
+      "featureScore": 0,
+      "seasonScore": 0,
+      "itemCode": "roomy:10014933",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fymz19jan24h19%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10014933%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fymz19jan24h19%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10014933%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "お風呂 収納 × 子供専用収納",
+      "selectionReason": "66点 / 様子見 / お風呂 収納 × 子供専用収納"
     }
   ]
 }
