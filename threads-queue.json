@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T21:34:42+09:00",
+  "updatedAt": "2026-10-09T21:27:11+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -405,6 +405,54 @@
       "memo": "10/9 20:00。products.json 3位・70点。10/5のマグネット式バスケットは2 Views。今回は引っ掛け式・ステンレスの別商品で収納方式を再検証。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fbws23apr19h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015521%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261010-1130",
+      "scheduledAt": "2026-10-10T11:30:00+09:00",
+      "text": "絵本とおもちゃ、別々に片付ける場所を作ると子ども部屋が家具だらけにならない？😂\n\n絵本棚とおもちゃ箱がまとまったラックなら、読む物と遊ぶ物の定位置を一か所に作れそう👀\n\n子どもが自分で戻しやすい高さかも大事。\n置ける幅と収納したい量を測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "アイリスオーヤマ 絵本・おもちゃ収納ラック",
+      "memo": "10/10 11:30。products.json 4位・67点。10/8交流の子どもの作品テーマから、子どもが戻しやすい収納仮説を商品枠で検証。直近同一商品なし。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qksh8.8dcsqcb0.g00qksh8.8dcsr315/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyarahouse%2F7028488%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyarahouse%2Fi%2F10097342%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261010-1430",
+      "scheduledAt": "2026-10-10T14:30:00+09:00",
+      "text": "靴箱って、横幅より棚の高さが余ってることない？😂\n\n靴1足分を上下にまとめるホルダーなら、棚を増やさなくても6足分を整理できそう👀\n\n玄関の床に出てる靴を戻す場所が作れたらうれしい。\n\n靴の高さと、靴箱の棚に収まるかは先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "省スペース くつホルダー6足分",
+      "memo": "10/10 14:30。products.json 2位・78点。10/8は簡易ラック6 Views、今回は靴箱内ホルダーという別方式。本文リンク継続観測で、リンク形式と商品差を分けて見る。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pm6z8.8dcsqd5c.g00pm6z8.8dcsr183/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froyal3000%2Fb043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froyal3000%2Fi%2F10010218%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261010-1730",
+      "scheduledAt": "2026-10-10T17:30:00+09:00",
+      "text": "予定のない休日の朝、起きたらすぐ家事する？まずゆっくりする？😂\n\n早めに片付けたらあとがラクなのは分かるけど、休みの日くらい座っていたい🤣\n\n私は「少しだけ休憩」が長くなりがち。笑\nみんなは朝から動く派？のんびり派？👀",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/10 17:30交流。直近交流は10/8が15 Views、10/9は初回3 Views。休日の生活場面×二択型で再検証。経過時間と曜日の影響があるため確度は低〜中。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261010-2000",
+      "scheduledAt": "2026-10-10T20:00:00+09:00",
+      "text": "シャンプーに子どものおもちゃ、掃除道具まで置くとお風呂の収納すぐ足りなくならない？😂\n\nワイドなマグネットバスケットなら、壁を使ってまとめる場所を増やせそう👀\n\n床に置く物が減ると、掃除のたびに動かす手間も減りそう。\n取り付けたい壁に磁石が付くかは確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower マグネットバスルームバスケット ワイド",
+      "memo": "10/10 20:00。products.json 5位・65点。10/9の引っ掛け式は初回0 Views。今回はマグネット式・ワイド型で設置方式と容量訴求を再検証。初回値だけで結論を出さない。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-3769%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10005535%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
