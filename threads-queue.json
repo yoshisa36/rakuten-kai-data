@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T21:27:11+09:00",
+  "updatedAt": "2026-10-10T21:27:39+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -453,6 +453,54 @@
       "memo": "10/10 20:00。products.json 5位・65点。10/9の引っ掛け式は初回0 Views。今回はマグネット式・ワイド型で設置方式と容量訴求を再検証。初回値だけで結論を出さない。",
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-3769%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10005535%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261011-1130",
+      "scheduledAt": "2026-10-11T11:30:00+09:00",
+      "text": "子どもの服、サイズが変わるたびに収納も見直しにならない？😂\n\n引き出しをサイズ違いで組み合わせられるなら、服の量や空きスペースに合わせて考えられそう👀\n\n全部の収納を一度に買い替えず、必要な分から選べるのも気になる。\n置きたい場所の幅・奥行きと、積み重ね方は先に確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "like-it クローゼットシステム 引出し",
+      "memo": "10/11。products.json 10/10更新の実在候補。直近同一商品なし。衣類・玄関・洗面所に分散。本文リンクは1枠で継続観測。ランドリー収納は高価格帯テスト。Viewsは翌日・翌々日に比較、時刻・商品差とリンク方式差は未分離のため確度低。購入・使用体験と期限付き特典は記載しない。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pz5q8.8dcsqd8e.g00pz5q8.8dcsr0cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fimportshopaqua%2Fclsetdm-set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fimportshopaqua%2Fi%2F10011616%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261011-1430",
+      "scheduledAt": "2026-10-11T14:30:00+09:00",
+      "text": "傘の置き場所って、玄関の端に寄せたつもりでも意外と場所を取らない？😂\n\nコンパクトな傘立てなら、靴を脱ぎ履きする場所を広く残せそう👀\n\n水受けトレー付きなのも気になる。\n家族分の傘が入るか、玄関に置けるサイズかを確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "コンパクト傘立て パディ",
+      "memo": "10/11。products.json 10/10更新の実在候補。直近同一商品なし。衣類・玄関・洗面所に分散。本文リンクは1枠で継続観測。ランドリー収納は高価格帯テスト。Viewsは翌日・翌々日に比較、時刻・商品差とリンク方式差は未分離のため確度低。購入・使用体験と期限付き特典は記載しない。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261011-1730",
+      "scheduledAt": "2026-10-11T17:30:00+09:00",
+      "text": "子どもの小さくなった服、片付けようとすると手が止まる😂\n\n「これ着てた頃こんなに小さかったんだ」って、いつの間にか思い出タイム。\n\n全部は残せないけど、特に好きだった服だけは別の箱に入れたくなる。\n片付けと写真を見返す時間、だいたいセットになってる🤣",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/11。問いかけ連続を避け、子どもの衣類と思い出の共感型を検証。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261011-2000",
+      "scheduledAt": "2026-10-11T20:00:00+09:00",
+      "text": "脱衣所にタオルや着替えを置きたいけど、収納を増やすと通りにくくなる😂\n\n薄型で幅を選べるランドリー収納なら、しまう量と動けるスペースの両方を考えられそう👀\n\n完成品なのも気になる。\n置ける幅だけじゃなく、扉を開けた時の余裕まで測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "日本製 薄型ランドリー収納ラック",
+      "memo": "10/11。products.json 10/10更新の実在候補。直近同一商品なし。衣類・玄関・洗面所に分散。本文リンクは1枠で継続観測。ランドリー収納は高価格帯テスト。Viewsは翌日・翌々日に比較、時刻・商品差とリンク方式差は未分離のため確度低。購入・使用体験と期限付き特典は記載しない。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sczq8.8dcsq6d0.g00sczq8.8dcsr42b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcraftpark-k5-shop%2Fsir-712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcraftpark-k5-shop%2Fi%2F10001004%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
     }
   ]
