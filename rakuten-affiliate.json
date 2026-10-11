@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
   "source": "Rakuten Affiliate CSV",
-  "generatedAt": "2026-10-11T20:48:46+09:00",
+  "monitor": {
+    "monthly": {
+      "fileName": "monthly-kai-auto.csv",
+      "driveUpdatedAt": "2026-10-11T10:45:11.612Z"
+    },
+    "shop": {
+      "fileName": "shop-kai-auto.csv",
+      "driveUpdatedAt": "2026-10-11T10:45:11.593Z"
+    },
+    "gasSyncLastSuccess": "2026-10-11T11:46:09.349Z"
+  },
+  "generatedAt": "2026-10-11T21:04:35+09:00",
   "summary": {
     "clicks": 153,
     "sales": 0,
