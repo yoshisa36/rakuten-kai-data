@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T21:27:39+09:00",
+  "updatedAt": "2026-10-11T21:31:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -502,6 +502,54 @@
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sczq8.8dcsq6d0.g00sczq8.8dcsr42b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcraftpark-k5-shop%2Fsir-712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcraftpark-k5-shop%2Fi%2F10001004%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261012-1130",
+      "scheduledAt": "2026-10-12T11:30:00+09:00",
+      "text": "靴下や小さなタオルを数枚だけ干したい時、大きいピンチハンガーを出すのちょっと面倒😂\n\n折りたためる小さなハンガーなら、少量の洗濯にも使いやすそう👀\n\n収納ポーチ付きの2個セットだから、旅行の荷物にも入れやすそう。\n干す物の重さや、掛けたい場所に合うかは確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "携帯用ピンチハンガー 2個セット",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ufg88.8dcsqe9e.g00ufg88.8dcsr970/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhphvnmkt%2F20241106sentakubasami%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhphvnmkt%2Fi%2F10000501%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/12。10/11 products.json最新候補の実在商品・URL。直近同一商品なし。候補上位3件・1000〜2000円台の小さな家事負担を検証。10/10は翌日にViews増加、10/11初回値は保留。商品・時刻・リンク方式の交絡があり確度低。本文リンク1枠維持、翌日・翌々日で再評価。購入使用体験・期限付き販促は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261012-1430",
+      "scheduledAt": "2026-10-12T14:30:00+09:00",
+      "text": "シンクの三角コーナー、底を洗うのが地味に面倒じゃない？😂\n\n吸盤で取り付ける水切りネットホルダーなら、生ごみの置き場を浮かせられそう👀\n\nシンクの底を空けておけるのが気になる。\n吸盤が付く面か、手持ちのネットが合うかを確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "吸盤式 水切りネットホルダー",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u8568.8dcsq351.g00u8568.8dcsrc4b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaigu188%2Fshort_sieve%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaigu188%2Fi%2F10000816%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/12。10/11 products.json最新候補の実在商品・URL。直近同一商品なし。候補上位3件・1000〜2000円台の小さな家事負担を検証。10/10は翌日にViews増加、10/11初回値は保留。商品・時刻・リンク方式の交絡があり確度低。本文リンク1枠維持、翌日・翌々日で再評価。購入使用体験・期限付き販促は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261012-1730",
+      "scheduledAt": "2026-10-12T17:30:00+09:00",
+      "text": "子どもと出かける準備、自分の支度は5分なのに荷物の確認で時間が溶ける😂\n\n着替え入れた。飲み物入れた。よし！と思ったら、玄関で靴下が片方ない🤣\n\n出発できただけで、もうひと仕事終わった気分。\n帰ってから片付けるところまでが外出なんよね。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/12。問いかけ連続を避け、子連れ外出準備の共感型。"
+    },
+    {
+      "reservationId": "KAI-20261012-2000",
+      "scheduledAt": "2026-10-12T20:00:00+09:00",
+      "text": "子どもの食べこぼし、テーブルを拭いたあとに床にも見つかる😂\n\n手前に受け皿ポケットが付いたシリコンのお食事マットなら、落ちる前に受け止める助けになりそう👀\n\n食後の片付けを少しでも減らしたい時に気になる。\nテーブルのサイズや、子どもの座る位置に合うか確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "ポケット付き シリコンお食事マット",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tric8.8dcsq8b1.g00tric8.8dcsr80d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcareland%2Fbp-lmat%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcareland%2Fi%2F10000234%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/12。10/11 products.json最新候補の実在商品・URL。直近同一商品なし。候補上位3件・1000〜2000円台の小さな家事負担を検証。10/10は翌日にViews増加、10/11初回値は保留。商品・時刻・リンク方式の交絡があり確度低。本文リンク1枠維持、翌日・翌々日で再評価。購入使用体験・期限付き販促は記載しない。"
     }
   ]
 }
