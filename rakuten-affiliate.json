@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "Rakuten Affiliate CSV",
-  "generatedAt": "2026-10-11T09:28:25+09:00",
+  "generatedAt": "2026-10-11T18:38:22+09:00",
   "summary": {
-    "clicks": 150,
+    "clicks": 153,
     "sales": 0,
     "amount": 0,
     "rewards": 0,
@@ -65,6 +65,14 @@
       "amount": 0,
       "rewards": 0,
       "csvUpdatedAt": "Sun Oct 11 2026 08:28:59 GMT+0900 (Japan Standard Time)"
+    },
+    {
+      "date": "2026-10-11",
+      "clicks": 3,
+      "sales": 0,
+      "amount": 0,
+      "rewards": 0,
+      "csvUpdatedAt": "Sun Oct 11 2026 09:47:20 GMT+0900 (Japan Standard Time)"
     }
   ],
   "shops": [
