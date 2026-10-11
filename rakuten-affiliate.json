@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Rakuten Affiliate CSV",
-  "generatedAt": "2026-10-11T18:38:22+09:00",
+  "generatedAt": "2026-10-11T20:48:46+09:00",
   "summary": {
     "clicks": 153,
     "sales": 0,
@@ -78,11 +78,11 @@
   "shops": [
     {
       "shopName": "【ロイヤル通販】",
-      "clicks": 1,
+      "clicks": 2,
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "7Life",
@@ -90,7 +90,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "atRise（アットライズ）",
@@ -98,7 +98,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "BACKYARD FAMILY ママタウン",
@@ -106,15 +106,15 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "BATH ROOM　バスルーム",
-      "clicks": 6,
+      "clicks": 7,
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Co-Co Shop Junior",
@@ -122,7 +122,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ｅｃｏ家具",
@@ -130,7 +130,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "hoshinoshop",
@@ -138,7 +138,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "KAGUCOCO",
@@ -146,7 +146,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "KEYUCA",
@@ -154,7 +154,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Kitchen room キッチンルーム",
@@ -162,7 +162,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Language Bridge",
@@ -170,7 +170,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Living雑貨 リスonlineshop",
@@ -178,7 +178,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "LOWYA（ロウヤ）楽天市場店",
@@ -186,7 +186,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Marus Studio",
@@ -194,7 +194,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ｎｏｃｏｎｏｃｏ・キッチン",
@@ -202,7 +202,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "OwnLife",
@@ -210,7 +210,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "SESAME（セサミ）家具・インテリア",
@@ -218,7 +218,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Sleep Atelier 〜寝具と家具の店〜",
@@ -226,7 +226,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "Taigu 楽天市場店",
@@ -234,7 +234,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "TK-JIANG",
@@ -242,7 +242,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "TOKIDO 楽天市場店",
@@ -250,7 +250,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "yadocari - ヤドカリ -",
@@ -258,7 +258,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "アイデア.com コジット公式ストア",
@@ -266,7 +266,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "アドプラス楽天市場店",
@@ -274,7 +274,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "イエリオ　インテリア家具・雑貨",
@@ -282,7 +282,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "インテリアショップ ｒｏｏｍｙ",
@@ -290,7 +290,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "インテリアショップファンボヌール",
@@ -298,7 +298,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "エア・リゾーム　インテリア",
@@ -306,7 +306,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "エリカランド楽天市場店",
@@ -314,7 +314,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "クオリアル -暮らし応援家具SHOP-",
@@ -322,7 +322,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "くらしのｅショップ",
@@ -330,7 +330,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "くらしのもり",
@@ -338,7 +338,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ケアランド",
@@ -346,7 +346,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "こどもと暮らし",
@@ -354,15 +354,15 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "こどもラボ",
-      "clicks": 5,
+      "clicks": 6,
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "スーツケース専門店 busyman",
@@ -370,7 +370,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "スミシア・インテリア（SUMICIA）",
@@ -378,7 +378,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ダイヤ楽天市場店",
@@ -386,7 +386,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ダッシュビー楽天市場店",
@@ -394,7 +394,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "タンスのゲン Design the Future",
@@ -402,7 +402,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ディノス楽天市場店",
@@ -410,7 +410,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "テンマフィッツワールド楽天市場店",
@@ -418,7 +418,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ニューワールドネット名品倶楽部",
@@ -426,7 +426,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ネットオフ楽天市場支店",
@@ -434,7 +434,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "びーんず キッチンと暮らしの道具",
@@ -442,7 +442,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ピジョン公式楽天市場店",
@@ -450,7 +450,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ファニチャービレッジ",
@@ -458,7 +458,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ブックオフ 楽天市場店",
@@ -466,7 +466,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "フリーライフ",
@@ -474,7 +474,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "マーナ公式楽天市場店",
@@ -482,7 +482,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "マーベラスファニチャー",
@@ -490,7 +490,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "まるモール　楽天市場店",
@@ -498,7 +498,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ミミ＆エージェイ",
@@ -506,7 +506,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ミミ＆ペット",
@@ -514,7 +514,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ヤマソロ 楽天市場店",
@@ -522,7 +522,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ライフスタイルショップ　FUNFUN",
@@ -530,7 +530,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ライフマルシェ",
@@ -538,7 +538,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "ラックタウン-収納用品の店-",
@@ -546,7 +546,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "リコメン堂インテリア館",
@@ -554,7 +554,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "リコメン堂ファッション館",
@@ -562,7 +562,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "リビングート　楽天市場店",
@@ -570,7 +570,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "リリータ生活倶楽部",
@@ -578,7 +578,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具・インテリアのMINT楽天市場店",
@@ -586,7 +586,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具・雑貨 K-Style. 楽天市場店",
@@ -594,7 +594,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具インテリア館",
@@ -602,7 +602,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具のアイテム",
@@ -610,7 +610,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具のわくわくランド 楽天市場店",
@@ -618,7 +618,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "家具通販のグランデ",
@@ -626,7 +626,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "宮城県角田市",
@@ -634,7 +634,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "古宮shop",
@@ -642,7 +642,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "雑貨のワールドピグ",
@@ -650,7 +650,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "子育ての店　ベビー・キッズ",
@@ -658,7 +658,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "私の生活 楽天市場店",
@@ -666,7 +666,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "収納・家具・寝具の収納宅配館",
@@ -674,7 +674,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "住マイル",
@@ -682,7 +682,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "赤ちゃん布団専門店　ＢＥＢＩＮＯ",
@@ -690,7 +690,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "姫路流通センター",
@@ -698,7 +698,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "便利雑貨のジャストパートナー",
@@ -706,7 +706,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "旅行とアウトドアのソロサピエンス",
@@ -714,7 +714,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     },
     {
       "shopName": "旅寝工房　楽天市場店",
@@ -722,7 +722,7 @@
       "sales": 0,
       "amount": 0,
       "rewards": 0,
-      "csvUpdatedAt": "Sun Oct 11 2026 06:50:53 GMT+0900 (Japan Standard Time)"
+      "csvUpdatedAt": "Sun Oct 11 2026 19:45:11 GMT+0900 (Japan Standard Time)"
     }
   ]
 }
