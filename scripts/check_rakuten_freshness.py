@@ -1,64 +1,164 @@
-#!/usr/bin/env python3
-"""Check freshness of rakuten-affiliate.json without authentication or external dependencies.
 
-Exit codes: 0=fresh, 1=stale, 2=invalid/unavailable.
-Generated-at freshness is NOT proof that source CSV data is fresh.
-"""
+#!/usr/bin/env python3
+"""Rakuten affiliate data freshness monitor."""
+
 import argparse
 import datetime as dt
 import json
 import sys
+from pathlib import Path
 import urllib.request
 
-URL = "https://raw.githubusercontent.com/yoshisa36/rakuten-kai-data/main/rakuten-affiliate.json"
+URL = (
+    "https://raw.githubusercontent.com/"
+    "yoshisa36/rakuten-kai-data/main/"
+    "rakuten-affiliate.json"
+)
+
 JST = dt.timezone(dt.timedelta(hours=9))
 
-def parse_timestamp(value):
+
+def parse_time(value):
     if not value:
-        return None
-    try:
-        parsed = dt.datetime.fromisoformat(str(value).replace("Z", "+00:00"))
-        return parsed if parsed.tzinfo else None
-    except ValueError:
-        return None
+        raise ValueError("日時がありません")
+
+    parsed = dt.datetime.fromisoformat(
+        str(value).replace("Z", "+00:00")
+    )
+
+    if parsed.tzinfo is None:
+        raise ValueError("タイムゾーンがありません")
+
+    return parsed.astimezone(dt.timezone.utc)
+
+
+def check_age(label, value, now, max_hours, errors):
+    timestamp = parse_time(value)
+    hours = (now - timestamp).total_seconds() / 3600
+
+    print(
+        f"{label}: "
+        f"{timestamp.astimezone(JST).isoformat(timespec='seconds')}"
+        f" / {hours:.1f}時間前"
+    )
+
+    if hours < -0.25:
+        errors.append(f"{label}: 未来の日時です")
+    elif hours > max_hours:
+        errors.append(f"{label}: {max_hours}時間以上更新なし")
+
+    return timestamp
+
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file", help="Read local JSON instead of GitHub")
+    parser.add_argument("--file")
     parser.add_argument("--max-hours", type=float, default=36)
     args = parser.parse_args()
+
     try:
         if args.file:
-            with open(args.file, encoding="utf-8") as f:
-                data = json.load(f)
+            raw = Path(args.file).read_text(encoding="utf-8-sig")
         else:
-            request = urllib.request.Request(URL, headers={"User-Agent": "rakuten-freshness-check/1.0"})
-            with urllib.request.urlopen(request, timeout=15) as response:
-                data = json.load(response)
-        generated = parse_timestamp(data.get("generatedAt"))
-        if generated is None:
-            raise ValueError("generatedAt missing or invalid")
+            request = urllib.request.Request(
+                URL,
+                headers={"User-Agent": "rakuten-freshness-check"}
+            )
+            with urllib.request.urlopen(
+                request, timeout=15
+            ) as response:
+                raw = response.read().decode("utf-8-sig")
+
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            raise ValueError(
+                f"JSON形式エラー: {exc}; "
+                f"ファイル先頭: {raw[:100]!r}"
+            ) from exc
+
+        if not isinstance(data, dict):
+            raise ValueError("JSONの最上位がオブジェクトではありません")
+
         now = dt.datetime.now(dt.timezone.utc)
-        hours = (now - generated.astimezone(dt.timezone.utc)).total_seconds() / 3600
-        if hours < -0.25:
-            raise ValueError("generatedAt is in the future")
+        errors = []
+
+        generated = check_age(
+            "JSON生成",
+            data.get("generatedAt"),
+            now,
+            args.max_hours,
+            errors
+        )
+
+        monitor = data.get("monitor")
+        if not isinstance(monitor, dict):
+            raise ValueError("monitorがありません")
+
+        monthly_info = monitor.get("monthly")
+        shop_info = monitor.get("shop")
+
+        if not isinstance(monthly_info, dict):
+            raise ValueError("monitor.monthlyがありません")
+        if not isinstance(shop_info, dict):
+            raise ValueError("monitor.shopがありません")
+
+        monthly = check_age(
+            "月別CSV",
+            monthly_info.get("driveUpdatedAt"),
+            now,
+            args.max_hours,
+            errors
+        )
+
+        shop = check_age(
+            "ショップ別CSV",
+            shop_info.get("driveUpdatedAt"),
+            now,
+            args.max_hours,
+            errors
+        )
+
+        sync = check_age(
+            "GAS取り込み",
+            monitor.get("gasSyncLastSuccess"),
+            now,
+            args.max_hours,
+            errors
+        )
+
+        if sync < max(monthly, shop):
+            errors.append(
+                "CSV更新後にGAS取り込みが実行されていません"
+            )
+
+        if generated < sync:
+            errors.append(
+                "GAS取り込み後にJSONが生成されていません"
+            )
+
         daily = data.get("daily")
-        if not isinstance(daily, list):
-            raise ValueError("daily is missing or not an array")
-        dates = sorted({r.get("date") for r in daily if isinstance(r, dict) and isinstance(r.get("date"), str)})
-        print(f"JSON生成日時: {generated.astimezone(JST).isoformat(timespec='seconds')}")
-        print(f"生成からの経過: {hours:.1f}時間")
-        print(f"日別データ件数: {len(daily)}")
-        print(f"最終記録日: {dates[-1] if dates else 'なし'}")
-        print("注意: CSV取得日時は現行JSONに独立した項目がないため検証できません")
-        if hours > args.max_hours:
-            print("判定: STALE (JSONの更新遅延)")
+        if not isinstance(daily, list) or not daily:
+            errors.append("日別実績がありません")
+        else:
+            print(f"日別実績: {len(daily)}件")
+
+        if errors:
+            for error in errors:
+                print("異常:", error)
             return 1
-        print("判定: JSON更新は期限内 / 元CSVの鮮度は未判定")
+
+        print("判定: 楽天データ連携正常")
+        print(
+            "注意: Drive更新日時は楽天側の"
+            "データ確定を保証しません"
+        )
         return 0
+
     except Exception as exc:
-        print(f"判定: ERROR ({exc})", file=sys.stderr)
+        print("監視エラー:", exc, file=sys.stderr)
         return 2
+
 
 if __name__ == "__main__":
     sys.exit(main())
