@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T21:31:00+09:00",
+  "updatedAt": "2026-10-12T21:37:32+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -550,6 +550,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tric8.8dcsq8b1.g00tric8.8dcsr80d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcareland%2Fbp-lmat%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcareland%2Fi%2F10000234%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/12。10/11 products.json最新候補の実在商品・URL。直近同一商品なし。候補上位3件・1000〜2000円台の小さな家事負担を検証。10/10は翌日にViews増加、10/11初回値は保留。商品・時刻・リンク方式の交絡があり確度低。本文リンク1枠維持、翌日・翌々日で再評価。購入使用体験・期限付き販促は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261013-1130",
+      "scheduledAt": "2026-10-13T11:30:00+09:00",
+      "text": "子どもの上着やバッグ、置き場所を決めても気づくと床やソファにない？😂\n\n服を掛ける場所と、ランドセルやおもちゃを置く棚がまとまったラックなら、帰宅後の定位置を一か所に作れそう👀\n\n自分で片付けやすい高さかも大事。\n置ける幅と、収納したい物の量を測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "子ども用ハンガーラック",
+      "memo": "10/13。最新products.jsonの実在商品・URL。直近の同一商品なし。子どもの帰宅動線／磁石不要の浴室収納を具体化。初回Viewsは判定保留し翌日・翌々日で比較。",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rd5z8.8dcsq8be.g00rd5z8.8dcsrf54/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluxze%2Ff502-g1023-100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fluxze%2Fi%2F10003949%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261013-1430",
+      "scheduledAt": "2026-10-13T14:30:00+09:00",
+      "text": "重ねた収納ボックス、下の箱を開けたい時に上を全部どかすの面倒じゃない？😂\n\n前からも開けられるタイプなら、積んだまま中身を取り出しやすそう👀\n\n使わない時に折りたためるのも気になる。\n衣替えの服や日用品、何を入れるか決めてサイズを選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "5面開き 折りたたみ収納ボックス",
+      "memo": "10/13。10/5投稿商品の再検証。衣替え需要と、積んだまま前から開ける具体的な利便性へ訴求を変更。最新products.jsonに実在。",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rgpg8.8dcsq78c.g00rgpg8.8dcsr959/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-kaei-trading%2Fzk-snb02-all%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-kaei-trading%2Fi%2F10000740%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261013-1730",
+      "scheduledAt": "2026-10-13T17:30:00+09:00",
+      "text": "夕方って、ごはん作りながら子どもの話を聞いて、洗濯物も気になって、頭の中だけずっと忙しくない？😂\n\n一つずつやればいいのに、全部同時に思い出す🤣\n\nとりあえずごはんを出せたら今日も十分。\n夕方の自分には、もう少しやさしくしたい。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "memo": "10/13。夕方の家事・育児の同時進行を共感軸で検証。リンクなし。",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261013-2000",
+      "scheduledAt": "2026-10-13T20:00:00+09:00",
+      "text": "お風呂のおもちゃやボトル、まとめたいけど床には置きたくない😂\n\nタオルバーなどに引っ掛けるステンレスのバスケットなら、壁に磁石が付かない浴室でも浮かせる収納を考えられそう👀\n\n水切れしやすそうなのも気になる。\n掛ける場所の幅と、入れたい物の量を確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "ステンレス 引っ掛けお風呂バスケット",
+      "memo": "10/13。最新products.jsonの実在商品・URL。直近の同一商品なし。子どもの帰宅動線／磁石不要の浴室収納を具体化。初回Viewsは判定保留し翌日・翌々日で比較。",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fbws-mm-700105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10003712%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved"
     }
   ]
 }
