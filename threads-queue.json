@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T21:37:32+09:00",
+  "updatedAt": "2026-10-13T21:27:47+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -598,6 +598,54 @@
       "linkType": "ROOM誘導",
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fbws-mm-700105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10003712%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261014-1130",
+      "scheduledAt": "2026-10-14T11:30:00+09:00",
+      "text": "子どもとの旅行、着替えを多めに入れると荷物がどんどん増えない？😂\n\n少しだけ洗いたい時に使える洗濯バッグなら、旅先での手洗いの選択肢になりそう👀\n\n軽量でコンパクトに持ち運べるのが気になる。\n洗える衣類か、容量は足りるかを確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "洗濯バッグ ザブル",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/14再検証。10/6洗濯バッグ6Views・いいね1。8日空け、泥汚れから旅行先の少量洗いへ訴求変更、20時から11時30分へ変更。商品・時刻の交絡があるため確度低。"
+    },
+    {
+      "reservationId": "KAI-20261014-1430",
+      "scheduledAt": "2026-10-14T14:30:00+09:00",
+      "text": "子どもの靴下や肌着、大きな引き出しにまとめると奥で迷子になりがち😂\n\n幅や段数を選べるチェストなら、入れる物に合わせて収納を分けられそう👀\n\n家族ごとの定位置を作りたい時にも気になる。\n置ける寸法と引き出しの内寸を確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "サイズ・段数を選べる衣類チェスト",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uggp8.8dcsqedc.g00uggp8.8dcsr373/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgreen-pal%2F12-shuno-ec-slim3-4-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgreen-pal%2Fi%2F10000278%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/14最新products.jsonの実在候補。直近同一商品なし。衣類の細かな分類／玄関用品の定位置を具体化。本文リンク1枠を維持。木製ラックは高価格帯テスト。初回Viewsは保留し翌日・翌々日で比較。期限付きクーポン、ランキング、購入使用体験は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261014-1730",
+      "scheduledAt": "2026-10-14T17:30:00+09:00",
+      "text": "子どもの寝る準備ができたと思ったら「お水」「もう一冊」「あのおもちゃ」😂\n\n寝る前だけ、お願いの在庫が急に増える🤣\n\n早く寝てほしい気持ちと、もう少し付き合いたい気持ちが行ったり来たり。\n一日の最後まで、予定どおりにはいかないね。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/14交流。寝かしつけ前のお願いを共感軸に。質問の連投を避け、リンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261014-2000",
+      "scheduledAt": "2026-10-14T20:00:00+09:00",
+      "text": "玄関の靴をしまったあと、今度はスリッパや傘の置き場所に迷わない？😂\n\n靴の棚に引き出しと傘立てもまとまったラックなら、玄関で使う物の定位置を作れそう👀\n\n幅73cmなので、置ける場所と通り道の余裕を測るのが先。\n家族の靴の量に合うかも確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "木製4段シューズラック 幅73cm",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qn718.8dcsqef1.g00qn718.8dcsr340/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnoco-m%2Fmc-mx010sb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnoco-m%2Fi%2F10007782%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/14最新products.jsonの実在候補。直近同一商品なし。衣類の細かな分類／玄関用品の定位置を具体化。本文リンク1枠を維持。木製ラックは高価格帯テスト。初回Viewsは保留し翌日・翌々日で比較。期限付きクーポン、ランキング、購入使用体験は記載しない。"
     }
   ]
 }
