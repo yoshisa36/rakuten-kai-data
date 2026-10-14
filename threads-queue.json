@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T21:27:47+09:00",
+  "updatedAt": "2026-10-14T21:32:11+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -646,6 +646,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qn718.8dcsqef1.g00qn718.8dcsr340/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnoco-m%2Fmc-mx010sb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnoco-m%2Fi%2F10007782%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/14最新products.jsonの実在候補。直近同一商品なし。衣類の細かな分類／玄関用品の定位置を具体化。本文リンク1枠を維持。木製ラックは高価格帯テスト。初回Viewsは保留し翌日・翌々日で比較。期限付きクーポン、ランキング、購入使用体験は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261015-1130",
+      "scheduledAt": "2026-10-15T11:30:00+09:00",
+      "text": "お風呂の壁の水滴、気になるけどタオルで全部拭くのは大変😂\n\n水切りワイパーなら、壁や鏡の水滴をまとめて落とす選択肢になりそう👀\n\nこのシリーズはサイズや収納方法を選べるのが気になる。\n使う場所の広さと、磁石で付けるか引っ掛けるかを確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower 水切りワイパー",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-5451%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10004347%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/15再検証。10/4水切りワイパーから11日空け、17:30本文リンクから11:30返信リンクへ変更。水滴除去と収納方法選びへ具体化。内容・時刻・リンク方式の交絡があり単独因果は判定しない。"
+    },
+    {
+      "reservationId": "KAI-20261015-1430",
+      "scheduledAt": "2026-10-15T14:30:00+09:00",
+      "text": "明日の子どもの服、用意したはずなのに朝また探してない？😂\n\n服を掛ける場所と4段の引き出しが一緒になったラックなら、上着と肌着の準備を一か所で考えられそう👀\n\n子どもが自分で届く高さかも大事。\n置き場所の寸法と、引き出しを開ける余裕を測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "収納付きキッズハンガーラック シーズユニット",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2Fcsiu-4h%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000821%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/15最新products.jsonの実在商品・URL。新規商品。朝の服準備／浴室掃除道具の置き場を検証。子どもラックは10/13同カテゴリの別商品で連続性あり、翌朝準備へ訴求変更。掃除ブラシは水切りとは対象と用途が異なるが浴室題材の重複あり。商品・時刻・リンク方式を分離できず確度低。初回0Viewsは保留し翌日・翌々日比較。期限付き割引・購入使用体験は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261015-1730",
+      "scheduledAt": "2026-10-15T17:30:00+09:00",
+      "text": "洗濯物を取り込んだだけで「今日の洗濯終わり！」って気分になる😂\n\nでもそこから、たたむ・分ける・しまうの3段階が残ってる🤣\n\n乾いた服が入ったカゴ、つい一時置き場になりがち。\n洗うところから片付けるところまで、家事って長い。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/15交流。洗濯の取り込み後に残る工程を共感軸に。問いかけ連投を避けリンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261015-2000",
+      "scheduledAt": "2026-10-15T20:00:00+09:00",
+      "text": "お風呂の床を洗ったあと、掃除道具をどこで乾かすかに迷う😂\n\n磁石で浮かせて収納できる浴室床用ブラシなら、床に置きっぱなしを減らせそう👀\n\n使う場所の近くに置き場を作れるのが気になる。\n浴室の壁に磁石が付くか、床材に使えるかを確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "アズマ工業 浴室床洗いブラシ smart779",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s2un8.8dcsq84f.g00s2un8.8dcsr1a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-plaza%2F10016233%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-plaza%2Fi%2F10016240%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/15最新products.jsonの実在商品・URL。新規商品。朝の服準備／浴室掃除道具の置き場を検証。子どもラックは10/13同カテゴリの別商品で連続性あり、翌朝準備へ訴求変更。掃除ブラシは水切りとは対象と用途が異なるが浴室題材の重複あり。商品・時刻・リンク方式を分離できず確度低。初回0Viewsは保留し翌日・翌々日比較。期限付き割引・購入使用体験は記載しない。"
     }
   ]
 }
