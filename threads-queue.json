@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T21:32:11+09:00",
+  "updatedAt": "2026-10-15T21:34:43+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -694,6 +694,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s2un8.8dcsq84f.g00s2un8.8dcsr1a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-plaza%2F10016233%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-plaza%2Fi%2F10016240%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/15最新products.jsonの実在商品・URL。新規商品。朝の服準備／浴室掃除道具の置き場を検証。子どもラックは10/13同カテゴリの別商品で連続性あり、翌朝準備へ訴求変更。掃除ブラシは水切りとは対象と用途が異なるが浴室題材の重複あり。商品・時刻・リンク方式を分離できず確度低。初回0Viewsは保留し翌日・翌々日比較。期限付き割引・購入使用体験は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261016-1130",
+      "scheduledAt": "2026-10-16T11:30:00+09:00",
+      "text": "毎日履く靴と、たまに履く靴。全部同じ靴箱だと、よく使う靴ほど玄関に出たままになりがち😂\n\nスリムな簡易ラックを普段使いの靴の定位置にするのも良さそう👀\n\nサイズを選べるから、家族の靴の数に合わせて考えたい。\n置ける幅と奥行き、靴が収まるかは先に確認🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "省スペース簡易シューズラック",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tpvl8.8dcsq8a9.g00tpvl8.8dcsr655/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fownlife%2Ftw000218-ss%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fownlife%2Fi%2F10000680%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/16再検証。10/8同商品13Views。8日空け、家族の靴全体から毎日履く靴の定位置へ切り口変更。11:30返信リンクは維持し、内容差を探索。"
+    },
+    {
+      "reservationId": "KAI-20261016-1430",
+      "scheduledAt": "2026-10-16T14:30:00+09:00",
+      "text": "収納ケースを並べたあとに、端っこだけ微妙な隙間が残ると惜しい😂\n\n幅17・34・51cmから選べる引き出しケースなら、空きスペースに合わせて組み合わせを考えられそう👀\n\n細かい物と衣類で幅を分けるのも気になる。\n奥行きと引き出す余裕も測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "プラストベーシック 引き出し収納ケース",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1hl8.8dcsq348.g00r1hl8.8dcsreb7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivewell%2Fst_ptb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivewell%2Fi%2F10002778%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/16新規商品。最新products.jsonの実在商品・URL。収納の端の余白を幅の選択で使う訴求。直近の衣類収納カテゴリ継続あり。価格・期限付き特典・購入使用体験は記載しない。Viewsは翌日・翌々日比較。商品・時刻・リンク方式の交絡があり確度低。"
+    },
+    {
+      "reservationId": "KAI-20261016-1730",
+      "scheduledAt": "2026-10-16T17:30:00+09:00",
+      "text": "冷蔵庫に何かあるはずなのに、夕飯の献立だけ思いつかない😂\n\n材料がない日より、中途半端にいろいろ残ってる日の方が悩むことある🤣\n\nとりあえず野菜室を開けて、閉めて、もう一回開ける。\n献立を決めるところまで、誰か代わってほしい日。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/16交流。夕食の献立決めを共感軸に。問いかけ連投を避けリンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261016-2000",
+      "scheduledAt": "2026-10-16T20:00:00+09:00",
+      "text": "ペットボトルや空き缶、回収日までの置き場所が地味に困る😂\n\n袋を床に並べず、縦に分けて置けるボックスならキッチンの一角にまとめられそう👀\n\n前開きだから、上に重ねたまま出し入れできるのも気になる。\n回収日までにたまる量と、置ける寸法に合う段数を選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "KEYUCA rectie 分別ボックス",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3300305%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10021051%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/16再検証。10/8同商品4Views・いいね1。8日空け、分別一般から回収日までの仮置きへ具体化。14:30本文リンクから20:00ROOMへ変更。時刻・内容も変わるためリンク方式の単独因果は判定しない。"
     }
   ]
 }
