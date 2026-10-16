@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-14T23:57:14.495Z",
+  "updatedAt": "2026-10-16T23:57:10.327Z",
   "count": 59,
   "products": [
     {
@@ -213,17 +213,17 @@
       "selectionReason": "67点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-07T23:57:09.456Z",
-      "selectedDate": "2026-10-07T15:00:00.000Z",
-      "rank": 1,
+      "selectedAt": "2026-10-16T23:57:08.664Z",
+      "selectedDate": "2026-10-16T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 82,
       "judgment": "採用候補",
-      "productName": "【枚数最大15％OFF】 高品質 シューズラック 靴箱 靴 収納 靴棚 シューズラック スリム 省 スペース 大容量 コンパクト 伸縮 折りたたみ 靴 ラック 収納 棚 おしゃれ シューズ収納 シューズラック 完成品 竹製 木製 8段 7段 6段 5段 4段 2段",
+      "productName": "【限定最大15%OFF 楽天1位】 高品質 シューズラック 靴箱 靴 収納 靴棚 シューズラック スリム 省 スペース 大容量 コンパクト 伸縮 折りたたみ 靴 ラック 収納 棚 おしゃれ シューズ収納 シューズラック 完成品 竹製 木製 8段 7段 6段 5段 4段 2段",
       "price": 1400,
       "shop": "7Life",
-      "reviewCount": 545,
+      "reviewCount": 547,
       "reviewAverage": 4.5,
       "priceScore": 20,
       "reviewScore": 13,
@@ -239,17 +239,17 @@
       "selectionReason": "82点 / 採用候補 / 省スペース 収納 × 靴収納"
     },
     {
-      "selectedAt": "2026-10-06T23:57:16.395Z",
-      "selectedDate": "2026-10-06T15:00:00.000Z",
+      "selectedAt": "2026-10-16T23:57:08.664Z",
+      "selectedDate": "2026-10-16T15:00:00.000Z",
       "rank": 3,
       "searchTheme": "洗面所収納",
       "productType": "チェスト・引き出し",
       "totalScore": 72,
       "judgment": "採用候補",
-      "productName": "【P10倍 10/9 9:59迄】 隙間収納 18cm 引出し 4段/3段 段差をまたげる専用脚 隙間ストッカー 中が透けない隙間ストッカー スリムストッカー すきま すき間 ラック 防水パン 洗面所収納 洗濯機横 収納 ランドリー収納 日本製 【送料無料】",
+      "productName": "隙間収納 18cm 引出し 4段/3段 段差をまたげる専用脚 隙間ストッカー 中が透けない隙間ストッカー スリムストッカー すきま すき間 ラック 防水パン 洗面所収納 洗濯機横 収納 ランドリー収納 日本製 【送料無料】",
       "price": 3999,
       "shop": "くらしのeショップ",
-      "reviewCount": 597,
+      "reviewCount": 603,
       "reviewAverage": 4.56,
       "priceScore": 12,
       "reviewScore": 13,
@@ -265,10 +265,10 @@
       "selectionReason": "72点 / 採用候補 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-06T23:57:16.395Z",
-      "selectedDate": "2026-10-06T15:00:00.000Z",
-      "rank": 4,
-      "searchTheme": "おもちゃ 収納",
+      "selectedAt": "2026-10-16T23:57:08.664Z",
+      "selectedDate": "2026-10-16T15:00:00.000Z",
+      "rank": 5,
+      "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 69,
       "judgment": "様子見",
@@ -287,8 +287,8 @@
       "itemCode": "sumica:10000879",
       "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r7058.8dcsqcbb.g00r7058.8dcsrf74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsumica%2Fvg-pieni%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsumica%2Fi%2F10000879%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r7058.8dcsqcbb.g00r7058.8dcsrf74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsumica%2Fvg-pieni%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsumica%2Fi%2F10000879%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
-      "testAxis": "おもちゃ 収納 × 子供専用収納",
-      "selectionReason": "69点 / 様子見 / おもちゃ 収納 × 子供専用収納"
+      "testAxis": "子供 収納 × 子供専用収納",
+      "selectionReason": "69点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
       "selectedAt": "2026-09-29T08:27:46.275Z",
@@ -733,8 +733,8 @@
       "selectionReason": "74点 / 採用候補 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-10-03T23:57:04.560Z",
-      "selectedDate": "2026-10-03T15:00:00.000Z",
+      "selectedAt": "2026-10-16T23:57:08.664Z",
+      "selectedDate": "2026-10-16T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "洗濯 便利グッズ",
       "productType": "洗濯用品",
@@ -1045,17 +1045,17 @@
       "selectionReason": "72点 / 採用候補 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-05T23:57:09.478Z",
-      "selectedDate": "2026-10-05T15:00:00.000Z",
-      "rank": 3,
-      "searchTheme": "おもちゃ 収納",
+      "selectedAt": "2026-10-16T23:57:08.664Z",
+      "selectedDate": "2026-10-16T15:00:00.000Z",
+      "rank": 4,
+      "searchTheme": "お風呂 収納",
       "productType": "ラック・棚",
       "totalScore": 71,
       "judgment": "採用候補",
       "productName": "tower《 山崎実業 マグネットバスルームコーナーおもちゃラック タワー 》壁付けマグネット収納 整理棚 バスラック コーナーラック 角 ウォールラック おもちゃバスケット おもちゃ入れ おもちゃかご 小物入れ お片付け 磁石 お風呂場 浴室 4264 4265 公式 白 黒 YAMAZAKI",
       "price": 2530,
       "shop": "BATH ROOM バスルーム",
-      "reviewCount": 3665,
+      "reviewCount": 3667,
       "reviewAverage": 4.78,
       "priceScore": 16,
       "reviewScore": 15,
@@ -1067,8 +1067,8 @@
       "itemCode": "bathroom:10002859",
       "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-4264%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10002859%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-4264%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10002859%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
-      "testAxis": "おもちゃ 収納 × ラック・棚",
-      "selectionReason": "71点 / 採用候補 / おもちゃ 収納 × ラック・棚"
+      "testAxis": "お風呂 収納 × ラック・棚",
+      "selectionReason": "71点 / 採用候補 / お風呂 収納 × ラック・棚"
     },
     {
       "selectedAt": "2026-10-05T23:57:09.478Z",
