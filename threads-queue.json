@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T21:34:43+09:00",
+  "updatedAt": "2026-10-16T21:32:27+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -742,6 +742,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3300305%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10021051%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/16再検証。10/8同商品4Views・いいね1。8日空け、分別一般から回収日までの仮置きへ具体化。14:30本文リンクから20:00ROOMへ変更。時刻・内容も変わるためリンク方式の単独因果は判定しない。"
+    },
+    {
+      "reservationId": "KAI-20261017-1130",
+      "scheduledAt": "2026-10-17T11:30:00+09:00",
+      "text": "クローゼットの上は服でいっぱいなのに、下の空間だけ余ってる😂\n\n低めのパンツラックなら、その空間をズボンの置き場所にできそう👀\n\nキャスター付きだから、奥の物を出す時に動かせるのも気になる。\n掛けた服が床に付かない高さと、扉を閉められる奥行きまで測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "キャスター付きパンツラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2F3s-320043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000724%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "approvalStatus": "approved",
+      "memo": "10/17再検証。10/6以来11日空け、ズボンの山崩れからクローゼット下部の余白へ訴求変更。14:30本文リンクから11:30返信リンクへ。時刻・内容も変わり単独因果は判定しない。"
+    },
+    {
+      "reservationId": "KAI-20261017-1430",
+      "scheduledAt": "2026-10-17T14:30:00+09:00",
+      "text": "ぬいぐるみ、箱に入れると下の子たちが見えなくなる😂\n\nハンモック型の吊り下げ収納なら、お気に入りを見える場所にまとめられそう👀\n\n床の置き場所を増やさず考えられるのも気になる。\n取り付け方法と耐荷重、子どもの動線に干渉しない場所かを確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "吊り下げ収納 ルームモック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q7288.8dcsqe27.g00q7288.8dcsr694/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F294996%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivingut%2Fi%2F10101403%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "memo": "10/17。selection-history.jsonの実在未使用候補ルームモック。products.jsonが10/15朝から未更新のため、当日3商品の連投回避に履歴を活用。購入使用体験・価格・期限付き特典は記載しない。"
+    },
+    {
+      "reservationId": "KAI-20261017-1730",
+      "scheduledAt": "2026-10-17T17:30:00+09:00",
+      "text": "週末の朝ごはん、平日より時間があるはずなのに何を出すか迷う😂\n\nパンにするか、ごはんにするか。\n考えてるうちに子どもの「おなかすいた」が始まる🤣\n\n凝ったものじゃなくても、みんなが食べてくれたら今日はそれでよし。\n朝から献立会議は省略したい。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "10/17交流。週末朝食の献立決めを共感軸に。10/16夕食と近接テーマだが朝食へ場面変更。リンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261017-2000",
+      "scheduledAt": "2026-10-17T20:00:00+09:00",
+      "text": "お風呂のボトル、家族で使う物が違うと置き場所がどんどん埋まる😂\n\nバーに掛けるステンレスのバスケットなら、いつもの棚とは別に収納場所を作れそう👀\n\n壁に磁石が付かない浴室で考えたい方法の一つ。\nバーの形や耐荷重、ボトルが収まるサイズかを確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "燕三条 ステンレス引っ掛けおもちゃバスケット",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fbws23apr19h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015521%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "ROOM誘導",
+      "approvalStatus": "approved",
+      "memo": "10/17再検証。10/9以来8日空け、おもちゃから家族別ボトルの置き場所へ訴求変更。10/13別店の近接カテゴリ投稿あり。20:00ROOM維持。候補データは10/15更新、当日の在庫・価格は未確認。初回Viewsは保留し翌日・翌々日比較、確度低。"
     }
   ]
 }
