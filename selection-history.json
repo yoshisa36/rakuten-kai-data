@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-16T23:57:10.327Z",
+  "updatedAt": "2026-10-17T23:57:17.435Z",
   "count": 59,
   "products": [
     {
@@ -135,14 +135,14 @@
       "selectionReason": "66点 / 様子見 / 洗面所収納 × ランドリー用品"
     },
     {
-      "selectedAt": "2026-10-08T23:57:10.713Z",
-      "selectedDate": "2026-10-08T15:00:00.000Z",
-      "rank": 2,
+      "selectedAt": "2026-10-17T23:57:15.728Z",
+      "selectedDate": "2026-10-17T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 78,
       "judgment": "採用候補",
-      "productName": "【ポイント20倍 10/4(日)20:00〜10/10(土)23:59まで】 くつホルダー 6足分 | コンパクト 靴 収納 隙間収納 玄関 スリム シューズホルダー 靴箱 省スペース くつ シューズ 靴収納 靴ホルダー スニーカー シューズスタンド 収納スタンド 収納グッズ 下駄箱収納 ホルダー",
+      "productName": "【ポイント20倍 10/14(水)20:00〜10/18(日)23:59まで】 くつホルダー 6足分 | コンパクト 靴 収納 隙間収納 玄関 スリム シューズホルダー 靴箱 省スペース くつ シューズ 靴収納 靴ホルダー スニーカー シューズスタンド 収納スタンド 収納グッズ 下駄箱収納 ホルダー",
       "price": 2350,
       "shop": "【ロイヤル通販】",
       "reviewCount": 355,
@@ -603,8 +603,8 @@
       "selectionReason": "56点 / 様子見 / キッチン収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-10T23:57:08.528Z",
-      "selectedDate": "2026-10-10T15:00:00.000Z",
+      "selectedAt": "2026-10-17T23:57:15.728Z",
+      "selectedDate": "2026-10-17T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "洗濯 便利グッズ",
       "productType": "洗濯用品",
@@ -613,8 +613,8 @@
       "productName": "ピンチハンガー トラベル 携帯用 2個セット 旅行 便利グッズ 旅行 洗濯 物干し 洗濯バサミ 折りたたみ 洗濯ハンガー 小物干し コンパクト 軽量 収納ポーチ付 部屋干し 靴下 下着 タオル 出張 ホテル 入院 一人暮らし 車中泊 キャンプ 洗濯グッズ 4色 ポスト投函",
       "price": 1398,
       "shop": "ダッシュビー楽天市場店",
-      "reviewCount": 142,
-      "reviewAverage": 4.72,
+      "reviewCount": 144,
+      "reviewAverage": 4.71,
       "priceScore": 20,
       "reviewScore": 15,
       "reviewCountScore": 8,
@@ -629,18 +629,18 @@
       "selectionReason": "84点 / 採用候補 / 洗濯 便利グッズ × 洗濯用品"
     },
     {
-      "selectedAt": "2026-10-10T23:57:08.528Z",
-      "selectedDate": "2026-10-10T15:00:00.000Z",
+      "selectedAt": "2026-10-17T23:57:15.728Z",
+      "selectedDate": "2026-10-17T15:00:00.000Z",
       "rank": 2,
       "searchTheme": "キッチン 便利グッズ",
       "productType": "その他",
       "totalScore": 81,
       "judgment": "採用候補",
       "productName": "【楽天1位★P5倍 生活の便利グッズ！】三角コーナー 浮かせる 本体 三角コーナー いらず 強力吸盤 ステンレス製 水切りネットホルダー 対応 生ごみスタンド 折りたたみ ネット 50枚付き 省スペース キッチンドレイン キッチン雑貨 水槽対応 生ゴミホルダー 生ゴミ処理",
-      "price": 1280,
+      "price": 1380,
       "shop": "Taigu 楽天市場店",
-      "reviewCount": 1065,
-      "reviewAverage": 4.55,
+      "reviewCount": 1068,
+      "reviewAverage": 4.56,
       "priceScore": 20,
       "reviewScore": 13,
       "reviewCountScore": 10,
@@ -655,9 +655,9 @@
       "selectionReason": "81点 / 採用候補 / キッチン 便利グッズ × その他"
     },
     {
-      "selectedAt": "2026-10-10T23:57:08.528Z",
-      "selectedDate": "2026-10-10T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-10-17T23:57:15.728Z",
+      "selectedDate": "2026-10-17T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "子供 食事 便利グッズ",
       "productType": "子育て用品",
       "totalScore": 76,
@@ -681,9 +681,9 @@
       "selectionReason": "76点 / 採用候補 / 子供 食事 便利グッズ × 子育て用品"
     },
     {
-      "selectedAt": "2026-10-10T23:57:08.528Z",
-      "selectedDate": "2026-10-10T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-10-17T23:57:15.728Z",
+      "selectedDate": "2026-10-17T15:00:00.000Z",
+      "rank": 5,
       "searchTheme": "デッドスペース 収納",
       "productType": "子供専用収納",
       "totalScore": 75,
