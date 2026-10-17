@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T21:32:27+09:00",
+  "updatedAt": "2026-10-17T21:33:54+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -790,6 +790,54 @@
       "linkType": "ROOM誘導",
       "approvalStatus": "approved",
       "memo": "10/17再検証。10/9以来8日空け、おもちゃから家族別ボトルの置き場所へ訴求変更。10/13別店の近接カテゴリ投稿あり。20:00ROOM維持。候補データは10/15更新、当日の在庫・価格は未確認。初回Viewsは保留し翌日・翌々日比較、確度低。"
+    },
+    {
+      "reservationId": "KAI-20261018-1130",
+      "scheduledAt": "2026-10-18T11:30:00+09:00",
+      "text": "シーツを洗いたい日、ほかの洗濯物を干す場所まで足りるか先に考えちゃう😂\n\nぐるぐる掛けるスパイラル型ハンガーなら、大きな布の横幅を抑えて干す方法になりそう👀\n\n折りたためるのも気になる。\nシーツのサイズと重さ、掛ける場所の高さや耐荷重を確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "シーツハンガー スパイラルハンガー",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rt7q8.8dcsqb41.g00rt7q8.8dcsrb8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakara-jiang%2Fsp-hanger03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakara-jiang%2Fi%2F10033956%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/18再検証。10/4以来14日空け、他の洗濯物との干し場所両立へ具体化。14:30返信リンクから11:30返信リンクに変更。"
+    },
+    {
+      "reservationId": "KAI-20261018-1430",
+      "scheduledAt": "2026-10-18T14:30:00+09:00",
+      "text": "靴の収納、今は足りても子どもの靴が増えたらまた見直しになる😂\n\n段数を選べる竹製のシューズラックなら、今の靴の量に合わせて考えられそう👀\n\n折りたたみ式なのも気になる。\n置ける幅・奥行きと、家族の靴が棚に収まるかを測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "竹製 折りたたみシューズラック",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tkj68.8dcsqf4d.g00tkj68.8dcsrd27/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsevenlife-hoshioka%2Fzakka-045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsevenlife-hoshioka%2Fi%2F10000597%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/18最新products.jsonの新規商品。直近10/16靴収納と同カテゴリだが別商品、段数選びと竹製折りたたみへ訴求。価格・期限付き販促・購入使用体験なし。10/17ROOM1000人報告1277Viewsに伴い複数方式の過去投稿も伸長。回遊・配信変動・集計時点が交絡、直リンク原因説確度低。翌日・翌々日比較。"
+    },
+    {
+      "reservationId": "KAI-20261018-1730",
+      "scheduledAt": "2026-10-18T17:30:00+09:00",
+      "text": "日曜日の夜、明日の持ち物を確認してから「あ、これ洗うんだった」って気づく😂\n\n週末って時間がありそうで、終わるのはあっという間🤣\n\n全部完璧に整ってなくても、とりあえず明日の服があれば一歩前進。\n月曜の朝の自分が少し助かる準備だけしておこう。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/18交流。日曜夜の翌日準備を共感軸に。リンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261018-2000",
+      "scheduledAt": "2026-10-18T20:00:00+09:00",
+      "text": "洗濯機横の隙間、幅は使えそうなのに防水パンの段差が悩ましい😂\n\n幅18cmのストッカーに段差をまたぐ専用脚を組み合わせる方法があるなら、候補に入れたい👀\n\n脚の付属有無や対応サイズは購入前に確認。\n隙間の幅だけでなく、段差の高さと引き出す余裕まで測って選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "幅18cm 隙間ストッカー",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqs102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10016213%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/18再検証。10/8以来10日空け、幅18cm一般から防水パンの段差と専用脚の対応確認へ具体化。20:00ROOM維持。"
     }
   ]
 }
