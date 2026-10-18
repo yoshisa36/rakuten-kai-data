@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-17T23:57:17.435Z",
+  "updatedAt": "2026-10-18T23:57:09.258Z",
   "count": 59,
   "products": [
     {
@@ -83,17 +83,17 @@
       "selectionReason": "71点 / 採用候補 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-07T23:57:09.456Z",
-      "selectedDate": "2026-10-07T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-10-18T23:57:07.819Z",
+      "selectedDate": "2026-10-18T15:00:00.000Z",
+      "rank": 5,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 68,
       "judgment": "様子見",
-      "productName": "[お買い物マラソン! 10/4 20:00-10/9 1:59] ハンガーラック 子供 キッズ ランドセルラック 収納 おもちゃ ラック 引き出し キャスター スリム ハンガー おしゃれ かわいい ワードローブ 子供服 棚 ペット服 衣装ケース コンパクト 省スペース",
+      "productName": "ハンガーラック 子供 キッズ ランドセルラック 収納 おもちゃ ラック 引き出し キャスター スリム ハンガー おしゃれ かわいい ワードローブ 子供服 棚 ペット服 衣装ケース コンパクト 省スペース",
       "price": 7990,
       "shop": "LOWYA(ロウヤ)楽天市場店",
-      "reviewCount": 927,
+      "reviewCount": 928,
       "reviewAverage": 4.15,
       "priceScore": 7,
       "reviewScore": 8,
@@ -317,9 +317,9 @@
       "selectionReason": "56点 / 様子見 / 子供 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-10-09T23:57:06.565Z",
-      "selectedDate": "2026-10-09T15:00:00.000Z",
-      "rank": 1,
+      "selectedAt": "2026-10-18T23:57:07.819Z",
+      "selectedDate": "2026-10-18T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 70,
@@ -327,7 +327,7 @@
       "productName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
       "price": 2640,
       "shop": "プラスチックの店キララ",
-      "reviewCount": 2839,
+      "reviewCount": 2840,
       "reviewAverage": 4.68,
       "priceScore": 16,
       "reviewScore": 13,
@@ -707,9 +707,9 @@
       "selectionReason": "75点 / 採用候補 / デッドスペース 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-10T23:57:08.528Z",
-      "selectedDate": "2026-10-10T15:00:00.000Z",
-      "rank": 5,
+      "selectedAt": "2026-10-18T23:57:07.819Z",
+      "selectedDate": "2026-10-18T15:00:00.000Z",
+      "rank": 1,
       "searchTheme": "掃除 便利グッズ",
       "productType": "掃除用品",
       "totalScore": 74,
@@ -811,9 +811,9 @@
       "selectionReason": "73点 / 採用候補 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-10-11T23:57:06.280Z",
-      "selectedDate": "2026-10-11T15:00:00.000Z",
-      "rank": 1,
+      "selectedAt": "2026-10-18T23:57:07.819Z",
+      "selectedDate": "2026-10-18T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "クローゼット 収納",
       "productType": "チェスト・引き出し",
       "totalScore": 73,
@@ -821,8 +821,8 @@
       "productName": "【50%オフクーポン】即納 収納ボックス 収納ケース チェスト 折りたたみ 収納 ふた付き キャスター付き 5面開き 前開き 27L 40L 53L 82L 屋外 おしゃれ プラスチック 衣装ケース コンテナ ボックス 衣類 布団",
       "price": 2580,
       "shop": "フリーライフ",
-      "reviewCount": 4334,
-      "reviewAverage": 4.56,
+      "reviewCount": 4417,
+      "reviewAverage": 4.57,
       "priceScore": 16,
       "reviewScore": 13,
       "reviewCountScore": 10,
@@ -837,9 +837,9 @@
       "selectionReason": "73点 / 様子見 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-11T23:57:06.280Z",
-      "selectedDate": "2026-10-11T15:00:00.000Z",
-      "rank": 2,
+      "selectedAt": "2026-10-18T23:57:07.819Z",
+      "selectedDate": "2026-10-18T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "お風呂 収納",
       "productType": "ラック・棚",
       "totalScore": 72,
@@ -847,7 +847,7 @@
       "productName": "tower《 山崎実業 マグネットバスルームバスケット タワー 》お風呂収納 浴室収納 お風呂バスケット ディスペンサーラック バスラック バスルームラック かご 浮かせる おもちゃバスケット 子供 お片付け シャンプーボトル 掃除道具 おしゃれ スチール 公式 白 黒 5542 5543",
       "price": 4510,
       "shop": "BATH ROOM バスルーム",
-      "reviewCount": 6753,
+      "reviewCount": 6756,
       "reviewAverage": 4.76,
       "priceScore": 12,
       "reviewScore": 15,
