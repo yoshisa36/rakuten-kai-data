@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T21:33:54+09:00",
+  "updatedAt": "2026-10-18T21:26:40+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -838,6 +838,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqs102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10016213%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/18再検証。10/8以来10日空け、幅18cm一般から防水パンの段差と専用脚の対応確認へ具体化。20:00ROOM維持。"
+    },
+    {
+      "reservationId": "KAI-20261019-1130",
+      "scheduledAt": "2026-10-19T11:30:00+09:00",
+      "text": "大きな洗濯物を干したあと、靴下だけ掛ける場所が足りない😂\n\n小さなピンチハンガーを別に用意する方法も気になる👀\n\n折りたたみ式の2個セットなら、使わない時の置き場所も考えやすそう。\n掛ける場所の形と、干したい物の重さに合うか確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "携帯用ピンチハンガー 2個セット",
+      "linkType": "返信リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ufg88.8dcsqe9e.g00ufg88.8dcsr970/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhphvnmkt%2F20241106sentakubasami%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhphvnmkt%2Fi%2F10000501%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/19再検証。10/12以来7日空け同じ時刻・リンク方式を維持。携帯ハンガーは少量洗濯から大物干し後の靴下へ、ネットホルダーは底洗いから調理中のくずの置き場へ、お食事マットは床掃除から自分で食べる見守りへ切り口変更。靴収納連投と10/17ルームモック再投稿を回避。10/17商品は各方式で翌日増加、報告投稿からの回遊・配信量・集計時点が交絡し確度低。翌日・翌々日比較。最新products.jsonの実在商品・URL、購入使用体験・期限付き販促なし。"
+    },
+    {
+      "reservationId": "KAI-20261019-1430",
+      "scheduledAt": "2026-10-19T14:30:00+09:00",
+      "text": "料理中に出る野菜くず、シンクの中で一か所にまとめたい😂\n\n吸盤で付けるネットホルダーなら、必要な場所に生ごみの置き場を作れそう👀\n\n折りたためるタイプなのも気になる。\nシンクの取り付け面に吸盤が付くか、使うネットのサイズが合うか確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "吸盤式 水切りネットホルダー",
+      "linkType": "本文リンク",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u8568.8dcsq351.g00u8568.8dcsrc4b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaigu188%2Fshort_sieve%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaigu188%2Fi%2F10000816%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/19再検証。10/12以来7日空け同じ時刻・リンク方式を維持。携帯ハンガーは少量洗濯から大物干し後の靴下へ、ネットホルダーは底洗いから調理中のくずの置き場へ、お食事マットは床掃除から自分で食べる見守りへ切り口変更。靴収納連投と10/17ルームモック再投稿を回避。10/17商品は各方式で翌日増加、報告投稿からの回遊・配信量・集計時点が交絡し確度低。翌日・翌々日比較。最新products.jsonの実在商品・URL、購入使用体験・期限付き販促なし。"
+    },
+    {
+      "reservationId": "KAI-20261019-1730",
+      "scheduledAt": "2026-10-19T17:30:00+09:00",
+      "text": "月曜日、朝の支度を終えて送り出しただけで一日分働いた気分😂\n\n着替え、朝ごはん、持ち物、靴。\n一つ進んだと思ったら、別のところで止まる🤣\n\n出発できたらまず一区切り。\n週の始まりから完璧を目指さず、今日も一つずつでいこう。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved",
+      "memo": "10/19交流。月曜朝の支度を共感軸に。リンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261019-2000",
+      "scheduledAt": "2026-10-19T20:00:00+09:00",
+      "text": "子どもが自分で食べたい時、見守りたいけど食後の片付けも頭をよぎる😂\n\n手前に受け皿ポケットが付いたシリコンマットなら、食べこぼしを受け止める助けになりそう👀\n\n全部は防げなくても、片付けの工夫を増やしたい。\nテーブルと椅子の位置に合うサイズか確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "ポケット付き シリコンお食事マット",
+      "linkType": "ROOM誘導",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tric8.8dcsq8b1.g00tric8.8dcsr80d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcareland%2Fbp-lmat%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcareland%2Fi%2F10000234%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "approvalStatus": "approved",
+      "memo": "10/19再検証。10/12以来7日空け同じ時刻・リンク方式を維持。携帯ハンガーは少量洗濯から大物干し後の靴下へ、ネットホルダーは底洗いから調理中のくずの置き場へ、お食事マットは床掃除から自分で食べる見守りへ切り口変更。靴収納連投と10/17ルームモック再投稿を回避。10/17商品は各方式で翌日増加、報告投稿からの回遊・配信量・集計時点が交絡し確度低。翌日・翌々日比較。最新products.jsonの実在商品・URL、購入使用体験・期限付き販促なし。"
     }
   ]
 }
