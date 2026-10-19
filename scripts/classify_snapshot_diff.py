@@ -31,6 +31,7 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
         return {"classification": "UNKNOWN", "reason": "missing_results"}
     paths = set()
     statuses = []
+    queue_id_drift = False
     for item in results:
         if not isinstance(item, dict) or not isinstance(item.get("path"), str):
             return {"classification": "UNKNOWN", "reason": "invalid_result"}
@@ -42,6 +43,11 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
         if status not in ("match", "mismatch", "invalid"):
             return {"classification": "UNKNOWN", "reason": "invalid_result_status"}
         statuses.append(status)
+        if not (isinstance(item.get("source"), dict)
+                and isinstance(item.get("destination"), dict)
+                and item["source"].get("json_valid") is True
+                and item["destination"].get("json_valid") is True):
+            return {"classification": "UNKNOWN", "reason": "invalid_json_metadata"}
         if status == "match":
             if not all(item.get(key) is True for key in
                        ("sha256_equal", "size_equal", "json_structure_equal")):
@@ -68,12 +74,14 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
             if queue.get("ids_equal") is False and status == "match":
                 return {"classification": "UNKNOWN", "reason": "inconsistent_queue_match"}
             if queue.get("ids_equal") is False and current_source_commit == snapshot_source_commit:
-                return {"classification": "ALERT", "reason": "same_commit_queue_ids_differ"}
+                queue_id_drift = True
     if paths != EXPECTED_PATHS:
         return {"classification": "UNKNOWN", "reason": "incomplete_or_unexpected_paths"}
     if "invalid" in statuses:
         return {"classification": "UNKNOWN", "reason": "invalid_or_unavailable_data"}
     same_commit = current_source_commit == snapshot_source_commit
+    if queue_id_drift and same_commit:
+        return {"classification": "ALERT", "reason": "same_commit_queue_ids_differ"}
     if same_commit:
         if all(status == "match" for status in statuses):
             return {"classification": "MATCH", "reason": "same_commit_identical"}
