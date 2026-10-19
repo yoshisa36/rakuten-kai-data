@@ -140,6 +140,55 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_valid_manifest_same_commit_match(self):
+        """Real plan validation, real JSON parser, and final MATCH decision."""
+        import json
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": len(source[p]),
+                       "sha256": collector._hash(source[p])} for p in copy.PATHS],
+        }
+        approval = collector._hash(copy.canonical(plan))
+        manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest, b"readme"]):
+            result = collector.collect(Backend())
+        self.assertEqual({"classification": "MATCH",
+                          "reason": "baseline_intact_content_equal"}, result)
+
+    def test_valid_manifest_corrupted_destination_alert(self):
+        """A valid manifest cannot hide a changed private baseline."""
+        import json
+        source = {p: b"{}" for p in copy.PATHS}
+        destination = dict(source)
+        destination[copy.PATHS[0]] = b'{"tampered":true}'
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": len(source[p]),
+                       "sha256": collector._hash(source[p])} for p in copy.PATHS],
+        }
+        approval = collector._hash(copy.canonical(plan))
+        manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest, b"readme"]):
+            result = collector.collect(Backend())
+        self.assertEqual("ALERT", result["classification"])
+
     def test_ancestry_same_without_network(self):
         backend = Backend()
         self.assertEqual("same", collector.ancestry(
