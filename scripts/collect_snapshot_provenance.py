@@ -55,7 +55,8 @@ def ancestry(api, baseline, head, max_commits=256):
     Missing, malformed, cyclic, or overly deep history is unknown, never
     interpreted as a proven forward update.
     """
-    if not copy.is_sha(baseline) or not copy.is_sha(head):
+    if (type(max_commits) is not int or not 1 <= max_commits <= 4096
+            or not copy.is_sha(baseline) or not copy.is_sha(head)):
         raise copy.Stop("invalid_ancestry_commit")
     if head == baseline:
         return "same"
@@ -73,8 +74,13 @@ def ancestry(api, baseline, head, max_commits=256):
         obj = copy.validate_commit(
             api.request(copy.SOURCE, "GET", "/git/commits/" + current),
             expected=current)
-        parents = [copy.required_sha(p) for p in copy.required(obj, "parents", list)]
+        raw_parents = copy.required(obj, "parents", list)
+        if len(raw_parents) > 16:
+            return "unknown"
+        parents = [copy.required_sha(p) for p in raw_parents]
         pending.extend(p for p in parents if p not in visited)
+        if len(pending) > max_commits * 16:
+            return "unknown"
     return "unknown"
 
 
