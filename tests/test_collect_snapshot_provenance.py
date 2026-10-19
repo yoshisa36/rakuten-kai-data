@@ -89,7 +89,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
              patch.object(copy, "manifest", return_value=b"manifest"), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + ("approved" if "plan_sha256" not in locals() else collector._hash(copy.canonical(plan)))}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
 
@@ -111,7 +111,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
              patch.object(copy, "manifest", return_value=b"manifest"), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + ("approved" if "plan_sha256" not in locals() else collector._hash(copy.canonical(plan)))}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -169,7 +169,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + ("approved" if "plan_sha256" not in locals() else collector._hash(copy.canonical(plan)))}):
             result = collector.collect(Backend())
         self.assertEqual({"classification": "MATCH",
                           "reason": "baseline_intact_content_equal"}, result)
@@ -197,7 +197,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + ("approved" if "plan_sha256" not in locals() else collector._hash(copy.canonical(plan)))}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
 
@@ -246,7 +246,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest]), \
              patch.object(copy, "validate_commit", return_value={
-                 "parents": [{"sha": "a" * 40}, {"sha": "b" * 40}]}):
+                 "parents": [{"sha": "a" * 40}, {"sha": "b" * 40}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -272,7 +272,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(copy, "blob", side_effect=[manifest, b"different"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
              patch.object(copy, "validate_commit", return_value={
-                 "parents": [{"sha": "a" * 40}]}):
+                 "parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -296,6 +296,28 @@ class CollectorTests(unittest.TestCase):
         with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[changed]):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
+    def test_snapshot_commit_message_mismatch_unknown(self):
+        """The copied commit message must bind to the approved plan hash."""
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", return_value=copy.manifest(plan)), \
+             patch.object(copy, "validate_commit", return_value={
+                 "parents": [{"sha": "a" * 40}], "message": "incorrect message"}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
