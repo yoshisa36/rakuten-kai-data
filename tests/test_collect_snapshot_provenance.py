@@ -71,6 +71,42 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(backend)
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_pinned_baseline_mismatch_alert(self):
+        source = {p: b"{}" for p in copy.PATHS}
+        destination = dict(source)
+        destination[copy.PATHS[0]] = b'{"changed":true}'
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {"source_commit": collector.BASELINE_SOURCE,
+                "readme_sha256": collector._hash(b"readme"),
+                "files": [{"path": p, "size": len(source[p]),
+                           "sha256": collector._hash(source[p])} for p in copy.PATHS]}
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
+             patch.object(copy, "blob", side_effect=[b"manifest", b"readme"]), \
+             patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
+             patch.object(copy, "validate_plan", return_value=None):
+            result = collector.collect(Backend())
+        self.assertEqual("ALERT", result["classification"])
+
+    def test_head_change_suppresses_alert(self):
+        source = {p: b"{}" for p in copy.PATHS}
+        destination = dict(source)
+        destination[copy.PATHS[0]] = b'{"changed":true}'
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {"source_commit": collector.BASELINE_SOURCE,
+                "readme_sha256": collector._hash(b"readme"),
+                "files": [{"path": p, "size": len(source[p]),
+                           "sha256": collector._hash(source[p])} for p in copy.PATHS]}
+        with patch.object(copy, "head", side_effect=[collector.BASELINE_SOURCE, "f" * 40]), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
+             patch.object(copy, "blob", side_effect=[b"manifest", b"readme"]), \
+             patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
+             patch.object(copy, "validate_plan", return_value=None):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
     def test_invalid_commit_no_backend_calls(self):
         backend = Backend()
         result = collector.collect(backend, source_commit="main")
