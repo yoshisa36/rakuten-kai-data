@@ -90,8 +90,9 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             destination_commit=BASELINE_DESTINATION):
     """Return metadata-only classification; do not disclose private contents."""
     try:
-        if not copy.is_sha(source_commit) or not copy.is_sha(destination_commit):
-            raise copy.Stop("invalid_pinned_commit")
+        if (source_commit != BASELINE_SOURCE
+                or destination_commit != BASELINE_DESTINATION):
+            raise copy.Stop("unapproved_baseline_commit")
         api = ReadOnly(backend)
         before = copy.head(api, copy.SOURCE)
         source, _ = _files(api, copy.SOURCE, source_commit)
