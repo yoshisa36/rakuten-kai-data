@@ -49,6 +49,35 @@ def _files(api, repo, commit):
     return result, entries
 
 
+def ancestry(api, baseline, head, max_commits=256):
+    """Bounded proof of ancestry via pinned Git commit parent links.
+
+    Missing, malformed, cyclic, or overly deep history is unknown, never
+    interpreted as a proven forward update.
+    """
+    if not copy.is_sha(baseline) or not copy.is_sha(head):
+        raise copy.Stop("invalid_ancestry_commit")
+    if head == baseline:
+        return "same"
+    visited = set()
+    pending = [head]
+    while pending:
+        if len(visited) >= max_commits:
+            return "unknown"
+        current = pending.pop()
+        if current == baseline:
+            return "descendant"
+        if current in visited:
+            continue
+        visited.add(current)
+        obj = copy.validate_commit(
+            api.request(copy.SOURCE, "GET", "/git/commits/" + current),
+            expected=current)
+        parents = [copy.required_sha(p) for p in copy.required(obj, "parents", list)]
+        pending.extend(p for p in parents if p not in visited)
+    return "unknown"
+
+
 def collect(backend, source_commit=BASELINE_SOURCE,
             destination_commit=BASELINE_DESTINATION):
     """Return metadata-only classification; do not disclose private contents."""
@@ -84,11 +113,17 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         if not baseline_equal:
             evidence = Evidence(False, True, "unknown", None, True)
             return evaluate(evidence)
-        # No ancestry proof is available from this collector yet. Even if
-        # HEAD equals the pinned baseline, verify stability before MATCH.
-        if before == source_commit:
-            return evaluate(Evidence(True, False, "same", True, True))
-        return evaluate(Evidence(True, False, "unknown", None, True))
+        relation = ancestry(api, source_commit, before)
+        if relation == "unknown":
+            return evaluate(Evidence(True, False, relation, None, True))
+        if relation == "same":
+            return evaluate(Evidence(True, False, relation, True, True))
+        latest, _ = _files(api, copy.SOURCE, before)
+        final_head = copy.head(api, copy.SOURCE)
+        if final_head != before:
+            return evaluate(Evidence(True, False, "unknown", None, False))
+        latest_equal = all(latest[p] == source[p] for p in copy.PATHS)
+        return evaluate(Evidence(True, False, relation, latest_equal, True))
     except (copy.Stop, verifier.InputError, ValueError, TypeError, KeyError,
             AttributeError, RecursionError):
         return {"classification": "UNKNOWN", "reason": "unavailable_or_invalid_evidence"}
