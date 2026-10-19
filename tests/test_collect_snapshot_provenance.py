@@ -577,6 +577,18 @@ class CollectorTests(unittest.TestCase):
                 collector._files(collector.ReadOnly(Backend()), copy.DESTINATION,
                                  collector.BASELINE_DESTINATION, budget=budget)
 
+    def test_metadata_blob_budget_accumulates(self):
+        budget = [10]
+        collector._count_blob(b"manifest", budget)
+        collector._count_blob(b"readme", budget)
+        self.assertEqual(24, budget[0])
+
+    def test_metadata_blob_budget_rejects_excess(self):
+        budget = [10]
+        with patch.object(collector, "MAX_COLLECT_FILE_BYTES", 15):
+            with self.assertRaises(copy.Stop):
+                collector._count_blob(b"manifest", budget)
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
