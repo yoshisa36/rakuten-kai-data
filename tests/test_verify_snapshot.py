@@ -196,6 +196,51 @@ class SnapshotTests(unittest.TestCase):
         (self.destination / self.path).write_bytes(b'{"x": 1.00000000000000002}')
         self.assertFalse(self.invoke()[1]['results'][0]['json_structure_equal'])
 
+    def assert_numeric_comparison(self, left, right, structure_equal, code):
+        self.path = 'numeric.json'
+        source = ('{"x": ' + left + '}').encode('ascii')
+        destination = ('{"x": ' + right + '}').encode('ascii')
+        (self.source / self.path).write_bytes(source)
+        (self.destination / self.path).write_bytes(destination)
+        actual_code, report = self.invoke()
+        self.assertEqual(actual_code, code)
+        result = report['results'][0]
+        self.assertTrue(result['source']['json_valid'])
+        self.assertTrue(result['destination']['json_valid'])
+        self.assertEqual(result['json_structure_equal'], structure_equal)
+        self.assertEqual(result['sha256_equal'], source == destination)
+        self.assertEqual(result['size_equal'], len(source) == len(destination))
+        self.assertEqual(result['status'], 'match' if code == 0 else 'mismatch')
+
+    def test_integer_and_decimal_types_are_distinct(self):
+        self.assert_numeric_comparison('1', '1.0', False, 1)
+        self.assert_numeric_comparison('1.0', '1', False, 1)
+
+    def test_equal_decimal_values_with_different_scale(self):
+        self.assert_numeric_comparison('1.0', '1.00', True, 1)
+
+    def test_boolean_is_not_integer(self):
+        self.assert_numeric_comparison('true', '1', False, 1)
+        self.assert_numeric_comparison('false', '0', False, 1)
+
+    def test_very_large_integers_are_compared_exactly(self):
+        # 1,000 digits are within Python 3.12's default integer conversion limit.
+        # The adjacent values would collapse if converted to binary float.
+        value = '9' * 1000
+        self.assert_numeric_comparison(value, value, True, 0)
+        self.assert_numeric_comparison(value, '9' * 999 + '8', False, 1)
+        self.assert_numeric_comparison(value, value + '.0', False, 1)
+
+    def test_high_precision_decimals_are_compared_exactly(self):
+        value = '0.' + '1234567890' * 20 + '1'
+        self.assert_numeric_comparison(value, value, True, 0)
+        self.assert_numeric_comparison(value, value[:-1] + '2', False, 1)
+        self.assert_numeric_comparison(value, value + '0', True, 1)
+
+    def test_exponent_syntax_retains_decimal_type(self):
+        self.assert_numeric_comparison('1e0', '1', False, 1)
+        self.assert_numeric_comparison('1e0', '1.00', True, 1)
+
     def test_multiple_paths_and_forced_queue_validation(self):
         for root in (self.source, self.destination):
             (root / 'generic.json').write_text('{}')
