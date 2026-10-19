@@ -5,7 +5,7 @@ No credentials, network client, CLI, writes, or scheduled execution are provided
 The adapter must expose request(repo, method, suffix) and permit GET only.
 """
 import hashlib
-import json
+import re
 
 import initial_runtime_copy as copy
 import verify_snapshot as verifier
@@ -22,8 +22,9 @@ class ReadOnly:
     def request(self, repo, method, suffix):
         if method != "GET" or repo not in (copy.SOURCE, copy.DESTINATION):
             raise copy.Stop("read_only_violation")
-        if not suffix.startswith(("/git/ref/heads/main", "/git/commits/",
-                                  "/git/trees/", "/git/blobs/")):
+        if not (suffix == "/git/ref/heads/main" or re.fullmatch(
+                r"/git/(?:commits/[0-9a-f]{40}|trees/[0-9a-f]{40}\\?recursive=1|blobs/[0-9a-f]{40})",
+                suffix)):
             raise copy.Stop("endpoint_not_allowed")
         return self.backend.request(repo, method, suffix)
 
@@ -77,14 +78,14 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         # A baseline mismatch is a confirmed corruption only when every input
         # above is independently readable and validated.
         baseline_equal = all(source[p] == destination[p] for p in copy.PATHS)
+        after = copy.head(api, copy.SOURCE)
+        if before != after:
+            return evaluate(Evidence(True, False, "unknown", None, False))
         if not baseline_equal:
             evidence = Evidence(False, True, "unknown", None, True)
             return evaluate(evidence)
         # No ancestry proof is available from this collector yet. Even if
         # HEAD equals the pinned baseline, verify stability before MATCH.
-        after = copy.head(api, copy.SOURCE)
-        if before != after:
-            return evaluate(Evidence(True, False, "unknown", None, False))
         if before == source_commit:
             return evaluate(Evidence(True, False, "same", True, True))
         return evaluate(Evidence(True, False, "unknown", None, True))
