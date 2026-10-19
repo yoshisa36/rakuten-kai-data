@@ -44,6 +44,23 @@ class CollectorTests(unittest.TestCase):
             collector.ReadOnly(backend).request(copy.SOURCE, "GET", "/actions/secrets")
         self.assertEqual([], backend.calls)
 
+    def test_exact_tree_endpoint_allowed(self):
+        backend = Backend()
+        suffix = "/git/trees/" + "a" * 40 + "?recursive=1"
+        self.assertEqual({"mock": True}, collector.ReadOnly(backend).request(copy.SOURCE, "GET", suffix))
+
+    def test_endpoint_prefix_bypass_rejected(self):
+        backend = Backend()
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(backend).request(copy.SOURCE, "GET", "/git/ref/heads/main/extra")
+        self.assertEqual([], backend.calls)
+
+    def test_tree_without_recursive_rejected(self):
+        backend = Backend()
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(backend).request(copy.SOURCE, "GET", "/git/trees/" + "a" * 40)
+        self.assertEqual([], backend.calls)
+
     def test_invalid_commit_no_backend_calls(self):
         backend = Backend()
         result = collector.collect(backend, source_commit="main")
