@@ -162,5 +162,5 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         latest_equal = all(latest[p] == source[p] for p in copy.PATHS)
         return evaluate(Evidence(True, False, relation, latest_equal, True))
     except (copy.Stop, verifier.InputError, ValueError, TypeError, KeyError,
-            AttributeError, RecursionError):
+            AttributeError, RecursionError, OSError):
         return {"classification": "UNKNOWN", "reason": "unavailable_or_invalid_evidence"}
