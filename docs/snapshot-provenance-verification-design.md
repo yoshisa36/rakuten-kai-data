@@ -1,6 +1,6 @@
 # STEP 23 — Read-only snapshot provenance verification design
 
-Status: **design only**. This document does not authorize running against production, merging another PR, changing GAS, scheduling a job, or enabling replies.
+Status: **design and offline evidence-decision prototype only**. This document does not authorize running against production, merging another PR, changing GAS, scheduling a job, or enabling replies.
 
 ## Scope and trust boundaries
 
@@ -9,9 +9,9 @@ Status: **design only**. This document does not authorize running against produc
 - Initial copy's previously recorded source commit: `2e28969c5a7119fb6de83664cb835c989c55dcfe`; destination commit: `15a48986ef3565ba7600440ea8059783928b4e2a`.
 - Neither a self-declared manifest commit nor a 40-character SHA string proves provenance. Independently fetch the immutable source commit from GitHub, pin the private destination commit, and verify exact blobs.
 - The existing `verify_snapshot.py --source-commit` **records metadata only**. Do not treat its `source_commit_verified: false` as an attestation.
-- No new long-lived PAT or token in repository files/logs. Private reads, if necessary, use minimum read-only authorization supplied by the user; never reuse the revoked initial-copy token.
+- No new long-lived PAT or token in repository files/logs. Private reads, if necessary, use minimum read-only authorization supplied by the user; do not reuse the initial-copy token; its revocation has not been confirmed.
 
-## Proposed workflow (no implementation in this PR)
+## Proposed workflow (GitHub read-only adapter not implemented in this PR)
 
 1. **Pin immutable inputs:** query the public source commit by its exact SHA and private destination by its exact SHA; record the public main HEAD separately. A changing HEAD is not an immutable baseline.
 2. **Verify manifest:** parse with duplicate-key rejection and a strict schema; require six unique approved paths, expected source/destination repository identities and source commit; verify each declared SHA256/byte size against GitHub blobs at the pinned commits. Treat unknown/missing manifest fields according to a documented schema, not as implicit success.
