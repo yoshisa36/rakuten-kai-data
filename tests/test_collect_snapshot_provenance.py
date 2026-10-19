@@ -436,6 +436,31 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(backend)
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_backend_timeout_unknown_without_detail_leak(self):
+        class TimeoutBackend:
+            def request(self, *args):
+                raise TimeoutError("private_payload_timeout")
+        result = collector.collect(TimeoutBackend())
+        self.assertEqual({"classification": "UNKNOWN",
+                          "reason": "unavailable_or_invalid_evidence"}, result)
+        self.assertNotIn("private_payload_timeout", str(result))
+
+    def test_backend_permission_error_unknown_without_detail_leak(self):
+        class DeniedBackend:
+            def request(self, *args):
+                raise PermissionError("private_repository_access_denied")
+        result = collector.collect(DeniedBackend())
+        self.assertEqual("UNKNOWN", result["classification"])
+        self.assertNotIn("private_repository_access_denied", str(result))
+
+    def test_backend_connection_error_unknown_without_detail_leak(self):
+        class ConnectionBackend:
+            def request(self, *args):
+                raise ConnectionError("private_response_bytes")
+        result = collector.collect(ConnectionBackend())
+        self.assertEqual("UNKNOWN", result["classification"])
+        self.assertNotIn("private_response_bytes", str(result))
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
