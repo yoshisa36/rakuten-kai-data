@@ -59,8 +59,8 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         before = copy.head(api, copy.SOURCE)
         source, _ = _files(api, copy.SOURCE, source_commit)
         destination, entries = _files(api, copy.DESTINATION, destination_commit)
-        if not {"README.md", copy.MANIFEST}.issubset(entries):
-            raise copy.Stop("manifest_missing")
+        if set(entries) != set(copy.PATHS) | {"README.md", copy.MANIFEST}:
+            raise copy.Stop("unexpected_destination_tree")
         manifest_raw = copy.blob(api, copy.DESTINATION, entries[copy.MANIFEST])
         manifest = verifier.parse_json(manifest_raw)
         if not isinstance(manifest, dict) or set(manifest) != {"plan", "plan_sha256"}:
