@@ -8,6 +8,9 @@ import re
 
 _SHA = re.compile(r"[0-9a-f]{40}\Z")
 LABELS = ("MATCH", "EXPECTED_CHANGE", "ALERT", "UNKNOWN")
+EXPECTED_PATHS = frozenset(("threads-analysis.json", "threads-queue.json",
+    "rakuten-affiliate.json", "products.json", "selection-history.json",
+    "batches/2026-10-05.json"))
 
 
 def classify(comparison, current_source_commit, snapshot_source_commit):
@@ -44,6 +47,10 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
                        ("sha256_equal", "size_equal", "json_structure_equal")):
                 return {"classification": "UNKNOWN", "reason": "inconsistent_match"}
         if status == "mismatch":
+            if (item.get("sha256_equal") is not False
+                    or item.get("size_equal") not in (True, False)
+                    or item.get("json_structure_equal") not in (True, False)):
+                return {"classification": "UNKNOWN", "reason": "inconsistent_mismatch"}
             if not (isinstance(item.get("source"), dict)
                     and isinstance(item.get("destination"), dict)
                     and item["source"].get("json_valid") is True
@@ -56,8 +63,14 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
                     and queue[side].get("valid") is True
                     for side in ("source", "destination")):
                 return {"classification": "UNKNOWN", "reason": "queue_unavailable"}
+            if queue.get("ids_equal") not in (True, False):
+                return {"classification": "UNKNOWN", "reason": "queue_ids_unknown"}
+            if queue.get("ids_equal") is False and status == "match":
+                return {"classification": "UNKNOWN", "reason": "inconsistent_queue_match"}
             if queue.get("ids_equal") is False and current_source_commit == snapshot_source_commit:
                 return {"classification": "ALERT", "reason": "same_commit_queue_ids_differ"}
+    if paths != EXPECTED_PATHS:
+        return {"classification": "UNKNOWN", "reason": "incomplete_or_unexpected_paths"}
     if "invalid" in statuses:
         return {"classification": "UNKNOWN", "reason": "invalid_or_unavailable_data"}
     same_commit = current_source_commit == snapshot_source_commit
