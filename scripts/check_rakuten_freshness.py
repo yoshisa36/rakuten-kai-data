@@ -8,6 +8,7 @@ import json
 import sys
 from pathlib import Path
 import urllib.request
+from urllib.parse import urlsplit
 
 URL = (
     "https://raw.githubusercontent.com/"
@@ -53,6 +54,7 @@ def check_age(label, value, now, max_hours, errors):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--file")
+    parser.add_argument("--url", default=URL, help="JSON source URL; --file takes precedence")
     parser.add_argument("--max-hours", type=float, default=36)
     args = parser.parse_args()
 
@@ -60,8 +62,11 @@ def main():
         if args.file:
             raw = Path(args.file).read_text(encoding="utf-8-sig")
         else:
+            source = urlsplit(args.url)
+            if source.scheme != "https" or not source.hostname or source.username or source.password:
+                raise ValueError("JSON参照URLは認証情報を含まないHTTPS URLを指定してください")
             request = urllib.request.Request(
-                URL,
+                args.url,
                 headers={"User-Agent": "rakuten-freshness-check"}
             )
             with urllib.request.urlopen(

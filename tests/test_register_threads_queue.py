@@ -27,7 +27,7 @@ class FakeAPI:
 
 class RegistrationTests(unittest.TestCase):
     def setUp(self):
-        self.batch = json.loads((ROOT / 'batches/2026-10-05.json').read_text())
+        self.batch = json.loads((ROOT / 'tests/fixtures/batches/approved.json').read_text())
         self.queue = {'version': 1, 'updatedAt': 'old', 'posts': []}
     def test_register_verify_and_idempotent(self):
         api = FakeAPI(self.queue)

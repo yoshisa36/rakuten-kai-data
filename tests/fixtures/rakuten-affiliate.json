@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": "synthetic-fixture",
+  "generatedAt": "2026-10-04T21:38:00+09:00",
+  "monitor": {
+    "monthly": {
+      "driveUpdatedAt": "2026-10-04T20:00:00+09:00"
+    },
+    "shop": {
+      "driveUpdatedAt": "2026-10-04T20:00:00+09:00"
+    },
+    "gasSyncLastSuccess": "2026-10-04T21:00:00+09:00"
+  },
+  "summary": {
+    "clicks": 1,
+    "sales": 0,
+    "amount": 0,
+    "rewards": 0
+  },
+  "daily": [
+    {
+      "clicks": 1,
+      "sales": 0,
+      "amount": 0,
+      "rewards": 0,
+      "date": "2026-10-03"
+    }
+  ],
+  "shops": [
+    {
+      "clicks": 1,
+      "sales": 0,
+      "amount": 0,
+      "rewards": 0,
+      "shopName": "架空ショップ"
+    }
+  ]
+}
