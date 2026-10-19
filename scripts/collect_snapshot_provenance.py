@@ -102,6 +102,8 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             raise copy.Stop("invalid_manifest")
         plan = manifest["plan"]
         copy.validate_plan(plan, manifest["plan_sha256"])
+        if manifest_raw != copy.manifest(plan):
+            raise copy.Stop("noncanonical_manifest")
         if plan["source_commit"] != source_commit:
             raise copy.Stop("source_commit_mismatch")
         # The snapshot commit must be a direct child of the pre-copy
