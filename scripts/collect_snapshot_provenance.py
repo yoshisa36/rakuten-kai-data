@@ -41,7 +41,7 @@ class ReadOnly:
         try:
             encoded = json.dumps(result, ensure_ascii=True, allow_nan=False,
                                  separators=(",", ":")).encode("ascii")
-        except (ValueError, TypeError, OverflowError, RecursionError):
+        except (ValueError, TypeError, OverflowError, RecursionError, MemoryError):
             raise copy.Stop("invalid_api_response") from None
         if len(encoded) > MAX_API_RESPONSE_BYTES:
             raise copy.Stop("api_response_size_limit")
