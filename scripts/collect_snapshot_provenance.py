@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""Read-only provenance collector with an injected, mockable GitHub GET interface.
+
+No credentials, network client, CLI, writes, or scheduled execution are provided.
+The adapter must expose request(repo, method, suffix) and permit GET only.
+"""
+import hashlib
+import json
+
+import initial_runtime_copy as copy
+import verify_snapshot as verifier
+from verify_snapshot_provenance import Evidence, evaluate
+
+BASELINE_SOURCE = "2e28969c5a7119fb6de83664cb835c989c55dcfe"
+BASELINE_DESTINATION = "15a48986ef3565ba7600440ea8059783928b4e2a"
+
+
+class ReadOnly:
+    def __init__(self, backend):
+        self.backend = backend
+
+    def request(self, repo, method, suffix):
+        if method != "GET" or repo not in (copy.SOURCE, copy.DESTINATION):
+            raise copy.Stop("read_only_violation")
+        if not suffix.startswith(("/git/ref/heads/main", "/git/commits/",
+                                  "/git/trees/", "/git/blobs/")):
+            raise copy.Stop("endpoint_not_allowed")
+        return self.backend.request(repo, method, suffix)
+
+
+def _hash(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def _files(api, repo, commit):
+    _, entries = copy.tree(api, repo, commit)
+    if not set(copy.PATHS).issubset(entries):
+        raise copy.Stop("missing_snapshot_path")
+    result = {}
+    for path in copy.PATHS:
+        raw = copy.blob(api, repo, entries[path])
+        data = verifier.parse_json(raw)
+        if not isinstance(data, dict):
+            raise copy.Stop("non_object_json")
+        if path in ("threads-queue.json", "batches/2026-10-05.json"):
+            verifier.queue_ids(data)
+        result[path] = raw
+    return result, entries
+
+
+def collect(backend, source_commit=BASELINE_SOURCE,
+            destination_commit=BASELINE_DESTINATION):
+    """Return metadata-only classification; do not disclose private contents."""
+    try:
+        if not copy.is_sha(source_commit) or not copy.is_sha(destination_commit):
+            raise copy.Stop("invalid_pinned_commit")
+        api = ReadOnly(backend)
+        before = copy.head(api, copy.SOURCE)
+        source, _ = _files(api, copy.SOURCE, source_commit)
+        destination, entries = _files(api, copy.DESTINATION, destination_commit)
+        if not {"README.md", copy.MANIFEST}.issubset(entries):
+            raise copy.Stop("manifest_missing")
+        manifest_raw = copy.blob(api, copy.DESTINATION, entries[copy.MANIFEST])
+        manifest = verifier.parse_json(manifest_raw)
+        if not isinstance(manifest, dict) or set(manifest) != {"plan", "plan_sha256"}:
+            raise copy.Stop("invalid_manifest")
+        plan = manifest["plan"]
+        copy.validate_plan(plan, manifest["plan_sha256"])
+        if plan["source_commit"] != source_commit:
+            raise copy.Stop("source_commit_mismatch")
+        if _hash(copy.blob(api, copy.DESTINATION, entries["README.md"])) != plan["readme_sha256"]:
+            raise copy.Stop("readme_mismatch")
+        for record in plan["files"]:
+            raw = source[record["path"]]
+            if len(raw) != record["size"] or _hash(raw) != record["sha256"]:
+                raise copy.Stop("manifest_file_mismatch")
+        # A baseline mismatch is a confirmed corruption only when every input
+        # above is independently readable and validated.
+        baseline_equal = all(source[p] == destination[p] for p in copy.PATHS)
+        if not baseline_equal:
+            evidence = Evidence(False, True, "unknown", None, True)
+            return evaluate(evidence)
+        # No ancestry proof is available from this collector yet. Even if
+        # HEAD equals the pinned baseline, verify stability before MATCH.
+        after = copy.head(api, copy.SOURCE)
+        if before != after:
+            return evaluate(Evidence(True, False, "unknown", None, False))
+        if before == source_commit:
+            return evaluate(Evidence(True, False, "same", True, True))
+        return evaluate(Evidence(True, False, "unknown", None, True))
+    except (copy.Stop, verifier.InputError, ValueError, TypeError, KeyError,
+            AttributeError, RecursionError):
+        return {"classification": "UNKNOWN", "reason": "unavailable_or_invalid_evidence"}
