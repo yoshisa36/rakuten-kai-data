@@ -13,6 +13,7 @@ from verify_snapshot_provenance import Evidence, evaluate
 
 BASELINE_SOURCE = "2e28969c5a7119fb6de83664cb835c989c55dcfe"
 BASELINE_DESTINATION = "15a48986ef3565ba7600440ea8059783928b4e2a"
+BASELINE_PRECOPY = "dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071"
 
 
 class ReadOnly:
@@ -106,6 +107,8 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             raise copy.Stop("noncanonical_manifest")
         if plan["source_commit"] != source_commit:
             raise copy.Stop("source_commit_mismatch")
+        if plan["destination_commit"] != BASELINE_PRECOPY:
+            raise copy.Stop("precopy_commit_mismatch")
         # The snapshot commit must be a direct child of the pre-copy
         # destination commit recorded in the manifest. Fetch both immutable
         # commits independently; do not infer ancestry from SHA formatting.
