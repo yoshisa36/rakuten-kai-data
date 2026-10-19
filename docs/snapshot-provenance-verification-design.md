@@ -54,9 +54,16 @@ It also pins the source, pre-copy destination, and completed snapshot commit
 SHAs independently. These checks establish consistency with the pinned
 commit history, but **do not independently pin the approval hash**.
 
-Before introducing a real-data adapter, compare the original operator-approved
-dry-run `plan_sha256` with the manifest and commit message using an explicitly
-authorized, read-only evidence review. Record the confirmed value and evidence
+The original operator-approved dry-run was recovered from the 2026-10-19
+conversation record. Its approved `plan_sha256` is
+`ea309c2aa3e9a85ebc59b481df9a0a614d273364e2791c02add6dd1023d982af`.
+The recorded source commit is `2e28969c5a7119fb6de83664cb835c989c55dcfe`
+and pre-copy destination commit is `dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071`.
+The conversation also records invoking `--approve-plan` with this exact hash.
+This is independent *operator-approval history*, not independent verification
+of the current private repository contents. Before introducing a real-data
+adapter, compare this trusted approval hash with the manifest and immutable
+commit message using an explicitly authorized, read-only evidence review. Record the confirmed value and evidence
 source in this design, then decide whether to add a separate constant and
 regression tests. Do not infer the approved value solely from the manifest being
 validated, and do not claim operator approval based on a matching computed hash.
