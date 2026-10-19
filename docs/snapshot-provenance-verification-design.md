@@ -52,7 +52,9 @@ The collector validates the manifest's `plan_sha256` against the canonical plan
 and checks that the immutable snapshot commit message includes that hash.
 It also pins the source, pre-copy destination, and completed snapshot commit
 SHAs independently. These checks establish consistency with the pinned
-commit history, but **do not independently pin the approval hash**.
+commit history. The collector now **also independently pins the operator-approved
+approval hash** in `BASELINE_APPROVAL` and rejects a different manifest hash
+as `UNKNOWN`.
 
 The original operator-approved dry-run was recovered from the 2026-10-19
 conversation record. Its approved `plan_sha256` is
@@ -61,12 +63,13 @@ The recorded source commit is `2e28969c5a7119fb6de83664cb835c989c55dcfe`
 and pre-copy destination commit is `dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071`.
 The conversation also records invoking `--approve-plan` with this exact hash.
 This is independent *operator-approval history*, not independent verification
-of the current private repository contents. Before introducing a real-data
-adapter, compare this trusted approval hash with the manifest and immutable
-commit message using an explicitly authorized, read-only evidence review. Record the confirmed value and evidence
-source in this design, then decide whether to add a separate constant and
-regression tests. Do not infer the approved value solely from the manifest being
-validated, and do not claim operator approval based on a matching computed hash.
+of the current private repository contents. The independent approval-hash constant and a negative regression test are now
+implemented and have passed offline CI (159 tests). Before introducing a
+real-data adapter, compare this trusted approval hash with the **actual**
+private manifest and immutable commit message using an explicitly authorized,
+read-only evidence review. Do not infer operator approval solely from a
+self-consistent manifest. Passing mock tests is not proof of current private
+repository contents.
 
 This review is a release gate, not authorization to access the private
 repository, deploy a collector, merge this Draft PR, or enable automatic replies.
