@@ -93,3 +93,48 @@ Do not treat these as authorization to access the private repository.
 **Next safe work:** audit existing offline tests against the failure-behavior
 matrix and add missing mock-based regression tests. No private repository read
 or live adapter is needed for this step.
+
+## Offline failure-mode coverage (STEP 31)
+
+The latest confirmed CI before this documentation update ran **170 offline
+tests successfully** (GitHub Actions run 39221445167). Passing tests validate
+the mock-backed behavior only, not the actual private repository.
+
+| Threat or failure mode | Verified offline behavior |
+| --- | --- |
+| Alternate 40-character source/destination commit | Reject before backend calls; return `UNKNOWN` |
+| Backend timeout, permission failure, connection failure | Return `UNKNOWN` without propagating backend exception details |
+| Oversized Git blob declared size | Return `UNKNOWN` |
+| Git recursive tree with `truncated=true` | Return `UNKNOWN` |
+| Blob SHA response differs from requested SHA | Return `UNKNOWN` |
+| Commit SHA response differs from requested SHA | Return `UNKNOWN` |
+| Blob claims expected SHA but its bytes hash differently | Return `UNKNOWN` |
+| Malformed base64 blob content | Return `UNKNOWN` |
+| Unsupported or unapproved private access | No live adapter, private reads, or authorization assumed |
+
+### Residual risks and explicit gates
+
+- **No real-data proof:** the pinned private snapshot commit, manifest,
+  readme, parent relationship, and private repository configuration have
+  not been checked against the live private repository.
+- **Transport boundary:** the injected read-only backend has no deployed
+  implementation here. Real 403/404/429, HTTP response limits, redirects,
+  retry policy, and permission scope require a separately authorized,
+  independently reviewed adapter. Do not interpret mocked OS exceptions
+  as full HTTP transport verification.
+- **Resource exhaustion:** size limits for individual blobs do not alone
+  bound total API response, tree entry count, or total memory retained by
+  an untrusted backend. Require explicit aggregate and response limits
+  before connecting to live data.
+- **Concurrency:** a moving source HEAD yields `UNKNOWN` in covered
+  cases, but live race behavior and repository consistency remain untested.
+- **Classification semantics:** `UNKNOWN` is neither a successful match
+  nor evidence of tampering; do not auto-retry writes, auto-repair, publish,
+  or send replies based on any classification.
+- **Operational controls:** no private token, scheduler, production GAS
+  change, Threads API call, PR merge, or auto-reply enablement is approved
+  by this Draft PR.
+
+**Decision:** Continue offline review. A green CI does not remove the
+separate requirement for explicit authorization before any private
+repository read or live adapter implementation.
