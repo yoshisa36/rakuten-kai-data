@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from classify_snapshot_diff import classify
+from classify_snapshot_diff import classify, EXPECTED_PATHS
 
 A = "a" * 40
 B = "b" * 40
@@ -23,7 +23,13 @@ def item(status="match", queue=None):
 
 
 def report(*items):
-    return {"results": list(items)}
+    if not items:
+        return {"results": []}
+    selected = {value["path"]: value for value in items}
+    complete = [selected.get(path, dict(item(), path=path)) for path in sorted(EXPECTED_PATHS)]
+    if len(items) > len(selected):
+        complete.append(items[-1])
+    return {"results": complete}
 
 
 class SnapshotDiffClassifierTests(unittest.TestCase):
@@ -77,6 +83,19 @@ class SnapshotDiffClassifierTests(unittest.TestCase):
     def test_missing_source_object_unknown(self):
         data = item("mismatch")
         data["source"] = None
+        self.check("UNKNOWN", report(data))
+
+    def test_missing_path_unknown(self):
+        self.check("UNKNOWN", {"results": [item()]})
+
+    def test_unexpected_path_unknown(self):
+        data = report(item())
+        data["results"][0]["path"] = "unapproved.json"
+        self.check("UNKNOWN", data)
+
+    def test_inconsistent_mismatch_unknown(self):
+        data = item("mismatch")
+        data["sha256_equal"] = True
         self.check("UNKNOWN", report(data))
 
     def test_does_not_mutate_input(self):
