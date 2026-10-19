@@ -44,3 +44,22 @@ A genuine source update must never conceal a corrupted private baseline. Convers
 ## Current limitations
 
 This includes a GET-only mockable baseline collector, not evidence that the live/private snapshots currently match. The collector traverses pinned commit parents up to 256 commits; missing, divergent, or deeper history remains UNKNOWN. It compares current pinned HEAD contents only after proving ancestry, and rechecks HEAD stability. No real GitHub connection has been made. The original one-time copy verification was performed at creation time, but the current state of either repository is not asserted here.
+
+
+## Independent approval-hash trust anchor (pre-connection review)
+
+The collector validates the manifest's `plan_sha256` against the canonical plan
+and checks that the immutable snapshot commit message includes that hash.
+It also pins the source, pre-copy destination, and completed snapshot commit
+SHAs independently. These checks establish consistency with the pinned
+commit history, but **do not independently pin the approval hash**.
+
+Before introducing a real-data adapter, compare the original operator-approved
+dry-run `plan_sha256` with the manifest and commit message using an explicitly
+authorized, read-only evidence review. Record the confirmed value and evidence
+source in this design, then decide whether to add a separate constant and
+regression tests. Do not infer the approved value solely from the manifest being
+validated, and do not claim operator approval based on a matching computed hash.
+
+This review is a release gate, not authorization to access the private
+repository, deploy a collector, merge this Draft PR, or enable automatic replies.
