@@ -28,6 +28,8 @@ def evaluate(evidence: Evidence) -> dict[str, str]:
     """Fail closed on absent, contradictory, or unverified evidence."""
     if not isinstance(evidence, Evidence):
         return {"classification": "UNKNOWN", "reason": "invalid_evidence"}
+    if type(evidence.stable_reads) is not bool:
+        return {"classification": "UNKNOWN", "reason": "invalid_stability_flag"}
     if not evidence.stable_reads:
         return {"classification": "UNKNOWN", "reason": "unstable_or_incomplete_reads"}
     if (type(evidence.baseline_verified) not in (bool, type(None))
