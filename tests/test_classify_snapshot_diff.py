@@ -29,6 +29,10 @@ def report(*items):
     complete = [selected.get(path, dict(item(), path=path)) for path in sorted(EXPECTED_PATHS)]
     if len(items) > len(selected):
         complete.append(items[-1])
+    for entry in complete:
+        if entry["path"] == "threads-queue.json" and "queue" not in entry:
+            entry["queue"] = {"source": {"valid": True},
+                              "destination": {"valid": True}, "ids_equal": True}
     return {"results": complete}
 
 
@@ -111,6 +115,20 @@ class SnapshotDiffClassifierTests(unittest.TestCase):
             if entry["path"] == "products.json":
                 entry["status"] = "invalid"
                 entry["source"]["json_valid"] = False
+        self.check("UNKNOWN", data)
+
+    def test_queue_validation_missing_unknown(self):
+        data = report(item())
+        for entry in data["results"]:
+            if entry["path"] == "threads-queue.json":
+                del entry["queue"]
+        self.check("UNKNOWN", data)
+
+    def test_non_boolean_queue_id_flag_unknown(self):
+        data = report(item())
+        for entry in data["results"]:
+            if entry["path"] == "threads-queue.json":
+                entry["queue"]["ids_equal"] = 1
         self.check("UNKNOWN", data)
 
     def test_does_not_mutate_input(self):
