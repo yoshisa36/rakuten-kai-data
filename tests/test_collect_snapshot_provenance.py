@@ -61,6 +61,16 @@ class CollectorTests(unittest.TestCase):
             collector.ReadOnly(backend).request(copy.SOURCE, "GET", "/git/trees/" + "a" * 40)
         self.assertEqual([], backend.calls)
 
+    def test_unexpected_destination_tree_unknown(self):
+        backend = Backend()
+        fake = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}, "extra.json": {}})
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(fake, {}), (fake, entries)]):
+            result = collector.collect(backend)
+        self.assertEqual("UNKNOWN", result["classification"])
+
     def test_invalid_commit_no_backend_calls(self):
         backend = Backend()
         result = collector.collect(backend, source_commit="main")
