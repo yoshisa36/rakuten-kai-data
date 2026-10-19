@@ -316,6 +316,7 @@ class TransportTests(unittest.TestCase):
             self.assertIsNone(send.call_args.args[0].get_header('Authorization'))
             api.request(m.DESTINATION, 'GET', '/')
             self.assertEqual(send.call_args.args[0].get_header('Authorization'), 'Bearer SYNTHETIC_SECRET')
+            self.assertEqual(send.call_args.args[0].full_url, 'https://api.github.com/repos/' + m.DESTINATION)
             with self.assertRaises(m.Stop):
                 api.request(m.SOURCE, 'POST', '/git/blobs', {})
 

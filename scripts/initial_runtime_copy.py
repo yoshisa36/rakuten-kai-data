@@ -65,7 +65,7 @@ class GitHub:
             headers['Content-Type'] = 'application/json'
         for attempt in range(3 if method == 'GET' else 1):
             try:
-                request = Request('https://api.github.com/repos/' + repo + suffix,
+                request = Request('https://api.github.com/repos/' + repo + ('' if suffix == '/' else suffix),
                                   data=body, headers=headers, method=method)
                 with self.opener.open(request, timeout=30) as response:
                     raw = response.read(MAX_RESPONSE + 1)
