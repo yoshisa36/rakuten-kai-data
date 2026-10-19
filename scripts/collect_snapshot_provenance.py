@@ -15,6 +15,8 @@ BASELINE_SOURCE = "2e28969c5a7119fb6de83664cb835c989c55dcfe"
 BASELINE_DESTINATION = "15a48986ef3565ba7600440ea8059783928b4e2a"
 BASELINE_PRECOPY = "dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071"
 BASELINE_APPROVAL = "ea309c2aa3e9a85ebc59b481df9a0a614d273364e2791c02add6dd1023d982af"
+MAX_TREE_ENTRIES = 4096
+MAX_TOTAL_FILE_BYTES = 64 * 1024 * 1024
 
 
 class ReadOnly:
@@ -37,11 +39,17 @@ def _hash(raw):
 
 def _files(api, repo, commit):
     _, entries = copy.tree(api, repo, commit)
+    if len(entries) > MAX_TREE_ENTRIES:
+        raise copy.Stop("tree_entry_limit")
     if not set(copy.PATHS).issubset(entries):
         raise copy.Stop("missing_snapshot_path")
     result = {}
+    total = 0
     for path in copy.PATHS:
         raw = copy.blob(api, repo, entries[path])
+        total += len(raw)
+        if total > MAX_TOTAL_FILE_BYTES:
+            raise copy.Stop("total_file_bytes_limit")
         data = verifier.parse_json(raw)
         if not isinstance(data, dict):
             raise copy.Stop("non_object_json")
