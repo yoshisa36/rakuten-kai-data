@@ -1,4 +1,4 @@
-"""Read committed JSON snapshots only; no freshness or remote state assertions."""
+"""Read artificial JSON fixtures only; no freshness or remote state assertions."""
 import datetime as dt
 import importlib.util
 import json
@@ -7,6 +7,7 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
+FIXTURES = ROOT / 'tests/fixtures'
 spec = importlib.util.spec_from_file_location('registration_rules', ROOT / 'scripts/register_threads_queue.py')
 registration = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(registration)
@@ -26,7 +27,7 @@ def reject_constant(value):
 
 
 def load(name):
-    return json.loads((ROOT / name).read_text(encoding='utf-8-sig'),
+    return json.loads((FIXTURES / name).read_text(encoding='utf-8-sig'),
                       object_pairs_hook=reject_duplicate_keys, parse_constant=reject_constant)
 
 class JsonIntegrityTests(unittest.TestCase):
@@ -43,11 +44,11 @@ class JsonIntegrityTests(unittest.TestCase):
         self.assertGreaterEqual(value, 0)
 
     def test_all_json_is_strict(self):
-        paths = sorted(ROOT.glob('*.json')) + sorted((ROOT / 'batches').glob('*.json'))
+        paths = sorted(FIXTURES.glob('*.json')) + sorted((FIXTURES / 'batches').glob('*.json'))
         self.assertTrue(paths)
         for path in paths:
             with self.subTest(file=path.name):
-                self.assertIsInstance(load(path.relative_to(ROOT)), dict)
+                self.assertIsInstance(load(path.relative_to(FIXTURES)), dict)
 
     def test_counted_exports(self):
         for name, key in (('products.json', 'products'), ('selection-history.json', 'products'),
@@ -84,12 +85,12 @@ class JsonIntegrityTests(unittest.TestCase):
                     registration.validate_batch({'posts': [candidate]})
 
     def test_approved_batches_follow_registration_rules(self):
-        paths = sorted((ROOT / 'batches').glob('*.json'))
+        paths = sorted((FIXTURES / 'batches').glob('*.json'))
         self.assertTrue(paths)
         for path in paths:
             with self.subTest(batch=path.name):
                 # validate_batch has no wall-clock or API calls; old examples stay valid.
-                registration.validate_batch(load(path.relative_to(ROOT)))
+                registration.validate_batch(load(path.relative_to(FIXTURES)))
 
     def test_threads_metrics_and_identity(self):
         posts = load('threads-analysis.json')['posts']

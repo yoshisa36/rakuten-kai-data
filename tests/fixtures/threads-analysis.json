@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "source": "synthetic-fixture",
+  "updatedAt": "2026-10-04T21:38:00+09:00",
+  "count": 1,
+  "posts": [
+    {
+      "postId": "fixture-post-1",
+      "timestamp": "2026-10-03T17:30:00+09:00",
+      "text": "人工分析fixture。送信禁止。",
+      "views": 2,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "captureCount": 1
+    }
+  ]
+}

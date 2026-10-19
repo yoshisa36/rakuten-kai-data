@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-04T21:38:00+09:00",
+  "posts": [
+    {
+      "reservationId": "KAI-20261005-1130",
+      "scheduledAt": "2026-10-05T11:30:00+09:00",
+      "text": "人工fixture商品。送信禁止。",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "架空商品",
+      "linkType": "本文リンク",
+      "productUrl": "https://item.rakuten.co.jp/fixture-only/not-a-real-item/",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261005-1730",
+      "scheduledAt": "2026-10-05T17:30:00+09:00",
+      "text": "人工fixture交流。送信禁止。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": "",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "FIXTURE-LEGACY",
+      "scheduledAt": "2026-10-05T17:30:00+09:00",
+      "text": "人工fixture交流。送信禁止。",
+      "status": "承認待ち",
+      "postType": "テスト",
+      "productName": "",
+      "linkType": "リンクなし",
+      "productUrl": ""
+    }
+  ]
+}

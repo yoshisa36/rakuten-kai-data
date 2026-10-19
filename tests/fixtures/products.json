@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "source": "synthetic-fixture",
+  "updatedAt": "2026-10-04T21:38:00+09:00",
+  "count": 1,
+  "products": [
+    {
+      "productName": "架空商品"
+    }
+  ]
+}
