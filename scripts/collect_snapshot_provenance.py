@@ -17,6 +17,7 @@ BASELINE_PRECOPY = "dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071"
 BASELINE_APPROVAL = "ea309c2aa3e9a85ebc59b481df9a0a614d273364e2791c02add6dd1023d982af"
 MAX_TREE_ENTRIES = 4096
 MAX_TOTAL_FILE_BYTES = 64 * 1024 * 1024
+MAX_COLLECT_FILE_BYTES = 128 * 1024 * 1024
 
 
 class ReadOnly:
@@ -37,7 +38,7 @@ def _hash(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
-def _files(api, repo, commit):
+def _files(api, repo, commit, budget=None):
     _, entries = copy.tree(api, repo, commit)
     if len(entries) > MAX_TREE_ENTRIES:
         raise copy.Stop("tree_entry_limit")
@@ -48,6 +49,10 @@ def _files(api, repo, commit):
     for path in copy.PATHS:
         raw = copy.blob(api, repo, entries[path])
         total += len(raw)
+        if budget is not None:
+            budget[0] += len(raw)
+            if budget[0] > MAX_COLLECT_FILE_BYTES:
+                raise copy.Stop("collect_file_bytes_limit")
         if total > MAX_TOTAL_FILE_BYTES:
             raise copy.Stop("total_file_bytes_limit")
         data = verifier.parse_json(raw)
@@ -102,9 +107,10 @@ def collect(backend, source_commit=BASELINE_SOURCE,
                 or destination_commit != BASELINE_DESTINATION):
             raise copy.Stop("unapproved_baseline_commit")
         api = ReadOnly(backend)
+        budget = [0]
         before = copy.head(api, copy.SOURCE)
-        source, _ = _files(api, copy.SOURCE, source_commit)
-        destination, entries = _files(api, copy.DESTINATION, destination_commit)
+        source, _ = _files(api, copy.SOURCE, source_commit, budget=budget)
+        destination, entries = _files(api, copy.DESTINATION, destination_commit, budget=budget)
         if set(entries) != set(copy.PATHS) | {"README.md", copy.MANIFEST}:
             raise copy.Stop("unexpected_destination_tree")
         manifest_raw = copy.blob(api, copy.DESTINATION, entries[copy.MANIFEST])
@@ -164,7 +170,7 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             return evaluate(Evidence(True, False, relation, None, True))
         if relation == "same":
             return evaluate(Evidence(True, False, relation, True, True))
-        latest, _ = _files(api, copy.SOURCE, before)
+        latest, _ = _files(api, copy.SOURCE, before, budget=budget)
         final_head = copy.head(api, copy.SOURCE)
         if final_head != before:
             return evaluate(Evidence(True, False, "unknown", None, False))
