@@ -219,6 +219,31 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_destination_merge_commit_rejected(self):
+        """Snapshot must have exactly one pre-copy parent, never a merge."""
+        import json
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        manifest = json.dumps({"plan": plan, "plan_sha256":
+                               collector._hash(copy.canonical(plan))}).encode()
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest]), \
+             patch.object(copy, "validate_commit", return_value={
+                 "parents": [{"sha": "a" * 40}, {"sha": "b" * 40}]}):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
     def test_ancestry_same_without_network(self):
         backend = Backend()
         self.assertEqual("same", collector.ancestry(
