@@ -107,6 +107,38 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_ancestry_same_without_network(self):
+        backend = Backend()
+        self.assertEqual("same", collector.ancestry(
+            collector.ReadOnly(backend), "a" * 40, "a" * 40))
+        self.assertEqual([], backend.calls)
+
+    def test_ancestry_descendant(self):
+        baseline, head = "a" * 40, "b" * 40
+        backend = Backend()
+        with patch.object(copy, "validate_commit", return_value={"parents": [{"sha": baseline}]}):
+            self.assertEqual("descendant", collector.ancestry(
+                collector.ReadOnly(backend), baseline, head))
+        self.assertEqual(1, len(backend.calls))
+
+    def test_ancestry_divergent_unknown(self):
+        baseline, head = "a" * 40, "b" * 40
+        with patch.object(copy, "validate_commit", return_value={"parents": []}):
+            self.assertEqual("unknown", collector.ancestry(
+                collector.ReadOnly(Backend()), baseline, head))
+
+    def test_ancestry_depth_limit_unknown(self):
+        baseline, head = "a" * 40, "b" * 40
+        with patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "c" * 40}]}):
+            self.assertEqual("unknown", collector.ancestry(
+                collector.ReadOnly(Backend()), baseline, head, max_commits=1))
+
+    def test_ancestry_invalid_sha_no_network(self):
+        backend = Backend()
+        with self.assertRaises(copy.Stop):
+            collector.ancestry(collector.ReadOnly(backend), "main", "a" * 40)
+        self.assertEqual([], backend.calls)
+
     def test_invalid_commit_no_backend_calls(self):
         backend = Backend()
         result = collector.collect(backend, source_commit="main")
