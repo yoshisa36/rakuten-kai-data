@@ -5,6 +5,7 @@ No credentials, network client, CLI, writes, or scheduled execution are provided
 The adapter must expose request(repo, method, suffix) and permit GET only.
 """
 import hashlib
+import json
 import re
 
 import initial_runtime_copy as copy
@@ -16,6 +17,7 @@ BASELINE_DESTINATION = "15a48986ef3565ba7600440ea8059783928b4e2a"
 BASELINE_PRECOPY = "dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071"
 BASELINE_APPROVAL = "ea309c2aa3e9a85ebc59b481df9a0a614d273364e2791c02add6dd1023d982af"
 MAX_TREE_ENTRIES = 4096
+MAX_API_RESPONSE_BYTES = 16 * 1024 * 1024
 MAX_TOTAL_FILE_BYTES = 64 * 1024 * 1024
 MAX_COLLECT_FILE_BYTES = 128 * 1024 * 1024
 
@@ -31,7 +33,19 @@ class ReadOnly:
                 r"/git/(?:commits/[0-9a-f]{40}|trees/[0-9a-f]{40}\?recursive=1|blobs/[0-9a-f]{40})",
                 suffix)):
             raise copy.Stop("endpoint_not_allowed")
-        return self.backend.request(repo, method, suffix)
+        result = self.backend.request(repo, method, suffix)
+        # Offline post-decode guard; a future transport must independently
+        # enforce a streaming raw-response limit before JSON parsing.
+        if not isinstance(result, dict):
+            raise copy.Stop("invalid_api_response")
+        try:
+            encoded = json.dumps(result, ensure_ascii=True, allow_nan=False,
+                                 separators=(",", ":")).encode("ascii")
+        except (ValueError, TypeError, OverflowError, RecursionError):
+            raise copy.Stop("invalid_api_response") from None
+        if len(encoded) > MAX_API_RESPONSE_BYTES:
+            raise copy.Stop("api_response_size_limit")
+        return result
 
 
 def _hash(raw):
