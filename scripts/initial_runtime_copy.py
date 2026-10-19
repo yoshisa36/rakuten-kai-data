@@ -3,6 +3,7 @@
 import argparse
 import base64
 import hashlib
+from http.client import HTTPException
 import json
 import os
 from pathlib import Path
@@ -44,6 +45,116 @@ def is_sha(value):
     return isinstance(value, str) and bool(re.fullmatch(r'[0-9a-f]{40}', value))
 
 
+def require_object(value):
+    if not isinstance(value, dict):
+        raise Stop('invalid_api_object')
+    return value
+
+
+def required(value, key, kind):
+    value = require_object(value)
+    if key not in value or type(value[key]) is not kind:
+        raise Stop('invalid_api_field')
+    return value[key]
+
+
+def required_sha(value, key='sha'):
+    sha = required(value, key, str)
+    if not is_sha(sha):
+        raise Stop('invalid_api_sha')
+    return sha
+
+
+def validate_ref(value, expected=None):
+    if required(value, 'ref', str) != 'refs/heads/main':
+        raise Stop('unexpected_ref')
+    obj = required(value, 'object', dict)
+    if required(obj, 'type', str) != 'commit':
+        raise Stop('unexpected_ref_type')
+    sha = required_sha(obj)
+    if expected is not None and sha != expected:
+        raise Stop('ref_response_mismatch')
+    return sha
+
+
+def validate_commit(value, expected=None, tree_sha=None, parents=None, message=None):
+    sha = required_sha(value)
+    actual_tree = required_sha(required(value, 'tree', dict))
+    actual_message = required(value, 'message', str)
+    actual_parents = [required_sha(parent) for parent in required(value, 'parents', list)]
+    if (expected is not None and sha != expected or tree_sha is not None and actual_tree != tree_sha
+            or parents is not None and actual_parents != parents
+            or message is not None and actual_message != message):
+        raise Stop('commit_response_mismatch')
+    return value
+
+
+def validate_tree(value, expected=None):
+    sha = required_sha(value)
+    if expected is not None and sha != expected:
+        raise Stop('tree_response_mismatch')
+    if required(value, 'truncated', bool):
+        raise Stop('truncated_tree')
+    files, seen = {}, set()
+    for entry in required(value, 'tree', list):
+        path = required(entry, 'path', str)
+        if (not path or path.startswith('/') or '\\' in path or '\x00' in path
+                or any(part in ('', '.', '..') for part in path.split('/')) or path in seen):
+            raise Stop('unexpected_tree_entry')
+        seen.add(path)
+        required_sha(entry)
+        kind, mode = required(entry, 'type', str), required(entry, 'mode', str)
+        if kind == 'tree' and mode == '040000':
+            continue
+        if kind != 'blob' or mode != '100644':
+            raise Stop('unexpected_tree_entry')
+        files[path] = entry
+    return files
+
+
+def blob_identity(raw):
+    return hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
+
+
+def tree_identity(files):
+    """Compute Git tree identity from the expected regular-file paths and blob SHAs."""
+    root = {}
+    for path, entry in files.items():
+        current = root
+        parts = path.split('/')
+        for part in parts[:-1]:
+            if part in current and not isinstance(current[part], dict):
+                raise Stop('conflicting_tree_paths')
+            current = current.setdefault(part, {})
+        if parts[-1] in current:
+            raise Stop('conflicting_tree_paths')
+        current[parts[-1]] = required_sha(entry)
+    def encode(node):
+        raw = b''
+        for name, item in sorted(node.items(), key=lambda pair: (pair[0] + ('/' if isinstance(pair[1], dict) else '')).encode('utf-8')):
+            directory = isinstance(item, dict)
+            sha = encode(item) if directory else item
+            raw += (b'40000' if directory else b'100644') + b' ' + name.encode('utf-8') + b'\0' + bytes.fromhex(sha)
+        return hashlib.sha1(b'tree ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
+    return encode(root)
+
+
+def root_entries(files):
+    """Expected immediate children in a create-tree response, including subtrees."""
+    result, directories = {}, {}
+    for path, entry in files.items():
+        first, separator, rest = path.partition('/')
+        if separator:
+            directories.setdefault(first, {})[rest] = entry
+        else:
+            result[first] = ('blob', '100644', required_sha(entry))
+    for name, children in directories.items():
+        if name in result:
+            raise Stop('conflicting_tree_paths')
+        result[name] = ('tree', '040000', tree_identity(children))
+    return result
+
+
 class GitHub:
     def __init__(self, token):
         if not token:
@@ -71,63 +182,61 @@ class GitHub:
                     raw = response.read(MAX_RESPONSE + 1)
                 if len(raw) > MAX_RESPONSE:
                     raise Stop('response_too_large')
-                return json.loads(raw)
+                value = json.loads(raw, object_pairs_hook=verifier.unique_object, parse_constant=verifier.reject_constant)
+                return require_object(value)
             except HTTPError as exc:
                 if method == 'GET' and (exc.code == 429 or 500 <= exc.code <= 599) and attempt < 2:
                     time.sleep(0.2 * (attempt + 1))
                     continue
                 raise Stop('http_' + str(exc.code)) from None
-            except (URLError, OSError, TimeoutError):
+            except (URLError, OSError, TimeoutError, HTTPException):
                 if method == 'GET' and attempt < 2:
                     time.sleep(0.2 * (attempt + 1))
                     continue
                 raise Stop('transport_failure' if method == 'GET' else 'write_outcome_unknown') from None
-            except (ValueError, UnicodeError):
+            except (ValueError, UnicodeError, TypeError, verifier.InputError, RecursionError):
                 raise Stop('invalid_api_response') from None
 
 
 def head(api, repo):
-    value = api.request(repo, 'GET', '/git/ref/heads/main')['object']['sha']
-    if not is_sha(value):
-        raise Stop('invalid_remote_commit')
-    return value
+    return validate_ref(api.request(repo, 'GET', '/git/ref/heads/main'))
 
 
 def tree(api, repo, commit):
-    c = api.request(repo, 'GET', '/git/commits/' + commit)
-    data = api.request(repo, 'GET', '/git/trees/' + c['tree']['sha'] + '?recursive=1')
-    if data.get('truncated'):
-        raise Stop('truncated_tree')
-    entries = {}
-    for entry in data['tree']:
-        if entry['type'] == 'tree':
-            continue
-        if entry['path'] in entries or entry['type'] != 'blob' or entry['mode'] != '100644':
-            raise Stop('unexpected_tree_entry')
-        entries[entry['path']] = entry
-    return c, entries
+    if not is_sha(commit):
+        raise Stop('invalid_remote_commit')
+    c = validate_commit(api.request(repo, 'GET', '/git/commits/' + commit), expected=commit)
+    expected_tree = required_sha(c['tree'])
+    data = api.request(repo, 'GET', '/git/trees/' + expected_tree + '?recursive=1')
+    return c, validate_tree(data, expected_tree)
 
 
 def blob(api, repo, entry):
-    data = api.request(repo, 'GET', '/git/blobs/' + entry['sha'])
-    if data.get('encoding') != 'base64':
+    expected = required_sha(entry)
+    data = api.request(repo, 'GET', '/git/blobs/' + expected)
+    if required_sha(data) != expected:
+        raise Stop('blob_response_mismatch')
+    if required(data, 'encoding', str) != 'base64':
         raise Stop('unexpected_blob_encoding')
+    content = required(data, 'content', str)
+    size = required(data, 'size', int)
+    if not 0 <= size <= verifier.MAX_BYTES:
+        raise Stop('invalid_blob_size')
     try:
-        raw = base64.b64decode(''.join(data['content'].split()), validate=True)
+        raw = base64.b64decode(''.join(content.split()), validate=True)
     except (ValueError, TypeError):
         raise Stop('invalid_blob') from None
-    if len(raw) != data['size'] or len(raw) > verifier.MAX_BYTES:
+    if len(raw) != size:
         raise Stop('invalid_blob_size')
-    # Validate Git's object identity independently of the local SHA-256 report.
-    git_sha = hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
-    if git_sha != entry['sha']:
+    if blob_identity(raw) != expected:
         raise Stop('blob_identity_mismatch')
     return raw
 
 
 def private_destination(api):
     data = api.request(DESTINATION, 'GET', '/')
-    if data.get('full_name') != DESTINATION or data.get('private') is not True or data.get('default_branch') != 'main':
+    if (required(data, 'full_name', str) != DESTINATION or required(data, 'private', bool) is not True
+            or required(data, 'default_branch', str) != 'main'):
         raise Stop('unexpected_destination_configuration')
 
 
@@ -246,18 +355,34 @@ def apply(api, plan, approval):
     for path, raw in list(files.items()) + [(MANIFEST, manifest(plan))]:
         b = api.request(DESTINATION, 'POST', '/git/blobs',
                         {'encoding': 'base64', 'content': base64.b64encode(raw).decode('ascii')})
-        elements.append({'path': path, 'type': 'blob', 'mode': '100644', 'sha': b['sha']})
+        sha = required_sha(b)
+        if sha != blob_identity(raw):
+            raise Stop('created_blob_identity_mismatch')
+        elements.append({'path': path, 'type': 'blob', 'mode': '100644', 'sha': sha})
     t = api.request(DESTINATION, 'POST', '/git/trees', {'base_tree': original['tree']['sha'], 'tree': elements})
-    c = api.request(DESTINATION, 'POST', '/git/commits',
-                    {'message': message, 'tree': t['sha'], 'parents': [current]})
-    commit = c['sha']
-    if not is_sha(commit):
-        raise Stop('invalid_created_commit')
+    validate_tree(t)
+    expected_entries = {'README.md': entries['README.md'], **{e['path']: e for e in elements}}
+    expected_tree = tree_identity(expected_entries)
+    response_entries = {e['path']: (e['type'], e['mode'], e['sha']) for e in t['tree']}
+    if response_entries != root_entries(expected_entries):
+        raise Stop('created_tree_response_contents_mismatch')
+    if required_sha(t) != expected_tree:
+        raise Stop('created_tree_identity_mismatch')
+    # Read the recursive tree to include nested paths omitted from the creation response.
+    saved_tree = validate_tree(api.request(DESTINATION, 'GET', '/git/trees/' + expected_tree + '?recursive=1'), expected_tree)
+    if {p: e['sha'] for p, e in saved_tree.items()} != {p: e['sha'] for p, e in expected_entries.items()}:
+        raise Stop('created_tree_contents_mismatch')
+    c = validate_commit(api.request(DESTINATION, 'POST', '/git/commits',
+                       {'message': message, 'tree': expected_tree, 'parents': [current]}),
+                       tree_sha=expected_tree, parents=[current], message=message)
+    commit = required_sha(c)
+    validate_commit(api.request(DESTINATION, 'GET', '/git/commits/' + commit),
+                    expected=commit, tree_sha=expected_tree, parents=[current], message=message)
     private_destination(api)
     if head(api, DESTINATION) != current:
         raise Stop('destination_conflict')
     try:
-        api.request(DESTINATION, 'PATCH', '/git/refs/heads/main', {'sha': commit, 'force': False})
+        validate_ref(api.request(DESTINATION, 'PATCH', '/git/refs/heads/main', {'sha': commit, 'force': False}), expected=commit)
     except Stop as exc:
         # Never repeat a mutating request. Only resolve a lost transport response.
         if exc.code != 'write_outcome_unknown':
