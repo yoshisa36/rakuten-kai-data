@@ -563,6 +563,20 @@ class CollectorTests(unittest.TestCase):
                 collector._files(collector.ReadOnly(Backend()), copy.SOURCE,
                                  collector.BASELINE_SOURCE)
 
+    def test_collect_budget_accumulates_across_file_groups(self):
+        entries = {p: {"sha": "a" * 40} for p in copy.PATHS}
+        budget = [0]
+        with patch.object(copy, "tree", return_value=({}, entries)), \
+             patch.object(copy, "blob", return_value=b"{}"), \
+             patch.object(collector.verifier, "queue_ids", return_value=set()), \
+             patch.object(collector, "MAX_COLLECT_FILE_BYTES", 20):
+            collector._files(collector.ReadOnly(Backend()), copy.SOURCE,
+                             collector.BASELINE_SOURCE, budget=budget)
+            self.assertEqual(12, budget[0])
+            with self.assertRaises(copy.Stop):
+                collector._files(collector.ReadOnly(Backend()), copy.DESTINATION,
+                                 collector.BASELINE_DESTINATION, budget=budget)
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
