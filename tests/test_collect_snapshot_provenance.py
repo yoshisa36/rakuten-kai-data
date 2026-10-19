@@ -589,6 +589,23 @@ class CollectorTests(unittest.TestCase):
             with self.assertRaises(copy.Stop):
                 collector._count_blob(b"manifest", budget)
 
+    def test_decoded_api_response_size_limit(self):
+        class LargeBackend:
+            def request(self, repo, method, suffix):
+                return {"payload": "x" * 20}
+        with patch.object(collector, "MAX_API_RESPONSE_BYTES", 12):
+            with self.assertRaises(copy.Stop):
+                collector.ReadOnly(LargeBackend()).request(
+                    copy.SOURCE, "GET", "/git/ref/heads/main")
+
+    def test_non_object_api_response_rejected(self):
+        class ListBackend:
+            def request(self, repo, method, suffix):
+                return ["unexpected"]
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(ListBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
