@@ -54,8 +54,8 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
                 return {"classification": "UNKNOWN", "reason": "inconsistent_match"}
         if status == "mismatch":
             if (item.get("sha256_equal") is not False
-                    or item.get("size_equal") not in (True, False)
-                    or item.get("json_structure_equal") not in (True, False)):
+                    or type(item.get("size_equal")) is not bool
+                    or type(item.get("json_structure_equal")) is not bool):
                 return {"classification": "UNKNOWN", "reason": "inconsistent_mismatch"}
             if not (isinstance(item.get("source"), dict)
                     and isinstance(item.get("destination"), dict)
@@ -63,13 +63,15 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
                     and item["destination"].get("json_valid") is True):
                 return {"classification": "UNKNOWN", "reason": "invalid_mismatch"}
         queue = item.get("queue")
+        if path == "threads-queue.json" and queue is None:
+            return {"classification": "UNKNOWN", "reason": "queue_validation_missing"}
         if queue is not None:
             if not isinstance(queue, dict) or not all(
                     isinstance(queue.get(side), dict)
                     and queue[side].get("valid") is True
                     for side in ("source", "destination")):
                 return {"classification": "UNKNOWN", "reason": "queue_unavailable"}
-            if queue.get("ids_equal") not in (True, False):
+            if type(queue.get("ids_equal")) is not bool:
                 return {"classification": "UNKNOWN", "reason": "queue_ids_unknown"}
             if queue.get("ids_equal") is False and status == "match":
                 return {"classification": "UNKNOWN", "reason": "inconsistent_queue_match"}
