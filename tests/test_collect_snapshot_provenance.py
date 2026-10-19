@@ -632,6 +632,31 @@ class CollectorTests(unittest.TestCase):
             collector.ReadOnly(RecursiveBackend()).request(
                 copy.SOURCE, "GET", "/git/ref/heads/main")
 
+    def test_extremely_large_api_integer_rejected(self):
+        class HugeIntegerBackend:
+            def request(self, repo, method, suffix):
+                return {"value": 10 ** 10000}
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(HugeIntegerBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
+    def test_deeply_nested_api_response_rejected(self):
+        class DeepBackend:
+            def request(self, repo, method, suffix):
+                value = {}
+                for _ in range(2000):
+                    value = {"child": value}
+                return value
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(DeepBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
+    def test_api_serialization_memory_error_rejected(self):
+        with patch.object(collector.json, "dumps", side_effect=MemoryError):
+            with self.assertRaises(copy.Stop):
+                collector.ReadOnly(Backend()).request(
+                    copy.SOURCE, "GET", "/git/ref/heads/main")
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
