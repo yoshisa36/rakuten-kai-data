@@ -102,6 +102,11 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             raise copy.Stop("invalid_manifest")
         plan = manifest["plan"]
         copy.validate_plan(plan, manifest["plan_sha256"])
+        if (plan["source_commit"] != source_commit
+                or plan["destination_commit"] == destination_commit):
+            # The manifest records the destination *before* the one-time copy.
+            # A manifest naming the completed snapshot as its parent is inconsistent.
+            raise copy.Stop("manifest_commit_mismatch")
         if plan["source_commit"] != source_commit:
             raise copy.Stop("source_commit_mismatch")
         if _hash(copy.blob(api, copy.DESTINATION, entries["README.md"])) != plan["readme_sha256"]:
