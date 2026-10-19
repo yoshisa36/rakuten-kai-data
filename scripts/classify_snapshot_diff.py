@@ -44,8 +44,10 @@ def classify(comparison, current_source_commit, snapshot_source_commit):
                        ("sha256_equal", "size_equal", "json_structure_equal")):
                 return {"classification": "UNKNOWN", "reason": "inconsistent_match"}
         if status == "mismatch":
-            if not (item.get("source", {}).get("json_valid") is True
-                    and item.get("destination", {}).get("json_valid") is True):
+            if not (isinstance(item.get("source"), dict)
+                    and isinstance(item.get("destination"), dict)
+                    and item["source"].get("json_valid") is True
+                    and item["destination"].get("json_valid") is True):
                 return {"classification": "UNKNOWN", "reason": "invalid_mismatch"}
         queue = item.get("queue")
         if queue is not None:
