@@ -98,6 +98,21 @@ class SnapshotDiffClassifierTests(unittest.TestCase):
         data["sha256_equal"] = True
         self.check("UNKNOWN", report(data))
 
+    def test_invalid_json_metadata_on_match_unknown(self):
+        data = item()
+        data["source"]["json_valid"] = False
+        self.check("UNKNOWN", report(data))
+
+    def test_invalid_other_file_overrides_queue_alert(self):
+        queue = {"source": {"valid": True}, "destination": {"valid": True},
+                 "ids_equal": False}
+        data = report(item("mismatch", queue))
+        for entry in data["results"]:
+            if entry["path"] == "products.json":
+                entry["status"] = "invalid"
+                entry["source"]["json_valid"] = False
+        self.check("UNKNOWN", data)
+
     def test_does_not_mutate_input(self):
         data = report(item())
         original = repr(data)
