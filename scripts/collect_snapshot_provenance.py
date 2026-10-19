@@ -104,6 +104,18 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         copy.validate_plan(plan, manifest["plan_sha256"])
         if plan["source_commit"] != source_commit:
             raise copy.Stop("source_commit_mismatch")
+        # The snapshot commit must be a direct child of the pre-copy
+        # destination commit recorded in the manifest. Fetch both immutable
+        # commits independently; do not infer ancestry from SHA formatting.
+        completed = copy.validate_commit(
+            api.request(copy.DESTINATION, "GET", "/git/commits/" + destination_commit),
+            expected=destination_commit)
+        parents = copy.required(completed, "parents", list)
+        if len(parents) != 1 or copy.required_sha(parents[0]) != plan["destination_commit"]:
+            raise copy.Stop("destination_parent_mismatch")
+        copy.validate_commit(
+            api.request(copy.DESTINATION, "GET", "/git/commits/" + plan["destination_commit"]),
+            expected=plan["destination_commit"])
         if _hash(copy.blob(api, copy.DESTINATION, entries["README.md"])) != plan["readme_sha256"]:
             raise copy.Stop("readme_mismatch")
         for record in plan["files"]:
