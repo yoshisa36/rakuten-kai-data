@@ -116,6 +116,15 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         copy.validate_commit(
             api.request(copy.DESTINATION, "GET", "/git/commits/" + plan["destination_commit"]),
             expected=plan["destination_commit"])
+        # Independently verify that the pre-copy parent contained the same
+        # README as the completed snapshot; a matching child hash alone does
+        # not prove the original README was preserved.
+        _, parent_entries = copy.tree(api, copy.DESTINATION, plan["destination_commit"])
+        if set(parent_entries) != {"README.md"}:
+            raise copy.Stop("unexpected_precopy_tree")
+        parent_readme = copy.blob(api, copy.DESTINATION, parent_entries["README.md"])
+        if _hash(parent_readme) != plan["readme_sha256"]:
+            raise copy.Stop("precopy_readme_mismatch")
         if _hash(copy.blob(api, copy.DESTINATION, entries["README.md"])) != plan["readme_sha256"]:
             raise copy.Stop("readme_mismatch")
         for record in plan["files"]:
