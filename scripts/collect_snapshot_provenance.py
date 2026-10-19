@@ -38,6 +38,14 @@ def _hash(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
+def _count_blob(raw, budget):
+    if budget is not None:
+        budget[0] += len(raw)
+        if budget[0] > MAX_COLLECT_FILE_BYTES:
+            raise copy.Stop("collect_file_bytes_limit")
+    return raw
+
+
 def _files(api, repo, commit, budget=None):
     _, entries = copy.tree(api, repo, commit)
     if len(entries) > MAX_TREE_ENTRIES:
@@ -47,12 +55,8 @@ def _files(api, repo, commit, budget=None):
     result = {}
     total = 0
     for path in copy.PATHS:
-        raw = copy.blob(api, repo, entries[path])
+        raw = _count_blob(copy.blob(api, repo, entries[path]), budget)
         total += len(raw)
-        if budget is not None:
-            budget[0] += len(raw)
-            if budget[0] > MAX_COLLECT_FILE_BYTES:
-                raise copy.Stop("collect_file_bytes_limit")
         if total > MAX_TOTAL_FILE_BYTES:
             raise copy.Stop("total_file_bytes_limit")
         data = verifier.parse_json(raw)
@@ -113,7 +117,7 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         destination, entries = _files(api, copy.DESTINATION, destination_commit, budget=budget)
         if set(entries) != set(copy.PATHS) | {"README.md", copy.MANIFEST}:
             raise copy.Stop("unexpected_destination_tree")
-        manifest_raw = copy.blob(api, copy.DESTINATION, entries[copy.MANIFEST])
+        manifest_raw = _count_blob(copy.blob(api, copy.DESTINATION, entries[copy.MANIFEST]), budget)
         manifest = verifier.parse_json(manifest_raw)
         if not isinstance(manifest, dict) or set(manifest) != {"plan", "plan_sha256"}:
             raise copy.Stop("invalid_manifest")
@@ -147,10 +151,10 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         _, parent_entries = copy.tree(api, copy.DESTINATION, plan["destination_commit"])
         if set(parent_entries) != {"README.md"}:
             raise copy.Stop("unexpected_precopy_tree")
-        parent_readme = copy.blob(api, copy.DESTINATION, parent_entries["README.md"])
+        parent_readme = _count_blob(copy.blob(api, copy.DESTINATION, parent_entries["README.md"]), budget)
         if _hash(parent_readme) != plan["readme_sha256"]:
             raise copy.Stop("precopy_readme_mismatch")
-        if _hash(copy.blob(api, copy.DESTINATION, entries["README.md"])) != plan["readme_sha256"]:
+        if _hash(_count_blob(copy.blob(api, copy.DESTINATION, entries["README.md"]), budget)) != plan["readme_sha256"]:
             raise copy.Stop("readme_mismatch")
         for record in plan["files"]:
             raw = source[record["path"]]
