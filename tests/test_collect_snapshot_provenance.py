@@ -77,7 +77,7 @@ class CollectorTests(unittest.TestCase):
         destination[copy.PATHS[0]] = b'{"changed":true}'
         entries = {p: {} for p in copy.PATHS}
         entries.update({"README.md": {}, copy.MANIFEST: {}})
-        plan = {"destination_commit": "a" * 40,
+        plan = {"destination_commit": collector.BASELINE_PRECOPY,
                 "source_commit": collector.BASELINE_SOURCE,
                 "readme_sha256": collector._hash(b"readme"),
                 "files": [{"path": p, "size": len(source[p]),
@@ -89,7 +89,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
              patch.object(copy, "manifest", return_value=b"manifest"), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot approved"}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "Initial runtime snapshot approved"}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
 
@@ -99,7 +99,7 @@ class CollectorTests(unittest.TestCase):
         destination[copy.PATHS[0]] = b'{"changed":true}'
         entries = {p: {} for p in copy.PATHS}
         entries.update({"README.md": {}, copy.MANIFEST: {}})
-        plan = {"destination_commit": "a" * 40,
+        plan = {"destination_commit": collector.BASELINE_PRECOPY,
                 "source_commit": collector.BASELINE_SOURCE,
                 "readme_sha256": collector._hash(b"readme"),
                 "files": [{"path": p, "size": len(source[p]),
@@ -111,7 +111,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
              patch.object(copy, "manifest", return_value=b"manifest"), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot approved"}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "Initial runtime snapshot approved"}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -124,7 +124,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -158,7 +158,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": len(source[p]),
                        "sha256": collector._hash(source[p])} for p in copy.PATHS],
@@ -169,7 +169,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + approval}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "Initial runtime snapshot " + approval}):
             result = collector.collect(Backend())
         self.assertEqual({"classification": "MATCH",
                           "reason": "baseline_intact_content_equal"}, result)
@@ -186,7 +186,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": len(source[p]),
                        "sha256": collector._hash(source[p])} for p in copy.PATHS],
@@ -197,7 +197,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
-             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + approval}):
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "Initial runtime snapshot " + approval}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
 
@@ -211,7 +211,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -235,7 +235,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -246,7 +246,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest]), \
              patch.object(copy, "validate_commit", return_value={
-                 "parents": [{"sha": "a" * 40}, {"sha": "b" * 40}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
+                 "parents": [{"sha": collector.BASELINE_PRECOPY}, {"sha": "b" * 40}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -260,7 +260,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -272,7 +272,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(copy, "blob", side_effect=[manifest, b"different"]), \
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
              patch.object(copy, "validate_commit", return_value={
-                 "parents": [{"sha": "a" * 40}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
+                 "parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "Initial runtime snapshot " + collector._hash(copy.canonical(plan))}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -285,7 +285,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -308,7 +308,7 @@ class CollectorTests(unittest.TestCase):
             "version": 1, "source_repository": copy.SOURCE,
             "destination_repository": copy.DESTINATION,
             "source_commit": collector.BASELINE_SOURCE,
-            "destination_commit": "a" * 40,
+            "destination_commit": collector.BASELINE_PRECOPY,
             "readme_sha256": collector._hash(b"readme"),
             "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
                       for p in copy.PATHS],
@@ -317,7 +317,27 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", return_value=copy.manifest(plan)), \
              patch.object(copy, "validate_commit", return_value={
-                 "parents": [{"sha": "a" * 40}], "message": "incorrect message"}):
+                 "parents": [{"sha": collector.BASELINE_PRECOPY}], "message": "incorrect message"}):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
+    def test_forged_precopy_commit_unknown(self):
+        """A self-consistent manifest cannot replace the trusted parent SHA."""
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", return_value=copy.manifest(plan)):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
