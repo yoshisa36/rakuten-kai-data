@@ -430,6 +430,18 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual("UNKNOWN", result["classification"])
         self.assertEqual([], backend.calls)
 
+    def test_unapproved_source_commit_rejected_without_backend_calls(self):
+        backend = Backend()
+        result = collector.collect(backend, source_commit="a" * 40)
+        self.assertEqual("UNKNOWN", result["classification"])
+        self.assertEqual([], backend.calls)
+
+    def test_unapproved_destination_commit_rejected_without_backend_calls(self):
+        backend = Backend()
+        result = collector.collect(backend, destination_commit="b" * 40)
+        self.assertEqual("UNKNOWN", result["classification"])
+        self.assertEqual([], backend.calls)
+
     def test_unavailable_api_unknown(self):
         backend = Backend()
         with patch.object(copy, "head", side_effect=copy.Stop("unavailable")):
