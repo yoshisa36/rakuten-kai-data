@@ -14,6 +14,7 @@ from verify_snapshot_provenance import Evidence, evaluate
 BASELINE_SOURCE = "2e28969c5a7119fb6de83664cb835c989c55dcfe"
 BASELINE_DESTINATION = "15a48986ef3565ba7600440ea8059783928b4e2a"
 BASELINE_PRECOPY = "dc3afab4abfb05feb44cca8ceb8a36fc9b9b9071"
+BASELINE_APPROVAL = "ea309c2aa3e9a85ebc59b481df9a0a614d273364e2791c02add6dd1023d982af"
 
 
 class ReadOnly:
@@ -103,6 +104,8 @@ def collect(backend, source_commit=BASELINE_SOURCE,
             raise copy.Stop("invalid_manifest")
         plan = manifest["plan"]
         copy.validate_plan(plan, manifest["plan_sha256"])
+        if manifest["plan_sha256"] != BASELINE_APPROVAL:
+            raise copy.Stop("approval_hash_mismatch")
         if manifest_raw != copy.manifest(plan):
             raise copy.Stop("noncanonical_manifest")
         if plan["source_commit"] != source_commit:
