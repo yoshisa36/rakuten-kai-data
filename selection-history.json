@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-18T23:57:09.258Z",
+  "updatedAt": "2026-10-19T23:57:17.563Z",
   "count": 59,
   "products": [
     {
@@ -57,17 +57,17 @@
       "selectionReason": "73点 / 採用候補 / 省スペース 収納 × ゴミ箱・分別"
     },
     {
-      "selectedAt": "2026-10-07T23:57:09.456Z",
-      "selectedDate": "2026-10-07T15:00:00.000Z",
-      "rank": 2,
+      "selectedAt": "2026-10-19T23:57:14.246Z",
+      "selectedDate": "2026-10-19T15:00:00.000Z",
+      "rank": 1,
       "searchTheme": "洗面所収納",
       "productType": "チェスト・引き出し",
       "totalScore": 71,
       "judgment": "採用候補",
-      "productName": "【P10倍 10/9 9:59迄】 選べる天板 チェスト スリム/ワイド 3段/4段/5段 幅34/54 奥行42 高さ68.5/88/107.5cm タンス 衣装ケース 収納ケース 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト ルームス サンカ SANKA 【送料無料】",
+      "productName": "選べる天板 チェスト スリム/ワイド 3段/4段/5段 幅34/54 奥行42 高さ68.5/88/107.5cm タンス 衣装ケース 収納ケース 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト ルームス 日本製 サンカ SANKA 【送料無料】",
       "price": 4699,
       "shop": "くらしのeショップ",
-      "reviewCount": 7595,
+      "reviewCount": 7607,
       "reviewAverage": 4.35,
       "priceScore": 12,
       "reviewScore": 11,
@@ -109,8 +109,8 @@
       "selectionReason": "68点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-09T23:57:06.565Z",
-      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "selectedAt": "2026-10-19T23:57:14.246Z",
+      "selectedDate": "2026-10-19T15:00:00.000Z",
       "rank": 4,
       "searchTheme": "洗面所収納",
       "productType": "ランドリー用品",
@@ -187,9 +187,9 @@
       "selectionReason": "69点 / 様子見 / 子供 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-08T23:57:10.713Z",
-      "selectedDate": "2026-10-08T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-10-19T23:57:14.246Z",
+      "selectedDate": "2026-10-19T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 67,
@@ -395,9 +395,9 @@
       "selectionReason": "58点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-11T23:57:06.280Z",
-      "selectedDate": "2026-10-11T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-10-19T23:57:14.246Z",
+      "selectedDate": "2026-10-19T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 68,
@@ -405,7 +405,7 @@
       "productName": "シューズラック 3段 スリム 省スペース 幅45×奥行17.5×高さ60.5cm （ シューズスタンド 6足 靴収納 玄関 下駄箱 靴 収納 ラック 簡単 組み立て 玄関収納 シューズ シューズボックス 継ぎ足し可能 ）",
       "price": 2780,
       "shop": "リビングート 楽天市場店",
-      "reviewCount": 217,
+      "reviewCount": 218,
       "reviewAverage": 4.45,
       "priceScore": 16,
       "reviewScore": 11,
@@ -1175,8 +1175,8 @@
       "selectionReason": "70点 / 採用候補 / お風呂 収納 × 吊り下げ収納"
     },
     {
-      "selectedAt": "2026-10-07T23:57:09.456Z",
-      "selectedDate": "2026-10-07T15:00:00.000Z",
+      "selectedAt": "2026-10-19T23:57:14.246Z",
+      "selectedDate": "2026-10-19T15:00:00.000Z",
       "rank": 5,
       "searchTheme": "掃除 便利グッズ",
       "productType": "掃除用品",
@@ -1185,7 +1185,7 @@
       "productName": "頑固な 陶器汚れ をガッチリ落とす 洗剤いらず 経済的な エコピカ ブルー 【ゆうパケット 送料無料】 浴室 タイル 陶器 洗面ボール 水垢 輪ジミ 黒ズミ 洗面所 清掃用品 研磨パッド 業務用 ホワイトアルミナ タイル磨き 陶器磨き 大掃除 大掃除便利グッズ 大掃除グッズ",
       "price": 680,
       "shop": "私の生活 楽天市場店",
-      "reviewCount": 38,
+      "reviewCount": 39,
       "reviewAverage": 4.79,
       "priceScore": 15,
       "reviewScore": 15,
