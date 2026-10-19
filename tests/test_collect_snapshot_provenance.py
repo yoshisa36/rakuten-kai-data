@@ -88,6 +88,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
+             patch.object(copy, "manifest", return_value=b"manifest"), \
              patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
@@ -109,6 +110,7 @@ class CollectorTests(unittest.TestCase):
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
              patch.object(copy, "validate_plan", return_value=None), \
+             patch.object(copy, "manifest", return_value=b"manifest"), \
              patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
@@ -162,7 +164,7 @@ class CollectorTests(unittest.TestCase):
                        "sha256": collector._hash(source[p])} for p in copy.PATHS],
         }
         approval = collector._hash(copy.canonical(plan))
-        manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
+        manifest = copy.manifest(plan)
         with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
@@ -190,7 +192,7 @@ class CollectorTests(unittest.TestCase):
                        "sha256": collector._hash(source[p])} for p in copy.PATHS],
         }
         approval = collector._hash(copy.canonical(plan))
-        manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
+        manifest = copy.manifest(plan)
         with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
              patch.object(copy, "blob", side_effect=[manifest, b"readme", b"readme"]), \
@@ -271,6 +273,29 @@ class CollectorTests(unittest.TestCase):
              patch.object(copy, "tree", return_value=({}, {"README.md": {}})), \
              patch.object(copy, "validate_commit", return_value={
                  "parents": [{"sha": "a" * 40}]}):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
+    def test_noncanonical_manifest_unknown(self):
+        """Same parsed plan with altered whitespace is not the saved snapshot."""
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        raw = copy.manifest(plan)
+        changed = raw.replace(b',"plan_sha256"', b', "plan_sha256"')
+        self.assertNotEqual(raw, changed)
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[changed]):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
