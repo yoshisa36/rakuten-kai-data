@@ -55,6 +55,9 @@ class ProvenanceDecisionTests(unittest.TestCase):
     def test_invalid_bool(self):
         self.check("UNKNOWN", baseline_verified=1)
 
+    def test_non_boolean_stable_reads_unknown(self):
+        self.check("UNKNOWN", stable_reads=1)
+
     def test_invalid_evidence(self):
         self.assertEqual("UNKNOWN", evaluate({})["classification"])
 
