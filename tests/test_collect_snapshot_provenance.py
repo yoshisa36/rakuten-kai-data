@@ -606,6 +606,32 @@ class CollectorTests(unittest.TestCase):
             collector.ReadOnly(ListBackend()).request(
                 copy.SOURCE, "GET", "/git/ref/heads/main")
 
+    def test_nonfinite_api_number_rejected(self):
+        class NonfiniteBackend:
+            def request(self, repo, method, suffix):
+                return {"value": float("nan")}
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(NonfiniteBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
+    def test_unserializable_api_value_rejected(self):
+        class InvalidBackend:
+            def request(self, repo, method, suffix):
+                return {"value": object()}
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(InvalidBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
+    def test_nested_api_object_overflow_rejected(self):
+        class RecursiveBackend:
+            def request(self, repo, method, suffix):
+                value = {}
+                value["self"] = value
+                return value
+        with self.assertRaises(copy.Stop):
+            collector.ReadOnly(RecursiveBackend()).request(
+                copy.SOURCE, "GET", "/git/ref/heads/main")
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
