@@ -23,7 +23,7 @@ class ReadOnly:
         if method != "GET" or repo not in (copy.SOURCE, copy.DESTINATION):
             raise copy.Stop("read_only_violation")
         if not (suffix == "/git/ref/heads/main" or re.fullmatch(
-                r"/git/(?:commits/[0-9a-f]{40}|trees/[0-9a-f]{40}\\?recursive=1|blobs/[0-9a-f]{40})",
+                r"/git/(?:commits/[0-9a-f]{40}|trees/[0-9a-f]{40}\?recursive=1|blobs/[0-9a-f]{40})",
                 suffix)):
             raise copy.Stop("endpoint_not_allowed")
         return self.backend.request(repo, method, suffix)
