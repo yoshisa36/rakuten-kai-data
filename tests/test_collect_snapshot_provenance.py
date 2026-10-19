@@ -107,6 +107,39 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_real_manifest_validator_rejects_forged_approval(self):
+        """Exercise the real manifest validator, not a patched acceptance."""
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        import json
+        manifest = json.dumps({"plan": plan, "plan_sha256": "0" * 64}).encode()
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest]):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
+    def test_manifest_duplicate_keys_unknown(self):
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        manifest = b'{"plan":{},"plan":{},"plan_sha256":"bad"}'
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest]):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
     def test_ancestry_same_without_network(self):
         backend = Backend()
         self.assertEqual("same", collector.ancestry(
