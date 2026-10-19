@@ -73,3 +73,23 @@ repository contents.
 
 This review is a release gate, not authorization to access the private
 repository, deploy a collector, merge this Draft PR, or enable automatic replies.
+
+## Remaining gates before any live read
+
+The following items are **not** established by 159 passing offline tests.
+Do not treat these as authorization to access the private repository.
+
+| Gate | Evidence required | Current disposition |
+| --- | --- | --- |
+| Authorized private read | Explicit user approval of repository, exact endpoints, and scope; minimum read-only permission | Not approved |
+| Private snapshot identity | Read-only verification of pinned snapshot commit, its single pre-copy parent, tree and manifest | Not checked against live private repository |
+| Operator approval binding | Compare pinned `BASELINE_APPROVAL` against actual private canonical manifest and snapshot commit message | Not checked against live private repository |
+| Source baseline and drift | Verify immutable public source blobs and current `main` HEAD with bounded ancestry and stable re-read | Offline tests only |
+| Credential hygiene | Confirm minimum permission, no token in code, CI logs, reports or artifacts; no reuse of initial-copy token | Requires review |
+| Failure behavior | Demonstrate 404, 403/rate-limit, timeout, malformed Git data, oversized blobs, unstable HEAD and incomplete history return `UNKNOWN` without private payload disclosure | Offline coverage must be mapped to each case |
+| Deployment boundaries | No scheduled trigger, no GAS/Threads integration, no auto-reply or posting calls, no automatic repair | Maintained in this Draft design |
+| Change authorization | Separate explicit approval before a real-data adapter, merge, or any production action | Not granted |
+
+**Next safe work:** audit existing offline tests against the failure-behavior
+matrix and add missing mock-based regression tests. No private repository read
+or live adapter is needed for this step.
