@@ -47,3 +47,9 @@ python3 scripts/verify_snapshot.py --source-root /local/source --destination-roo
 ```
 
 SHAは記録用メタデータで、実際の取得元の証明ではありません。上記のSHAは説明用の仮値です。本文・予約ID・差分値は出力しません。信頼できるローカルディレクトリを指定し、秘密を含むパス名を使わないでください。シンボリックリンクは拒否します。詳しい制約とレポート仕様は [docs/snapshot-verification.md](docs/snapshot-verification.md) を参照してください。
+
+## 初回データ複製CLI（実行は別途承認）
+
+`scripts/initial_runtime_copy.py` は固定6パスの初回複製用です。既定はGETだけのdry-runで、保存した計画とそのSHA-256の明示承認がなければ書き込みません。今回は人工データ・モックAPIで開発検証しただけで、実データの取得・コピーは実行していません。
+
+実行条件、限定認証、応答喪失・再実行、Privateリポジトリと単一コミットの扱いは [docs/initial-runtime-copy.md](docs/initial-runtime-copy.md) を参照してください。実際の利用にはGitHub通信が発生し、承認済み適用では新側へ書き込みます。PRテストでは通信を遮断します。
