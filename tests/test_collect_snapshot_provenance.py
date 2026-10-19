@@ -139,6 +139,34 @@ class CollectorTests(unittest.TestCase):
             collector.ancestry(collector.ReadOnly(backend), "main", "a" * 40)
         self.assertEqual([], backend.calls)
 
+    def test_ancestry_merge_parent_path(self):
+        baseline, head = "a" * 40, "b" * 40
+        other = "c" * 40
+        def commit(value, expected=None):
+            return {"parents": ([{"sha": other}, {"sha": baseline}]
+                                if expected == head else [])}
+        with patch.object(copy, "validate_commit", side_effect=commit):
+            self.assertEqual("descendant", collector.ancestry(
+                collector.ReadOnly(Backend()), baseline, head))
+
+    def test_ancestry_cycle_unknown(self):
+        baseline, head = "a" * 40, "b" * 40
+        with patch.object(copy, "validate_commit", return_value={"parents": [{"sha": head}]}):
+            self.assertEqual("unknown", collector.ancestry(
+                collector.ReadOnly(Backend()), baseline, head))
+
+    def test_ancestry_excessive_parents_unknown(self):
+        baseline, head = "a" * 40, "b" * 40
+        with patch.object(copy, "validate_commit", return_value={
+                "parents": [{"sha": "c" * 40}] * 17}):
+            self.assertEqual("unknown", collector.ancestry(
+                collector.ReadOnly(Backend()), baseline, head))
+
+    def test_ancestry_invalid_limit_rejected(self):
+        with self.assertRaises(copy.Stop):
+            collector.ancestry(collector.ReadOnly(Backend()),
+                               "a" * 40, "b" * 40, max_commits=0)
+
     def test_invalid_commit_no_backend_calls(self):
         backend = Backend()
         result = collector.collect(backend, source_commit="main")
