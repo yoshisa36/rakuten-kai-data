@@ -37,3 +37,13 @@ PRのテストでは、現在時刻に対する本番JSONの鮮度を判定し�
 予約登録の操作手順は [docs/threads-queue-registration.md](docs/threads-queue-registration.md) を参照してください。開発テストのために登録スクリプトや予約登録workflowを実行する必要はありません。
 
 移行準備と参照先設定は [docs/migration-phase1.md](docs/migration-phase1.md) を参照してください。
+
+## ローカル・スナップショット検証
+
+`scripts/verify_snapshot.py` はローカルの新旧JSONを読み取り、生バイトのSHA-256・サイズとJSON構造を別々に報告します。通信・コピー・登録・投稿は行いません。整形差分だけでも終了コード1、不正入力は2、完全一致は0です。
+
+```sh
+python3 scripts/verify_snapshot.py --source-root /local/source --destination-root /local/destination --path threads-queue.json --source-commit 0000000000000000000000000000000000000000
+```
+
+SHAは記録用メタデータで、実際の取得元の証明ではありません。上記のSHAは説明用の仮値です。本文・予約ID・差分値は出力しません。信頼できるローカルディレクトリを指定し、秘密を含むパス名を使わないでください。シンボリックリンクは拒否します。詳しい制約とレポート仕様は [docs/snapshot-verification.md](docs/snapshot-verification.md) を参照してください。
