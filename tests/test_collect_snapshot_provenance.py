@@ -518,6 +518,28 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(WrongCommitBackend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_git_blob_content_identity_mismatch_unknown(self):
+        """Correct claimed SHA is insufficient when returned bytes are different."""
+        class ForgedBlobBackend:
+            def request(self, repo, method, suffix):
+                return {"sha": "a" * 40, "encoding": "base64",
+                        "size": 2, "content": "e30="}
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(copy, "tree", return_value=({}, {p: {"sha": "a" * 40} for p in copy.PATHS})):
+            result = collector.collect(ForgedBlobBackend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
+    def test_git_blob_invalid_base64_unknown(self):
+        """Malformed base64 cannot be accepted as a verified Git blob."""
+        class MalformedBlobBackend:
+            def request(self, repo, method, suffix):
+                return {"sha": "a" * 40, "encoding": "base64",
+                        "size": 2, "content": "not-base64!!!"}
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(copy, "tree", return_value=({}, {p: {"sha": "a" * 40} for p in copy.PATHS})):
+            result = collector.collect(MalformedBlobBackend())
+        self.assertEqual("UNKNOWN", result["classification"])
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
