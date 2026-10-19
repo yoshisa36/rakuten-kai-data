@@ -540,6 +540,29 @@ class CollectorTests(unittest.TestCase):
             result = collector.collect(MalformedBlobBackend())
         self.assertEqual("UNKNOWN", result["classification"])
 
+    def test_tree_entry_limit_rejected_before_blob_reads(self):
+        entries = {p: {"sha": "a" * 40} for p in copy.PATHS}
+        entries.update({f"extra-{i}.json": {"sha": "a" * 40}
+                        for i in range(collector.MAX_TREE_ENTRIES)})
+        with patch.object(copy, "tree", return_value=({}, entries)), \
+             patch.object(copy, "blob") as blob:
+            with self.assertRaises(copy.Stop):
+                collector._files(collector.ReadOnly(Backend()), copy.SOURCE,
+                                 collector.BASELINE_SOURCE)
+            blob.assert_not_called()
+
+    def test_cumulative_file_bytes_limit_rejected(self):
+        entries = {p: {"sha": "a" * 40} for p in copy.PATHS}
+        oversized = b"x" * 4
+        with patch.object(copy, "tree", return_value=({}, entries)), \
+             patch.object(copy, "blob", return_value=oversized), \
+             patch.object(collector.verifier, "parse_json", return_value={}), \
+             patch.object(collector.verifier, "queue_ids", return_value=set()), \
+             patch.object(collector, "MAX_TOTAL_FILE_BYTES", 7):
+            with self.assertRaises(copy.Stop):
+                collector._files(collector.ReadOnly(Backend()), copy.SOURCE,
+                                 collector.BASELINE_SOURCE)
+
     def test_no_private_payload_in_error(self):
         class SecretBackend:
             def request(self, *args):
