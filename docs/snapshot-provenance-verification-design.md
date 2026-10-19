@@ -1,6 +1,6 @@
 # STEP 23 — Read-only snapshot provenance verification design
 
-Status: **design and offline evidence-decision prototype only**. This document does not authorize running against production, merging another PR, changing GAS, scheduling a job, or enabling replies.
+Status: **design plus offline evidence-decision prototype and injected GET-only baseline collector**. No live GitHub client, credentials, or execution workflow. This document does not authorize running against production, merging another PR, changing GAS, scheduling a job, or enabling replies.
 
 ## Scope and trust boundaries
 
@@ -11,7 +11,7 @@ Status: **design and offline evidence-decision prototype only**. This document d
 - The existing `verify_snapshot.py --source-commit` **records metadata only**. Do not treat its `source_commit_verified: false` as an attestation.
 - No new long-lived PAT or token in repository files/logs. Private reads, if necessary, use minimum read-only authorization supplied by the user; do not reuse the initial-copy token; its revocation has not been confirmed.
 
-## Proposed workflow (GitHub read-only adapter not implemented in this PR)
+## Proposed workflow (baseline collector is mockable; ancestry proof and live adapter are not implemented)
 
 1. **Pin immutable inputs:** query the public source commit by its exact SHA and private destination by its exact SHA; record the public main HEAD separately. A changing HEAD is not an immutable baseline.
 2. **Verify manifest:** parse with duplicate-key rejection and a strict schema; require six unique approved paths, expected source/destination repository identities and source commit; verify each declared SHA256/byte size against GitHub blobs at the pinned commits. Treat unknown/missing manifest fields according to a documented schema, not as implicit success.
@@ -43,4 +43,4 @@ A genuine source update must never conceal a corrupted private baseline. Convers
 
 ## Current limitations
 
-This is a design, not evidence that the live/private snapshots currently match. The original one-time copy verification was performed at creation time, but the current state of either repository is not asserted here.
+This includes a GET-only mockable baseline collector, not evidence that the live/private snapshots currently match. The collector intentionally returns UNKNOWN if current public main has advanced beyond the pinned source commit, because commit ancestry is not yet verified. The original one-time copy verification was performed at creation time, but the current state of either repository is not asserted here.
