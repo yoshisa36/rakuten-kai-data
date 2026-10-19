@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T21:26:40+09:00",
+  "updatedAt": "2026-10-19T21:40:13+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -886,6 +886,54 @@
       "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tric8.8dcsq8b1.g00tric8.8dcsr80d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcareland%2Fbp-lmat%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcareland%2Fi%2F10000234%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "approvalStatus": "approved",
       "memo": "10/19再検証。10/12以来7日空け同じ時刻・リンク方式を維持。携帯ハンガーは少量洗濯から大物干し後の靴下へ、ネットホルダーは底洗いから調理中のくずの置き場へ、お食事マットは床掃除から自分で食べる見守りへ切り口変更。靴収納連投と10/17ルームモック再投稿を回避。10/17商品は各方式で翌日増加、報告投稿からの回遊・配信量・集計時点が交絡し確度低。翌日・翌々日比較。最新products.jsonの実在商品・URL、購入使用体験・期限付き販促なし。"
+    },
+    {
+      "reservationId": "KAI-20261020-1130",
+      "scheduledAt": "2026-10-20T11:30:00+09:00",
+      "text": "お風呂の水垢、気になった時に少しだけ掃除したいのに、道具を出すところで止まる😂\n\n水で濡らして使うバススポンジなら、日々のお手入れの候補にできそう👀\n\nただ、使える素材やコーティングの有無は先に確認したい。\n落ちにくい汚れも、強くこすればいいとは限らないよね🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "マーナ 水ピカ バススポンジ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw179%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10000531%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "approvalStatus": "approved",
+      "memo": "10/20未紹介候補。products.json 10/19更新。水ピカは商品名W686とURL w179が混在のため型番を本文・商品名へ載せず、素材適合確認を促す。掃除の準備負担を具体化。水だけで全汚れが落ちる等の保証・使用体験なし。"
+    },
+    {
+      "reservationId": "KAI-20261020-1430",
+      "scheduledAt": "2026-10-20T14:30:00+09:00",
+      "text": "網戸って、部屋の掃除ではつい後回しにならない？😂\n\n外して洗う大仕事を考えると、ますます手が止まる。\n\nロングタイプの網戸ブラシなら、日々のお手入れ方法の一つとして気になる👀\n使える網戸の種類と、お手入れ方法を確認して選びたい。\n掃除のハードルを少し下げたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "エチケットブラシ de 網戸掃除 ロング",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00te5j8.8dcsq6c1.g00te5j8.8dcsreed/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnipponseal%2F005%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnipponseal%2Fi%2F10000006%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "memo": "10/20未紹介候補。selection-history.jsonのnipponseal/005、N20/N21。低価格帯の掃除道具を履歴から選び、直近の浴室・靴収納偏重を分散。実際の在庫・価格・適合は未確認なので本文に断定なし。"
+    },
+    {
+      "reservationId": "KAI-20261020-1730",
+      "scheduledAt": "2026-10-20T17:30:00+09:00",
+      "text": "子どもの「見て！」に振り向いた瞬間、さっき何をしようとしてたか忘れる😂\n\n洗濯物をしまう途中だったり、お湯を沸かそうとしてたり。\n\n小さな用事が途中のまま、家のあちこちに点在する🤣\n一日終わって疲れてるのに、何したっけってなる理由、これかもしれない。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "10/20交流。子育てで家事が中断する具体的な場面を共感軸に。リンクなし、ROOM登録不要。"
+    },
+    {
+      "reservationId": "KAI-20261020-2000",
+      "scheduledAt": "2026-10-20T20:00:00+09:00",
+      "text": "子どもの上着、バッグ、細かい持ち物。置く場所が別々だと朝の確認であちこち回る😂\n\n掛ける収納と引き出しがまとまったキッズラックなら、支度の場所を一か所に考えられそう👀\n\n選ぶ時は容量だけじゃなく、子どもが届く高さかも大事。\n寸法と安定性、転倒対策を確認したい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "LOWYA 収納付きキッズハンガーラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxdh8.8dcsq638.g00pxdh8.8dcsrf8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flow-ya%2Ff502-g1022-100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flow-ya%2Fi%2F10012163%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "ROOM誘導",
+      "approvalStatus": "approved",
+      "memo": "10/20未紹介商品。LOWYA f502-g1022-100。10/13のf502-g1023-100と型番が異なり、10/15シーズユニットとも別商品。ただし同カテゴリの再登場である点を明示。朝の移動・持ち物確認をまとめる提案。高価格帯テスト。売上の根拠は未知。rakuten-affiliate日別最終10/11でCSV鮮度不足。10/18ユーザー報告71円未確定と区別。Viewsと売上の直接因果は断定せず翌日・翌々日観測。"
     }
   ]
 }
