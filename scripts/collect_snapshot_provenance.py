@@ -112,6 +112,8 @@ def collect(backend, source_commit=BASELINE_SOURCE,
         completed = copy.validate_commit(
             api.request(copy.DESTINATION, "GET", "/git/commits/" + destination_commit),
             expected=destination_commit)
+        if copy.required(completed, "message", str) != "Initial runtime snapshot " + manifest["plan_sha256"]:
+            raise copy.Stop("snapshot_commit_message_mismatch")
         parents = copy.required(completed, "parents", list)
         if len(parents) != 1 or copy.required_sha(parents[0]) != plan["destination_commit"]:
             raise copy.Stop("destination_parent_mismatch")
