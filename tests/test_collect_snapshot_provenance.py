@@ -77,7 +77,8 @@ class CollectorTests(unittest.TestCase):
         destination[copy.PATHS[0]] = b'{"changed":true}'
         entries = {p: {} for p in copy.PATHS}
         entries.update({"README.md": {}, copy.MANIFEST: {}})
-        plan = {"source_commit": collector.BASELINE_SOURCE,
+        plan = {"destination_commit": "a" * 40,
+                "source_commit": collector.BASELINE_SOURCE,
                 "readme_sha256": collector._hash(b"readme"),
                 "files": [{"path": p, "size": len(source[p]),
                            "sha256": collector._hash(source[p])} for p in copy.PATHS]}
@@ -96,7 +97,8 @@ class CollectorTests(unittest.TestCase):
         destination[copy.PATHS[0]] = b'{"changed":true}'
         entries = {p: {} for p in copy.PATHS}
         entries.update({"README.md": {}, copy.MANIFEST: {}})
-        plan = {"source_commit": collector.BASELINE_SOURCE,
+        plan = {"destination_commit": "a" * 40,
+                "source_commit": collector.BASELINE_SOURCE,
                 "readme_sha256": collector._hash(b"readme"),
                 "files": [{"path": p, "size": len(source[p]),
                            "sha256": collector._hash(source[p])} for p in copy.PATHS]}
