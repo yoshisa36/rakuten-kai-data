@@ -85,7 +85,8 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
              patch.object(copy, "blob", side_effect=[b"manifest", b"readme"]), \
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
-             patch.object(copy, "validate_plan", return_value=None):
+             patch.object(copy, "validate_plan", return_value=None), \
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
 
@@ -103,7 +104,8 @@ class CollectorTests(unittest.TestCase):
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
              patch.object(copy, "blob", side_effect=[b"manifest", b"readme"]), \
              patch.object(collector.verifier, "parse_json", return_value={"plan": plan, "plan_sha256": "approved"}), \
-             patch.object(copy, "validate_plan", return_value=None):
+             patch.object(copy, "validate_plan", return_value=None), \
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual("UNKNOWN", result["classification"])
 
@@ -159,7 +161,8 @@ class CollectorTests(unittest.TestCase):
         manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
         with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
              patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
-             patch.object(copy, "blob", side_effect=[manifest, b"readme"]):
+             patch.object(copy, "blob", side_effect=[manifest, b"readme"]), \
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual({"classification": "MATCH",
                           "reason": "baseline_intact_content_equal"}, result)
@@ -185,9 +188,34 @@ class CollectorTests(unittest.TestCase):
         manifest = json.dumps({"plan": plan, "plan_sha256": approval}).encode()
         with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
              patch.object(collector, "_files", side_effect=[(source, {}), (destination, entries)]), \
-             patch.object(copy, "blob", side_effect=[manifest, b"readme"]):
+             patch.object(copy, "blob", side_effect=[manifest, b"readme"]), \
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "a" * 40}]}):
             result = collector.collect(Backend())
         self.assertEqual("ALERT", result["classification"])
+
+    def test_destination_parent_mismatch_unknown(self):
+        """Reject a valid plan if the completed snapshot is not its child."""
+        import json
+        source = {p: b"{}" for p in copy.PATHS}
+        entries = {p: {} for p in copy.PATHS}
+        entries.update({"README.md": {}, copy.MANIFEST: {}})
+        plan = {
+            "version": 1, "source_repository": copy.SOURCE,
+            "destination_repository": copy.DESTINATION,
+            "source_commit": collector.BASELINE_SOURCE,
+            "destination_commit": "a" * 40,
+            "readme_sha256": collector._hash(b"readme"),
+            "files": [{"path": p, "size": 2, "sha256": collector._hash(b"{}")}
+                      for p in copy.PATHS],
+        }
+        manifest = json.dumps({"plan": plan, "plan_sha256":
+                               collector._hash(copy.canonical(plan))}).encode()
+        with patch.object(copy, "head", return_value=collector.BASELINE_SOURCE), \
+             patch.object(collector, "_files", side_effect=[(source, {}), (source, entries)]), \
+             patch.object(copy, "blob", side_effect=[manifest]), \
+             patch.object(copy, "validate_commit", return_value={"parents": [{"sha": "b" * 40}]}):
+            result = collector.collect(Backend())
+        self.assertEqual("UNKNOWN", result["classification"])
 
     def test_ancestry_same_without_network(self):
         backend = Backend()
