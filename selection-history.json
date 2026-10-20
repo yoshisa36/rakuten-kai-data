@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-19T23:57:17.563Z",
-  "count": 59,
+  "updatedAt": "2026-10-20T23:57:09.323Z",
+  "count": 60,
   "products": [
     {
       "selectedAt": "2026-10-14T23:57:13.191Z",
@@ -915,8 +915,8 @@
       "selectionReason": "78点 / 採用候補 / クローゼット 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-10-12T23:57:28.106Z",
-      "selectedDate": "2026-10-12T15:00:00.000Z",
+      "selectedAt": "2026-10-20T23:57:08.019Z",
+      "selectedDate": "2026-10-20T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "洗濯 便利グッズ",
       "productType": "洗濯用品",
@@ -925,7 +925,7 @@
       "productName": "【楽天1位】 洗濯袋 洗濯バッグ 旅行 アウトドア 洗濯 ランドリーバッグ 軽量 コンパクト 手洗い おしゃれ着洗い 泥汚れ 手荒れ 防水 防水バッグ 防災 海外旅行 バックパッカー ウォッシュバッグ 旅行洗濯グッズ 分別洗い 予洗い 旅行 便利グッズ 10L 5L ザブル",
       "price": 2280,
       "shop": "旅行とアウトドアのソロサピエンス",
-      "reviewCount": 766,
+      "reviewCount": 771,
       "reviewAverage": 4.41,
       "priceScore": 16,
       "reviewScore": 11,
@@ -1097,9 +1097,9 @@
       "selectionReason": "69点 / 様子見 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-10-12T23:57:28.106Z",
-      "selectedDate": "2026-10-12T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-10-20T23:57:08.019Z",
+      "selectedDate": "2026-10-20T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "玄関収納",
       "productType": "靴収納",
       "totalScore": 67,
@@ -1227,9 +1227,9 @@
       "selectionReason": "84点 / 採用候補 / お風呂 収納 × 吊り下げ収納"
     },
     {
-      "selectedAt": "2026-10-08T23:57:10.713Z",
-      "selectedDate": "2026-10-08T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-10-20T23:57:08.019Z",
+      "selectedDate": "2026-10-20T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "クローゼット 収納",
       "productType": "チェスト・引き出し",
       "totalScore": 71,
@@ -1237,7 +1237,7 @@
       "productName": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
       "price": 4999,
       "shop": "くらしのeショップ",
-      "reviewCount": 6684,
+      "reviewCount": 6801,
       "reviewAverage": 4.42,
       "priceScore": 12,
       "reviewScore": 11,
@@ -1331,8 +1331,8 @@
       "selectionReason": "66点 / 様子見 / お風呂 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-11T23:57:06.280Z",
-      "selectedDate": "2026-10-11T15:00:00.000Z",
+      "selectedAt": "2026-10-20T23:57:08.019Z",
+      "selectedDate": "2026-10-20T15:00:00.000Z",
       "rank": 4,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
@@ -1537,6 +1537,32 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1hl8.8dcsq348.g00r1hl8.8dcsreb7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivewell%2Fst_ptb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivewell%2Fi%2F10002778%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "クローゼット 収納 × チェスト・引き出し",
       "selectionReason": "76点 / 採用候補 / クローゼット 収納 × チェスト・引き出し"
+    },
+    {
+      "selectedAt": "2026-10-20T23:57:08.019Z",
+      "selectedDate": "2026-10-20T15:00:00.000Z",
+      "rank": 5,
+      "searchTheme": "ランドリー収納",
+      "productType": "ランドリー用品",
+      "totalScore": 65,
+      "judgment": "様子見",
+      "productName": "【2025年新商品】ランドリーチェスト スリム 薄型 奥行30cm 大容量 引き出し 引出し 隙間収納 すき間収納 洗面所 棚 幅45cm 幅60cm 幅75cm ランドリーラック ランドリー収納 タオル収納 5段 ＜ランドリーチェスト 2タイプ＞",
+      "price": 9990,
+      "shop": "SESAME(セサミ)家具・インテリア",
+      "reviewCount": 59,
+      "reviewAverage": 4,
+      "priceScore": 7,
+      "reviewScore": 8,
+      "reviewCountScore": 6,
+      "problemScore": 25,
+      "keywordScore": 10,
+      "featureScore": 9,
+      "seasonScore": 0,
+      "itemCode": "sesame-kagu:10001404",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6fx8.8dcsq89c.g00s6fx8.8dcsr118/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsesame-kagu%2Fj430500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsesame-kagu%2Fi%2F10001404%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6fx8.8dcsq89c.g00s6fx8.8dcsr118/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsesame-kagu%2Fj430500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsesame-kagu%2Fi%2F10001404%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "ランドリー収納 × ランドリー用品",
+      "selectionReason": "65点 / 様子見 / ランドリー収納 × ランドリー用品"
     }
   ]
 }
