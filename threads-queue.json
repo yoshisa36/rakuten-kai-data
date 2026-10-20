@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T21:40:13+09:00",
+  "updatedAt": "2026-10-20T21:30:03+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -934,6 +934,54 @@
       "linkType": "ROOM誘導",
       "approvalStatus": "approved",
       "memo": "10/20未紹介商品。LOWYA f502-g1022-100。10/13のf502-g1023-100と型番が異なり、10/15シーズユニットとも別商品。ただし同カテゴリの再登場である点を明示。朝の移動・持ち物確認をまとめる提案。高価格帯テスト。売上の根拠は未知。rakuten-affiliate日別最終10/11でCSV鮮度不足。10/18ユーザー報告71円未確定と区別。Viewsと売上の直接因果は断定せず翌日・翌々日観測。"
+    },
+    {
+      "reservationId": "KAI-20261021-1130",
+      "scheduledAt": "2026-10-21T11:30:00+09:00",
+      "text": "子どもの靴下、出発する時に限って片方だけ見つからない😂\n\n洗濯物の中も、引き出しも見たのにない。\nようやく見つけた頃には、今度は子どもが靴を脱いでる🤣\n\n玄関を出るまでに、小さなミッションが何個もある。\n朝ごはんを食べた時点で、半分くらい終わった気になってた。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "memo": "商品候補の新規性不足により交流へ。朝の出発の具体場面。URLなし。",
+      "status": "承認待ち",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261021-1430",
+      "scheduledAt": "2026-10-21T14:30:00+09:00",
+      "text": "夕飯を作りたいのに、シンク下の奥にある鍋を出すところでひと仕事😂\n\n手前の物をよけずに取りたいなら、スライド式ラックも選択肢になりそう👀\n\n買う前に見たいのは、棚の幅だけじゃなく排水管の位置と引き出す余裕。\n今の収納に入るか、まずそこから確認したい🙌",
+      "postType": "商品",
+      "productName": "シンク下 スライド収納ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00upki8.8dcsq4fa.g00upki8.8dcsr614/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakihome%2Fusr-tier-wth%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakihome%2Fi%2F10000025%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "memo": "再検証扱い1件。9/26 11:30同用途投稿32Views、25日間隔。同一SKUを確定するURLは分析にないため未紹介とは断定しない。売上実績なし。一般的な奥の不便から夕食準備の鍋の取り出しと排水管干渉へ具体化。履歴akihome:10000025の実URL使用。Viewsだけで採用成功とはしない。",
+      "status": "承認待ち",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261021-1730",
+      "scheduledAt": "2026-10-21T17:30:00+09:00",
+      "text": "夕飯を作る前に、まず朝の食器を片付けるところから始まる日😂\n\n料理をするための準備で、すでにひと仕事。\nそこへ子どもの「おなかすいた」が来ると、気持ちだけ先に急ぐ🤣\n\n今日は簡単なごはんでも、みんなが食べられたら十分。\n献立に点数をつけるのはお休み。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "memo": "交流。夕飯前の家事の重なりに共感。10/16献立迷いと異なり料理前の片付けに焦点。URLなし。",
+      "status": "承認待ち",
+      "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261021-2000",
+      "scheduledAt": "2026-10-21T20:00:00+09:00",
+      "text": "おもちゃを箱に片付けたのに、欲しい物を探してまた全部出される😂\n\n隠すより、見える場所に少しずつ並べる方が合うこともありそう。\n\n高さ38cmのオープンラックなら、おもちゃの置き場を低い位置に作る候補に👀\n\n昨日の服を掛ける収納とは別に、遊ぶ物の定位置を考えたい。\n寸法と安定性、転倒対策は先に確認🙌",
+      "postType": "商品",
+      "productName": "白井産業 マミハピ オープンラック MHP-4090R",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ui4g8.8dcsq22d.g00ui4g8.8dcsr676/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshirai-store%2F1a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshirai-store%2Fi%2F10000002%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "ROOM誘導",
+      "memo": "確認できたqueue・analysisに型番・名称一致なしの履歴候補。shirai-store:10000002。9/29履歴の幅91cm高さ38cm。10/20ハンガーラックとは別商品・別用途。子どもの遊ぶ物を低い見える定位置にする検証。収納カテゴリの連続は残るため3商品に増やさず商品2＋交流2。購入使用体験、子供自立効果保証なし。",
+      "status": "承認待ち",
+      "approvalStatus": "approved"
     }
   ]
 }
