@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T21:30:03+09:00",
+  "updatedAt": "2026-10-21T21:32:35+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -982,6 +982,54 @@
       "memo": "確認できたqueue・analysisに型番・名称一致なしの履歴候補。shirai-store:10000002。9/29履歴の幅91cm高さ38cm。10/20ハンガーラックとは別商品・別用途。子どもの遊ぶ物を低い見える定位置にする検証。収納カテゴリの連続は残るため3商品に増やさず商品2＋交流2。購入使用体験、子供自立効果保証なし。",
       "status": "承認待ち",
       "approvalStatus": "approved"
+    },
+    {
+      "reservationId": "KAI-20261022-1130",
+      "scheduledAt": "2026-10-22T11:30:00+09:00",
+      "text": "衣替えで子どもの服を入れ替えたら、引き出しの中が色も柄もいっぱい😂\n\n中身が透けにくいチェストなら、洗面所や子ども部屋で生活感を抑える選択肢になりそう👀\n\n幅と段数を選べても、置けなければ意味がない。\n置き場所と引き出す手前の余裕、しまう服の量を測ってから考えたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "壁付きチェスト ルームス",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10048736%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "approvalStatus": "approved",
+      "memo": "確認できたqueue・analysisに商品コードe-kurashi:10048736、商品名・URL一致なし。10/21 products採用候補。衣替えと中身が見えにくい点を検証。10/9の選べる天板チェストとは別SKUだが同カテゴリのため商品数を抑制。購入・使用体験、価格・割引の断定なし。"
+    },
+    {
+      "reservationId": "KAI-20261022-1430",
+      "scheduledAt": "2026-10-22T14:30:00+09:00",
+      "text": "洗濯物をたたんでいる途中で、子どもが靴下を一足だけ持っていく😂\n\nあとで戻ってくると思ったら、そのまま行方不明。\n次に見つかるのは、ソファの下かおもちゃ箱の中🤣\n\n左右そろえて片付けるだけなのに、毎回ちょっとした宝探しになる。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "交流。前日の朝の靴下探しとは異なり、紛失が起きる洗濯物整理の場面を描写。リンクなし、ROOM登録不要。"
+    },
+    {
+      "reservationId": "KAI-20261022-1730",
+      "scheduledAt": "2026-10-22T17:30:00+09:00",
+      "text": "お風呂に入る直前になって、子どもが急に遊びを続けたくなる😂\n\nさっきまで眠そうだったのに、なぜ今そんなに元気なの🤣\n\n着替えを出して、タオルを用意して、こちらは準備万端。\nあとは本人にお風呂へ来てもらうだけが一番長い。笑",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "交流。入浴前の親子の具体場面。直近の商品・夕飯系交流と題材を分散。リンクなし、ROOM登録不要。"
+    },
+    {
+      "reservationId": "KAI-20261022-2000",
+      "scheduledAt": "2026-10-22T20:00:00+09:00",
+      "text": "料理が終わったあと、コンロ横の調味料を一本ずつ拭くのが地味に手間😂\n\n油や醤油をまとめて隠せる調味料ラックなら、出しっぱなしの置き方を見直せそう👀\n\n今回は見た目より、掃除の動作が減るかを考えたい。\n置ける幅と高さ、よく使うボトルが入るかを確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "tower 隠せるコンロ横調味料ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fymz23may30h03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015243%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "ROOM誘導",
+      "approvalStatus": "approved",
+      "memo": "再検証1件。10/1 11:30に同用途・同商品とみられる投稿10Views、21日間隔。売上根拠なし。前回のごちゃつき・生活感から、今回は料理後の拭き掃除へ切り口を変更し20:00へ移動。履歴roomy:10015243の実URL使用。購入使用体験なし。"
     }
   ]
 }
