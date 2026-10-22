@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T21:32:35+09:00",
+  "updatedAt": "2026-10-22T21:27:08+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -1030,6 +1030,54 @@
       "linkType": "ROOM誘導",
       "approvalStatus": "approved",
       "memo": "再検証1件。10/1 11:30に同用途・同商品とみられる投稿10Views、21日間隔。売上根拠なし。前回のごちゃつき・生活感から、今回は料理後の拭き掃除へ切り口を変更し20:00へ移動。履歴roomy:10015243の実URL使用。購入使用体験なし。"
+    },
+    {
+      "reservationId": "KAI-20261023-1130",
+      "scheduledAt": "2026-10-23T11:30:00+09:00",
+      "text": "金曜日の朝、「あと一日」が励みになる日と、あと一日が長く感じる日がある😂\n\n朝ごはんを出して、着替えを手伝って、持ち物を確認。\n時計を見ると、まだ一日は始まったばかり🤣\n\n今日は最低限できたら合格。\n週末の予定を考えるのは、ひと息ついてからにしよう。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "交流。金曜朝の家事負担。直近の靴下・入浴ネタを避ける。リンクなし。"
+    },
+    {
+      "reservationId": "KAI-20261023-1430",
+      "scheduledAt": "2026-10-23T14:30:00+09:00",
+      "text": "子どもの靴が増えて、玄関にもう一つ大きな棚を置くのは迷う😂\n\n横に広げる前に、縦の空間を使う方法も考えたい。\n10段のシューズラックなら、限られた場所に靴をまとめる候補になりそう👀\n\nただ、高さがある分、置ける寸法と安定性は大事。\n家族の靴が収まるか、転倒対策も確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "日本製 10段シューズラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlaf8.8dcsqccf.g00qlaf8.8dcsrefa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "memo": "履歴kirara-pla:10000101。確認できたqueue・analysisに10段・商品識別一致なし。直近10/18竹製折畳ラックとは別品だが同カテゴリ。今回は収納段数の多さと設置条件を検証。ROOM未登録とは断定しない。価格は履歴で鮮度未確認のため本文記載なし。"
+    },
+    {
+      "reservationId": "KAI-20261023-1730",
+      "scheduledAt": "2026-10-23T17:30:00+09:00",
+      "text": "週末の買い物メモ、「牛乳、卵」のあとに何を書こうとしてたか忘れる😂\n\n家の中では思い出すのに、お店では出てこない。\n帰って棚を開けた瞬間に「あ、これだった」ってなる🤣\n\n全部覚えておくのは難しいから、気づいた時に一行だけでも残しておきたい。",
+      "status": "承認待ち",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "memo": "交流。買い物前の思い出せない場面。10/9帰宅後片付け、10/16献立とは切り口を分ける。問いかけなし、ROOM不要。"
+    },
+    {
+      "reservationId": "KAI-20261023-2000",
+      "scheduledAt": "2026-10-23T20:00:00+09:00",
+      "text": "家族でシャンプーが違うと、お風呂の棚がボトルでいっぱいになる😂\n\nマグネット式の浴室ラックなら、いつもの棚とは別に置き場を考えられそう👀\n\n大きければいいというより、今使っているボトルが収まるかを見たい。\n磁石が付く壁か、ラックの寸法と耐荷重を確認して選びたい🙌",
+      "status": "承認待ち",
+      "postType": "商品",
+      "productName": "atRise マグネット浴室ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s0p38.8dcsqcf5.g00s0p38.8dcsr6b5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-risecreation%2Fr0579%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-risecreation%2Fi%2F10005233%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "ROOM誘導",
+      "approvalStatus": "approved",
+      "memo": "10/22 productsのauc-risecreation:10005233、r0579。確認できたqueue・analysisにatRise/r0579同一特定記録なし。tower既紹介とメーカー異なる。10/17バー掛け収納と設置方式を変えるが浴室ボトルの題材は近い。ROOM登録状況未確認。価格割引は商品名記載のみで未確認、本文不使用。"
     }
   ]
 }
