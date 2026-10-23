@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-24T06:30:38+09:00",
+  "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
+  "count": 4,
+  "products": [
+    {
+      "candidateId": "DISC-20261024-01",
+      "category": "掃除",
+      "productName": "マーナ すみっこブラシ W651",
+      "model": "W651",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/w651/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/w651/"
+      ],
+      "verifiedFacts": [
+        "2つのブラシとスクレーパー",
+        "蛇口・サッシ等の細部向け"
+      ],
+      "readerProblem": "大きいスポンジが届きにくい溝の掃除",
+      "limitations": [
+        "公式注意：プラスチック素材には使用しない",
+        "落ち具合の個人差・ブラシ耐久性は未検証"
+      ],
+      "nextCheck": "掃除対象の材質、送料込み価格と報酬用リンク",
+      "checkedAt": "2026-10-24T06:30:38+09:00",
+      "source": "楽天販売ページの内容を閲覧確認",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし"
+    },
+    {
+      "candidateId": "DISC-20261024-02",
+      "category": "調理",
+      "productName": "ののじ キャベピィMAX",
+      "model": "CBP-04G / CBP-04Ge（同一ページ表記）",
+      "productUrl": "https://item.rakuten.co.jp/nonoji/cbp-04g/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/nonoji/cbp-04g/"
+      ],
+      "verifiedFacts": [
+        "キャベツ千切り用ピーラー"
+      ],
+      "readerProblem": "キャベツの千切りを用意する負担",
+      "limitations": [
+        "公式案内では柔らかい春キャベツは不向き",
+        "刃物の安全な扱いを前提にし、時短の実測保証はしない"
+      ],
+      "nextCheck": "季節・利用頻度との適合、価格・送料と報酬用リンク",
+      "checkedAt": "2026-10-24T06:30:38+09:00",
+      "source": "楽天販売ページの内容を閲覧確認",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし"
+    },
+    {
+      "candidateId": "DISC-20261024-03",
+      "category": "洗濯",
+      "productName": "ダイヤ フランドリー やさしく干すワンタッチハンガー8連",
+      "model": "058109 / 4901948581094",
+      "productUrl": "https://item.rakuten.co.jp/daiya/4901948581094/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/daiya/4901948581094/"
+      ],
+      "verifiedFacts": [
+        "8連タイプ",
+        "ロック解除ボタンとアーム機構を備える"
+      ],
+      "readerProblem": "衣類の首元を通す動作と取り込みの手間",
+      "limitations": [
+        "衣類の重量配分や干す場所との適合を確認",
+        "携帯ピンチハンガーと用途・機構が違う"
+      ],
+      "nextCheck": "対象衣類、サイズ・重量配分、価格・送料と報酬用リンク",
+      "checkedAt": "2026-10-24T06:30:38+09:00",
+      "source": "楽天販売ページの内容を閲覧確認",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし"
+    },
+    {
+      "candidateId": "DISC-20261024-04",
+      "category": "子育て",
+      "productName": "Bitatto ビタット ウェットシートのフタ",
+      "model": "レギュラー（販売ページ u332841）",
+      "productUrl": "https://item.rakuten.co.jp/natural-living/u332841/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/natural-living/u332841/"
+      ],
+      "verifiedFacts": [
+        "ウェットシートの取り出し口に貼り付けるふた",
+        "ページの対応取り出し口サイズは5.1×9cm"
+      ],
+      "readerProblem": "おしりふき・ウェットシートの取り口シールの扱い",
+      "limitations": [
+        "使用する袋の取り出し口との適合を確認",
+        "乾燥防止を保証しない"
+      ],
+      "nextCheck": "袋のサイズ適合、価格・送料と報酬用リンク",
+      "checkedAt": "2026-10-24T06:30:38+09:00",
+      "source": "楽天販売ページの内容を閲覧確認",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし"
+    }
+  ]
+}
