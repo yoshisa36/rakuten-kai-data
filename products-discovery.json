@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T06:30:38+09:00",
+  "updatedAt": "2026-10-24T21:42:00+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
-  "count": 4,
+  "count": 12,
   "products": [
     {
       "candidateId": "DISC-20261024-01",
@@ -32,7 +32,9 @@
       "stockVerified": false,
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
-      "purchaseOrUseExperience": "なし"
+      "purchaseOrUseExperience": "なし",
+      "lastRecheckedAt": "2026-10-24T21:42:00+09:00",
+      "latestDecision": "商品ページ再閲覧。報酬用リンク未確認、商品投稿見送り"
     },
     {
       "candidateId": "DISC-20261024-02",
@@ -61,7 +63,9 @@
       "stockVerified": false,
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
-      "purchaseOrUseExperience": "なし"
+      "purchaseOrUseExperience": "なし",
+      "lastRecheckedAt": "2026-10-24T21:42:00+09:00",
+      "latestDecision": "商品ページ再閲覧。報酬用リンク未確認、商品投稿見送り"
     },
     {
       "candidateId": "DISC-20261024-03",
@@ -91,7 +95,9 @@
       "stockVerified": false,
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
-      "purchaseOrUseExperience": "なし"
+      "purchaseOrUseExperience": "なし",
+      "lastRecheckedAt": "2026-10-24T21:42:00+09:00",
+      "latestDecision": "商品ページ再閲覧。報酬用リンク未確認、商品投稿見送り"
     },
     {
       "candidateId": "DISC-20261024-04",
@@ -121,7 +127,259 @@
       "stockVerified": false,
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
-      "purchaseOrUseExperience": "なし"
+      "purchaseOrUseExperience": "なし",
+      "lastRecheckedAt": "2026-10-24T21:42:00+09:00",
+      "latestDecision": "商品ページ再閲覧。報酬用リンク未確認、商品投稿見送り"
+    },
+    {
+      "candidateId": "DISC-20261024-05",
+      "category": "掃除",
+      "productName": "マーナ 汚れからめ取りクロス W641",
+      "model": "W641",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/w641/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/w641/"
+      ],
+      "verifiedFacts": [
+        "油よごれ・ほこり・手アカ向けクロス"
+      ],
+      "readerProblem": "キッチンの拭き掃除",
+      "limitations": [
+        "対象面の材質と手入れ表示を確認"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
+    },
+    {
+      "candidateId": "DISC-20261024-06",
+      "category": "掃除",
+      "productName": "陶器用研磨パッド エコピカ",
+      "model": "10000891",
+      "productUrl": "https://item.rakuten.co.jp/watasinoseikatu/10000891/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/watasinoseikatu/10000891/"
+      ],
+      "verifiedFacts": [
+        "陶器向けの研磨パッド"
+      ],
+      "readerProblem": "陶器の黒ずみ・輪ジミ",
+      "limitations": [
+        "防汚コーティング・濃色・ステンレス・プラスチック不可"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qvh98.8dcsqe55.g00qvh98.8dcsr9b8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwatasinoseikatu%2F10000891%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwatasinoseikatu%2Fi%2F10000891%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateLinkVerified": true,
+      "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
+      "status": "2026-10-25投稿採用（予約保存は別検証）",
+      "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック"
+    },
+    {
+      "candidateId": "DISC-20261024-07",
+      "category": "調理",
+      "productName": "貝印 関孫六 鍛造オールステンレスキッチン鋏",
+      "model": "DH3345",
+      "productUrl": "https://item.rakuten.co.jp/royal3000/g277/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/royal3000/g277/"
+      ],
+      "verifiedFacts": [
+        "分解して洗えるキッチン鋏"
+      ],
+      "readerProblem": "調理後の道具の手入れ",
+      "limitations": [
+        "販売店間で寸法重量表記差あり、未確定数値を採用しない"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
+    },
+    {
+      "candidateId": "DISC-20261024-08",
+      "category": "調理",
+      "productName": "貝印 SELECT100 グレーター",
+      "model": "DH3149",
+      "productUrl": "https://item.rakuten.co.jp/cooking-clocca/kai-dh3149/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/cooking-clocca/kai-dh3149/"
+      ],
+      "verifiedFacts": [
+        "生姜・ハードチーズ等をおろす道具"
+      ],
+      "readerProblem": "少量の薬味の下ごしらえ",
+      "limitations": [
+        "刃の扱い・洗浄時の注意を確認"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
+    },
+    {
+      "candidateId": "DISC-20261024-09",
+      "category": "洗濯",
+      "productName": "ダイヤ フランドリー おしゃれ着ネットボックス",
+      "model": "F737（販売店商品番号）",
+      "productUrl": "https://item.rakuten.co.jp/seikatsukukan/f737/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/seikatsukukan/f737/"
+      ],
+      "verifiedFacts": [
+        "おしゃれ着用のボックス型洗濯ネット"
+      ],
+      "readerProblem": "ニットの家庭洗濯を検討",
+      "limitations": [
+        "衣類の洗濯表示を優先、型崩れ防止保証はしない"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
+    },
+    {
+      "candidateId": "DISC-20261024-10",
+      "category": "洗濯",
+      "productName": "ストッパー付き洗濯ロープ",
+      "model": "ss_rope_stp",
+      "productUrl": "https://item.rakuten.co.jp/solo-sapiens/ss_rope_stp/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/solo-sapiens/ss_rope_stp/"
+      ],
+      "verifiedFacts": [
+        "クリップ付き携帯洗濯ロープ（当日productsと履歴・販売ページ検索掲載で照合）"
+      ],
+      "readerProblem": "旅先の小物干し",
+      "limitations": [
+        "販売ページ全文取得タイムアウト。耐荷重/寸法/在庫は未確認。固定先の強度・施設の許可が必要"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_rope_stp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000111%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateLinkVerified": true,
+      "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
+      "status": "2026-10-25投稿採用（予約保存は別検証）",
+      "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック"
+    },
+    {
+      "candidateId": "DISC-20261024-11",
+      "category": "子育て",
+      "productName": "ベビービョルン ベビースタイ2枚セット",
+      "model": "baby-bib-2packs",
+      "productUrl": "https://item.rakuten.co.jp/babybjorn/baby-bib-2packs/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/babybjorn/baby-bib-2packs/"
+      ],
+      "verifiedFacts": [
+        "受け皿ポケット付きのスタイ"
+      ],
+      "readerProblem": "離乳食の食べこぼし",
+      "limitations": [
+        "首周り・対象月齢・子どもとの適合を確認、全こぼれ防止を保証しない"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
+    },
+    {
+      "candidateId": "DISC-20261024-12",
+      "category": "子育て",
+      "productName": "ピジョン magmag成長実感 3種のコップ＆ストローセット ボトル付き",
+      "model": "1040525",
+      "productUrl": "https://item.rakuten.co.jp/pigeon-shop/1040525/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/pigeon-shop/1040525/"
+      ],
+      "verifiedFacts": [
+        "コップとストローのセット"
+      ],
+      "readerProblem": "子どもの飲み方に合わせた道具選び",
+      "limitations": [
+        "月齢だけでなく発達と適合、パーツ洗浄と交換部品を要確認"
+      ],
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "checkedAt": "2026-10-24T21:42:00+09:00",
+      "source": "楽天販売ページ閲覧。洗濯ロープのみ本文取得タイムアウトのため当日products/履歴と検索掲載に限定",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
+      "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
+      "nextCheck": "正規の報酬リンク取得と適合性確認"
     }
-  ]
+  ],
+  "latestReview": {
+    "targetDate": "2026-10-25",
+    "checkedAt": "2026-10-24T21:42:00+09:00",
+    "categories": {
+      "掃除": 3,
+      "調理": 3,
+      "洗濯": 3,
+      "子育て": 3
+    },
+    "data": "分析10/24 20:30:42。10/24初回Views 09時11/11:30 2/14:30 3/17:30 3/20時0、21時取得なし。09時返信4は自己/読者内訳不明。10/23 20時Views0→2。affiliate daily最終10/11。ユーザー10/21〜23クリック0。",
+    "hypothesis": "リンクのない商品誘導や収納偏重がクリック機会を狭めた可能性。",
+    "alternatives": "露出・経過時間・商品需要・リンク掲載の差、楽天CSV鮮度も影響し得る。投稿数だけで原因断定しない。",
+    "confidence": "低い。商品別クリック/購入帰属なし。",
+    "decision": "新規洗濯ロープ1、16日後の陶器研磨パッド再検証1を本文リンクで採用。残り4は読者価値を比較して交流。調理・子育て等追加品10件は報酬リンク未確認で商品採用せず。",
+    "nextExperiment": "10/26と27の同時点に対象Views、本文URL実掲載2件、識別可能な読者反応と楽天全体クリックを確認。10/26開始の方式入替実験とは別日。",
+    "linkOpportunityBaseline": {
+      "date": "2026-10-24",
+      "productPosts": 1,
+      "inlineUrlsObserved": 0,
+      "productReplyUrlsObserved": null,
+      "roomCtaObserved": 1,
+      "gasImport": "not_verified",
+      "note": "分析に商品本文とROOM末尾文言あり。返信一覧未取得、返信リンク0件と断定しない。"
+    },
+    "generationRoute": "正規アフィリエイト生成接続ツールは利用可能一覧で確認できず。GAS・送信スイッチ・既存投稿は変更しない。"
+  }
 }
