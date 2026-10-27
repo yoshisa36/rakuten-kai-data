@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-10-26T23:57:06.650Z",
-  "count": 64,
+  "updatedAt": "2026-10-27T23:57:06.438Z",
+  "count": 65,
   "products": [
     {
       "selectedAt": "2026-10-22T23:57:08.352Z",
@@ -239,9 +239,9 @@
       "selectionReason": "82点 / 採用候補 / 省スペース 収納 × 靴収納"
     },
     {
-      "selectedAt": "2026-10-16T23:57:08.664Z",
-      "selectedDate": "2026-10-16T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-10-27T23:57:04.498Z",
+      "selectedDate": "2026-10-27T15:00:00.000Z",
+      "rank": 1,
       "searchTheme": "洗面所収納",
       "productType": "チェスト・引き出し",
       "totalScore": 72,
@@ -249,7 +249,7 @@
       "productName": "隙間収納 18cm 引出し 4段/3段 段差をまたげる専用脚 隙間ストッカー 中が透けない隙間ストッカー スリムストッカー すきま すき間 ラック 防水パン 洗面所収納 洗濯機横 収納 ランドリー収納 日本製 【送料無料】",
       "price": 3999,
       "shop": "くらしのeショップ",
-      "reviewCount": 603,
+      "reviewCount": 608,
       "reviewAverage": 4.56,
       "priceScore": 12,
       "reviewScore": 13,
@@ -265,9 +265,9 @@
       "selectionReason": "72点 / 採用候補 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-16T23:57:08.664Z",
-      "selectedDate": "2026-10-16T15:00:00.000Z",
-      "rank": 5,
+      "selectedAt": "2026-10-27T23:57:04.498Z",
+      "selectedDate": "2026-10-27T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 69,
@@ -275,7 +275,7 @@
       "productName": "おもちゃ 収納 絵本棚 ラック ボックス 大容量 おしゃれ スリム 収納棚 キャスター 箱 おもちゃ箱 絵本 絵本ラック 赤ちゃん 男の子 女の子 子供 子ども こども 部屋 子供部屋 リビング キッズ 木製 入学 入学 ベビー",
       "price": 12990,
       "shop": "スミシア・インテリア(SUMICIA)",
-      "reviewCount": 1507,
+      "reviewCount": 1508,
       "reviewAverage": 4.21,
       "priceScore": 7,
       "reviewScore": 8,
@@ -317,9 +317,9 @@
       "selectionReason": "56点 / 様子見 / 子供 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-10-18T23:57:07.819Z",
-      "selectedDate": "2026-10-18T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-10-27T23:57:04.498Z",
+      "selectedDate": "2026-10-27T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 70,
@@ -327,7 +327,7 @@
       "productName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
       "price": 2640,
       "shop": "プラスチックの店キララ",
-      "reviewCount": 2840,
+      "reviewCount": 2841,
       "reviewAverage": 4.68,
       "priceScore": 16,
       "reviewScore": 13,
@@ -837,9 +837,9 @@
       "selectionReason": "73点 / 様子見 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-18T23:57:07.819Z",
-      "selectedDate": "2026-10-18T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-10-27T23:57:04.498Z",
+      "selectedDate": "2026-10-27T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "お風呂 収納",
       "productType": "ラック・棚",
       "totalScore": 72,
@@ -847,7 +847,7 @@
       "productName": "tower《 山崎実業 マグネットバスルームバスケット タワー 》お風呂収納 浴室収納 お風呂バスケット ディスペンサーラック バスラック バスルームラック かご 浮かせる おもちゃバスケット 子供 お片付け シャンプーボトル 掃除道具 おしゃれ スチール 公式 白 黒 5542 5543",
       "price": 4510,
       "shop": "BATH ROOM バスルーム",
-      "reviewCount": 6756,
+      "reviewCount": 6759,
       "reviewAverage": 4.76,
       "priceScore": 12,
       "reviewScore": 15,
@@ -1667,6 +1667,32 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00twjd8.8dcsq56d.g00twjd8.8dcsrbf7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsongmicsjapan%2Fnlsa25bk%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsongmicsjapan%2Fi%2F10000226%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "省スペース 収納 × 靴収納",
       "selectionReason": "77点 / 採用候補 / 省スペース 収納 × 靴収納"
+    },
+    {
+      "selectedAt": "2026-10-27T23:57:04.498Z",
+      "selectedDate": "2026-10-27T15:00:00.000Z",
+      "rank": 5,
+      "searchTheme": "掃除 便利グッズ",
+      "productType": "掃除用品",
+      "totalScore": 67,
+      "judgment": "様子見",
+      "productName": "POCO 洗面スポンジ ポコ リフィル 4個セット【マーナ公式】 洗面所 スポンジ 交換用 ミニサイズ 丸形 洗面台 シンク 吸盤 浮かせる収納 コンパクト シンプル 掃除用品 おしゃれ かわいい 便利グッズ 替えスポンジ 丸形スポンジ 引っ越し 新生活 X125",
+      "price": 1056,
+      "shop": "マーナ公式楽天市場店",
+      "reviewCount": 145,
+      "reviewAverage": 4.7,
+      "priceScore": 20,
+      "reviewScore": 15,
+      "reviewCountScore": 8,
+      "problemScore": 15,
+      "keywordScore": 6,
+      "featureScore": 3,
+      "seasonScore": 0,
+      "itemCode": "shopmarna:10006567",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fx125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006567%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fx125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006567%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "掃除 便利グッズ × 掃除用品",
+      "selectionReason": "67点 / 様子見 / 掃除 便利グッズ × 掃除用品"
     }
   ]
 }
