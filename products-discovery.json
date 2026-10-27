@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T21:39:33+09:00",
+  "updatedAt": "2026-10-27T21:28:43+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
-  "count": 12,
+  "count": 18,
   "products": [
     {
       "candidateId": "DISC-20261024-01",
@@ -370,23 +370,191 @@
       "nextCheck": "正規の報酬リンク取得と適合性確認",
       "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
       "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+    },
+    {
+      "candidateId": "DISC-20261027-13",
+      "category": "掃除",
+      "productName": "マーナ つけ置き洗いキャップ",
+      "model": "W644",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/w644/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/w644/"
+      ],
+      "verifiedFacts": [
+        "排水口用止水キャップ"
+      ],
+      "readerProblem": "排水口用止水キャップの動作を検討",
+      "limitations": [
+        "シンク/洗剤適合と段差確認"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
+    },
+    {
+      "candidateId": "DISC-20261027-14",
+      "category": "掃除",
+      "productName": "マーナ ほうき・ちりとり",
+      "model": "W670（旧W628ページ）",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/w628/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/w628/"
+      ],
+      "verifiedFacts": [
+        "自立収納ほうきセット"
+      ],
+      "readerProblem": "自立収納ほうきセットの動作を検討",
+      "limitations": [
+        "旧新モデルを区別"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
+    },
+    {
+      "candidateId": "DISC-20261027-15",
+      "category": "調理",
+      "productName": "オークス 計量みそマドラー",
+      "model": "LS1500",
+      "productUrl": "https://item.rakuten.co.jp/roomania/10019518/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/roomania/10019518/"
+      ],
+      "verifiedFacts": [
+        "計量して味噌を溶く"
+      ],
+      "readerProblem": "計量して味噌を溶くの動作を検討",
+      "limitations": [
+        "味噌の種類と洗浄方法確認"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
+    },
+    {
+      "candidateId": "DISC-20261027-16",
+      "category": "洗濯",
+      "productName": "ダイヤ 洗濯せっけんネット",
+      "model": "057366",
+      "productUrl": "https://item.rakuten.co.jp/kurashi-no-kakera/20251215173905_230/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/kurashi-no-kakera/20251215173905_230/"
+      ],
+      "verifiedFacts": [
+        "部分洗い用石鹸ネット"
+      ],
+      "readerProblem": "部分洗い用石鹸ネットの動作を検討",
+      "limitations": [
+        "衣類表示優先、目立たない所で試す"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
+    },
+    {
+      "candidateId": "DISC-20261027-17",
+      "category": "洗濯",
+      "productName": "コジット 泡立つ洗濯せっけんケース",
+      "model": "bs-csi-038-m",
+      "productUrl": "https://item.rakuten.co.jp/le-cure/bs-csi-038/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/le-cure/bs-csi-038/"
+      ],
+      "verifiedFacts": [
+        "ブラシ付き石鹸ケース"
+      ],
+      "readerProblem": "ブラシ付き石鹸ケースの動作を検討",
+      "limitations": [
+        "石鹸別売・強くこすらない・洗浄後乾燥"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
+    },
+    {
+      "candidateId": "DISC-20261027-18",
+      "category": "子育て",
+      "productName": "リッチェル にぎにぎスプーン・フォーク ケース付",
+      "model": "041760",
+      "productUrl": "https://item.rakuten.co.jp/richell/041760/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/richell/041760/"
+      ],
+      "verifiedFacts": [
+        "携帯ケース付き子ども食器"
+      ],
+      "readerProblem": "携帯ケース付き子ども食器の動作を検討",
+      "limitations": [
+        "アウトレット旧モデル・返品交換不可表記、発達適合確認"
+      ],
+      "checkedAt": "2026-10-27T21:28:43+09:00",
+      "source": "楽天販売ページ本文を閲覧",
+      "status": "調査候補・報酬リンク未確認で今回不採用",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "nextCheck": "正規報酬リンク取得と適合確認"
     }
   ],
   "latestReview": {
-    "targetDate": "2026-10-27",
-    "checkedAt": "2026-10-26T21:39:33+09:00",
-    "data": "10/26商品初回Views5/7/1。本文URL2件あり、返信本文未取得。10/25洗濯ロープ4→6Views、エコピカ2→7Views。ユーザー10/21〜25クリック0、楽天日別最終10/11。",
-    "hypothesis": "紹介・リンク機会を増やすとクリック改善につながる可能性。",
-    "alternatives": "露出の少なさ・商品需要・計測鮮度・投稿経過時間が影響。初回比較では因果不明。",
-    "confidence": "低い。リンク方式の優劣未判定。",
-    "decision": "継続=リンク方式実験。変更=人間味ある言葉と絵文字。見送り=12候補の直近品/未確認報酬リンク。追加検証=未紹介確認範囲のスリムストレージ/ピエニ、20日後スプレーハンガー。",
-    "nextExperiment": "10/28・29同時点でURL実掲載とViews、識別可能な読者返信、取得できる楽天クリックを確認。",
+    "targetDate": "2026-10-28",
+    "checkedAt": "2026-10-27T21:28:43+09:00",
+    "newCandidates": 6,
     "categoriesReviewed": {
       "掃除": 3,
       "調理": 3,
       "洗濯": 3,
       "子育て": 3
     },
-    "limitations": "新しい別候補の発掘は今回は行わず既存12調査候補を再評価。アフィリエイト生成接続ツールなし。GAS取り込み/商品返信本番経路未確認、スイッチ操作なし。"
+    "data": "10/27商品初回Views5/4/0、10/26商品5/7/3（前回5/7/1）。本文商品URL10/27は1件、10/26は2件。返信本文未取得。ユーザー実ThreadsのURL/ROOM案内表示確認済。ユーザー10/21〜27クリック0（当日暫定）。楽天CSV日別最終10/11。",
+    "hypothesis": "商品/訴求適合と露出不足の可能性、紹介機会増を継続検証。",
+    "alternatives": "経過時間、商品/価格/時間帯差、楽天計測鮮度が交絡。リンク欠落を主因と断定しない。",
+    "confidence": "低い。少数の初回Viewsで方式勝敗を決めない。",
+    "decision": "6新候補と既存6を販売ページ確認し計12比較。報酬リンク未確認で不採用。確認済履歴からSONGMICS/GLASSY/23日後マーナを採用。収納偏重が残る制約を報告。",
+    "nextExperiment": "10/29・30同時点でViews/Like/識別可能な読者返信/実掲載URL/楽天全体クリック。方式別売上へ帰属不可。",
+    "linkPlan": {
+      "inline": 2,
+      "reply": 1,
+      "room": 0
+    },
+    "limitations": "利用可能ツールに楽天報酬リンク生成なし。GAS/商品返信本番経路未確認、設定変更なし。"
   }
 }
