@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T21:28:43+09:00",
+  "updatedAt": "2026-10-28T21:28:23+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
-  "count": 18,
+  "count": 19,
   "products": [
     {
       "candidateId": "DISC-20261024-01",
@@ -22,7 +22,7 @@
         "公式注意：プラスチック素材には使用しない",
         "落ち具合の個人差・ブラシ耐久性は未検証"
       ],
-      "nextCheck": "掃除対象の材質、送料込み価格と報酬用リンク",
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
       "checkedAt": "2026-10-24T06:30:38+09:00",
       "source": "楽天販売ページの内容を閲覧確認",
       "status": "調査候補・投稿未承認",
@@ -33,8 +33,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-02",
@@ -53,7 +53,7 @@
         "公式案内では柔らかい春キャベツは不向き",
         "刃物の安全な扱いを前提にし、時短の実測保証はしない"
       ],
-      "nextCheck": "季節・利用頻度との適合、価格・送料と報酬用リンク",
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
       "checkedAt": "2026-10-24T06:30:38+09:00",
       "source": "楽天販売ページの内容を閲覧確認",
       "status": "調査候補・投稿未承認",
@@ -64,8 +64,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-03",
@@ -85,7 +85,7 @@
         "衣類の重量配分や干す場所との適合を確認",
         "携帯ピンチハンガーと用途・機構が違う"
       ],
-      "nextCheck": "対象衣類、サイズ・重量配分、価格・送料と報酬用リンク",
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
       "checkedAt": "2026-10-24T06:30:38+09:00",
       "source": "楽天販売ページの内容を閲覧確認",
       "status": "調査候補・投稿未承認",
@@ -96,8 +96,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-04",
@@ -117,7 +117,7 @@
         "使用する袋の取り出し口との適合を確認",
         "乾燥防止を保証しない"
       ],
-      "nextCheck": "袋のサイズ適合、価格・送料と報酬用リンク",
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
       "checkedAt": "2026-10-24T06:30:38+09:00",
       "source": "楽天販売ページの内容を閲覧確認",
       "status": "調査候補・投稿未承認",
@@ -128,8 +128,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-05",
@@ -247,9 +247,9 @@
       "affiliateLinkVerified": false,
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
-      "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-09",
@@ -337,9 +337,9 @@
       "affiliateLinkVerified": false,
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
-      "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-12",
@@ -396,7 +396,9 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-14",
@@ -423,7 +425,9 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-15",
@@ -450,7 +454,9 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-16",
@@ -477,7 +483,9 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-17",
@@ -504,7 +512,9 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-18",
@@ -531,30 +541,77 @@
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "nextCheck": "正規報酬リンク取得と適合確認"
+      "nextCheck": "当該商品の正規報酬URLと適合性を確認",
+      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
+      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+    },
+    {
+      "candidateId": "DISC-20261028-POCO",
+      "category": "掃除",
+      "productName": "マーナ POCO洗面スポンジ リフィル4個セット",
+      "model": "X125",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/x125/",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fx125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006567%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateLinkVerified": true,
+      "affiliateVerification": "当日products/selection-historyの実URLを照合、報酬発生未確認",
+      "verifiedFacts": [
+        "取り替え用スポンジ4個セット、吸盤は別商品の案内"
+      ],
+      "readerProblem": "使っている吸盤を残しスポンジだけ交換",
+      "limitations": [
+        "塩素系漂白剤・70℃以上のお湯不可",
+        "傷つきやすい物に不織布面不可",
+        "初めての導入には吸盤を別に確認"
+      ],
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/x125/"
+      ],
+      "checkedAt": "2026-10-28T21:28:23+09:00",
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "purchaseOrUseExperience": "なし",
+      "status": "2026-10-29商品採用・保存結果は予約キューで別確認"
     }
   ],
   "latestReview": {
-    "targetDate": "2026-10-28",
-    "checkedAt": "2026-10-27T21:28:43+09:00",
-    "newCandidates": 6,
+    "targetDate": "2026-10-29",
+    "checkedAt": "2026-10-28T21:28:23+09:00",
     "categoriesReviewed": {
       "掃除": 3,
       "調理": 3,
       "洗濯": 3,
       "子育て": 3
     },
-    "data": "10/27商品初回Views5/4/0、10/26商品5/7/3（前回5/7/1）。本文商品URL10/27は1件、10/26は2件。返信本文未取得。ユーザー実ThreadsのURL/ROOM案内表示確認済。ユーザー10/21〜27クリック0（当日暫定）。楽天CSV日別最終10/11。",
-    "hypothesis": "商品/訴求適合と露出不足の可能性、紹介機会増を継続検証。",
-    "alternatives": "経過時間、商品/価格/時間帯差、楽天計測鮮度が交絡。リンク欠落を主因と断定しない。",
-    "confidence": "低い。少数の初回Viewsで方式勝敗を決めない。",
-    "decision": "6新候補と既存6を販売ページ確認し計12比較。報酬リンク未確認で不採用。確認済履歴からSONGMICS/GLASSY/23日後マーナを採用。収納偏重が残る制約を報告。",
-    "nextExperiment": "10/29・30同時点でViews/Like/識別可能な読者返信/実掲載URL/楽天全体クリック。方式別売上へ帰属不可。",
+    "reviewedUrls": [
+      "https://item.rakuten.co.jp/shopmarna/w644/",
+      "https://item.rakuten.co.jp/shopmarna/w628/",
+      "https://item.rakuten.co.jp/shopmarna/w651/",
+      "https://item.rakuten.co.jp/roomania/10019518/",
+      "https://item.rakuten.co.jp/nonoji/cbp-04g/",
+      "https://item.rakuten.co.jp/cooking-clocca/kai-dh3149/",
+      "https://item.rakuten.co.jp/kurashi-no-kakera/20251215173905_230/",
+      "https://item.rakuten.co.jp/le-cure/bs-csi-038/",
+      "https://item.rakuten.co.jp/daiya/4901948581094/",
+      "https://item.rakuten.co.jp/richell/041760/",
+      "https://item.rakuten.co.jp/natural-living/u332841/",
+      "https://item.rakuten.co.jp/babybjorn/baby-bib-2packs/"
+    ],
+    "additionalConfirmed": "POCO X125の当日商品データと公式ページを照合",
+    "data": "10/28商品初回Views2/1/0、本文URL2件。10/27 20時0→3。返信本文/自己返信内訳未取得。楽天CSV日別最終10/11、ユーザー10/21〜27クリック0。実ThreadsのURL/ROOM案内表示はユーザー確認。",
+    "hypothesis": "具体的購入需要に合う消耗品・容量比較の訴求へ変更するとクリック機会を改善する可能性。",
+    "alternatives": "少数露出・時間帯・商品需要・報酬計測の鮮度不足が交絡、初回0を取得不備としない。",
+    "confidence": "低い。方式の勝敗/購入因果は未判定。",
+    "decision": "継続=リンク方式検証。変更=家具連投を見送り掃除消耗品1＋15日後洗濯バッグ1。12候補を再評価、正規報酬リンク未確認で商品採用せず。20時は交流に置換。",
+    "nextExperiment": "10/30・31の同時点Views/Like/識別できる読者反応、本文/商品返信の実掲載、取得できる楽天全体クリックを観測。",
     "linkPlan": {
-      "inline": 2,
+      "inline": 1,
       "reply": 1,
-      "room": 0
+      "room": 0,
+      "missingProductSlots": [
+        "20:00（返信リンク）"
+      ]
     },
-    "limitations": "利用可能ツールに楽天報酬リンク生成なし。GAS/商品返信本番経路未確認、設定変更なし。"
+    "limitations": "追加課金なし。楽天リンク生成経路なし。GAS/商品返信本番経路の直接証拠なし。送信スイッチ変更なし。"
   }
 }
