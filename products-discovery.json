@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T21:28:23+09:00",
+  "updatedAt": "2026-10-29T21:39:37+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
-  "count": 19,
+  "count": 21,
   "products": [
     {
       "candidateId": "DISC-20261024-01",
@@ -33,8 +33,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-02",
@@ -64,8 +64,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-03",
@@ -96,8 +96,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-04",
@@ -128,8 +128,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "販売ページ取得タイムアウト。既存記録を維持、今回再確認済みとは扱わず不採用"
     },
     {
       "candidateId": "DISC-20261024-05",
@@ -158,8 +158,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-06",
@@ -218,8 +218,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-08",
@@ -278,8 +278,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-10",
@@ -338,8 +338,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261024-12",
@@ -368,8 +368,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "販売ページ再確認、正規報酬用リンク生成ツール/実データを確認できず今回商品投稿見送り"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-13",
@@ -426,8 +426,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-15",
@@ -455,8 +455,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-16",
@@ -484,8 +484,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
+      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
     },
     {
       "candidateId": "DISC-20261027-17",
@@ -572,46 +572,87 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "status": "2026-10-29商品採用・保存結果は予約キューで別確認"
+    },
+    {
+      "candidateId": "DISC-20261029-K852",
+      "category": "調理",
+      "productName": "マーナ ワンタッチで開く調味料ポット",
+      "model": "K852（URLは旧k736）",
+      "productUrl": "https://item.rakuten.co.jp/shopmarna/k736/",
+      "verifiedFacts": [
+        "現行販売ページの商品番号K852",
+        "小さじスプーン・すりきり板付き",
+        "容量約370mL"
+      ],
+      "readerProblem": "計量する際にふたの開閉やスプーンの置き場に迷う",
+      "limitations": [
+        "食洗機使用不可",
+        "柑橘皮のテルペンや油脂で変質することがある",
+        "報酬用リンク未確認"
+      ],
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/shopmarna/k736/"
+      ],
+      "source": "楽天販売ページ閲覧確認",
+      "checkedAt": "2026-10-29T21:39:37+09:00",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "nextCheck": "正規報酬リンク確認後に採用可否を再検討"
+    },
+    {
+      "candidateId": "DISC-20261029-W652",
+      "category": "掃除",
+      "productName": "マーナ 浴室チョコっと洗い",
+      "model": "W652",
+      "productUrl": "https://item.rakuten.co.jp/instore/marnaw652/",
+      "verifiedFacts": [
+        "排水口・蛇口周り向け角度付きブラシ",
+        "ピンセット付き"
+      ],
+      "readerProblem": "排水口の細部掃除と触れたくないゴミの取り除き",
+      "limitations": [
+        "プラスチック面使用不可",
+        "報酬用リンク未確認"
+      ],
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/instore/marnaw652/"
+      ],
+      "source": "楽天販売ページ閲覧確認",
+      "checkedAt": "2026-10-29T21:39:37+09:00",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "price": null,
+      "stockVerified": false,
+      "roomRegistrationStatus": "未確認",
+      "nextCheck": "正規報酬リンク確認後に採用可否を再検討"
     }
   ],
   "latestReview": {
-    "targetDate": "2026-10-29",
-    "checkedAt": "2026-10-28T21:28:23+09:00",
-    "categoriesReviewed": {
-      "掃除": 3,
-      "調理": 3,
-      "洗濯": 3,
-      "子育て": 3
-    },
-    "reviewedUrls": [
-      "https://item.rakuten.co.jp/shopmarna/w644/",
-      "https://item.rakuten.co.jp/shopmarna/w628/",
-      "https://item.rakuten.co.jp/shopmarna/w651/",
-      "https://item.rakuten.co.jp/roomania/10019518/",
-      "https://item.rakuten.co.jp/nonoji/cbp-04g/",
-      "https://item.rakuten.co.jp/cooking-clocca/kai-dh3149/",
-      "https://item.rakuten.co.jp/kurashi-no-kakera/20251215173905_230/",
-      "https://item.rakuten.co.jp/le-cure/bs-csi-038/",
-      "https://item.rakuten.co.jp/daiya/4901948581094/",
-      "https://item.rakuten.co.jp/richell/041760/",
-      "https://item.rakuten.co.jp/natural-living/u332841/",
-      "https://item.rakuten.co.jp/babybjorn/baby-bib-2packs/"
+    "targetDate": "2026-10-30",
+    "checkedAt": "2026-10-29T21:39:37+09:00",
+    "reviewedExistingCandidates": 12,
+    "successfullyOpened": 11,
+    "failedCandidateIds": [
+      "DISC-20261024-04"
     ],
-    "additionalConfirmed": "POCO X125の当日商品データと公式ページを照合",
-    "data": "10/28商品初回Views2/1/0、本文URL2件。10/27 20時0→3。返信本文/自己返信内訳未取得。楽天CSV日別最終10/11、ユーザー10/21〜27クリック0。実ThreadsのURL/ROOM案内表示はユーザー確認。",
-    "hypothesis": "具体的購入需要に合う消耗品・容量比較の訴求へ変更するとクリック機会を改善する可能性。",
-    "alternatives": "少数露出・時間帯・商品需要・報酬計測の鮮度不足が交絡、初回0を取得不備としない。",
-    "confidence": "低い。方式の勝敗/購入因果は未判定。",
-    "decision": "継続=リンク方式検証。変更=家具連投を見送り掃除消耗品1＋15日後洗濯バッグ1。12候補を再評価、正規報酬リンク未確認で商品採用せず。20時は交流に置換。",
-    "nextExperiment": "10/30・31の同時点Views/Like/識別できる読者反応、本文/商品返信の実掲載、取得できる楽天全体クリックを観測。",
-    "linkPlan": {
-      "inline": 1,
-      "reply": 1,
-      "room": 0,
-      "missingProductSlots": [
-        "20:00（返信リンク）"
-      ]
-    },
-    "limitations": "追加課金なし。楽天リンク生成経路なし。GAS/商品返信本番経路の直接証拠なし。送信スイッチ変更なし。"
+    "newCandidates": 2,
+    "adoptedFromHistory": [
+      {
+        "productName": "★注目商品★送料無料 !(定形外) 磁石で浮かせる収納 アズマ工業 浴室床洗い 本体 smart779 浴室床用 掃除ブラシ【 マグネット収納 ハンディ 掃除道具 たわし 簡単 風呂掃除 スポンジ 強力 便利グッズ 】 送料込 150T◇ 浴室床洗い本体",
+        "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s2un8.8dcsq84f.g00s2un8.8dcsr1a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-plaza%2F10016233%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-plaza%2Fi%2F10016240%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825"
+      },
+      {
+        "productName": "tower【 山崎実業 マグネットバスルームラック タワー ラージ 】奥行き約12cm バスラック マグネットラック トレー ディスペンサー シャンプーボトル お風呂収納 壁面 浴室収納 壁掛け 浮かせる収納棚 時短 風呂場 磁石 公式 白 黒 おしゃれ 別注 9866 9867 YAMAZAKI",
+        "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qn4o8.8dcsq293.g00qn4o8.8dcsra60/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamayuu%2Fyj-zk507%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamayuu%2Fi%2F10017006%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825"
+      }
+    ],
+    "decision": "商品2・交流4。構成固定ではない。20:00本文リンク商品機会1件不足。新規調理/掃除候補は報酬用リンク未確認。smart779は10/15以来15日で交換部品訴求へ、ラックラージは同URLキューなしだが過去generic名の型番不明で新規断定しない。",
+    "analysisFreshness": "threads-analysisは10/28 20:30止まり、当日結果なし。rakuten-affiliate日別10/11まで。",
+    "nextCheck": "10/31・11/1、同経過時間のViews・読者反応、リンク実掲載と取得可能な日別クリック・売上。日別値を投稿や方式へ割り振らない。"
   }
 }
