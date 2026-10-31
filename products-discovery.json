@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T21:39:37+09:00",
+  "updatedAt": "2026-10-31T21:28:26+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
   "count": 21,
   "products": [
@@ -33,8 +33,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-02",
@@ -64,8 +64,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-03",
@@ -96,8 +96,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-04",
@@ -128,8 +128,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "販売ページ取得タイムアウト。既存記録を維持、今回再確認済みとは扱わず不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-05",
@@ -158,8 +158,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-06",
@@ -188,8 +188,8 @@
       "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
       "status": "2026-10-25投稿採用（予約保存は別検証）",
       "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "直近紹介済み、今回見送り"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-07",
@@ -218,8 +218,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-08",
@@ -248,8 +248,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-09",
@@ -278,8 +278,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-10",
@@ -308,8 +308,8 @@
       "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
       "status": "2026-10-25投稿採用（予約保存は別検証）",
       "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック",
-      "lastRecheckedAt": "2026-10-26T21:39:33+09:00",
-      "latestDecision": "直近紹介済み、今回見送り"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-11",
@@ -338,8 +338,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261024-12",
@@ -368,8 +368,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-10-31T21:28:26+09:00",
+      "latestDecision": "11/1候補再評価。エコピカ/ロープは直近紹介で見送り、その他は報酬リンク未確認で不採用"
     },
     {
       "candidateId": "DISC-20261027-13",
@@ -633,26 +633,9 @@
     }
   ],
   "latestReview": {
-    "targetDate": "2026-10-30",
-    "checkedAt": "2026-10-29T21:39:37+09:00",
-    "reviewedExistingCandidates": 12,
-    "successfullyOpened": 11,
-    "failedCandidateIds": [
-      "DISC-20261024-04"
-    ],
-    "newCandidates": 2,
-    "adoptedFromHistory": [
-      {
-        "productName": "★注目商品★送料無料 !(定形外) 磁石で浮かせる収納 アズマ工業 浴室床洗い 本体 smart779 浴室床用 掃除ブラシ【 マグネット収納 ハンディ 掃除道具 たわし 簡単 風呂掃除 スポンジ 強力 便利グッズ 】 送料込 150T◇ 浴室床洗い本体",
-        "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s2un8.8dcsq84f.g00s2un8.8dcsr1a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-plaza%2F10016233%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-plaza%2Fi%2F10016240%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825"
-      },
-      {
-        "productName": "tower【 山崎実業 マグネットバスルームラック タワー ラージ 】奥行き約12cm バスラック マグネットラック トレー ディスペンサー シャンプーボトル お風呂収納 壁面 浴室収納 壁掛け 浮かせる収納棚 時短 風呂場 磁石 公式 白 黒 おしゃれ 別注 9866 9867 YAMAZAKI",
-        "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qn4o8.8dcsq293.g00qn4o8.8dcsra60/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamayuu%2Fyj-zk507%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamayuu%2Fi%2F10017006%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825"
-      }
-    ],
-    "decision": "商品2・交流4。構成固定ではない。20:00本文リンク商品機会1件不足。新規調理/掃除候補は報酬用リンク未確認。smart779は10/15以来15日で交換部品訴求へ、ラックラージは同URLキューなしだが過去generic名の型番不明で新規断定しない。",
-    "analysisFreshness": "threads-analysisは10/28 20:30止まり、当日結果なし。rakuten-affiliate日別10/11まで。",
-    "nextCheck": "10/31・11/1、同経過時間のViews・読者反応、リンク実掲載と取得可能な日別クリック・売上。日別値を投稿や方式へ割り振らない。"
+    "targetDate": "2026-11-01",
+    "reviewed": 12,
+    "decision": "確認済み履歴再評価、like-itのみ21日ぶり再紹介。商品1/交流5、商品機会2不足。新規候補の報酬経路未解決。",
+    "nextCheck": "11/2・3 同経過時間の露出・読者返信・クリック・売上/報酬"
   }
 }
