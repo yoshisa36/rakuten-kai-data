@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "threads-follower-history",
-  "updatedAt": "2026-10-28T15:58:55.160Z",
-  "count": 24,
+  "updatedAt": "2026-11-01T15:58:51.059Z",
+  "count": 40,
   "history": [
     {
       "capturedAt": "2026-10-23T09:57:00+09:00",
@@ -122,6 +122,86 @@
     {
       "capturedAt": "2026-10-28T23:37:42+09:00",
       "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-29T08:35:07+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-29T12:21:00+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-29T20:55:53+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-29T23:37:42+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-30T08:35:09+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-30T12:20:58+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-30T20:55:56+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-30T23:37:43+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-31T08:35:07+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-31T12:21:00+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-31T20:55:52+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-10-31T23:37:42+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-11-01T08:35:11+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-11-01T12:20:58+09:00",
+      "followers": 325,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-11-01T20:55:53+09:00",
+      "followers": 326,
+      "change": 1
+    },
+    {
+      "capturedAt": "2026-11-01T23:37:40+09:00",
+      "followers": 326,
       "change": 0
     }
   ]
