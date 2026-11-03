@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T21:29:00+09:00",
+  "updatedAt": "2026-11-03T12:36:35.412Z",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -1870,6 +1870,78 @@
       "linkType": "リンクなし",
       "approvalStatus": "approved",
       "memo": "確認結果→11/2候補・履歴転送復旧、本人API ID一致をユーザー確認。11/2初回Views0〜2返信0、11/1夕17時2→5/20時0→4で遅延あり。仮説→商品導線復帰と具体場面で検討機会増。反証→露出少・時間商品差、売上因果不明、確度低。判断変更：未紹介annon採用、シーツ10/18以来16日ぶり再検証1件（省スペースから設置前確認へ）。14時商品枠不足、交流置換。追加9/21露出目的。11/4・5同経過時間でViews/読者返信/Like、実掲載リンク、全体クリック売上報酬を確認。楽天CSV旧値使用せず。通常コメント返信OFF。探索拡大12候補の再調査は今回未完了。"
+    },
+    {
+      "reservationId": "KAI-20261104-0900",
+      "scheduledAt": "2026-11-04T09:00:00+09:00",
+      "text": "朝の玄関、靴を履いてから「水筒忘れた」に気づくと、急に家の中が遠い。出る直前に忘れがちなもの、家族でどうやって気づけるようにしてますか？",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "memo": "追加露出枠。具体場面への読者返信を検証。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
+    },
+    {
+      "reservationId": "KAI-20261104-1130",
+      "scheduledAt": "2026-11-04T11:30:00+09:00",
+      "text": "PR｜衣替えの引き出し、浅いとニットがつかえるし、深いと靴下が埋もれる。服の厚みが違うなら、同じ高さでそろえなくてもいいかも。ライクイットのクローゼットシステムは深さを選べる引き出し。買う前に、引き出しを手前に開ける余白まで測っておくと選びやすい。",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "商品",
+      "productName": "ライクイット クローゼットシステム",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Flit25feb26h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10017388%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "memo": "衣替え時の深さ選びを検証。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
+    },
+    {
+      "reservationId": "KAI-20261104-1430",
+      "scheduledAt": "2026-11-04T14:30:00+09:00",
+      "text": "PR｜脱衣所にタオルを置きたいけど、引き出しを開けたら通れないのは困る。セサミのランドリーチェストは奥行30cm。置けるか迷ったら、床に奥行き分の目印を置いて、洗濯かごを持って通ってみると判断しやすそう。",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "商品",
+      "productName": "SESAME 奥行30cmランドリーチェスト",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6fx8.8dcsq89c.g00s6fx8.8dcsr118/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsesame-kagu%2Fj430500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsesame-kagu%2Fi%2F10001404%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "memo": "通路を測る購入判断を提示。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
+    },
+    {
+      "reservationId": "KAI-20261104-1730",
+      "scheduledAt": "2026-11-04T17:30:00+09:00",
+      "text": "夕飯前の「おなかすいた」と、食卓についた瞬間の「これじゃない」。その間に何があったんだろう。献立を聞いてから作るとラクな日と、聞いたら話がまとまらない日、どっちが多いですか？",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "memo": "具体場面への読者返信を検証。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
+    },
+    {
+      "reservationId": "KAI-20261104-2000",
+      "scheduledAt": "2026-11-04T20:00:00+09:00",
+      "text": "PR｜上着は掛ける、靴下は引き出し。翌日の服を一か所にまとめたいとき、LOWYAのインシアは掛ける場所と引き出しが同じラックに。幅94cmあるので、子どもが前に立って引き出しを開ける場所まで取れそうか、先に見ておきたい。",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "商品",
+      "productName": "LOWYA インシア キッズハンガーラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxdh8.8dcsq638.g00pxdh8.8dcsrf8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flow-ya%2Ff502-g1023-100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flow-ya%2Fi%2F10012478%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "memo": "10/20掲載の類似LOWYA品から15日。用途を翌日の服の準備に変更。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
+    },
+    {
+      "reservationId": "KAI-20261104-2100",
+      "scheduledAt": "2026-11-04T21:00:00+09:00",
+      "text": "家族に「そこにあるよ」で伝わらないものほど、収納の名前がむずかしい。「文房具」より「ハサミ・のり」みたいに、中にあるものをそのまま書くと探しやすそう。ラベルを一枚だけ替えるなら、何の引き出しがいちばん助かりそう？",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "memo": "追加露出枠。具体場面への読者返信を検証。 24/48時間でViews・自己返信を除く読者返信、商品は実掲載を照合。楽天クリック・売上は日別で別集計。"
     }
   ]
 }
