@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-11-02T23:57:07.133Z",
+  "updatedAt": "2026-11-03T23:57:08.069Z",
   "count": 66,
   "products": [
     {
@@ -265,9 +265,9 @@
       "selectionReason": "72点 / 採用候補 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-27T23:57:04.498Z",
-      "selectedDate": "2026-10-27T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-11-03T23:57:07.220Z",
+      "selectedDate": "2026-11-03T15:00:00.000Z",
+      "rank": 5,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 69,
@@ -317,9 +317,9 @@
       "selectionReason": "56点 / 様子見 / 子供 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-10-27T23:57:04.498Z",
-      "selectedDate": "2026-10-27T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-11-03T23:57:07.220Z",
+      "selectedDate": "2026-11-03T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 70,
@@ -327,7 +327,7 @@
       "productName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
       "price": 2640,
       "shop": "プラスチックの店キララ",
-      "reviewCount": 2841,
+      "reviewCount": 2842,
       "reviewAverage": 4.68,
       "priceScore": 16,
       "reviewScore": 13,
@@ -707,9 +707,9 @@
       "selectionReason": "75点 / 採用候補 / デッドスペース 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-26T23:57:04.627Z",
-      "selectedDate": "2026-10-26T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-11-03T23:57:07.220Z",
+      "selectedDate": "2026-11-03T15:00:00.000Z",
+      "rank": 1,
       "searchTheme": "掃除 便利グッズ",
       "productType": "掃除用品",
       "totalScore": 74,
@@ -811,17 +811,17 @@
       "selectionReason": "73点 / 採用候補 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-10-26T23:57:04.627Z",
-      "selectedDate": "2026-10-26T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-11-03T23:57:07.220Z",
+      "selectedDate": "2026-11-03T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "クローゼット 収納",
       "productType": "チェスト・引き出し",
       "totalScore": 73,
       "judgment": "様子見",
-      "productName": "【50%オフクーポン】即納 収納ボックス 収納ケース チェスト 折りたたみ 収納 ふた付き キャスター付き 5面開き 前開き 27L 40L 53L 82L 屋外 おしゃれ プラスチック 衣装ケース コンテナ ボックス 衣類 布団",
-      "price": 2580,
+      "productName": "「11/4 20時〜最大99%OFFクーポン！」 即納 収納ボックス 木製天板 目隠しホワイト 収納ケース チェスト 折りたたみ 収納 ふた付き キャスター付き 5面開き 前開き 27L 40L 53L 82L 屋外 おしゃれ プラスチック 衣装ケース コンテナ ボックス 衣類 布団",
+      "price": 2680,
       "shop": "フリーライフ",
-      "reviewCount": 4500,
+      "reviewCount": 4578,
       "reviewAverage": 4.56,
       "priceScore": 16,
       "reviewScore": 13,
@@ -837,9 +837,9 @@
       "selectionReason": "73点 / 様子見 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-27T23:57:04.498Z",
-      "selectedDate": "2026-10-27T15:00:00.000Z",
-      "rank": 2,
+      "selectedAt": "2026-11-03T23:57:07.220Z",
+      "selectedDate": "2026-11-03T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "お風呂 収納",
       "productType": "ラック・棚",
       "totalScore": 72,
