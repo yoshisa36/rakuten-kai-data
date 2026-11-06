@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-11-05T23:57:07.817Z",
-  "count": 67,
+  "updatedAt": "2026-11-06T23:57:04.337Z",
+  "count": 68,
   "products": [
     {
       "selectedAt": "2026-10-30T23:57:05.381Z",
@@ -785,8 +785,8 @@
       "selectionReason": "75点 / 採用候補 / お風呂 収納 × その他"
     },
     {
-      "selectedAt": "2026-10-28T23:57:05.507Z",
-      "selectedDate": "2026-10-28T15:00:00.000Z",
+      "selectedAt": "2026-11-06T23:57:03.705Z",
+      "selectedDate": "2026-11-06T15:00:00.000Z",
       "rank": 2,
       "searchTheme": "掃除 便利グッズ",
       "productType": "掃除用品",
@@ -1149,9 +1149,9 @@
       "selectionReason": "65点 / 様子見 / お風呂 収納 × ラック・棚"
     },
     {
-      "selectedAt": "2026-10-26T23:57:04.627Z",
-      "selectedDate": "2026-10-26T15:00:00.000Z",
-      "rank": 5,
+      "selectedAt": "2026-11-06T23:57:03.705Z",
+      "selectedDate": "2026-11-06T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "お風呂 収納",
       "productType": "吊り下げ収納",
       "totalScore": 70,
@@ -1159,7 +1159,7 @@
       "productName": "店舗限定【特典付き】日本製 燕三条 お風呂 バスケット 引っ掛け ステンレス お風呂収納 ラック 棚 かご カゴ 収納 おもちゃ 収納 吊り下げ 浴室 ボトルラック バスラック タオル掛け 浮かせる 吊るせる バスルーム［ ステンレス引っ掛けオモチャバスケット ］",
       "price": 3080,
       "shop": "インテリアショップ roomy",
-      "reviewCount": 1725,
+      "reviewCount": 1729,
       "reviewAverage": 4.78,
       "priceScore": 12,
       "reviewScore": 15,
@@ -1227,8 +1227,8 @@
       "selectionReason": "84点 / 採用候補 / お風呂 収納 × 吊り下げ収納"
     },
     {
-      "selectedAt": "2026-10-29T23:57:09.050Z",
-      "selectedDate": "2026-10-29T15:00:00.000Z",
+      "selectedAt": "2026-11-06T23:57:03.705Z",
+      "selectedDate": "2026-11-06T15:00:00.000Z",
       "rank": 3,
       "searchTheme": "クローゼット 収納",
       "productType": "チェスト・引き出し",
@@ -1237,7 +1237,7 @@
       "productName": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
       "price": 4999,
       "shop": "くらしのeショップ",
-      "reviewCount": 6905,
+      "reviewCount": 6961,
       "reviewAverage": 4.42,
       "priceScore": 12,
       "reviewScore": 11,
@@ -1305,8 +1305,8 @@
       "selectionReason": "70点 / 採用候補 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-10-09T23:57:06.565Z",
-      "selectedDate": "2026-10-09T15:00:00.000Z",
+      "selectedAt": "2026-11-06T23:57:03.705Z",
+      "selectedDate": "2026-11-06T15:00:00.000Z",
       "rank": 5,
       "searchTheme": "お風呂 収納",
       "productType": "子供専用収納",
@@ -1315,7 +1315,7 @@
       "productName": "［ マグネットバスルームコーナーおもちゃラック タワー ］山崎実業 tower マグネット収納 お風呂 収納 三角 コーナー ラック 棚 かご マグネット おもちゃバスケット オモチャ入れ おもちゃ収納 おもちゃ入れ 浮かせる 浴室収納 おしゃれ yamazaki 4264 4265",
       "price": 2530,
       "shop": "インテリアショップ roomy",
-      "reviewCount": 2358,
+      "reviewCount": 2367,
       "reviewAverage": 4.8,
       "priceScore": 16,
       "reviewScore": 15,
@@ -1745,6 +1745,32 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uddb8.8dcsq884.g00uddb8.8dcsr04e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fignis%2F2111sd350%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fignis%2Fi%2F10000376%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "おもちゃ 収納 × 子供専用収納",
       "selectionReason": "69点 / 様子見 / おもちゃ 収納 × 子供専用収納"
+    },
+    {
+      "selectedAt": "2026-11-06T23:57:03.705Z",
+      "selectedDate": "2026-11-06T15:00:00.000Z",
+      "rank": 1,
+      "searchTheme": "クローゼット 収納",
+      "productType": "ラック・棚",
+      "totalScore": 74,
+      "judgment": "採用候補",
+      "productName": "クーポンで【最安 1,780円〜/1点】【あす楽】【楽天1位連冠】伸縮棚 積み重ね 幅 27-108cm 高さ 22-50cm 奥行 24cm 42cm 伸縮ラック クローゼット 押入れ 通気性 収納 防水 丈夫 頑丈 整理棚 シンク下 ワイド 空間活用 省スペース キッチンラック 空きスペース 隙間 新生活",
+      "price": 2780,
+      "shop": "OutGreen Life",
+      "reviewCount": 767,
+      "reviewAverage": 4.31,
+      "priceScore": 16,
+      "reviewScore": 11,
+      "reviewCountScore": 9,
+      "problemScore": 25,
+      "keywordScore": 10,
+      "featureScore": 3,
+      "seasonScore": 0,
+      "itemCode": "outgreenlife:10000469",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz2j8.8dcsq5e4.g00tz2j8.8dcsr804/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foutgreenlife%2Fog000190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foutgreenlife%2Fi%2F10000469%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz2j8.8dcsq5e4.g00tz2j8.8dcsr804/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foutgreenlife%2Fog000190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foutgreenlife%2Fi%2F10000469%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "クローゼット 収納 × ラック・棚",
+      "selectionReason": "74点 / 採用候補 / クローゼット 収納 × ラック・棚"
     }
   ]
 }
