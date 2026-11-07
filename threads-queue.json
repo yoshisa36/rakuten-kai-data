@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T21:36:01+09:00",
+  "updatedAt": "2026-11-07T21:34:16+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2158,6 +2158,78 @@
       "status": "承認待ち",
       "approvalStatus": "approved",
       "memo": "追加露出枠。冷たい文体との指摘を反映し口語・絵文字・共感を追加。11/5楽天はユーザー報告3クリック売上0、投稿別帰属なし。分析ファイル最新投稿11/5、同経過時間のデータ不足。11/8・9に24/48hの実リンク、Views、読者返信と楽天日別を別々に比較。"
+    },
+    {
+      "reservationId": "KAI-20261108-0900",
+      "scheduledAt": "2026-11-08T09:00:00+09:00",
+      "text": "日曜の朝、洗濯機を回しただけで家事が一個終わった気分になる。干すのはまだなのに🧺 でも、最初のボタンを押した自分にはちょっと拍手していい。",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。生活の一場面を口語と絵文字で。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261108-1130",
+      "scheduledAt": "2026-11-08T11:30:00+09:00",
+      "text": "PR｜保存容器を取るたびに、上に積んだものまで一緒に持ち上げるのが地味に面倒。幅を調整できる伸縮棚なら、棚の中を上下に分ける選択肢に。シンク下なら配管の位置も含めて、脚が置ける幅を測ってから🍱",
+      "productName": "OutGreen Life 伸縮棚",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz2j8.8dcsq5e4.g00tz2j8.8dcsr804/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foutgreenlife%2Fog000190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foutgreenlife%2Fi%2F10000469%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "履歴でURL一致の過去枠なし。脚の設置幅を購入判断に。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261108-1430",
+      "scheduledAt": "2026-11-08T14:30:00+09:00",
+      "text": "PR｜洗濯機のふたを開けるたびに、上の棚が邪魔になるのは避けたい。ヤマソロの突っ張りランドリーラックを検討するなら、棚を置きたい高さだけでなく、ふたを全開にした高さも先に測っておきたい🧺",
+      "productName": "ヤマソロ 突っ張りランドリーラック Echo",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pum98.8dcsqa3d.g00pum98.8dcsr954/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falamode%2F78-3690%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falamode%2Fi%2F10021350%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "10/2以来の再紹介。ふたの開閉高さを購入判断に。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261108-1730",
+      "scheduledAt": "2026-11-08T17:30:00+09:00",
+      "text": "味噌汁を作る気力はないけど、あったかいものは飲みたい。そんな日は、お湯を注ぐだけの一杯でいいと思う🍵 日曜の夜まで、全部手作りじゃなくていいよね。",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "生活の一場面を口語と絵文字で。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261108-2000",
+      "scheduledAt": "2026-11-08T20:00:00+09:00",
+      "text": "PR｜ぬいぐるみは残したいけど、床にはもう置く場所がない。ルームモックなら、吊り下げて置き場を分ける選択肢に。買う前に、固定できる場所と耐荷重を確認して、子どもが引っ張れない位置に🧸",
+      "productName": "ルームモック 吊り下げ収納",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q7288.8dcsqe27.g00q7288.8dcsr694/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F294996%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivingut%2Fi%2F10101403%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "10/17以来の再紹介。固定位置と耐荷重を購入判断に。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261108-2100",
+      "scheduledAt": "2026-11-08T21:00:00+09:00",
+      "text": "月曜の朝に慌てないように、全部準備しようとすると日曜の夜まで忙しい。提出する紙だけバッグの上に置いたら、今日はもう閉店でいい📮",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。生活の一場面を口語と絵文字で。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
     }
   ]
 }
