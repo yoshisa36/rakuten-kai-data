@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T21:34:16+09:00",
+  "updatedAt": "2026-11-08T21:33:38+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2230,6 +2230,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出枠。生活の一場面を口語と絵文字で。11/7初回の17:30は8Views・返信0。具体場面を継続、反応差は経過時間・題材差があり確度低。11/9・10の24/48hに実掲載・Views・読者返信を照合。楽天日別クリック・売上・報酬は別集計。通常返信設定は変更しない。"
+    },
+    {
+      "reservationId": "KAI-20261109-0900",
+      "scheduledAt": "2026-11-09T09:00:00+09:00",
+      "text": "月曜の朝、靴下が片方だけ見つからないと、急に家じゅうが捜索現場になる🧦 もう左右ちがっても、今日は足があったかければ合格にしたい。",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。生活の具体場面、口語と絵文字で共感。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261109-1130",
+      "scheduledAt": "2026-11-09T11:30:00+09:00",
+      "text": "PR｜資源ごみの袋、床に並べると足元がどんどん狭くなる。ケユカのrectieは前から開く分別ボックス。置きたい幅だけじゃなく、開けたときに足元を通れるか、回収日までの量が入るかも先に見ておきたい♻️",
+      "productName": "KEYUCA rectie 分別ボックス",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3300305%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10021051%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介前回10/16。新しい判断軸：回収日までの容量と通路。実験終了後の暫定方式で恒久固定しない。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261109-1430",
+      "scheduledAt": "2026-11-09T14:30:00+09:00",
+      "text": "PR｜濡れた傘を玄関に置くと、翌朝の靴を履く場所まで濡れていることがある☔ 傘立てパディは水受けトレー付き。家族が同時に帰ったときの傘の本数と、トレーを手入れする場所まで考えて選びたい。",
+      "productName": "コンパクト傘立て パディ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "返信リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介前回10/11。新しい判断軸：家族の傘の本数と水受け。実験終了後の暫定方式で恒久固定しない。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261109-1730",
+      "scheduledAt": "2026-11-09T17:30:00+09:00",
+      "text": "夕方の「今日なに食べたい？」に「お菓子！」。うん、聞き方が広すぎたね😂 もう一回聞くなら「ごはんと麺、どっち？」くらいがちょうどいいかも。",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "生活の具体場面、口語と絵文字で共感。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261109-2000",
+      "scheduledAt": "2026-11-09T20:00:00+09:00",
+      "text": "PR｜洗面所のタオル、きれいに畳むことより、取り出すときに全部ついてこない方が大事かも。フィッツケース マルチを選ぶなら、畳んだタオルの幅と、引き出しを開けても足元に立てるかを先に確認したい。",
+      "productName": "フィッツケース マルチ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qg648.8dcsq880.g00qg648.8dcsr7b3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2Ffitscase_multi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10006046%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "postType": "商品",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介前回10/7。新しい判断軸：タオル寸法と引き出し前の足元。実験終了後の暫定方式で恒久固定しない。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261109-2100",
+      "scheduledAt": "2026-11-09T21:00:00+09:00",
+      "text": "明日の朝に使うもの、ひとまとめにすると便利だけど、全部集めるのはもうひと仕事。冷蔵庫から出すものだけ、玄関のバッグに『冷蔵庫』のメモを付けるのもありだね📝",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "postType": "交流",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。生活の具体場面、口語と絵文字で共感。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
     }
   ]
 }
