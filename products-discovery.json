@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T21:34:16+09:00",
+  "updatedAt": "2026-11-08T21:33:38+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
   "count": 21,
   "products": [
@@ -33,8 +33,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -98,8 +98,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -131,8 +131,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -162,8 +162,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -224,8 +224,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-06T21:36:01+09:00",
-      "latestDecision": "11/7枠には不採用。楽天販売ページ再確認。本人帰属を今回新規に確認できていないため探索候補として維持。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -379,8 +379,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-06T21:36:01+09:00",
-      "latestDecision": "11/7枠には不採用。楽天販売ページ再確認。本人帰属を今回新規に確認できていないため探索候補として維持。",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
       "affiliateAttributionVerified": false
     },
     {
@@ -438,8 +438,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-29T21:39:37+09:00",
-      "latestDecision": "楽天販売ページを開いて再評価。報酬用リンク未確認のため商品投稿不採用"
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261027-15",
@@ -467,8 +467,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。"
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261027-16",
@@ -496,8 +496,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。"
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261027-17",
@@ -525,8 +525,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-10-28T21:28:23+09:00",
-      "latestDecision": "販売ページ再確認。報酬用リンク未確認のため今回商品投稿不採用"
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261027-18",
@@ -554,8 +554,8 @@
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。"
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261028-POCO",
@@ -613,7 +613,9 @@
       "price": null,
       "stockVerified": false,
       "roomRegistrationStatus": "未確認",
-      "nextCheck": "正規報酬リンク確認後に採用可否を再検討"
+      "nextCheck": "正規報酬リンク確認後に採用可否を再検討",
+      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
+      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。"
     },
     {
       "candidateId": "DISC-20261029-W652",
@@ -647,18 +649,18 @@
     }
   ],
   "latestReview": {
+    "targetDate": "2026-11-09",
+    "attempted": 12,
+    "reviewed": 12,
+    "productPosts": 3,
+    "conversationPosts": 3
+  },
+  "previousReview": {
     "targetDate": "2026-11-08",
     "attempted": 12,
     "reviewed": 12,
     "productPosts": 3,
     "conversationPosts": 3,
     "reason": "4分野を再確認、採用は選定履歴の報酬URL付き候補から。"
-  },
-  "previousReview": {
-    "targetDate": "2026-11-07",
-    "reviewed": 12,
-    "productPosts": 3,
-    "conversationPosts": 3,
-    "reason": "掃除・調理・洗濯・子育て各3候補を再確認。新規の報酬帰属確認なし。予約は選定履歴から採用。"
   }
 }
