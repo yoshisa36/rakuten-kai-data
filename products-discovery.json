@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T21:33:38+09:00",
+  "updatedAt": "2026-11-09T21:35:18+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
-  "count": 21,
+  "count": 22,
   "products": [
     {
       "candidateId": "DISC-20261024-01",
@@ -646,6 +646,28 @@
       "nextCheck": "正規報酬リンク確認後に採用可否を再検討",
       "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
       "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。"
+    },
+    {
+      "candidateId": "DISC-20261109-AZ143",
+      "category": "掃除",
+      "productName": "アズマ工業 サッシふっきふき AZ143",
+      "model": "AZ143",
+      "productUrl": "https://item.rakuten.co.jp/kaihyaku/771959/",
+      "sourceUrls": [
+        "https://item.rakuten.co.jp/kaihyaku/771959/"
+      ],
+      "verifiedFacts": [
+        "サッシ用ブラシ、スクレーパー付き"
+      ],
+      "readerProblem": "窓のサッシ溝を掃除したい",
+      "limitations": [
+        "汚れやサッシの形状に応じた適合性、在庫、本人帰属の報酬リンクは未確認"
+      ],
+      "checkedAt": "2026-11-09T21:35:18+09:00",
+      "status": "調査候補・投稿未承認",
+      "affiliateUrl": "",
+      "affiliateLinkVerified": false,
+      "affiliateAttributionVerified": false
     }
   ],
   "latestReview": {
