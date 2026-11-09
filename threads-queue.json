@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T21:33:38+09:00",
+  "updatedAt": "2026-11-09T21:35:18+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2302,6 +2302,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出枠。生活の具体場面、口語と絵文字で共感。11/8 09時10Views返信2、読者帰属未確認。11/6楽天19クリック、11/7は7、両日売上0（ユーザー報告）。経過時間・商品差あり確度低。11/10・11の24/48hでリンク掲載と読者返信を照合。"
+    },
+    {
+      "reservationId": "KAI-20261110-0900",
+      "scheduledAt": "2026-11-10T09:00:00+09:00",
+      "text": "朝の『上着いらない』と、玄関を出た瞬間の『やっぱり寒い』。ドア一枚ぶんで意見が変わるの、ちょっと分かる🧥",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。朝の親子の判断が変わる場面で共感。11/9朝は初回8Views・1Like。24/48時間で比較。"
+    },
+    {
+      "reservationId": "KAI-20261110-1130",
+      "scheduledAt": "2026-11-10T11:30:00+09:00",
+      "text": "PR｜上履きを洗う日に、洗面台も使いたい。マーナのふた付き角型バケツなら、洗うものに合わせて5Lと10Lから選べます。容量だけで決めず、洗いたい上履きが底に収まるか、置き場所と一緒に見ておきたい🫧",
+      "postType": "商品",
+      "productName": "マーナ ふた付き角型バケツ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw627%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006157%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/24・3Views。前回の少量衣類から上履きの底寸法へ変更し、ROOMから暫定本文リンクへ。24/48時間の掲載・Viewsを確認。"
+    },
+    {
+      "reservationId": "KAI-20261110-1430",
+      "scheduledAt": "2026-11-10T14:30:00+09:00",
+      "text": "PR｜靴箱、棚の上が少し空いてるのに、横にはもう一足入らない。靴を上下に重ねて置けるホルダーは、そういう棚の候補👟 選ぶ前に、いつもの靴を重ねた高さで扉が閉まるか見ておきたい。",
+      "postType": "商品",
+      "productName": "くつホルダー 6足分",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pm6z8.8dcsqd5c.g00pm6z8.8dcsr183/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froyal3000%2Fb043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froyal3000%2Fi%2F10010218%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "キューと履歴を商品名・販売先で照合し初紹介。10/28のシューズラックとは違い、既存棚の高さを使う。24/48時間で掲載・Views確認。"
+    },
+    {
+      "reservationId": "KAI-20261110-1730",
+      "scheduledAt": "2026-11-10T17:30:00+09:00",
+      "text": "スーパーの袋を開ける音って、子どもには『何かいいものが出てくる音』なのかも。出てきたのが詰め替え用の洗剤だと、見に来たほうもちょっと気まずいね😂",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流。献立の二択から買い物袋の生活場面と軽いユーモアに変更。24/48時間の読者反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261110-2000",
+      "scheduledAt": "2026-11-10T20:00:00+09:00",
+      "text": "PR｜浴室の掃除スプレー、使うたびに棚の奥から出すなら、壁に掛ける手も。towerのマグネットスプレーボトルハンガーを選ぶ前に、壁に磁石が付くかと、ボトルを掛けてもお風呂の出入りを邪魔しないかを確認したい。",
+      "postType": "商品",
+      "productName": "tower マグネットスプレーボトルハンガー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-9916%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10002807%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/27（14日）。返信掲載の直接証拠不足を補うため暫定本文リンクで実掲載を確認。取り出す位置と出入りの動線に切り口を変更。24/48時間で確認。"
+    },
+    {
+      "reservationId": "KAI-20261110-2100",
+      "scheduledAt": "2026-11-10T21:00:00+09:00",
+      "text": "夕方にカーテンを閉めてから『あ、洗濯物』って気づくと、外に出るのが急に億劫になるね🌙 日が短い時期だけ、夕方のアラームを一つ「洗濯物」にしておくのもあり。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出枠。前日の玄関メモから日没前の取り込みに変更。24/48時間のViews・読者返信と既存4枠の推移を確認。"
     }
   ]
 }
