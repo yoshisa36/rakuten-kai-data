@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T21:35:18+09:00",
+  "updatedAt": "2026-11-10T21:33:52+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2374,6 +2374,42 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出枠。前日の玄関メモから日没前の取り込みに変更。24/48時間のViews・読者返信と既存4枠の推移を確認。"
+    },
+    {
+      "reservationId": "KAI-20261111-0900",
+      "scheduledAt": "2026-11-11T09:00:00+09:00",
+      "text": "子どものポケットから出てきた小石、洗濯前ならセーフ。問題は、本人にはどれも『大事な石』っぽいこと😂 いつまで取っておくか、石よりそっちが悩ましい。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：親子で違う物の価値。 11/10朝・夕方は初回4Views・1Like。少数・経過時間差で確度低。24/48hで読者反応を比較。"
+    },
+    {
+      "reservationId": "KAI-20261111-1730",
+      "scheduledAt": "2026-11-11T17:30:00+09:00",
+      "text": "夕飯のあと、片付いたテーブルに誰かがみかんを置くと、急に『もうちょっとここにいよう』って空気になる🍊 デザートにお皿がいらないのも、うれしいところ。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：夕食後の小さな楽しみ。 11/10朝・夕方は初回4Views・1Like。少数・経過時間差で確度低。24/48hで読者反応を比較。"
+    },
+    {
+      "reservationId": "KAI-20261111-2100",
+      "scheduledAt": "2026-11-11T21:00:00+09:00",
+      "text": "寝る前に床を全部片付ける気力がない日は、ベッドからドアまでの通り道だけ。おもちゃの仕分けは明日の自分に任せて、今夜は踏まないだけで十分🧸",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：片付けを通り道に絞る具体策。 11/10朝・夕方は初回4Views・1Like。少数・経過時間差で確度低。24/48hで読者反応を比較。"
     }
   ]
 }
