@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T21:33:52+09:00",
+  "updatedAt": "2026-11-10T21:15:52.989Z",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2410,6 +2410,42 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：片付けを通り道に絞る具体策。 11/10朝・夕方は初回4Views・1Like。少数・経過時間差で確度低。24/48hで読者反応を比較。"
+    },
+    {
+      "reservationId": "KAI-20261111-1130",
+      "scheduledAt": "2026-11-11T11:30:00+09:00",
+      "text": "洗面所のタオル、棚に置くと意外と場所を取る…🧺 壁の空きスペースを使うウォールシェルフなら、床に物を増やさず置き場所を考えられそう。取り付けられる壁の種類と耐荷重は先に確認したいところ。",
+      "postType": "商品",
+      "productName": "石膏ボード用ウォールシェルフ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tnma8.8dcsq807.g00tnma8.8dcsr033/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fisuke-shop%2Fwallshelf09%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fisuke-shop%2Fi%2F10000163%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "2026-11-11当日復旧：ユーザー明示承認で返信リンク保留枠を本文リンクとして登録。既存交流保持。再紹介14日以上経過。GAS取り込み・実投稿未確認。"
+    },
+    {
+      "reservationId": "KAI-20261111-1430",
+      "scheduledAt": "2026-11-11T14:30:00+09:00",
+      "text": "子どもの上着やバッグ、帰宅後に置き場が決まってないと毎回あちこちに…😅 ハンガーと引き出しがまとまった子ども用ラックなら、片付ける場所を一か所にできそう。サイズは置く場所に合わせて確認したいね。",
+      "postType": "商品",
+      "productName": "子ども用ハンガーラック 収納ボックス付き",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2Fcsiu-4h%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000821%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "2026-11-11当日復旧：ユーザー明示承認で返信リンク保留枠を本文リンクとして登録。既存交流保持。再紹介14日以上経過。GAS取り込み・実投稿未確認。"
+    },
+    {
+      "reservationId": "KAI-20261111-2000",
+      "scheduledAt": "2026-11-11T20:00:00+09:00",
+      "text": "洗面ボウルの輪ジミ、洗剤を変える前に道具を見直すのも一案🧽 陶器やタイル向けの研磨パッド。こするタイプなので、使える素材や傷がつかないかを目立たない所で確認してからが安心。",
+      "postType": "商品",
+      "productName": "陶器・タイル用研磨パッド エコピカ ブルー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qvh98.8dcsqe55.g00qvh98.8dcsr9b8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwatasinoseikatu%2F10000891%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwatasinoseikatu%2Fi%2F10000891%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "2026-11-11当日復旧：ユーザー明示承認で返信リンク保留枠を本文リンクとして登録。既存交流保持。再紹介14日以上経過。GAS取り込み・実投稿未確認。"
     }
   ]
 }
