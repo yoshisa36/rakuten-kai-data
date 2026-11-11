@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T21:27:49+09:00",
+  "updatedAt": "2026-11-11T21:58:13+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2482,6 +2482,42 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出。日用品の買い間違いを減らす具体策。 11/11朝の初回19Views、いいね0。取得までの時間差あり。24・48時間後にViewsと読者返信を確認。"
+    },
+    {
+      "reservationId": "KAI-20261112-1130",
+      "scheduledAt": "2026-11-12T11:30:00+09:00",
+      "text": "PR｜シンク下の奥に入れた鍋、使うたびに手前の物をどかすのが地味に面倒。引き出せるラックを選ぶなら、棚の幅だけじゃなく、排水管と扉の蝶番を避けて引けるかも見ておきたい。",
+      "productName": "シンク下 スライド収納ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00upki8.8dcsq4fa.g00upki8.8dcsr614/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakihome%2Fusr-tier-wth%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakihome%2Fi%2F10000025%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "前回10/21、配管と蝶番を購入判断に。ユーザー承認の暫定本文リンク。公開後24・48時間に実掲載とViews・読者反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261112-1430",
+      "scheduledAt": "2026-11-12T14:30:00+09:00",
+      "text": "PR｜旅行先で濡れたハンカチ、椅子の背に全部かけると座る場所がなくなる。少量を干すならクリップ付きの洗濯ロープも候補。宿で使うなら、掛けられる場所があるかを先に確認したい。",
+      "productName": "ストッパー付き洗濯ロープ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_rope_stp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000111%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "前回10/25、旅行先の固定場所を購入判断に。ユーザー承認の暫定本文リンク。公開後24・48時間に実掲載とViews・読者反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261112-2000",
+      "scheduledAt": "2026-11-12T20:00:00+09:00",
+      "text": "PR｜お風呂のおもちゃ、上がるたびに拾うともう一仕事。角に置き場を作るなら、towerのコーナーラックも候補。買う前に、角が直角か、両側の壁に磁石が付くかを先に見ておきたい🛁",
+      "productName": "tower コーナーおもちゃラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-4264%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10002859%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "前回10/26、直角と壁面の適合を購入判断に。ユーザー承認の暫定本文リンク。公開後24・48時間に実掲載とViews・読者反応を確認。"
     }
   ]
 }
