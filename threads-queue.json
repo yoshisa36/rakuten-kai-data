@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T21:58:13+09:00",
+  "updatedAt": "2026-11-12T21:36:29+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2518,6 +2518,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "前回10/26、直角と壁面の適合を購入判断に。ユーザー承認の暫定本文リンク。公開後24・48時間に実掲載とViews・読者反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-0900",
+      "scheduledAt": "2026-11-13T09:00:00+09:00",
+      "text": "朝ごはんのパンを半分に切ったら「切らないで」。切らずに出したら「半分にして」。同じパンでも、今日の正解は日替わりなんだね🍞",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：朝食の親子あるある。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-1130",
+      "scheduledAt": "2026-11-13T11:30:00+09:00",
+      "text": "PR｜窓の結露、下のほうだけびっしょりだと雑巾を何度も絞ることに。小さめのスキージーで水を下に集めて、最後にサッシを拭く手も。選ぶときは、窓枠の近くまで動かせる幅か見ておきたい。",
+      "productName": "マーナ 小回りのきくスキージー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw607%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10005651%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/28。浴室での操作性から窓枠の幅へ。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-1430",
+      "scheduledAt": "2026-11-13T14:30:00+09:00",
+      "text": "PR｜子どもに「片付けて」って言っても、戻す場所が毎回違うと難しいよね。絵本とおもちゃの場所を分けられるラックなら、よく遊ぶものだけ戻しやすい段に。買う前に、よく読む大きめの絵本が入るかも確認したい📚",
+      "productName": "SUMICIA 絵本・おもちゃ収納ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r7058.8dcsqcbb.g00r7058.8dcsrf74/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsumica%2Fvg-pieni%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsumica%2Fi%2F10000879%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/27。手の届く高さから絵本の寸法へ。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-1730",
+      "scheduledAt": "2026-11-13T17:30:00+09:00",
+      "text": "炊飯器を開けて、ごはんが残ってると思ったら底にひと口分。あれは「ある」じゃなくて「味見できる」だと思う🍚",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：残りごはんの認識の違い。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-2000",
+      "scheduledAt": "2026-11-13T20:00:00+09:00",
+      "text": "PR｜週末のお出かけ前、手洗いしたいものが一枚だけ。洗濯バッグを選ぶなら、洗える量に加えて、すすぎに使う水を確保できるか、洗ったあとどこに干すかまで考えておきたい。洗濯表示の確認も忘れずに。",
+      "productName": "洗濯バッグ ザブル",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/29。容量比較からすすぎ・干し場までの動線へ。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261113-2100",
+      "scheduledAt": "2026-11-13T21:00:00+09:00",
+      "text": "探し物をしてると、いつの間にか引き出し全部の片付けが始まる。夜なら探していた物が出たところで終了でもいいよね。出した物だけ戻して、お茶にしよう🍵",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：夜の片付けの切り上げ方。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
     }
   ]
 }
