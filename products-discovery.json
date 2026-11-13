@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T21:35:18+09:00",
+  "updatedAt": "2026-11-13T21:35:25+09:00",
   "purpose": "収納偏重を補う補助商品探索。候補登録は投稿予約や報酬計測リンクの確認を意味しない。GAS本体の検索設定は未変更。",
   "count": 22,
   "products": [
@@ -33,8 +33,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -65,8 +65,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -98,8 +98,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -131,8 +131,8 @@
       "threadsHistoryMatch": "取得できたthreads-analysis.jsonの名称・型番キーワード一致なし（過去全件未紹介の保証ではない）",
       "roomRegistrationStatus": "未確認",
       "purchaseOrUseExperience": "なし",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -162,8 +162,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -193,8 +193,8 @@
       "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
       "status": "2026-10-25投稿採用（予約保存は別検証）",
       "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック",
-      "lastRecheckedAt": "2026-11-06T21:36:01+09:00",
-      "latestDecision": "11/7枠には不採用。楽天販売ページ再確認。本人帰属を今回新規に確認できていないため探索候補として維持。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -224,8 +224,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -255,8 +255,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -286,8 +286,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -317,8 +317,8 @@
       "affiliateVerification": "取得したselection-historyの報酬URLと一致。実クリック/報酬発生は未確認",
       "status": "2026-10-25投稿採用（予約保存は別検証）",
       "nextCheck": "本文URLの実掲載と翌日/翌々日Views・楽天クリック",
-      "lastRecheckedAt": "2026-11-06T21:36:01+09:00",
-      "latestDecision": "11/7枠には不採用。楽天販売ページ再確認。本人帰属を今回新規に確認できていないため探索候補として維持。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -348,8 +348,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "当該商品の正規報酬URLと適合性を確認",
-      "lastRecheckedAt": "2026-11-07T21:34:16+09:00",
-      "latestDecision": "11/8販売ページ確認。新規の本人報酬帰属未確認、今回は不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
@@ -379,8 +379,8 @@
       "affiliateVerification": "正規生成ツールなし、当該商品の報酬用実データなし",
       "status": "調査候補・報酬用リンク未確認で商品投稿見送り",
       "nextCheck": "正規の報酬リンク取得と適合性確認",
-      "lastRecheckedAt": "2026-11-08T21:33:38+09:00",
-      "latestDecision": "11/9分調査：販売ページ再確認、本人への報酬帰属の新規確認がなく不採用。",
+      "lastRecheckedAt": "2026-11-13T21:34:36+09:00",
+      "latestDecision": "楽天販売ページの名称・用途を再照合。11/14予約には不採用。価格・在庫・報酬帰属の新規確認なし。",
       "affiliateAttributionVerified": false
     },
     {
