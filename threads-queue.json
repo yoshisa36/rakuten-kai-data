@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T21:36:29+09:00",
+  "updatedAt": "2026-11-13T21:35:25+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2590,6 +2590,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：夜の片付けの切り上げ方。11/12の投稿別計測は取得データに未収録。商品は暫定本文リンク。24・48時間後の掲載と反応を確認。"
+    },
+    {
+      "reservationId": "KAI-20261114-0900",
+      "scheduledAt": "2026-11-14T09:00:00+09:00",
+      "text": "休みの日の朝、子どもの「もう遊べる？」と大人の「まだパジャマでいたい」が同時に始まる☕ どっちも休日を楽しみにしてた結果なんだよね。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：休日の朝の温度差。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261114-1130",
+      "scheduledAt": "2026-11-14T11:30:00+09:00",
+      "text": "PR｜浴室の床、気になるところだけ洗いたい日に、道具を出すところからだと腰が重い。アズマの浴室床洗い smart779は磁石で収納できるタイプ。使える床材と、出し戻ししやすい場所に磁石が付くかを先に確認したい🧽",
+      "productName": "アズマ工業 浴室床洗い smart779",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s2un8.8dcsq84f.g00s2un8.8dcsr1a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-plaza%2F10016233%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-plaza%2Fi%2F10016240%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/30。交換部品から掃除道具を出す手間へ。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261114-1430",
+      "scheduledAt": "2026-11-14T14:30:00+09:00",
+      "text": "PR｜ズボンを重ねると、履きたい一本だけいつも下のほう。掛けて並べるラックなら、一本ずつ選びたいときの候補。キャスターで手前に出すなら、クローゼットの前に動かせる余白も測っておきたい。",
+      "productName": "キャスター付きパンツラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2F3s-320043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000724%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/17。収納高さから一本ずつ選ぶ動作へ。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261114-1730",
+      "scheduledAt": "2026-11-14T17:30:00+09:00",
+      "text": "洗い物が終わったと思った瞬間に、テーブルの端でコップを発見。あの一個だけは、なぜか最初の十個より手ごわい🥛",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：家事の最後の一個。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261114-2000",
+      "scheduledAt": "2026-11-14T20:00:00+09:00",
+      "text": "PR｜洗剤の詰め替え、床に置くと掃除のたびに移動することに。洗濯機横に幅18cmの引き出しを置くなら、すき間の幅に加えて、手前まで引き出して詰め替え袋を取り出せるかも見ておきたい。",
+      "productName": "幅18cm 隙間ストッカー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqs102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10016213%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/18。詰め替え袋を出す動作へ。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261114-2100",
+      "scheduledAt": "2026-11-14T21:00:00+09:00",
+      "text": "夜に「明日やること」を全部書き出したら、そのメモだけで疲れそう。休みの日なら、朝いちばんにやりたいことを一つだけ決めて、あとは起きてからでもいいね🌙",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：休日の予定を一つに絞る。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
     }
   ]
 }
