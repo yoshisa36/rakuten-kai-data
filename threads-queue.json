@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T21:35:25+09:00",
+  "updatedAt": "2026-11-14T21:28:20+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2662,6 +2662,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：休日の予定を一つに絞る。11/12・13分の指標未収録。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-0900",
+      "scheduledAt": "2026-11-15T09:00:00+09:00",
+      "text": "日曜の朝、子どもが静かだと「ゆっくり寝られる」と「何かに夢中なだけでは」が同時に浮かぶ。もう少し布団にいたいけど、静かすぎるのも気になるね😂",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：静かな朝の親の気持ち。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-1130",
+      "scheduledAt": "2026-11-15T11:30:00+09:00",
+      "text": "PR｜洗面台のスポンジ、取り替えようと思ってから買い忘れることも。POCOをすでに使っているなら、リフィル4個セットを予備にする手も。吸盤は付かないので、手元のホルダーに合う種類か見てから選びたい🫧",
+      "productName": "マーナ POCO洗面スポンジ リフィル4個セット",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fx125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006567%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/29。交換可否から予備の管理へ。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-1430",
+      "scheduledAt": "2026-11-15T14:30:00+09:00",
+      "text": "PR｜玄関の靴、毎日履くものとたまに履くものが混ざると、出かける前に探しがち。10段の靴ラックなら、よく履く靴を手の届く段に分ける手も。背の高い靴が入るか、棚の間隔も確認しておきたい👟",
+      "productName": "キララ 10段シューズラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlaf8.8dcsqccf.g00qlaf8.8dcsrefa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/23。設置面積から出番別の配置へ。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-1730",
+      "scheduledAt": "2026-11-15T17:30:00+09:00",
+      "text": "夕飯の支度中に「おなかすいた」って言われると、時計より正確な通知が来た気がする。なお、野菜を出すと通知は一度止まる🥕",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：夕方の親子のやりとり。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-2000",
+      "scheduledAt": "2026-11-15T20:00:00+09:00",
+      "text": "PR｜お風呂のあと、着替えだけ別の部屋に取りに行くのが地味に面倒。脱衣所に置くチェストなら、タオルと着替えをどの段に分けるか先に決めると、必要な幅を考えやすい。キャスター付きでも、置く床の段差は見ておきたい。",
+      "productName": "GLASSY キャスター付きランドリーチェスト",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tw2n8.8dcsqf4e.g00tw2n8.8dcsr78c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassy123%2F10000030%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fglassy123%2Fi%2F10000030%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/28。掃除時の移動から入浴後の着替えへ。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261115-2100",
+      "scheduledAt": "2026-11-15T21:00:00+09:00",
+      "text": "夜に冷蔵庫を開けたついでに、明日食べたい残り物を手前に移しておく。献立を決める元気がなくても、明日の自分に「あ、これあるよ」くらいは渡せる🍲",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：献立を決めず残り物を見つけやすく。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
     }
   ]
 }
