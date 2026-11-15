@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T21:28:20+09:00",
+  "updatedAt": "2026-11-15T21:33:00+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2734,6 +2734,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：献立を決めず残り物を見つけやすく。直近11/12〜14投稿別指標なし。商品は暫定本文リンク。公開24・48時間後に掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-0900",
+      "scheduledAt": "2026-11-16T09:00:00+09:00",
+      "text": "月曜の朝、家を出るところまで順調でも「きょう持っていくものがある」で一気に第二部が始まる🎒 できればその話、靴を履く前に聞きたかった。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：出発直前のお知らせ。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-1130",
+      "scheduledAt": "2026-11-16T11:30:00+09:00",
+      "text": "PR｜お弁当のカップや袋の留め具、ひとまとめにすると小さいものほど行方不明。引き出しに分けるなら、いちばん長い道具を先に測っておくと幅を決めやすい。幅が選べるプラストベーシックも候補に。",
+      "productName": "プラストベーシック 引き出し収納ケース",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1hl8.8dcsq348.g00r1hl8.8dcsreb7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivewell%2Fst_ptb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivewell%2Fi%2F10002778%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/16。台所の小物と最長寸法。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-1430",
+      "scheduledAt": "2026-11-16T14:30:00+09:00",
+      "text": "PR｜子どもの工作、捨てるか決めるには早いけど、机の上に置きっぱなしも困る。いったん保管する箱は、ふたの上に物を置いても前から出せるタイプが候補。作品を曲げずに入れられる内寸か、先に見ておきたい📦",
+      "productName": "前開き収納ボックス 木製天板付き",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rgpg8.8dcsq78c.g00rgpg8.8dcsr959/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-kaei-trading%2Fzk-snb02-all%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-kaei-trading%2Fi%2F10000740%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/13。工作の仮置きと内寸。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-1730",
+      "scheduledAt": "2026-11-16T17:30:00+09:00",
+      "text": "鍋のふたを開けるたびに「もうできた？」って聞かれると、夕飯がだんだんライブ配信みたいになる🍲 まだ煮てるところです、もうしばらくお待ちください。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：夕飯の実況。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-2000",
+      "scheduledAt": "2026-11-16T20:00:00+09:00",
+      "text": "PR｜お風呂のボトル、床を洗うたびに全部よけるのが面倒。バーに掛けるバスケットなら、まとめて置く方法も。買う前にバーの太さと、掛けたままポンプを押せる高さかを見ておきたい🛁",
+      "productName": "引っ掛けお風呂バスケット ホワイト",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fbws-im-140017%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10003336%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/31。設置後のポンプ操作を確認。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261116-2100",
+      "scheduledAt": "2026-11-16T21:00:00+09:00",
+      "text": "夜に洗濯物をたたむ気力がないとき、明日着る服だけ先に取り分けておくと、朝の山掘りが一回減る。残りは明日の自分と要相談🧺",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：翌朝の一着だけ取り分け。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
     }
   ]
 }
