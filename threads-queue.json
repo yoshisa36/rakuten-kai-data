@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T21:33:00+09:00",
+  "updatedAt": "2026-11-16T21:41:51+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2806,6 +2806,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：翌朝の一着だけ取り分け。11/12〜15投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-0900",
+      "scheduledAt": "2026-11-17T09:00:00+09:00",
+      "text": "子どもが選んだ服、上も下も柄もの。大人なら一度迷う組み合わせなのに、本人は迷いゼロ。その自信だけ朝の支度に分けてほしい😂",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：服選びの親子の違い。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-1130",
+      "scheduledAt": "2026-11-17T11:30:00+09:00",
+      "text": "PR｜遊んでいる途中のおもちゃまで全部片付けると、次の日にまた全部出すことに。絵本棚とおもちゃ箱が一緒のラックなら、遊びかけのものだけ戻す場所を分ける手も。箱の大きさは、よく遊ぶおもちゃに合わせて選びたい📚",
+      "productName": "アイリスオーヤマ 絵本・おもちゃ収納ラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qksh8.8dcsqcb0.g00qksh8.8dcsr315/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyarahouse%2F7028488%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyarahouse%2Fi%2F10097342%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/10。高さから遊びかけの分別へ。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-1430",
+      "scheduledAt": "2026-11-17T14:30:00+09:00",
+      "text": "PR｜お風呂のボトル、家族で使うものが違うと棚がすぐ満員に。towerのラックを足すなら、ボトルが載るかだけでなく、手前の一本を取るときに隣まで倒しそうにならないかも考えたい。磁石が付く平らな壁かも確認を🛁",
+      "productName": "tower マグネットバスルームラック ラージ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qn4o8.8dcsq293.g00qn4o8.8dcsra60/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamayuu%2Fyj-zk507%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamayuu%2Fi%2F10017006%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/30。ボトル底の奥行きから取り出し間隔へ。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-1730",
+      "scheduledAt": "2026-11-17T17:30:00+09:00",
+      "text": "夕飯の取り分け、小さいお皿に同じものを載せただけなのに「そっちがいい」が始まる🍽️ 最後は味より、どのお皿で食べるかが大事な日もあるね。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：同じ料理でもお皿が気になる場面。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-2000",
+      "scheduledAt": "2026-11-17T20:00:00+09:00",
+      "text": "PR｜寒くなると、服は同じ枚数でも引き出しの閉まり方が変わる。チェストを買い足す前に、厚手の服だけ普段の畳み方で重ねて高さを測ると、何段必要か考えやすい。幅を選べるルームスも候補に🧶",
+      "productName": "壁付きチェスト ルームス",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui98.8dcsqb62.g00pui98.8dcsra7d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1u57%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10048736%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/22。目隠しから厚手衣類の積み高さへ。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261117-2100",
+      "scheduledAt": "2026-11-17T21:00:00+09:00",
+      "text": "お茶を飲むつもりでお湯を沸かして、その間に別の家事を始めると、お茶だけ忘れがち。急須でもマグでも、先に出しておけば思い出す目印になるね🍵",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：家事の途中で休憩を忘れない工夫。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
     }
   ]
 }
