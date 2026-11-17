@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-11-16T23:57:09.443Z",
-  "count": 69,
+  "updatedAt": "2026-11-17T23:57:08.922Z",
+  "count": 70,
   "products": [
     {
       "selectedAt": "2026-11-15T23:57:04.451Z",
@@ -135,8 +135,8 @@
       "selectionReason": "66点 / 様子見 / 洗面所収納 × ランドリー用品"
     },
     {
-      "selectedAt": "2026-11-10T23:57:06.098Z",
-      "selectedDate": "2026-11-10T15:00:00.000Z",
+      "selectedAt": "2026-11-17T23:57:07.614Z",
+      "selectedDate": "2026-11-17T15:00:00.000Z",
       "rank": 3,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
@@ -603,8 +603,8 @@
       "selectionReason": "56点 / 様子見 / キッチン収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-11-10T23:57:06.098Z",
-      "selectedDate": "2026-11-10T15:00:00.000Z",
+      "selectedAt": "2026-11-17T23:57:07.614Z",
+      "selectedDate": "2026-11-17T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "洗濯 便利グッズ",
       "productType": "洗濯用品",
@@ -613,8 +613,8 @@
       "productName": "ピンチハンガー トラベル 携帯用 2個セット 旅行 便利グッズ 旅行 洗濯 物干し 洗濯バサミ 折りたたみ 洗濯ハンガー 小物干し コンパクト 軽量 収納ポーチ付 部屋干し 靴下 下着 タオル 出張 ホテル 入院 一人暮らし 車中泊 キャンプ 洗濯グッズ 4色 ポスト投函",
       "price": 1398,
       "shop": "ダッシュビー楽天市場店",
-      "reviewCount": 146,
-      "reviewAverage": 4.71,
+      "reviewCount": 148,
+      "reviewAverage": 4.72,
       "priceScore": 20,
       "reviewScore": 15,
       "reviewCountScore": 8,
@@ -629,17 +629,17 @@
       "selectionReason": "84点 / 採用候補 / 洗濯 便利グッズ × 洗濯用品"
     },
     {
-      "selectedAt": "2026-11-10T23:57:06.098Z",
-      "selectedDate": "2026-11-10T15:00:00.000Z",
+      "selectedAt": "2026-11-17T23:57:07.614Z",
+      "selectedDate": "2026-11-17T15:00:00.000Z",
       "rank": 2,
       "searchTheme": "キッチン 便利グッズ",
       "productType": "その他",
       "totalScore": 81,
       "judgment": "採用候補",
-      "productName": "【楽天1位★2点で10%OFF 生活の便利グッズ！】三角コーナー 浮かせる 本体 三角コーナー いらず 強力吸盤 ステンレス製 水切りネットホルダー 対応 生ごみスタンド 折りたたみ ネット 50枚付き 省スペース キッチンドレイン キッチン雑貨 水槽対応 生ゴミホルダー 生ゴミ処理",
+      "productName": "【楽天1位★P10倍 生活の便利グッズ！】三角コーナー 浮かせる 本体 三角コーナー いらず 強力吸盤 ステンレス製 水切りネットホルダー 対応 生ごみスタンド 折りたたみ ネット 50枚付き 省スペース キッチンドレイン キッチン雑貨 水槽対応 生ゴミホルダー 生ゴミ処理",
       "price": 1380,
       "shop": "Taigu 楽天市場店",
-      "reviewCount": 1075,
+      "reviewCount": 1077,
       "reviewAverage": 4.55,
       "priceScore": 20,
       "reviewScore": 13,
@@ -655,8 +655,8 @@
       "selectionReason": "81点 / 採用候補 / キッチン 便利グッズ × その他"
     },
     {
-      "selectedAt": "2026-11-10T23:57:06.098Z",
-      "selectedDate": "2026-11-10T15:00:00.000Z",
+      "selectedAt": "2026-11-17T23:57:07.614Z",
+      "selectedDate": "2026-11-17T15:00:00.000Z",
       "rank": 4,
       "searchTheme": "子供 食事 便利グッズ",
       "productType": "子育て用品",
@@ -1797,6 +1797,32 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u0if8.8dcsqdc7.g00u0if8.8dcsr450/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsevensails%2Fpika_2p%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsevensails%2Fi%2F10000001%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "掃除 便利グッズ × 掃除用品",
       "selectionReason": "78点 / 採用候補 / 掃除 便利グッズ × 掃除用品"
+    },
+    {
+      "selectedAt": "2026-11-17T23:57:07.614Z",
+      "selectedDate": "2026-11-17T15:00:00.000Z",
+      "rank": 5,
+      "searchTheme": "クローゼット 収納",
+      "productType": "チェスト・引き出し",
+      "totalScore": 68,
+      "judgment": "様子見",
+      "productName": "【あす楽】【楽天1位2冠】【5個組】スタッキング 収納ボックス 折りたたみ 2サイズ ラック 積み重ね 大容量 軽い 整理整頓 収納 便利グッズ 引き出し 収納ケース 収納ボックス コンパクト 省スペース 一人暮らし 新生活 シンプル オシャレ 子ども部屋 衣類収納 小物収納 白",
+      "price": 5580,
+      "shop": "OwnLife",
+      "reviewCount": 65,
+      "reviewAverage": 4.42,
+      "priceScore": 7,
+      "reviewScore": 11,
+      "reviewCountScore": 6,
+      "problemScore": 25,
+      "keywordScore": 10,
+      "featureScore": 9,
+      "seasonScore": 0,
+      "itemCode": "ownlife:10000626",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tpvl8.8dcsq8a9.g00tpvl8.8dcsr655/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fownlife%2Ftw000207%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fownlife%2Fi%2F10000626%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tpvl8.8dcsq8a9.g00tpvl8.8dcsr655/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fownlife%2Ftw000207%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fownlife%2Fi%2F10000626%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "クローゼット 収納 × チェスト・引き出し",
+      "selectionReason": "68点 / 様子見 / クローゼット 収納 × チェスト・引き出し"
     }
   ]
 }
