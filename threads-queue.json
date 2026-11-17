@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T21:41:51+09:00",
+  "updatedAt": "2026-11-17T21:35:33+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -2878,6 +2878,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：家事の途中で休憩を忘れない工夫。11/12〜16投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-0900",
+      "scheduledAt": "2026-11-18T09:00:00+09:00",
+      "text": "子どもに「寒いから上着持ってね」と言った大人が、玄関で自分の上着を取りに戻る。朝の注意事項、だいたい自分にも必要だね🧥",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：大人にも当てはまる朝の声かけ。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-1130",
+      "scheduledAt": "2026-11-18T11:30:00+09:00",
+      "text": "PR｜シーツを干す場所はあっても、濡れた布を持ちながら掛けるところで手が足りない。スパイラルハンガーを選ぶなら、竿に掛ける前に布を広げて通せる場所があるかも見ておきたい🧺",
+      "productName": "シーツ用スパイラルハンガー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rt7q8.8dcsqb41.g00rt7q8.8dcsrb8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakara-jiang%2Fsp-hanger03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakara-jiang%2Fi%2F10033956%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介11/3。干した後の幅から掛ける前の作業場所へ。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-1430",
+      "scheduledAt": "2026-11-18T14:30:00+09:00",
+      "text": "PR｜玄関に出しっぱなしの靴、全部しまうより、翌朝また履く分だけ置き場があるとよさそう。奥行きの浅い3段ラックを選ぶなら、靴の先が通り道に出ないか、いつもの靴で測っておきたい👟",
+      "productName": "3段スリムシューズラック",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q7288.8dcsqe27.g00q7288.8dcsr694/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivingut%2F4979625204840%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivingut%2Fi%2F10027074%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/2。玄関全体の整理から翌朝の一足へ。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-1730",
+      "scheduledAt": "2026-11-18T17:30:00+09:00",
+      "text": "夕飯の献立、温かい汁物が一つあると「ちゃんと夕飯だ」って気がする🍲 具が豆腐だけの日は、切った自分より、お湯を沸かした自分をほめたい。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：手抜きの日の温かい一品。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-2000",
+      "scheduledAt": "2026-11-18T20:00:00+09:00",
+      "text": "PR｜洗面所のストック、なくなってから別の部屋に取りに行くのも地味に手間。すき間用の引き出しにまとめるなら、何種類しまうかより、洗剤と詰め替えが一緒に収まるかを見ておくと段の使い方を決めやすい。",
+      "productName": "like-it スリムストレージ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00scfb8.8dcsqc57.g00scfb8.8dcsr87c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffachette%2F58-388-024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffachette%2Fi%2F10017309%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "postType": "商品",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "再紹介10/27。設置寸法から一緒に使う物の組み合わせへ。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
+    },
+    {
+      "reservationId": "KAI-20261118-2100",
+      "scheduledAt": "2026-11-18T21:00:00+09:00",
+      "text": "夜の台所、全部リセットする元気がなければ、朝使うマグを置く場所だけ空けておく☕ ほんのマグ一個分でも、明日の朝に物をどかさずに済む。",
+      "productName": "",
+      "productUrl": "",
+      "postType": "交流",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：マグ一個分だけ空ける。11/12〜17の投稿別指標未収録。商品は暫定本文リンク。24・48時間の掲載・閲覧・読者反応を照合。"
     }
   ]
 }
