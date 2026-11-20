@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "threads-follower-history",
-  "updatedAt": "2026-11-19T15:58:51.001Z",
-  "count": 89,
+  "updatedAt": "2026-11-20T15:58:53.718Z",
+  "count": 93,
   "history": [
     {
       "capturedAt": "2026-10-23T09:57:00+09:00",
@@ -448,6 +448,26 @@
       "capturedAt": "2026-11-19T23:37:41+09:00",
       "followers": 334,
       "change": 0
+    },
+    {
+      "capturedAt": "2026-11-20T08:35:07+09:00",
+      "followers": 335,
+      "change": 1
+    },
+    {
+      "capturedAt": "2026-11-20T12:20:57+09:00",
+      "followers": 335,
+      "change": 0
+    },
+    {
+      "capturedAt": "2026-11-20T20:55:53+09:00",
+      "followers": 336,
+      "change": 1
+    },
+    {
+      "capturedAt": "2026-11-20T23:37:42+09:00",
+      "followers": 337,
+      "change": 1
     }
   ]
 }
