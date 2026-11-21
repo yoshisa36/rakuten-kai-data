@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-11-20T23:57:06.394Z",
+  "updatedAt": "2026-11-21T23:57:07.168Z",
   "count": 77,
   "products": [
     {
@@ -83,14 +83,14 @@
       "selectionReason": "71点 / 採用候補 / 洗面所収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-11-13T23:57:04.993Z",
-      "selectedDate": "2026-11-13T15:00:00.000Z",
-      "rank": 5,
+      "selectedAt": "2026-11-21T23:57:06.127Z",
+      "selectedDate": "2026-11-21T15:00:00.000Z",
+      "rank": 4,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
       "totalScore": 68,
       "judgment": "様子見",
-      "productName": "[枚数限定クーポン配布中! 11/11 10:00-11/17 9:59] ハンガーラック 子供 キッズ ランドセルラック 収納 おもちゃ ラック 引き出し キャスター スリム ハンガー おしゃれ かわいい ワードローブ 子供服 棚 ペット服 衣装ケース コンパクト 省スペース",
+      "productName": "[ブラックフライデー! 11/19 20:00-11/25 1:59] ハンガーラック 子供 キッズ ランドセルラック 収納 おもちゃ ラック 引き出し キャスター スリム ハンガー おしゃれ かわいい ワードローブ 子供服 棚 ペット服 衣装ケース コンパクト 省スペース",
       "price": 7990,
       "shop": "LOWYA(ロウヤ)楽天市場店",
       "reviewCount": 936,
@@ -239,17 +239,17 @@
       "selectionReason": "82点 / 採用候補 / 省スペース 収納 × 靴収納"
     },
     {
-      "selectedAt": "2026-11-12T23:57:16.961Z",
-      "selectedDate": "2026-11-12T15:00:00.000Z",
+      "selectedAt": "2026-11-21T23:57:06.127Z",
+      "selectedDate": "2026-11-21T15:00:00.000Z",
       "rank": 2,
       "searchTheme": "洗面所収納",
       "productType": "チェスト・引き出し",
       "totalScore": 72,
       "judgment": "採用候補",
-      "productName": "隙間収納 18cm 引出し 4段/3段 段差をまたげる専用脚 隙間ストッカー 中が透けない隙間ストッカー スリムストッカー すきま すき間 ラック 防水パン 洗面所収納 洗濯機横 収納 ランドリー収納 日本製 【送料無料】",
+      "productName": "【P10倍 11/25 9:59迄】 隙間収納 18cm 引出し 4段/3段 段差をまたげる専用脚 隙間ストッカー 中が透けない隙間ストッカー スリムストッカー すきま すき間 ラック 防水パン 洗面所収納 洗濯機横 収納 ランドリー収納 日本製 【送料無料】",
       "price": 3999,
       "shop": "くらしのeショップ",
-      "reviewCount": 613,
+      "reviewCount": 615,
       "reviewAverage": 4.56,
       "priceScore": 12,
       "reviewScore": 13,
@@ -395,9 +395,9 @@
       "selectionReason": "58点 / 様子見 / 子供 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-11-14T23:57:03.026Z",
-      "selectedDate": "2026-11-14T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-11-21T23:57:06.127Z",
+      "selectedDate": "2026-11-21T15:00:00.000Z",
+      "rank": 5,
       "searchTheme": "省スペース 収納",
       "productType": "靴収納",
       "totalScore": 68,
@@ -993,8 +993,8 @@
       "selectionReason": "69点 / 様子見 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-11-11T23:57:15.876Z",
-      "selectedDate": "2026-11-11T15:00:00.000Z",
+      "selectedAt": "2026-11-21T23:57:06.127Z",
+      "selectedDate": "2026-11-21T15:00:00.000Z",
       "rank": 1,
       "searchTheme": "お風呂 収納",
       "productType": "吊り下げ収納",
@@ -1003,7 +1003,7 @@
       "productName": "tower《 山崎実業 マグネットスプレーボトルハンガー タワー 》スプレーボトルホルダー 浮かせる収納 引っ掛ける スプレーフック ラック マグネット収納 お風呂収納 お風呂場 バスルーム 防カビ対策 ヌメリ対策 水切り 掃除 壁掛け シンプル 公式 白 黒 9916 9917 YAMAZAKI",
       "price": 1980,
       "shop": "BATH ROOM バスルーム",
-      "reviewCount": 2711,
+      "reviewCount": 2712,
       "reviewAverage": 4.79,
       "priceScore": 20,
       "reviewScore": 15,
@@ -1045,9 +1045,9 @@
       "selectionReason": "72点 / 採用候補 / クローゼット 収納 × チェスト・引き出し"
     },
     {
-      "selectedAt": "2026-11-13T23:57:04.993Z",
-      "selectedDate": "2026-11-13T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-11-21T23:57:06.127Z",
+      "selectedDate": "2026-11-21T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "お風呂 収納",
       "productType": "ラック・棚",
       "totalScore": 71,
@@ -1055,7 +1055,7 @@
       "productName": "tower《 山崎実業 マグネットバスルームコーナーおもちゃラック タワー 》壁付けマグネット収納 整理棚 バスラック コーナーラック 角 ウォールラック おもちゃバスケット おもちゃ入れ おもちゃかご 小物入れ お片付け 磁石 お風呂場 浴室 4264 4265 公式 白 黒 YAMAZAKI",
       "price": 2530,
       "shop": "BATH ROOM バスルーム",
-      "reviewCount": 3672,
+      "reviewCount": 3674,
       "reviewAverage": 4.78,
       "priceScore": 16,
       "reviewScore": 15,
