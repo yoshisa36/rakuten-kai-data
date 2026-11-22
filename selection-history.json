@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "source": "selection-history",
-  "updatedAt": "2026-11-21T23:57:07.168Z",
-  "count": 77,
+  "updatedAt": "2026-11-22T23:57:03.901Z",
+  "count": 78,
   "products": [
     {
       "selectedAt": "2026-11-15T23:57:04.451Z",
@@ -57,17 +57,17 @@
       "selectionReason": "73点 / 採用候補 / 省スペース 収納 × ゴミ箱・分別"
     },
     {
-      "selectedAt": "2026-11-13T23:57:04.993Z",
-      "selectedDate": "2026-11-13T15:00:00.000Z",
-      "rank": 3,
+      "selectedAt": "2026-11-22T23:57:02.978Z",
+      "selectedDate": "2026-11-22T15:00:00.000Z",
+      "rank": 2,
       "searchTheme": "洗面所収納",
       "productType": "チェスト・引き出し",
       "totalScore": 71,
       "judgment": "採用候補",
-      "productName": "選べる天板 チェスト スリム/ワイド 3段/4段/5段 幅34/54 奥行42 高さ68.5/88/107.5cm タンス 衣装ケース 収納ケース 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト ルームス 日本製 サンカ SANKA 【送料無料】",
-      "price": 4699,
+      "productName": "【BFセール中 ※一部商品】選べる天板 チェスト スリム/ワイド 3段/4段/5段 幅34/54 奥行42 高さ68.5/88/107.5cm タンス 衣装ケース 収納ケース 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト サンカ SANKA 【送料無料】",
+      "price": 4229,
       "shop": "くらしのeショップ",
-      "reviewCount": 7624,
+      "reviewCount": 7631,
       "reviewAverage": 4.35,
       "priceScore": 12,
       "reviewScore": 11,
@@ -785,9 +785,9 @@
       "selectionReason": "75点 / 採用候補 / お風呂 収納 × その他"
     },
     {
-      "selectedAt": "2026-11-13T23:57:04.993Z",
-      "selectedDate": "2026-11-13T15:00:00.000Z",
-      "rank": 2,
+      "selectedAt": "2026-11-22T23:57:02.978Z",
+      "selectedDate": "2026-11-22T15:00:00.000Z",
+      "rank": 1,
       "searchTheme": "掃除 便利グッズ",
       "productType": "掃除用品",
       "totalScore": 73,
@@ -795,7 +795,7 @@
       "productName": "リニューアル 小回りのきく スキージー【マーナ公式】メール便 水切りワイパー お風呂 スクイジー スクレーパー ヘラ 床用 浴室 壁 窓拭き 結露 ガラス ミニ スリム コンパクト おしゃれ 水滴 バス用品 カビ予防 防カビ 水垢 掃除グッズ 掃除用品 便利グッズ W677",
       "price": 1430,
       "shop": "マーナ公式楽天市場店",
-      "reviewCount": 195,
+      "reviewCount": 196,
       "reviewAverage": 4.56,
       "priceScore": 20,
       "reviewScore": 13,
@@ -1097,14 +1097,14 @@
       "selectionReason": "69点 / 様子見 / 掃除 便利グッズ × 掃除用品"
     },
     {
-      "selectedAt": "2026-10-29T23:57:09.050Z",
-      "selectedDate": "2026-10-29T15:00:00.000Z",
-      "rank": 4,
+      "selectedAt": "2026-11-22T23:57:02.978Z",
+      "selectedDate": "2026-11-22T15:00:00.000Z",
+      "rank": 3,
       "searchTheme": "玄関収納",
       "productType": "靴収納",
       "totalScore": 67,
       "judgment": "様子見",
-      "productName": "シューズラック スリム おしゃれ 木製 4段 省スペース 大容量 靴箱 下駄箱 玄関収納 収納棚 引出し ラック 傘立て オープンラック スリッパラック 靴収納 靴入れ シューズボックス 靴収納棚 北欧 幅73cm",
+      "productName": "【ブラックフライデー★5%OFF★対象商品】 シューズラック スリム おしゃれ 木製 4段 省スペース 大容量 靴箱 下駄箱 玄関収納 収納棚 引出し ラック 傘立て オープンラック スリッパラック 靴収納 靴入れ シューズボックス 靴収納棚 北欧 幅73cm",
       "price": 14900,
       "shop": "noconoco・キッチン",
       "reviewCount": 64,
@@ -1331,8 +1331,8 @@
       "selectionReason": "66点 / 様子見 / お風呂 収納 × 子供専用収納"
     },
     {
-      "selectedAt": "2026-10-31T23:57:04.713Z",
-      "selectedDate": "2026-10-31T15:00:00.000Z",
+      "selectedAt": "2026-11-22T23:57:02.978Z",
+      "selectedDate": "2026-11-22T15:00:00.000Z",
       "rank": 5,
       "searchTheme": "子供 収納",
       "productType": "子供専用収納",
@@ -2005,6 +2005,32 @@
       "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-6925-set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10005403%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "testAxis": "お風呂 収納 × その他",
       "selectionReason": "67点 / 様子見 / お風呂 収納 × その他"
+    },
+    {
+      "selectedAt": "2026-11-22T23:57:02.978Z",
+      "selectedDate": "2026-11-22T15:00:00.000Z",
+      "rank": 4,
+      "searchTheme": "トイレ 収納",
+      "productType": "ラック・棚",
+      "totalScore": 66,
+      "judgment": "様子見",
+      "productName": "【ブラックフライデーSALE開催中★】 トイレ収納 トイレ 収納 棚 収納棚 収納ラック トイレラック スリム 隙間収納 すき間収納 コンパクト 省スペース 隠せる 目隠し キャスター付き おしゃれ トイレットペーパー 掃除用具入れ ストック収納 サニタリー",
+      "price": 5790,
+      "shop": "エア・リゾーム インテリア",
+      "reviewCount": 6,
+      "reviewAverage": 4.67,
+      "priceScore": 7,
+      "reviewScore": 13,
+      "reviewCountScore": 2,
+      "problemScore": 25,
+      "keywordScore": 10,
+      "featureScore": 9,
+      "seasonScore": 0,
+      "itemCode": "air-rhizome:10014710",
+      "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5li8.8dcsq893.g00q5li8.8dcsrfc3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fair-to-1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10014710%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5li8.8dcsq893.g00q5li8.8dcsrfc3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fair-to-1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10014710%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "testAxis": "トイレ 収納 × ラック・棚",
+      "selectionReason": "66点 / 様子見 / トイレ 収納 × ラック・棚"
     }
   ]
 }
