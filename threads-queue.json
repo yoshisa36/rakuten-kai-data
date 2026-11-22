@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T21:32:16+09:00",
+  "updatedAt": "2026-11-22T21:32:33+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3238,6 +3238,78 @@
       "status": "承認待ち",
       "approvalStatus": "approved",
       "memo": "追加露出：返却前と読み聞かせの両立。21日商品リンク3件掲載、初回11・5・0Views。暫定本文リンク継続、24・48時間の掲載・閲覧・読者反応を照合し、楽天日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-0900",
+      "scheduledAt": "2026-11-23T09:00:00+09:00",
+      "text": "休みの日の洗濯、晴れてるから大物まで洗おうと思った瞬間、休日の予定がほぼ洗濯になる☀️ シーツ一枚で満足していい日もある。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "追加露出：休日の家事の線引き。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-1130",
+      "scheduledAt": "2026-11-23T11:30:00+09:00",
+      "text": "PR｜便器の水際だけ汚れが残って、大掃除のたびに気になる。陶器の尿石汚れ向けのピカスティックを検討するなら、便器の素材とメーカーの手入れ方法を先に確認したい。",
+      "postType": "商品",
+      "productName": "トイレ掃除 【めざましTVで紹介されました】 尿石 落とし 掃除のプロも愛用 ピカスティック 強力 業務用 五徳 コゲとり IH クリーナー コゲ取り コンロ 五徳掃除 トイレ ブラシ 尿石除去 洗面台 掃除 洗剤 黄ばみ 黒ずみ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u0if8.8dcsqdc7.g00u0if8.8dcsr450/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsevensails%2Fpika_2p%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsevensails%2Fi%2F10000001%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "履歴上初紹介。大掃除前に用途と素材を見極める。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-1430",
+      "scheduledAt": "2026-11-23T14:30:00+09:00",
+      "text": "PR｜タオルの山から一枚引いたら、上の山まで傾いてくる。棚の中に横幅を合わせられる伸縮棚で、毎日使う分と予備を分ける方法も。置きたい棚の内寸と、手が入る高さを見て選びたい🧺",
+      "postType": "商品",
+      "productName": "クーポンで【最安 1,780円〜/1点】【あす楽】【楽天1位連冠】伸縮棚 積み重ね 幅 27-108cm 高さ 22-50cm 奥行 24cm 42cm 伸縮ラック クローゼット 押入れ 通気性 収納 防水 丈夫 頑丈 整理棚 シンク下 ワイド 空間活用 省スペース キッチンラック 空きスペース 隙間 新生活",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz2j8.8dcsq5e4.g00tz2j8.8dcsr804/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foutgreenlife%2Fog000190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Foutgreenlife%2Fi%2F10000469%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "11/8から15日、前回22Views。保存容器から洗面タオルの使い分けへ、時間帯も変更。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-1730",
+      "scheduledAt": "2026-11-23T17:30:00+09:00",
+      "text": "子どもがどんぐりを持って帰ってきたとき、最初の感想は『きれいだね』でいたい。頭の中ではもう、洗濯前にポケットを確認する予定を立ててる🍂",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "通常交流：秋の持ち帰りと家事の本音。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-2000",
+      "scheduledAt": "2026-11-23T20:00:00+09:00",
+      "text": "PR｜子どもの工作、捨てるか残すかをその日に決めなくてもいい気がする。仮置きに折りたたみ収納ボックスを選ぶなら、置く棚の高さだけじゃなく、いちばん大きい作品が入る内寸も見ておきたい。",
+      "postType": "商品",
+      "productName": "【あす楽】【楽天1位2冠】【5個組】スタッキング 収納ボックス 折りたたみ 2サイズ ラック 積み重ね 大容量 軽い 整理整頓 収納 便利グッズ 引き出し 収納ケース 収納ボックス コンパクト 省スペース 一人暮らし 新生活 シンプル オシャレ 子ども部屋 衣類収納 小物収納 白",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tpvl8.8dcsq8a9.g00tpvl8.8dcsr655/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fownlife%2Ftw000207%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fownlife%2Fi%2F10000626%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "履歴上初紹介。工作の仮置きで購入理由を具体化。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261123-2100",
+      "scheduledAt": "2026-11-23T21:00:00+09:00",
+      "text": "牛乳パックが空になった瞬間にメモできなくても、買い物袋の持ち手に小さな付箋を一枚。買い物に出るときに目に入る場所まで運んだら、夜の仕事はそこまででいい📝",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "status": "承認待ち",
+      "approvalStatus": "approved",
+      "memo": "追加露出：買い忘れ防止を持ち物の動線で試す。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
     }
   ]
 }
