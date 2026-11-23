@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T21:32:33+09:00",
+  "updatedAt": "2026-11-23T21:30:35+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3310,6 +3310,78 @@
       "status": "承認待ち",
       "approvalStatus": "approved",
       "memo": "追加露出：買い忘れ防止を持ち物の動線で試す。11/22商品2件の本文リンク掲載・初回5/2 Views確認。11/21の20時は0→4。24/48時間の掲載・閲覧・読者返信を比較し、楽天の日別実績は別評価。"
+    },
+    {
+      "reservationId": "KAI-20261124-0900",
+      "scheduledAt": "2026-11-24T09:00:00+09:00",
+      "text": "連休明け、カレンダーでは火曜日なのに、朝の気分だけ月曜日。ゴミ出しの曜日までつられそうで、そこだけはカレンダーを信じたい😂",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：連休明けの曜日感覚。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261124-1130",
+      "scheduledAt": "2026-11-24T11:30:00+09:00",
+      "text": "PR｜夕飯の下ごしらえで出る野菜くず、調理中だけ手元に置き場があると助かりそう。Taiguの折りたたみ式ネットホルダーなら、閉じた状態で蛇口やスポンジ置きに当たらないかも見て選びたい。",
+      "postType": "商品",
+      "productName": "【楽天1位★P10倍 生活の便利グッズ！】三角コーナー 浮かせる 本体 三角コーナー いらず 強力吸盤 ステンレス製 水切りネットホルダー 対応 生ごみスタンド 折りたたみ ネット 50枚付き 省スペース キッチンドレイン キッチン雑貨 水槽対応 生ゴミホルダー 生ゴミ処理",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u8568.8dcsq351.g00u8568.8dcsrc4b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaigu188%2Fshort_sieve%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaigu188%2Fi%2F10000816%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/5の6Viewsから19日。洗う手間から、閉じたときの干渉へ。枠も変更。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261124-1430",
+      "scheduledAt": "2026-11-24T14:30:00+09:00",
+      "text": "こたつに入ってから『あ、洗濯物』って思い出すの、たぶん思い出す順番が逆なんだよね。ぬくぬくを知ってしまった足が、もう動く気でいない🍵",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：冬の家事の本音。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261124-1730",
+      "scheduledAt": "2026-11-24T17:30:00+09:00",
+      "text": "子どもに『夕飯できたよ』って言う前に、箸もコップも出てないことに気づく。ごはんができたら終わりだと思ってたのに、食卓にもまだ仕事があるね🥢",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：配膳の小さな仕事。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261124-2000",
+      "scheduledAt": "2026-11-24T20:00:00+09:00",
+      "text": "PR｜トイレットペーパーの予備、残り一巻が見える場所にあるだけで安心。すき間用のトイレラックを置くなら、幅だけでなく、掃除のときに手前へ動かせるかまで測っておきたい。",
+      "postType": "商品",
+      "productName": "【ブラックフライデーSALE開催中★】 トイレ収納 トイレ 収納 棚 収納棚 収納ラック トイレラック スリム 隙間収納 すき間収納 コンパクト 省スペース 隠せる 目隠し キャスター付き おしゃれ トイレットペーパー 掃除用具入れ ストック収納 サニタリー",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5li8.8dcsq893.g00q5li8.8dcsrfc3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fair-to-1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10014710%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "照合範囲で同品なし。補充と掃除の動線で選ぶ。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261124-2100",
+      "scheduledAt": "2026-11-24T21:00:00+09:00",
+      "text": "扉を開けるたびに倒れる保存容器のふた、きれいに並べ直す前に『今ある容器と組になるか』だけ確認してもよさそう。ふただけの選手、意外といるよね😌",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：保存容器のペア確認。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
     }
   ]
 }
