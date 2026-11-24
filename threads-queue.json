@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T21:30:35+09:00",
+  "updatedAt": "2026-11-24T21:31:34+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3382,6 +3382,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：保存容器のペア確認。11/23商品3件のリンク掲載、初回3・5・0 Views。24・48時間で掲載・閲覧・反応を確認し楽天日別実績と分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-0900",
+      "scheduledAt": "2026-11-25T09:00:00+09:00",
+      "text": "朝、子どもが選んだ服の上下がどっちも柄もの。大人が合わせ直すか、そのまま出かけるか。急いでる日は『本人が気に入ってる』がいちばん強い理由かも🌼",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：服選びの親子の判断。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-1130",
+      "scheduledAt": "2026-11-25T11:30:00+09:00",
+      "text": "PR｜洗った水筒、伏せたままだと場所を取るし、立てかけると倒れそう。towerのボトルスタンドを選ぶなら、いちばん背の高い水筒を斜めに置いても、上の棚に当たらないか見ておきたい。",
+      "postType": "商品",
+      "productName": "水筒 ジャグボトルスタンド TOWER コップ立て マグボトルスタンド 水切りスタンド 水切り 乾燥 ボトルスタンド 山崎実業 キッチン整理用品 タワー 便利グッズ 暮らし マグボトル 水筒ラック 北欧 【K-Style】 ワイドジャグボトルスタンド 121",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00poxi8.8dcsqc7d.g00poxi8.8dcsr6cc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-style%2Fkom01_121_bottle%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fk-style%2Fi%2F10002004%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "履歴上初紹介。平日の水筒乾燥と上の棚との干渉。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-1430",
+      "scheduledAt": "2026-11-25T14:30:00+09:00",
+      "text": "PR｜泥のついた靴下を予洗いしたいとき、大きなバケツを出すほどでもない日もある。マーナの四角いバケツを検討するなら、普段洗う小物の量と、洗面台で水を入れやすい高さを見て選びたい。",
+      "postType": "商品",
+      "productName": "【マーナ公式】バケツ 5L 10L 蓋つき おしゃれ 四角 洗車 蓋付き ふた付き 目盛り付き 計量 つけ置き洗い 10リットル 靴洗い 洗濯 手洗い 取っ手 スタッキング 重ねる収納 角型 収納ケース 収納ボックス キッチン 長方形 掃除 便利グッズ 大容量 かわいい 白 W697",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fw627%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006157%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "10/7の7Viewsを参考、49日空けて、上履きと置き場所から小物と給水へ変更。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-1730",
+      "scheduledAt": "2026-11-25T17:30:00+09:00",
+      "text": "夕飯の支度中に『お腹すいた』って言われると、こちらも同じです、という気持ちになる。作る人の分のひと口も、途中であっていいよね🍙",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：調理する側の空腹。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-2000",
+      "scheduledAt": "2026-11-25T20:00:00+09:00",
+      "text": "PR｜分別箱、置いたら収まるけど、袋を出す日に手が入らないと困る。前から開くケユカのrectieを選ぶなら、扉を開けた状態で、袋を外す手元まで余裕があるか見ておきたい。",
+      "postType": "商品",
+      "productName": "【KEYUCA公式店】ケユカ rectie ボックス3段/2段[収納ボックス ゴミ箱 プラスチック 3段 2段 前開き フラップ 分別 おしゃれ ごみ箱 ダストボックス ごみばこ キッチン キッチンごみ箱 隙間収納 薄型 収納 分別ごみ箱 省スペース 隙間 リビング ストッカー キャスター付き]",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3300305%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10021051%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/9の12Viewsから16日。床面積から交換時の手元へ変更し時間帯も変更。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261125-2100",
+      "scheduledAt": "2026-11-25T21:00:00+09:00",
+      "text": "夜に書く持ち物メモ、全部できれいな字にしなくていい。明日だけ必要な『空き箱』とか『提出する紙』を一番上に書けたら、朝の自分には十分な引き継ぎ✏️",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：普段と違う持ち物の見落とし対策。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
     }
   ]
 }
