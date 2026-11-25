@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T21:31:34+09:00",
+  "updatedAt": "2026-11-25T21:31:26+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3454,6 +3454,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：普段と違う持ち物の見落とし対策。11/24商品2件の本文リンク掲載、初回8・0Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261126-0900",
+      "scheduledAt": "2026-11-26T09:00:00+09:00",
+      "text": "朝のトースト、子どもの分を食べやすく切ってる間に自分のが冷める。温かいうちに食べるって、地味にぜいたくだね☕",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：朝食の家事育児共感。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261126-1130",
+      "scheduledAt": "2026-11-26T11:30:00+09:00",
+      "text": "PR｜年末の窓掃除、ガラスだけ拭いて網戸はまた今度になりがち。エチケットブラシ de 網戸掃除を選ぶなら、手が届きにくい上の角まで無理なく届く長さか確認しておきたい。",
+      "postType": "商品",
+      "productName": "【メーカー直販】エチケットブラシ de 網戸掃除 ロング 網戸ワイパー 網戸クリーナー お掃除ワイパー 網戸 お掃除 ローラー 網戸ブラシ 掃除ブラシ ロング 掃除道具 掃除グッズ 掃除用品 時短 便利グッズ 網戸 お手入れ ギフト対応 大掃除 N20 N21",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00te5j8.8dcsq6c1.g00te5j8.8dcsreed/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnipponseal%2F005%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnipponseal%2Fi%2F10000006%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/6から20日、前回4Views。外さず掃除から届く範囲へ変更。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261126-1430",
+      "scheduledAt": "2026-11-26T14:30:00+09:00",
+      "text": "家の中で片方だけ見つかる手袋。もう片方を探しているうちに、そもそもどこに行く予定だったか忘れそう🧤",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：冬支度のあるある。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261126-1730",
+      "scheduledAt": "2026-11-26T17:30:00+09:00",
+      "text": "PR｜傘立て、長い傘は入るけど子どもの短い傘は取りづらくないかな。パディを検討するなら、家族が使う傘の長さと、持ち手が取り出しやすい位置に来るかを見ておきたい☂️",
+      "postType": "商品",
+      "productName": "【11/25まで最大P10倍】傘立て アンブレラスタンド おしゃれ かわいい 北欧 コンパクト スリム 省スペース 水受けトレー お手入れ簡単 収納 玄関収納 天然木 子供 アンティーク ヴィンテージ シンプル ミッドセンチュリー ナチュラル 一人暮らし 家族 パディ",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/9から17日、前回8Views。濡れた床から子どもの取り出しやすさへ変更。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261126-2000",
+      "scheduledAt": "2026-11-26T20:00:00+09:00",
+      "text": "夕飯のあと、洗い物の少ない献立だった日はちょっと得した気分。おいしかったかだけじゃなく、片づけが楽だったかも献立の評価に入れたいな☺️",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：片づけ込みの献立評価。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261126-2100",
+      "scheduledAt": "2026-11-26T21:00:00+09:00",
+      "text": "おもちゃを片づけるとき、分類に悩むものは明日考える箱に一旦まとめてもいい。夜に全部の正解を出さなくていいと思うと、ちょっと気が楽になる🌙",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：分類を保留できる片づけ。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
     }
   ]
 }
