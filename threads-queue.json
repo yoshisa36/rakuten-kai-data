@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T21:31:26+09:00",
+  "updatedAt": "2026-11-26T21:31:38+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3526,6 +3526,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：分類を保留できる片づけ。25日実績は分析ファイルに未収録、24日商品8・0Views、23日20時初回0→5。24/48時間の掲載・閲覧・読者反応を確認、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-0900",
+      "scheduledAt": "2026-11-27T09:00:00+09:00",
+      "text": "子どもの靴を履かせて、さあ出発！と思ったら自分はまだスリッパ。家を出るまでに何回『さあ出発』があるんだろう😂",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：朝の出発あるある。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-1130",
+      "scheduledAt": "2026-11-27T11:30:00+09:00",
+      "text": "PR｜帰省の荷物、子どもの着替えを何日分持つかで迷う。手洗い用の洗濯バッグを持っていくなら、使い終わったバッグ自体を乾かす場所まで考えておきたい🧺",
+      "postType": "商品",
+      "productName": "【楽天1位】 洗濯袋 洗濯バッグ 旅行 アウトドア 洗濯 ランドリーバッグ 軽量 コンパクト 手洗い おしゃれ着洗い 泥汚れ 手荒れ 防水 防水バッグ 防災 海外旅行 バックパッカー ウォッシュバッグ 旅行洗濯グッズ 分別洗い 予洗い 旅行 便利グッズ 10L 5L ザブル",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/13から14日。10/14旅行テーマ15Views、10/29容量4Views。帰省準備とバッグ自体の乾燥へ変更。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-1430",
+      "scheduledAt": "2026-11-27T14:30:00+09:00",
+      "text": "PR｜鍋を出すたびにシンク下の奥を探るのは面倒。でも引き出せるラックも、配管に当たったら置けない。買う前に、扉を開けて配管までの幅と奥行きを測っておきたい🍳",
+      "postType": "商品",
+      "productName": "＼1日限定！全品10％OFFクーポン発行中／楽天1位獲得★ シンク下 収納 スライド ラック キッチン下 ステンレス フライパン 鍋 なべ 棚 引出し キッチンラック 台所収納 引き出しスライドラック 1段 2段式 キッチン隙間収納 スライド引き出し スリム",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00upki8.8dcsq4fa.g00upki8.8dcsr614/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakihome%2Fusr-tier-wth%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakihome%2Fi%2F10000025%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/12から15日。10/21の6Views。鍋の取り出しから配管との適合へ。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-1730",
+      "scheduledAt": "2026-11-27T17:30:00+09:00",
+      "text": "夕方、子どものお絵描きはまだ終わってないし、ごはんも作りたいし。とりあえず紙だけ机の端へ避難させて、芸術活動は食後に再開でいいかな🎨",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：遊びと夕飯の折り合い。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-2000",
+      "scheduledAt": "2026-11-27T20:00:00+09:00",
+      "text": "金曜の夜、洗濯物が畳めてなくても『今週もちゃんと洗った』というところまで評価したい。畳む担当は明日の自分に引き継ぎます😌",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：週末の手抜き共感。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261127-2100",
+      "scheduledAt": "2026-11-27T21:00:00+09:00",
+      "text": "冬の上着、ポケットに入れっぱなしのティッシュだけは洗濯前に見つけたい。洗う服を入れるかごのそばに、出した小物を置く小皿があると忘れにくそう。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：洗濯前の小物の定位置。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
     }
   ]
 }
