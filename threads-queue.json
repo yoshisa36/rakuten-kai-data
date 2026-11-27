@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T21:31:38+09:00",
+  "updatedAt": "2026-11-27T21:30:19+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3598,6 +3598,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：洗濯前の小物の定位置。26日17:30商品リンク8Views、11:30未収録。24日21時24Views・2Likes・2Replies、返信者未確認。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-0900",
+      "scheduledAt": "2026-11-28T09:00:00+09:00",
+      "text": "休日の朝くらいゆっくりしたいけど、朝ごはんを出したら昼ごはんを考える時間がやってくる。家事の時計だけ平日と同じ速さだね🍞",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：休日の食事準備への共感。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-1130",
+      "scheduledAt": "2026-11-28T11:30:00+09:00",
+      "text": "PR｜冬服といっしょにズボンも増えると、クローゼットの下段がごちゃごちゃしがち。パンツラックを選ぶなら、厚手のズボンを並べたときの間隔と、上着の裾に干渉しない高さを見ておきたい。",
+      "postType": "商品",
+      "productName": "＼レビュー7700件越え／ スラックス ハンガーラック スリム ズボン 収納 パンツラック ズボンラック 押入れ クローゼット おしゃれ 時短 パンツハンガー ズボンハンガー ラック ボトムス ハンガー キャスター付き コンパクト",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lt8.8dcsqb4f.g00r1lt8.8dcsr404/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2F3s-320043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10000724%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/14から14日。10/17の54Viewsを参考に冬物の厚みと上着との干渉に変更。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-1430",
+      "scheduledAt": "2026-11-28T14:30:00+09:00",
+      "text": "PR｜旅先で濡れた手袋を少し干したいときに、クリップ付き洗濯ロープという選択肢も。使う場所の固定点がしっかりしているか、濡れた物が壁や床に触れないかを事前に見ておきたい。",
+      "postType": "商品",
+      "productName": "【再入荷】【楽天1位獲得】 洗濯ロープ 物干しロープ 洗濯物干し 物干し 室内物干し 車内物干し 12個クリップ付き 旅行 旅行用 出張 防風 梅雨 キャンプ 室内 屋外 洗濯 洗濯紐 部屋干し 伸縮 物干し竿 携帯 便利 海外旅行 便利グッズ 1.8m (ブラック) ストッパー付き",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_rope_stp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000111%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/12から16日。10/25の7Views。靴下・ハンカチから冬の手袋と設置環境へ変更。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-1730",
+      "scheduledAt": "2026-11-28T17:30:00+09:00",
+      "text": "子どもが『自分でやる！』って言ったとき、時間に余裕がある日の大人と、出かける5分前の大人では、心の広さがだいぶ違うよね🥹",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：子どもの自立と時間の余裕。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-2000",
+      "scheduledAt": "2026-11-28T20:00:00+09:00",
+      "text": "PR｜浴室の水切り、壁に掛けられる道具だと出しっぱなしでも置き場所を決めやすそう。towerのマグネット水切りワイパーなら、壁に磁石がつくか、手が届く場所に収納できるかを先に確認。",
+      "postType": "商品",
+      "productName": "特典あり 楽天1位 tower《 山崎実業 マグネット水切りワイパー タワー S/標準/ロング　引っ掛け 水切りワイパー タワー S/M/L 》ハンドワイパー シリコン スキージー 窓拭きワイパー お風呂掃除 浴室 ガラス 鏡 5451 2005 10938 10940 10942 公式 白 黒 おしゃれ 新商品",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s6708.8dcsq290.g00s6708.8dcsr63f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbathroom%2Fyj-5451%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbathroom%2Fi%2F10004347%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/7から21日。鏡のサイズではなく片付けの動線へ変更。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261128-2100",
+      "scheduledAt": "2026-11-28T21:00:00+09:00",
+      "text": "冷凍庫、何が入ってるか分からなくなったら、全部きれいに並べ直すより『今週使うもの』を手前に寄せるだけでもよさそう。発掘作業から始める夕飯は、なるべく減らしたい😅",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：11/24保存容器の具体的な困りごと25Views・2Likes・2Repliesに着想。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
     }
   ]
 }
