@@ -1,14 +1,14 @@
 {
   "status": "ok",
   "source": "threads-auto-analysis",
-  "updatedAt": "2026-11-26T20:30:51+09:00",
-  "count": 347,
+  "updatedAt": "2026-11-27T20:30:38+09:00",
+  "count": 353,
   "posts": [
     {
-      "postId": "18376026559209232",
-      "timestamp": "2026-11-26T20:02:56+09:00",
+      "postId": "18008943683794166",
+      "timestamp": "2026-11-27T20:02:53+09:00",
       "postingTime": "20:02",
-      "text": "夕飯のあと、洗い物の少ない献立だった日はちょっと得した気分。おいしかったかだけじゃなく、片づけが楽だったかも献立の評価に入れたいな☺️",
+      "text": "金曜の夜、洗濯物が畳めてなくても『今週もちゃんと洗った』というところまで評価したい。畳む担当は明日の自分に引き継ぎます😌",
       "views": 0,
       "previousViews": null,
       "viewsIncrease": null,
@@ -25,73 +25,133 @@
       "captureCount": 1
     },
     {
+      "postId": "18143535760713935",
+      "timestamp": "2026-11-27T17:32:50+09:00",
+      "postingTime": "17:32",
+      "text": "夕方、子どものお絵描きはまだ終わってないし、ごはんも作りたいし。とりあえず紙だけ机の端へ避難させて、芸術活動は食後に再開でいいかな🎨",
+      "views": 0,
+      "previousViews": null,
+      "viewsIncrease": null,
+      "likes": 0,
+      "likesIncrease": null,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": null,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": null,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 1
+    },
+    {
+      "postId": "17880484848573579",
+      "timestamp": "2026-11-27T14:32:52+09:00",
+      "postingTime": "14:32",
+      "text": "PR｜鍋を出すたびにシンク下の奥を探るのは面倒。でも引き出せるラックも、配管に当たったら置けない。買う前に、扉を開けて配管までの幅と奥行きを測っておきたい🍳\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00upki8.8dcsq4fa.g00upki8.8dcsr614/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakihome%2Fusr-tier-wth%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakihome%2Fi%2F10000025%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "views": 1,
+      "previousViews": null,
+      "viewsIncrease": null,
+      "likes": 0,
+      "likesIncrease": null,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": null,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": null,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 1
+    },
+    {
+      "postId": "18345344164277831",
+      "timestamp": "2026-11-27T11:32:52+09:00",
+      "postingTime": "11:32",
+      "text": "PR｜帰省の荷物、子どもの着替えを何日分持つかで迷う。手洗い用の洗濯バッグを持っていくなら、使い終わったバッグ自体を乾かす場所まで考えておきたい🧺\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00u2ls8.8dcsq310.g00u2ls8.8dcsra51/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolo-sapiens%2Fss_zablu_2021%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsolo-sapiens%2Fi%2F10000011%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "views": 1,
+      "previousViews": null,
+      "viewsIncrease": null,
+      "likes": 0,
+      "likesIncrease": null,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": null,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": null,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 1
+    },
+    {
+      "postId": "18120146207600761",
+      "timestamp": "2026-11-27T09:02:55+09:00",
+      "postingTime": "09:02",
+      "text": "子どもの靴を履かせて、さあ出発！と思ったら自分はまだスリッパ。家を出るまでに何回『さあ出発』があるんだろう😂",
+      "views": 6,
+      "previousViews": null,
+      "viewsIncrease": null,
+      "likes": 0,
+      "likesIncrease": null,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": null,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": null,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 1
+    },
+    {
+      "postId": "18121795601102585",
+      "timestamp": "2026-11-26T21:02:54+09:00",
+      "postingTime": "21:02",
+      "text": "おもちゃを片づけるとき、分類に悩むものは明日考える箱に一旦まとめてもいい。夜に全部の正解を出さなくていいと思うと、ちょっと気が楽になる🌙",
+      "views": 15,
+      "previousViews": null,
+      "viewsIncrease": null,
+      "likes": 1,
+      "likesIncrease": null,
+      "likeRate": 0.06666666666666667,
+      "replies": 0,
+      "repliesIncrease": null,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": null,
+      "repostRate": 0,
+      "totalReactionRate": 0.06666666666666667,
+      "captureCount": 1
+    },
+    {
+      "postId": "18376026559209232",
+      "timestamp": "2026-11-26T20:02:56+09:00",
+      "postingTime": "20:02",
+      "text": "夕飯のあと、洗い物の少ない献立だった日はちょっと得した気分。おいしかったかだけじゃなく、片づけが楽だったかも献立の評価に入れたいな☺️",
+      "views": 16,
+      "previousViews": 0,
+      "viewsIncrease": 16,
+      "likes": 1,
+      "likesIncrease": 1,
+      "likeRate": 0.0625,
+      "replies": 0,
+      "repliesIncrease": 0,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": 0,
+      "repostRate": 0,
+      "totalReactionRate": 0.0625,
+      "captureCount": 2
+    },
+    {
       "postId": "17916913653287693",
       "timestamp": "2026-11-26T17:32:51+09:00",
       "postingTime": "17:32",
       "text": "PR｜傘立て、長い傘は入るけど子どもの短い傘は取りづらくないかな。パディを検討するなら、家族が使う傘の長さと、持ち手が取り出しやすい位置に来るかを見ておきたい☂️\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00qufe8.8dcsq994.g00qufe8.8dcsr28c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifestyle-funfun%2Fpro-ets-0229%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifestyle-funfun%2Fi%2F10034406%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
-      "views": 8,
-      "previousViews": null,
-      "viewsIncrease": null,
-      "likes": 0,
-      "likesIncrease": null,
-      "likeRate": 0,
-      "replies": 0,
-      "repliesIncrease": null,
-      "replyRate": 0,
-      "reposts": 0,
-      "repostsIncrease": null,
-      "repostRate": 0,
-      "totalReactionRate": 0,
-      "captureCount": 1
-    },
-    {
-      "postId": "18027480311931597",
-      "timestamp": "2026-11-26T14:32:53+09:00",
-      "postingTime": "14:32",
-      "text": "家の中で片方だけ見つかる手袋。もう片方を探しているうちに、そもそもどこに行く予定だったか忘れそう🧤",
-      "views": 3,
-      "previousViews": null,
-      "viewsIncrease": null,
-      "likes": 0,
-      "likesIncrease": null,
-      "likeRate": 0,
-      "replies": 0,
-      "repliesIncrease": null,
-      "replyRate": 0,
-      "reposts": 0,
-      "repostsIncrease": null,
-      "repostRate": 0,
-      "totalReactionRate": 0,
-      "captureCount": 1
-    },
-    {
-      "postId": "18129750592925039",
-      "timestamp": "2026-11-24T21:02:59+09:00",
-      "postingTime": "21:02",
-      "text": "扉を開けるたびに倒れる保存容器のふた、きれいに並べ直す前に『今ある容器と組になるか』だけ確認してもよさそう。ふただけの選手、意外といるよね😌",
-      "views": 24,
-      "previousViews": null,
-      "viewsIncrease": null,
-      "likes": 2,
-      "likesIncrease": null,
-      "likeRate": 0.08333333333333333,
-      "replies": 2,
-      "repliesIncrease": null,
-      "replyRate": 0.08333333333333333,
-      "reposts": 0,
-      "repostsIncrease": null,
-      "repostRate": 0,
-      "totalReactionRate": 0.16666666666666666,
-      "captureCount": 1
-    },
-    {
-      "postId": "18116562208859930",
-      "timestamp": "2026-11-24T20:02:55+09:00",
-      "postingTime": "20:02",
-      "text": "PR｜トイレットペーパーの予備、残り一巻が見える場所にあるだけで安心。すき間用のトイレラックを置くなら、幅だけでなく、掃除のときに手前へ動かせるかまで測っておきたい。\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00q5li8.8dcsq893.g00q5li8.8dcsrfc3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fair-to-1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10014710%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
-      "views": 10,
-      "previousViews": 0,
-      "viewsIncrease": 10,
+      "views": 26,
+      "previousViews": 8,
+      "viewsIncrease": 18,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -105,12 +165,12 @@
       "captureCount": 2
     },
     {
-      "postId": "17945760183383776",
-      "timestamp": "2026-11-24T17:32:51+09:00",
-      "postingTime": "17:32",
-      "text": "子どもに『夕飯できたよ』って言う前に、箸もコップも出てないことに気づく。ごはんができたら終わりだと思ってたのに、食卓にもまだ仕事があるね🥢",
-      "views": 6,
-      "previousViews": 4,
+      "postId": "18027480311931597",
+      "timestamp": "2026-11-26T14:32:53+09:00",
+      "postingTime": "14:32",
+      "text": "家の中で片方だけ見つかる手袋。もう片方を探しているうちに、そもそもどこに行く予定だったか忘れそう🧤",
+      "views": 5,
+      "previousViews": 3,
       "viewsIncrease": 2,
       "likes": 0,
       "likesIncrease": 0,
@@ -125,13 +185,33 @@
       "captureCount": 2
     },
     {
-      "postId": "18112444727264832",
-      "timestamp": "2026-11-24T14:32:52+09:00",
-      "postingTime": "14:32",
-      "text": "こたつに入ってから『あ、洗濯物』って思い出すの、たぶん思い出す順番が逆なんだよね。ぬくぬくを知ってしまった足が、もう動く気でいない🍵",
-      "views": 9,
-      "previousViews": 5,
-      "viewsIncrease": 4,
+      "postId": "18129750592925039",
+      "timestamp": "2026-11-24T21:02:59+09:00",
+      "postingTime": "21:02",
+      "text": "扉を開けるたびに倒れる保存容器のふた、きれいに並べ直す前に『今ある容器と組になるか』だけ確認してもよさそう。ふただけの選手、意外といるよね😌",
+      "views": 25,
+      "previousViews": 24,
+      "viewsIncrease": 1,
+      "likes": 2,
+      "likesIncrease": 0,
+      "likeRate": 0.08,
+      "replies": 2,
+      "repliesIncrease": 0,
+      "replyRate": 0.08,
+      "reposts": 0,
+      "repostsIncrease": 0,
+      "repostRate": 0,
+      "totalReactionRate": 0.16,
+      "captureCount": 2
+    },
+    {
+      "postId": "18116562208859930",
+      "timestamp": "2026-11-24T20:02:55+09:00",
+      "postingTime": "20:02",
+      "text": "PR｜トイレットペーパーの予備、残り一巻が見える場所にあるだけで安心。すき間用のトイレラックを置くなら、幅だけでなく、掃除のときに手前へ動かせるかまで測っておきたい。\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00q5li8.8dcsq893.g00q5li8.8dcsrfc3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fair-to-1-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10014710%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "views": 11,
+      "previousViews": 10,
+      "viewsIncrease": 1,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -142,7 +222,47 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 2
+      "captureCount": 3
+    },
+    {
+      "postId": "17945760183383776",
+      "timestamp": "2026-11-24T17:32:51+09:00",
+      "postingTime": "17:32",
+      "text": "子どもに『夕飯できたよ』って言う前に、箸もコップも出てないことに気づく。ごはんができたら終わりだと思ってたのに、食卓にもまだ仕事があるね🥢",
+      "views": 6,
+      "previousViews": 6,
+      "viewsIncrease": 0,
+      "likes": 0,
+      "likesIncrease": 0,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": 0,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": 0,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 3
+    },
+    {
+      "postId": "18112444727264832",
+      "timestamp": "2026-11-24T14:32:52+09:00",
+      "postingTime": "14:32",
+      "text": "こたつに入ってから『あ、洗濯物』って思い出すの、たぶん思い出す順番が逆なんだよね。ぬくぬくを知ってしまった足が、もう動く気でいない🍵",
+      "views": 9,
+      "previousViews": 9,
+      "viewsIncrease": 0,
+      "likes": 0,
+      "likesIncrease": 0,
+      "likeRate": 0,
+      "replies": 0,
+      "repliesIncrease": 0,
+      "replyRate": 0,
+      "reposts": 0,
+      "repostsIncrease": 0,
+      "repostRate": 0,
+      "totalReactionRate": 0,
+      "captureCount": 3
     },
     {
       "postId": "18361209007216177",
@@ -150,8 +270,8 @@
       "postingTime": "11:32",
       "text": "PR｜夕飯の下ごしらえで出る野菜くず、調理中だけ手元に置き場があると助かりそう。Taiguの折りたたみ式ネットホルダーなら、閉じた状態で蛇口やスポンジ置きに当たらないかも見て選びたい。\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00u8568.8dcsq351.g00u8568.8dcsrc4b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaigu188%2Fshort_sieve%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaigu188%2Fi%2F10000816%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "views": 9,
-      "previousViews": 8,
-      "viewsIncrease": 1,
+      "previousViews": 9,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -162,7 +282,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 2
+      "captureCount": 3
     },
     {
       "postId": "18147024454592433",
@@ -170,8 +290,8 @@
       "postingTime": "09:02",
       "text": "連休明け、カレンダーでは火曜日なのに、朝の気分だけ月曜日。ゴミ出しの曜日までつられそうで、そこだけはカレンダーを信じたい😂",
       "views": 8,
-      "previousViews": 7,
-      "viewsIncrease": 1,
+      "previousViews": 8,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -182,7 +302,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 2
+      "captureCount": 3
     },
     {
       "postId": "18117394250042601",
@@ -202,7 +322,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 2
+      "captureCount": 3
     },
     {
       "postId": "18149695861595336",
@@ -222,7 +342,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "18115151132463179",
@@ -242,7 +362,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.5,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "17955646290319455",
@@ -262,7 +382,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "18649697695011281",
@@ -282,7 +402,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "18125181074285046",
@@ -302,7 +422,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "17981784729138849",
@@ -322,7 +442,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 3
+      "captureCount": 4
     },
     {
       "postId": "18132106597893670",
@@ -342,7 +462,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "18017675115004132",
@@ -350,8 +470,8 @@
       "postingTime": "17:32",
       "text": "PR｜ブロックを一気に片づけようとすると、探し中のパーツまで混ざりがち。ふたにブロックを付けられる収納箱なら、次に使うパーツだけ組んで分けておく手も。手持ちのブロックと合うかは買う前に確認したい🧩\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00uddb8.8dcsq884.g00uddb8.8dcsr04e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fignis%2F2111sd350%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fignis%2Fi%2F10000376%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "views": 17,
-      "previousViews": 15,
-      "viewsIncrease": 2,
+      "previousViews": 17,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -362,7 +482,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "17958299739334832",
@@ -382,7 +502,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "17964610364999007",
@@ -390,8 +510,8 @@
       "postingTime": "11:32",
       "text": "PR｜バナナを朝ごはんに出すなら、置き場所は取りやすさで決めたい🍌 ケユカのバナナスタンドを選ぶなら、房を掛けたときに下がつかないかと、棚の下に収まる高さかを確認しておきたい。\n\nhttps://hb.afl.rakuten.co.jp/hgc/g00reyl8.8dcsq07a.g00reyl8.8dcsrb03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2F3500450%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkeyuca%2Fi%2F10020019%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
       "views": 11,
-      "previousViews": 7,
-      "viewsIncrease": 4,
+      "previousViews": 11,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -402,7 +522,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "17956450686313309",
@@ -422,7 +542,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.25,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "18147525910581530",
@@ -430,8 +550,8 @@
       "postingTime": "21:02",
       "text": "明日の朝ごはん、ちゃんと考える余力がなければ『パンはここ、ジャムはこれ』まで決めたら今日は終わり🍞 眠い夜の自分に、献立会議まで任せなくていい。",
       "views": 8,
-      "previousViews": 7,
-      "viewsIncrease": 1,
+      "previousViews": 8,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -442,7 +562,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 4
+      "captureCount": 5
     },
     {
       "postId": "18016246581226535",
@@ -462,7 +582,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18356360728280147",
@@ -482,7 +602,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18133353281312022",
@@ -502,7 +622,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18351266638285674",
@@ -522,7 +642,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18084157709341925",
@@ -542,7 +662,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.125,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "17912509461657787",
@@ -562,7 +682,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 5
+      "captureCount": 6
     },
     {
       "postId": "18170598472472435",
@@ -582,7 +702,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18083039525457782",
@@ -590,8 +710,8 @@
       "postingTime": "17:32",
       "text": "夕飯の『何でもいいよ』、献立を考える側にはなかなか難しい注文だね🍳 『うどんかご飯ならどっち？』くらいまで絞ってもらえると、頭の中の会議が少し早く終わりそう。",
       "views": 3,
-      "previousViews": 2,
-      "viewsIncrease": 1,
+      "previousViews": 3,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -602,7 +722,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "17917870041502347",
@@ -622,7 +742,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18148354435599320",
@@ -642,7 +762,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18128943343902052",
@@ -662,7 +782,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.25,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18432015808146957",
@@ -682,7 +802,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.2,
-      "captureCount": 6
+      "captureCount": 7
     },
     {
       "postId": "18137896834736871",
@@ -702,7 +822,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18094477235290252",
@@ -722,7 +842,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 1.5,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18096257378188066",
@@ -742,7 +862,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18352565227254516",
@@ -762,7 +882,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18183348877436382",
@@ -782,7 +902,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18638633980033736",
@@ -802,7 +922,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.0625,
-      "captureCount": 7
+      "captureCount": 8
     },
     {
       "postId": "18417975799088127",
@@ -822,7 +942,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "18100001828130645",
@@ -842,7 +962,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.16666666666666666,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "18120610177802488",
@@ -862,7 +982,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "17995688499079204",
@@ -882,7 +1002,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "18130335067876642",
@@ -902,7 +1022,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.15,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "17919512511533268",
@@ -922,7 +1042,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "17915851266513262",
@@ -942,7 +1062,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.08571428571428572,
-      "captureCount": 8
+      "captureCount": 9
     },
     {
       "postId": "18113010722234472",
@@ -962,7 +1082,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "18499682440098060",
@@ -982,7 +1102,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.16666666666666666,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "18109872737206959",
@@ -1002,7 +1122,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "18126219865933257",
@@ -1022,7 +1142,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "18096351923690014",
@@ -1042,7 +1162,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "17916937713497651",
@@ -1062,7 +1182,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 9
+      "captureCount": 10
     },
     {
       "postId": "18117514289111701",
@@ -1082,7 +1202,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18489909502129137",
@@ -1102,7 +1222,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.05555555555555555,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18225144616340051",
@@ -1122,7 +1242,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18077654939784230",
@@ -1142,7 +1262,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18144619936720492",
@@ -1162,7 +1282,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.09090909090909091,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18150583999483020",
@@ -1182,7 +1302,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 10
+      "captureCount": 11
     },
     {
       "postId": "18407203831206311",
@@ -1202,7 +1322,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "17878906143651133",
@@ -1222,7 +1342,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.25,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "18146335555509247",
@@ -1242,7 +1362,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.125,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "18113263304234386",
@@ -1262,7 +1382,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "18643883659048036",
@@ -1282,7 +1402,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.1111111111111111,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "17887638915625820",
@@ -1302,7 +1422,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 11
+      "captureCount": 12
     },
     {
       "postId": "18023516381941653",
@@ -1322,7 +1442,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.25,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "18104422646455513",
@@ -1342,7 +1462,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "17916359508544419",
@@ -1362,7 +1482,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.16666666666666666,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "18138157651643375",
@@ -1382,7 +1502,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "18122512106284636",
@@ -1402,7 +1522,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.17647058823529413,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "18074267084780724",
@@ -1422,7 +1542,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 12
+      "captureCount": 13
     },
     {
       "postId": "18113735150094999",
@@ -1442,7 +1562,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "17903797905432916",
@@ -1462,7 +1582,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.15384615384615385,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18120057422056138",
@@ -1470,8 +1590,8 @@
       "postingTime": "14:32",
       "text": "PR｜お気に入りの絵本だけ、子どもが手を伸ばせる場所に置きたい📚 白井産業のマミハピは高さ約38cmのオープンラック。全部を並べるより、今読む数冊を選ぶ使い方もよさそう。置く前に本の高さと転倒対策を確認しておきたい。",
       "views": 14,
-      "previousViews": 13,
-      "viewsIncrease": 1,
+      "previousViews": 14,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -1482,7 +1602,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.07142857142857142,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18149192596500123",
@@ -1502,7 +1622,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "17877308058636205",
@@ -1522,7 +1642,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18643786705055527",
@@ -1542,7 +1662,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "17894675076616726",
@@ -1550,8 +1670,8 @@
       "postingTime": "20:02",
       "text": "PR｜ブロックの作品、片付けたい大人と壊したくない子ども。霜山のブロック収納ボックスは、ふたがデュプロ対応の基礎板になっています。「残す作品」と「ばらすパーツ」を分ける候補に。手持ちのブロックとの対応と置く寸法を確認して選びたい。",
       "views": 13,
-      "previousViews": 12,
-      "viewsIncrease": 1,
+      "previousViews": 13,
+      "viewsIncrease": 0,
       "likes": 0,
       "likesIncrease": 0,
       "likeRate": 0,
@@ -1562,7 +1682,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.07692307692307693,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18648071752010840",
@@ -1582,7 +1702,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18117348058839558",
@@ -1602,7 +1722,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.25,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18126124495701799",
@@ -1622,7 +1742,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "17887664256502671",
@@ -1642,7 +1762,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.21428571428571427,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18182585566432388",
@@ -1662,7 +1782,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.2,
-      "captureCount": 13
+      "captureCount": 14
     },
     {
       "postId": "18144770290617644",
@@ -1682,7 +1802,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "18118033067080812",
@@ -1702,7 +1822,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "18155306713540582",
@@ -1722,7 +1842,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.16666666666666666,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "18125174251924678",
@@ -1742,7 +1862,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "17876156736638683",
@@ -1762,7 +1882,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "17978549628155365",
@@ -1782,7 +1902,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 14
+      "captureCount": 15
     },
     {
       "postId": "17873916618640225",
@@ -1802,7 +1922,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.2,
-      "captureCount": 15
+      "captureCount": 16
     },
     {
       "postId": "18497422621106614",
@@ -1822,7 +1942,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 15
+      "captureCount": 16
     },
     {
       "postId": "18130654945838224",
@@ -1842,7 +1962,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0.5,
-      "captureCount": 15
+      "captureCount": 16
     },
     {
       "postId": "17895350610437692",
@@ -1862,7 +1982,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 15
+      "captureCount": 16
     },
     {
       "postId": "18488555476117514",
@@ -1882,7 +2002,7 @@
       "repostsIncrease": 0,
       "repostRate": 0,
       "totalReactionRate": 0,
-      "captureCount": 15
+      "captureCount": 16
     },
     {
       "postId": "17903005389604708",
