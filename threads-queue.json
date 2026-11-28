@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T21:30:19+09:00",
+  "updatedAt": "2026-11-28T21:31:19+09:00",
   "posts": [
     {
       "reservationId": "KAI-TEST-001",
@@ -3670,6 +3670,78 @@
       "approvalStatus": "approved",
       "status": "承認待ち",
       "memo": "追加露出：11/24保存容器の具体的な困りごと25Views・2Likes・2Repliesに着想。11/27商品本文リンク2件掲載、初回1・1Views。11/26商品8→26Views。24/48時間の掲載・閲覧・読者反応を照合、楽天日別実績別評価。"
+    },
+    {
+      "reservationId": "KAI-20261129-0900",
+      "scheduledAt": "2026-11-29T09:00:00+09:00",
+      "text": "日曜の朝、パジャマのまま遊んでる子どもを見てると、着替えは朝ごはんの前じゃなくてもいいかと思えてくる。予定がない日の特権だね☺️",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：休日の着替えと余裕。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261129-1130",
+      "scheduledAt": "2026-11-29T11:30:00+09:00",
+      "text": "PR｜調味料のボトル、背が高いものだけ引き出しに入らないことも。towerの調味料ラックを選ぶなら、よく使う油やみりんの容器の高さを測って、入る段を確認しておきたい。コンロ周りの設置条件も大事。",
+      "postType": "商品",
+      "productName": "【アメトークで紹介】特典付き［ コンロ横調味料ラック タワー ／ 調味料ラック シリーズ ］山崎実業 tower 隠せる調味料ラック 調味料 油 醤油 引き出し キッチン収納 隙間収納 調味料入れ 調味料ストッカー 2段 棚 マグネット スパイスラック 大容量 汚れ防止 シンク上",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0l8.8dcsqe33.g00qb0l8.8dcsr72f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fymz23may30h03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015243%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/7から22日、前回4Views。探す手間から容器の高さへ変更。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261129-1430",
+      "scheduledAt": "2026-11-29T14:30:00+09:00",
+      "text": "PR｜洗面台の掃除、スポンジがへたってきたら本体ごと買い替える必要があるのか迷う。マーナのPOCOを使っているなら交換用スポンジも候補に。手持ちのホルダーに合うか確認してから選びたい🫧",
+      "postType": "商品",
+      "productName": "POCO 洗面スポンジ ポコ リフィル 4個セット【マーナ公式】 洗面所 スポンジ 交換用 ミニサイズ 丸形 洗面台 シンク 吸盤 浮かせる収納 コンパクト シンプル 掃除用品 おしゃれ かわいい 便利グッズ 替えスポンジ 丸形スポンジ 引っ越し 新生活 X125",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtg28.8dcsq73d.g00qtg28.8dcsrc91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopmarna%2Fx125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopmarna%2Fi%2F10006567%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/15から14日。既存利用者の交換互換性を中心に、時刻も変更。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261129-1730",
+      "scheduledAt": "2026-11-29T17:30:00+09:00",
+      "text": "子どもが寝る前に読んでほしい絵本を何冊も持ってくると、今日は何冊までかなって交渉が始まりそう📚 読んでもらいたい気持ちも、早く寝かせたい気持ちも分かる。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "通常交流：読み聞かせの親子の気持ち。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261129-2000",
+      "scheduledAt": "2026-11-29T20:00:00+09:00",
+      "text": "PR｜洗濯機の上の棚、洗剤は置けても詰め替えの大袋が取りづらいと困る。突っ張りランドリーラックなら、普段使う物の高さに加えて、天井や防水パンの設置条件も購入前に確認したい。",
+      "postType": "商品",
+      "productName": "【LINE追加300円クーポン】ランドリーラック 突っ張り 防水パン 棚 3段 洗濯機ラック 幅60 スリム ランドリー収納 洗面所 収納 伸縮 北欧 おしゃれ ランドリー ラック 脱衣所 洗濯機 隙間 壁面収納 ウォールラック エコー Echo",
+      "productUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pum98.8dcsqa3d.g00pum98.8dcsr954/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falamode%2F78-3690%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falamode%2Fi%2F10021350%2F&rafcid=wsc_i_is_21321166-5089-4096-b41e-df32a3c2a825",
+      "linkType": "本文リンク",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "11/8から21日、前回6Views。ふたとの干渉から詰替え袋の出し入れへ。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
+    },
+    {
+      "reservationId": "KAI-20261129-2100",
+      "scheduledAt": "2026-11-29T21:00:00+09:00",
+      "text": "明日のお弁当、冷凍食品を使うことに罪悪感を持つより、朝の10分を睡眠に回せるほうがうれしい日もある🍱 ちゃんと起きて送り出すだけでも仕事は多い。",
+      "postType": "交流",
+      "productName": "",
+      "productUrl": "",
+      "linkType": "リンクなし",
+      "approvalStatus": "approved",
+      "status": "承認待ち",
+      "memo": "追加露出：翌朝の手抜きと睡眠。11/28商品14:30は10Views、20時0、11:30未収録。09時14Views。24/48時間の掲載・閲覧・読者反応を比較し楽天日別実績とは分離。"
     }
   ]
 }
